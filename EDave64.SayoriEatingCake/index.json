@@ -1,0 +1,21 @@
+{
+	"id": "ddlc.sayori",
+	"folder": "/custom_characters/EDave64.SayoriEatingCake/",
+	"heads": {},
+	"poses": [
+		{
+			"name": "edave64.eating_cake.nom",
+			"style": "casual",
+			"compatibleHeads": [],
+			"left": ["eating.png"],
+			"right": ["1br.png","2br.png","right-pcake.png","right-pcake-bitten.png","right-pcake-eaten.png"]
+		},
+		{
+			"name": "normal_casual",
+			"style": "casual",
+			"compatibleHeads": [],
+			"left": ["left-scake.png", "left-sempty.png"],
+			"right": ["right-pcake.png","right-pcake-bitten.png","right-pcake-eaten.png"]
+		}
+	]
+}
