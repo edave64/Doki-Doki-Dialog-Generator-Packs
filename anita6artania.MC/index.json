@@ -87,15 +87,15 @@
 			"name": "normal-uniform-yellow",
 			"style": "uniform-yellow",
 			"compatibleHeads": ["straight_red"],
-			"left": ["1l", "2l"],
-			"right": ["1r", "2r"]
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
 		},
 		{
 			"name": "normal-uniform-red",
 			"style": "uniform-red",
 			"compatibleHeads": ["straight_yellow"],
-			"left": ["1l", "2l"],
-			"right": ["1r", "2r"]
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
 		}
 	]
 }
