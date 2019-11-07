@@ -1,0 +1,59 @@
+{
+  "id": "ddlc.fan.dadsuki",
+  "packId": "dadsuki.soviet_spartan.edave64",
+  "packCredits": "Artwork by SovietSpartan (https://twitter.com/TsukiZuramaru), originally created for the Doki Doki Literature Club mod \"Doki Doki Rewind/Replay\", by Chronos (Discord: Chronos#1609)",
+  "name": "Dadsuki",
+  "internalId": "Dadsuki",
+  "chibi": "chibi.png",
+  "folder": "./",
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default"
+    }
+  ],
+  "heads": {
+    "default": [
+      "a.png",
+      "a2.png",
+      "aB.png",
+      "b.png",
+      "c.png",
+      "d.png",
+      "db.png",
+      "e.png",
+      "f.png",
+      "g.png",
+      "h.png",
+      "i.png",
+      "j.png",
+      "k.png",
+      "l.png",
+      "m.png",
+      "n.png",
+      "o.png",
+      "p.png",
+      "q.png",
+      "r.png",
+      "s.png",
+      "t.png",
+      "u.png",
+      "v.png"
+    ]
+  },
+  "poses": [
+    {
+      "name": "normal",
+      "style": "default",
+      "compatibleHeads": ["default"],
+      "left": ["2l.png", "4l.png"],
+      "right": ["1r.png", "2r.png"]
+    },
+    {
+      "name": "crossed_arms",
+      "style": "default",
+      "compatibleHeads": ["default"],
+      "static": "3a.png"
+    }
+  ]
+}
