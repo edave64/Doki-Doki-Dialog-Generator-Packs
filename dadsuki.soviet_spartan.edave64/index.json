@@ -20,7 +20,6 @@
       "b.png",
       "c.png",
       "d.png",
-      "db.png",
       "e.png",
       "f.png",
       "g.png",
@@ -46,8 +45,8 @@
       "name": "normal",
       "style": "default",
       "compatibleHeads": ["default"],
-      "left": ["2l.png", "4l.png"],
-      "right": ["1r.png", "2r.png"]
+      "left": ["1r.png", "2r.png"],
+      "right": ["2l.png", "4l.png"]
     },
     {
       "name": "crossed_arms",
