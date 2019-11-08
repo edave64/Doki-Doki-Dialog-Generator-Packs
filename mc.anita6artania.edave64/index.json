@@ -7,8 +7,8 @@
 	"chibi": "chibi.png",
 	"folder": "./",
 	"eyes": {
-		"yellow": "/parts/chad/yellow-eyes",
-		"red": "/parts/chad/red-eyes"
+		"yellow": "faces_yellow/part.png",
+		"red": "faces_red/part.png"
 	},
 	"styles": [
 		{
@@ -85,14 +85,14 @@
 	"poses": [
 		{
 			"name": "normal-uniform-yellow",
-			"style": "uniform-yellow",
+			"style": "uniform-red",
 			"compatibleHeads": ["straight_red"],
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		},
 		{
 			"name": "normal-uniform-red",
-			"style": "uniform-red",
+			"style": "uniform-yellow",
 			"compatibleHeads": ["straight_yellow"],
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
