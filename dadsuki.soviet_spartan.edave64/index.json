@@ -46,7 +46,7 @@
       "style": "default",
       "compatibleHeads": ["default"],
       "left": ["1r.png", "2r.png"],
-      "right": ["2l.png", "4l.png"]
+      "right": ["1l.png", "2l.png", "4l.png"]
     },
     {
       "name": "crossed_arms",
