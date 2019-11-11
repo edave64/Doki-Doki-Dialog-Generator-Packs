@@ -1,0 +1,34 @@
+{
+	"packId": "natsuki.expressions.base.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"styles": [],
+	"heads": {
+		"straight": [
+			"a.webp",
+			"b.webp",
+			"c.webp",
+			"d.webp",
+			"e.webp",
+			"f.webp",
+			"g.webp",
+			"h.webp",
+			"i.webp",
+			"j.webp",
+			"k.webp",
+			"l.webp",
+			"m.webp",
+			"n.webp",
+			"o.webp",
+			"p.webp",
+			"q.webp",
+			"r.webp",
+			"s.webp",
+			"t.webp",
+			"u.webp",
+			"v.webp",
+			"w.webp"
+		]
+	}
+}

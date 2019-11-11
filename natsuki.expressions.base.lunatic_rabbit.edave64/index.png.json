@@ -1,0 +1,34 @@
+{
+	"packId": "natsuki.expressions.base.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"styles": [],
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png"
+		]
+	}
+}
