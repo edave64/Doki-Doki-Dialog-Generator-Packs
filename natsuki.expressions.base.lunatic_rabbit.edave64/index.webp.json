@@ -3,7 +3,6 @@
 	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 	"id": "ddlc.natsuki",
 	"folder": "./",
-	"styles": [],
 	"heads": {
 		"straight": [
 			"a.webp",
@@ -30,5 +29,6 @@
 			"v.webp",
 			"w.webp"
 		]
-	}
+	},
+	"poses": []
 }
