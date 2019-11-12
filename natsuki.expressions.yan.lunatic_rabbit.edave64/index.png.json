@@ -1,0 +1,20 @@
+{
+	"packId": "natsuki.expressions.yan.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png"
+		]
+	},
+	"poses": []
+}
