@@ -1,0 +1,20 @@
+{
+	"packId": "monika.expressions.side.yan.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9ed6sr' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.monika",
+	"folder": "./",
+	"heads": {
+		"sideways": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png"
+		]
+	},
+	"poses": []
+}
