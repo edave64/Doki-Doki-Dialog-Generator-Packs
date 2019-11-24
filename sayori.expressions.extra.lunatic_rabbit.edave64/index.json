@@ -1,0 +1,38 @@
+{
+	"packId": "sayori.expressions.extra.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9a0yo6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.sayori",
+	"folder": "./",
+	"heads": {
+		"straight": [
+			"aa.png",
+			"ab.png",
+			"ac.png",
+			"ad.png",
+			"ae.png",
+			"af.png",
+			"ag.png",
+			"ah.png",
+			"ai.png",
+			"aj.png",
+			"ak.png",
+			"al.png",
+			"am.png",
+			"an.png",
+			"ao.png",
+			"ap.png",
+			"aq.png",
+			"ar.png",
+			"as.png",
+			"at.png",
+			"au.png",
+			"av.png",
+			"aw.png",
+			"ax.png",
+			"ay.png",
+			"az.png",
+			"ba.png"
+		]
+	},
+	"poses": []
+}
