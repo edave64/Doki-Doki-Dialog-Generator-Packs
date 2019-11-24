@@ -16,28 +16,28 @@
       "label": "Blue V-Neck with glasses"
     },
     {
-      "name": "blue_vneck-glassless",
-      "label": "Blue V-Neck"
-    },
-    {
       "name": "funeral-glasses",
       "label": "Funeral clothing with glasses"
-    },
-    {
-      "name": "funeral-glassless",
-      "label": "Funeral clothing"
     },
     {
       "name": "pink_shirt-glasses",
       "label": "Pink shirt with glasses"
     },
     {
-      "name": "pink_shirt-glassless",
-      "label": "Pink shirt"
-    },
-    {
       "name": "sundress-glasses",
       "label": "Sundress with glasses"
+    },
+    {
+      "name": "blue_vneck-glassless",
+      "label": "Blue V-Neck"
+    },
+    {
+      "name": "funeral-glassless",
+      "label": "Funeral clothing"
+    },
+    {
+      "name": "pink_shirt-glassless",
+      "label": "Pink shirt"
     },
     {
       "name": "sundress-glassless",
