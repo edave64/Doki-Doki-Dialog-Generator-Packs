@@ -12,7 +12,7 @@
   "heads": {},
   "poses": [
     {
-      "name": "normal-casual_ezfi",
+      "name": "ezfi.casual",
       "style": "casual_ezfi",
       "compatibleHeads": ["straight"],
       "left": ["1l.png", "2l.png"],

@@ -12,7 +12,7 @@
   "heads": {},
   "poses": [
     {
-      "name": "normal-casual_gurogurl",
+      "name": "gurogurl.casual",
       "style": "casual_gurogurl",
       "compatibleHeads": ["straight"],
       "left": ["1l.png", "2l.png"],
