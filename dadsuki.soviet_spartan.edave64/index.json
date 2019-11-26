@@ -1,58 +1,59 @@
 {
-  "id": "ddlc.fan.dadsuki",
-  "packId": "dadsuki.soviet_spartan.edave64",
-  "packCredits": "Artwork by SovietSpartan (https://twitter.com/TsukiZuramaru), originally created for the Doki Doki Literature Club mod \"Doki Doki Rewind/Replay\", by Chronos (Discord: Chronos#1609), <a href='https://www.reddit.com/9275nf' target='_blank' rel='noopener noreferrer'>Chibi</a> by Meddy-sin",
-  "name": "Dadsuki",
-  "internalId": "Dadsuki",
-  "chibi": "chibi.png",
-  "folder": "./",
-  "styles": [
-    {
-      "name": "default",
-      "label": "Default"
-    }
-  ],
-  "heads": {
-    "default": [
-      "a.png",
-      "a2.png",
-      "aB.png",
-      "b.png",
-      "c.png",
-      "d.png",
-      "e.png",
-      "f.png",
-      "g.png",
-      "h.png",
-      "i.png",
-      "j.png",
-      "k.png",
-      "l.png",
-      "m.png",
-      "n.png",
-      "o.png",
-      "p.png",
-      "q.png",
-      "r.png",
-      "s.png",
-      "t.png",
-      "u.png",
-      "v.png"
-    ]
-  },
-  "poses": [
-    {
-      "name": "normal",
-      "style": "default",
-      "compatibleHeads": ["default"],
-      "left": ["1r.png", "2r.png"],
-      "right": ["1l.png", "2l.png", "4l.png"]
-    },
-    {
-      "name": "crossed_arms",
-      "style": "default",
-      "compatibleHeads": ["default"],
-      "static": "3a.png"
-    }
-  ]
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.dadsuki",
+	"packId": "dadsuki.soviet_spartan.edave64",
+	"packCredits": "Artwork by SovietSpartan (https://twitter.com/TsukiZuramaru), originally created for the Doki Doki Literature Club mod \"Doki Doki Rewind/Replay\", by Chronos (Discord: Chronos#1609), <a href='https://www.reddit.com/9275nf' target='_blank' rel='noopener noreferrer'>Chibi</a> by Meddy-sin",
+	"name": "Dadsuki",
+	"internalId": "Dadsuki",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"a2.png",
+			"aB.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"left": ["1r.png", "2r.png"],
+			"right": ["1l.png", "2l.png", "4l.png"]
+		},
+		{
+			"name": "crossed_arms",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"static": "3a.png"
+		}
+	]
 }

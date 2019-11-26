@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "natsuki.expressions.yan.lunatic_rabbit.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/9fi4j8' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 	"id": "ddlc.natsuki",

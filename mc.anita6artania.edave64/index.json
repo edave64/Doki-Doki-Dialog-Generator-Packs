@@ -1,6 +1,7 @@
 {
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.fan.anita6artania.mc",
-	"packId": "mc.anita6artania.edave64", 
+	"packId": "mc.anita6artania.edave64",
 	"packCredits": "<a href='https://www.reddit.com/dq74jr' target='_blank' rel='noopener noreferrer'>Created by</a> anita6artania",
 	"name": "MC (Slim)",
 	"internalId": "SlimC",

@@ -1,17 +1,11 @@
 {
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "sayori.expressions.horrified.lunatic_rabbit.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/9a0yo6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 	"id": "ddlc.sayori",
 	"folder": "./",
 	"heads": {
-		"straight": [
-			"a.png",
-			"b.png",
-			"c.png",
-			"d.png",
-			"e.png",
-			"f.png"
-		]
+		"straight": ["a.png", "b.png", "c.png", "d.png", "e.png", "f.png"]
 	},
 	"poses": []
 }
