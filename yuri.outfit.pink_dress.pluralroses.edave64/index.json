@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.yuri",
+	"packId": "yuri.outfit.pink_dress.pluralroses.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8kmd8w' target='_blank' rel='noopener noreferrer'>Created by</a> DestinyPvEGal",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "pinkDress_PluralRoses",
+			"label": "Pink Dress"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-pinkDress_PluralRoses",
+			"style": "pinkDress_PluralRoses",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "hairplay-pinkDress_PluralRoses",
+			"style": "pinkDress_PluralRoses",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

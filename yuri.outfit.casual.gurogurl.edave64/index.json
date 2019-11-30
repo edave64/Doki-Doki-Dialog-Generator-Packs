@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.yuri",
+	"packId": "yuri.outfit.casual.gurogurl.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8xxfbb' target='_blank' rel='noopener noreferrer'>Created by</a> PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "casual_gurogurl",
+			"label": "Casual (Alt)"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-casual_gurogurl",
+			"style": "casual_gurogurl",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}

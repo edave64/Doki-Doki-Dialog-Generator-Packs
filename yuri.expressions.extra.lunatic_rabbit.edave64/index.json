@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "yuri.expressions.extra.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9a8blj' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"id": "ddlc.yuri",
+	"folder": "./",
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z.png",
+			"z1.png"
+		]
+	},
+	"poses": []
+}
