@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"folder": "./",
+	"packId": "monika.shorter_hair.tactical_cupcakes.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>TacticalCupcakes</a> and <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>EDave64</a>",
+	"heads": {
+		"straight_sh": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"w.png"
+		],
+		"sideways_sh": ["a2.png", "b2.png", "w2.png"]
+	},
+	"styles": [
+		{
+			"name": "uniform_shorter_hair",
+			"label": "Uniform and shorter hair"
+		}
+	],
+	"poses": [
+		{
+			"style": "uniform_shorter_hair",
+			"name": "uniform_shorter_hair",
+			"compatibleHeads": ["straight_sh"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"style": "uniform_shorter_hair",
+			"name": "uniform_shorter_hair_sideways",
+			"compatibleHeads": ["sideways_sh"],
+			"variant": ["3.png", "4.png"]
+		}
+	]
+}
