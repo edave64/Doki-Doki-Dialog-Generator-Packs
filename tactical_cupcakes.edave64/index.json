@@ -1,0 +1,84 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.oc.tactical_cupcakes",
+	"packId": "tactical_cupcakes.edave64",
+	"packCredits": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />These sprites are based of a real person. Please be respectful and don't use these as your OC",
+	"name": "TacticalCupcakes",
+	"internalId": "TacticalCupcakes",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"e_a.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"p_b.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"u_2.png",
+			"u_3.png",
+			"u_4.png",
+			"u_5.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"y_a.png",
+			"y_b.png",
+			"y_c.png",
+			"y_d.png",
+			"y_e.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"left": ["1l.png", "2l.png", "4l.png"],
+			"right": ["1r.png", "2r.png", "4r.png"]
+		},
+		{
+			"name": "normal_arm_grab",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"left": ["1l.png", "2l.png", "4l.png"],
+			"right": ["5r.png"]
+		},
+		{
+			"name": "crossed_arms",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"static": "3.png"
+		},
+		{
+			"name": "folded_hands",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"static": "6.png"
+		}
+	]
+}
