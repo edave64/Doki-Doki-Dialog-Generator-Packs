@@ -65,7 +65,7 @@
 			"name": "normal_arm_grab",
 			"style": "default",
 			"compatibleHeads": ["default"],
-			"left": ["1l.png", "2l.png", "4l.png"],
+			"left": ["4l.png"],
 			"right": ["5r.png"]
 		},
 		{
