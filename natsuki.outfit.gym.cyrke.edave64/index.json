@@ -23,11 +23,13 @@
 			"name": "leaned-gym_cyrke",
 			"style": "gym_cyrke",
 			"compatibleHeads": ["sidewaysCasuals"],
+			"headAnchor": [18, 22],
 			"static": "3.png"
 		},
 		{
 			"name": "old_crossed_arms-gym_cyrke",
 			"style": "gym_cyrke",
+			"compatibleHeads": [],
 			"static": "4.png"
 		}
 	]
