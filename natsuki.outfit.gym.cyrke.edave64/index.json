@@ -24,6 +24,11 @@
 			"style": "gym_cyrke",
 			"compatibleHeads": ["sidewaysCasuals"],
 			"static": "3.png"
+		},
+		{
+			"name": "old_crossed_arms-gym_cyrke",
+			"style": "gym_cyrke",
+			"static": "4.png"
 		}
 	]
 }
