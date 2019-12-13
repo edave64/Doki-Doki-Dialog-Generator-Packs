@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.natsuki",
+	"packId": "natsuki.outfit.gym.cyrke.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "gym_cyrke",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-gym_cyrke",
+			"style": "gym_cyrke",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-gym_cyrke",
+			"style": "gym_cyrke",
+			"compatibleHeads": ["sidewaysCasuals"],
+			"static": "3.png"
+		}
+	]
+}

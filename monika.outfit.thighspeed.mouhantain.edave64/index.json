@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.thighspeed.mouhantain.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8i689w' target='_blank' rel='noopener noreferrer'>Created by</a> Mouhantain",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "thighspeed",
+			"label": "Thighspeed"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-thighspeed",
+			"style": "thighspeed",
+			"compatibleHeads": ["straight"],
+			"static": "1.png"
+		}
+	]
+}
