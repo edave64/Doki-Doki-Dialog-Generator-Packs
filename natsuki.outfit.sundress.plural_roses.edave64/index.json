@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.natsuki",
+	"packId": "natsuki.outfit.sundress.plural_roses.edave64",
+	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "sundress_plural_roses",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-sundress_plural_roses",
+			"style": "sundress_plural_roses",
+			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
+			"headInForeground": true,
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-sundress_plural_roses",
+			"style": "sundress_plural_roses",
+			"compatibleHeads": ["straight", "straight_nsfw"],
+			"headAnchor": [18, 22],
+			"static": "3.png"
+		},
+		{
+			"name": "old_crossed_arms-sundress_plural_roses",
+			"style": "sundress_plural_roses",
+			"compatibleHeads": [],
+			"static": "4.png"
+		}
+	]
+}
