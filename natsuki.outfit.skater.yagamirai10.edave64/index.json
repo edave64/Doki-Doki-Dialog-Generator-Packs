@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.natsuki",
+	"packId": "natsuki.outfit.skater.yagamirai10.edave64",
+	"packCredits": "Created by yagamirai10",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "skater_yagamirai10",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-skater_yagamirai10",
+			"style": "skater_yagamirai10",
+			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
+			"headInForeground": true,
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}
