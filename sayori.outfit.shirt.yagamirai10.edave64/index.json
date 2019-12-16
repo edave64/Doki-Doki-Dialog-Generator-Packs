@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.shirt.yagamirai10.edave64",
-	"packCredits": "Created by yagamirai10",
+	"packCredits": "Created by yagamirai10, leaning sprite by /u/NormallyAverage",
 	"folder": "./",
 	"styles": [
 		{
