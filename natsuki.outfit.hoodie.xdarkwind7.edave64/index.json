@@ -16,7 +16,6 @@
 			"name": "normal-hoodie_xdarkwind7",
 			"style": "hoodie_xdarkwind7",
 			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
-			"headInForeground": true,
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		},
