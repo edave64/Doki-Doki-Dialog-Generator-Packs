@@ -15,22 +15,28 @@
 		{
 			"name": "normal-hoodie_xdarkwind7",
 			"style": "hoodie_xdarkwind7",
-			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"headInForeground": true,
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		},
 		{
 			"name": "leaned-hoodie_xdarkwind7",
 			"style": "hoodie_xdarkwind7",
-			"compatibleHeads": ["straight", "straight_nsfw"],
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"headInForeground": true,
 			"headAnchor": [18, 22],
 			"static": "3.png"
-		},
-		{
-			"name": "old_crossed_arms-hoodie_xdarkwind7",
-			"style": "hoodie_xdarkwind7",
-			"compatibleHeads": [],
-			"static": "4.png"
 		}
 	]
 }

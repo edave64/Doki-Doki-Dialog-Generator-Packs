@@ -15,7 +15,12 @@
 		{
 			"name": "normal-skater_yagamirai10",
 			"style": "skater_yagamirai10",
-			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
 			"headInForeground": true,
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]

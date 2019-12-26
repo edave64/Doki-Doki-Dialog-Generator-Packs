@@ -15,7 +15,12 @@
 		{
 			"name": "normal-gym_cyrke",
 			"style": "gym_cyrke",
-			"compatibleHeads": ["straight", "straight_nsfw", "sidewaysCasuals"],
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
 			"headInForeground": true,
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
@@ -23,15 +28,15 @@
 		{
 			"name": "leaned-gym_cyrke",
 			"style": "gym_cyrke",
-			"compatibleHeads": ["straight", "straight_nsfw"],
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"headInForeground": true,
 			"headAnchor": [18, 22],
 			"static": "3.png"
-		},
-		{
-			"name": "old_crossed_arms-gym_cyrke",
-			"style": "gym_cyrke",
-			"compatibleHeads": [],
-			"static": "4.png"
 		}
 	]
 }
