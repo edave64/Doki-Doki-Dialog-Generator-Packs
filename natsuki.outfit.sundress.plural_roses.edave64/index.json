@@ -3,6 +3,13 @@
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.sundress.plural_roses.edave64",
 	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"cc2credits": {
+		"left": ["Natsuki summer dress", ""],
+		"right": [
+			"PluralRoses",
+			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
+		]
+	},
 	"folder": "./",
 	"styles": [
 		{

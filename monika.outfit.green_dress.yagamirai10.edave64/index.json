@@ -3,6 +3,10 @@
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.green_dress.yagamirai10.edave64",
 	"packCredits": "Created by yagamirai10",
+	"cc2credits": {
+		"left": ["Monika Hakama outfit"],
+		"right": ["yagamirai10"]
+	},
 	"folder": "./",
 	"styles": [
 		{

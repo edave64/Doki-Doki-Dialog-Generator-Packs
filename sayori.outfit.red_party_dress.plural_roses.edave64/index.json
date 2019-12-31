@@ -3,6 +3,16 @@
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.red_party_dress.plural_roses.edave64",
 	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/edceu7}Sayori's red party dress{/a}",
+			""
+		],
+		"right": [
+			"PluralRoses",
+			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
+		]
+	},
 	"folder": "./",
 	"styles": [
 		{

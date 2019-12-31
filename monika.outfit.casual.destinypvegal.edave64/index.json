@@ -3,6 +3,12 @@
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.casual.destinypvegal.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/8t62u7' target='_blank' rel='noopener noreferrer'>Created by</a> DestinyPvEGal",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8t62u7}Monika casual outfit{/a}"
+		],
+		"right": ["DestinyPvEGal"]
+	},
 	"folder": "./",
 	"styles": [
 		{

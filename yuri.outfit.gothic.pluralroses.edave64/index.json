@@ -3,6 +3,16 @@
 	"id": "ddlc.yuri",
 	"packId": "yuri.outfit.gothic.pluralroses.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/e0zuxg' target='_blank' rel='noopener noreferrer'>Created by</a> PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8xxfbb}Yuri gothic outfit{/a}",
+			""
+		],
+		"right": [
+			"PluralRoses",
+			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
+		]
+	},
 	"folder": "./",
 	"styles": [
 		{

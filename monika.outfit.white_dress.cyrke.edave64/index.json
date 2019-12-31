@@ -2,7 +2,11 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.white_dress.cyrke.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_' target='_blank' rel='noopener noreferrer'>Cyrke</a>",
+	"cc2credits": {
+		"left": ["Monika traditional outfit"],
+		"right": ["{a='https://www.reddit.com/u/Cyrke_}Cyrke{/a}"]
+	},
 	"folder": "./",
 	"styles": [
 		{

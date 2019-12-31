@@ -3,6 +3,10 @@
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.skater.yagamirai10.edave64",
 	"packCredits": "Created by yagamirai10",
+	"cc2credits": {
+		"left": ["Natsuki skater outfit"],
+		"right": ["yagamirai10"]
+	},
 	"folder": "./",
 	"styles": [
 		{

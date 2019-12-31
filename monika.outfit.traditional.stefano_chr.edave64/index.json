@@ -3,6 +3,10 @@
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.traditional.stefano_chr.edave64",
 	"packCredits": "Created by Stefano.chr",
+	"cc2credits": {
+		"left": ["Monika traditional outfit"],
+		"right": ["Stefano.chr"]
+	},
 	"folder": "./",
 	"styles": [
 		{

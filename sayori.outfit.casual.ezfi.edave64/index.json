@@ -3,6 +3,12 @@
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.casual.ezfi.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/80rf5i' target='_blank' rel='noopener noreferrer'>Created by</a> ezfi",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/80rf5i}Sayori Teeshirt and Jeans{/a}"
+		],
+		"right": ["ezfi"]
+	},
 	"folder": "./",
 	"styles": [
 		{

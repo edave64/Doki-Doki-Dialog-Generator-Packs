@@ -3,6 +3,10 @@
 	"id": "ddlc.yuri",
 	"packId": "yuri.outfit.hoodie.xDarkWind7.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/8kmd8w' target='_blank' rel='noopener noreferrer'>Created by</a> xDarkWind7",
+	"cc2credits": {
+		"left": ["{a=https://www.reddit.com/comments/8kmd8w}Yuri hoodie{/a}"],
+		"right": ["xDarkWind7"]
+	},
 	"folder": "./",
 	"styles": [
 		{

@@ -3,6 +3,10 @@
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.summerdress.cyrke.edave",
 	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+	"cc2credits": {
+		"left": ["Sayori summer dress"],
+		"right": ["Cyrke"]
+	},
 	"folder": "./",
 	"styles": [
 		{

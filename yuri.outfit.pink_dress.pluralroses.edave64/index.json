@@ -3,6 +3,13 @@
 	"id": "ddlc.yuri",
 	"packId": "yuri.outfit.pink_dress.pluralroses.edave64",
 	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"cc2credits": {
+		"left": ["Yuri pink dress", ""],
+		"right": [
+			"PluralRoses",
+			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
+		]
+	},
 	"folder": "./",
 	"styles": [
 		{

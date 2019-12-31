@@ -3,6 +3,10 @@
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.gym.cyrke.edave64",
 	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+	"cc2credits": {
+		"left": ["Natsuki gym outfit"],
+		"right": ["{a=https://www.reddit.com/u/Cyrke_}Cyrke{/a}"]
+	},
 	"folder": "./",
 	"styles": [
 		{

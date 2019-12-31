@@ -3,6 +3,10 @@
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.hoodie.xdarkwind7.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/8q341d' target='_blank' rel='noopener noreferrer'>Created by</a> xDarkWind7",
+	"cc2credits": {
+		"left": ["{a=https://www.reddit.com/comments/8q341d}Natsuki hoodie{/a}"],
+		"right": ["xDarkWind7"]
+	},
 	"folder": "./",
 	"styles": [
 		{

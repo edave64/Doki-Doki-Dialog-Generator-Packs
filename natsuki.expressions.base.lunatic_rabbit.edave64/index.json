@@ -3,6 +3,12 @@
 	"packId": "natsuki.expressions.base.lunatic_rabbit.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 	"id": "ddlc.natsuki",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/9afi6g}Extra Natsuki expressions{/a}"
+		],
+		"right": ["Lunatic_Rabbit"]
+	},
 	"folder": "./",
 	"heads": {
 		"straight": [

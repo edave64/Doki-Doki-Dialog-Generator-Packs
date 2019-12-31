@@ -3,6 +3,12 @@
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.thighspeed.mouhantain.edave64",
 	"packCredits": "<a href='https://www.reddit.com/comments/8i689w' target='_blank' rel='noopener noreferrer'>Created by</a> Mouhantain",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8i689w}Monika Hakama outfit{/a}"
+		],
+		"right": ["Mouhantain"]
+	},
 	"folder": "./",
 	"styles": [
 		{

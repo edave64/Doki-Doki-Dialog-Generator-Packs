@@ -3,6 +3,10 @@
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.shirt.yagamirai10.edave64",
 	"packCredits": "Created by yagamirai10, leaning sprite by /u/NormallyAverage",
+	"cc2credits": {
+		"left": ["Sayori summer uniform", " leaning sprite"],
+		"right": ["yagamirai10", "/u/NormallyAverage"]
+	},
 	"folder": "./",
 	"styles": [
 		{
