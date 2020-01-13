@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.sayori",
+	"packId": "sayori.outfit.cat_shirt.fat_dongle_dog.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/FatDongleDog'>FatDongleDog</a>",
+	"cc2credits": {
+		"left": ["Sayori cat shirt"],
+		"right": ["FatDongleDog"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "cat_shirt_fat_dongle_dog",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-cat_shirt_fat_dongle_dog",
+			"style": "cat_shirt_fat_dongle_dog",
+			"compatibleHeads": ["straight"],
+			"static": "1.png"
+		}
+	]
+}
