@@ -9,10 +9,26 @@
 	"folder": "./",
 	"styles": [
 		{
-			"name": "default",
+			"name": "default-hair",
 			"label": "Default"
+		},
+		{
+			"name": "default-hat",
+			"label": "Default with hat"
+		},
+		{
+			"name": "casual-hair",
+			"label": "Casual outfit"
+		},
+		{
+			"name": "casual-hat",
+			"label": "Casual outfit with hat"
 		}
 	],
+	"hairs": {
+		"hair": "parts/default.png",
+		"hat": "parts/hat.png"
+	},
 	"heads": {
 		"default": [
 			"a.png",
@@ -28,7 +44,11 @@
 			"j.png",
 			"k.png",
 			"l.png",
+			"l_a.png",
 			"m.png",
+			"m_a.png",
+			"m_b.png",
+			"m_c.png",
 			"n.png",
 			"o.png",
 			"p.png",
@@ -43,42 +63,171 @@
 			"u_4.png",
 			"u_5.png",
 			"v.png",
+			"v_a.png",
+			"v_b.png",
+			"v_c.png",
+			"v_d.png",
 			"w.png",
+			"w_a.png",
+			"w_c.png",
 			"x.png",
 			"y.png",
 			"y_a.png",
 			"y_b.png",
 			"y_c.png",
 			"y_d.png",
-			"y_e.png"
-		]
+			"y_e.png",
+			"y_f.png",
+			"y_g.png",
+			"y_h.png",
+			"y_i.png",
+			"y_j.png",
+			"z.png",
+			"z_a.png",
+			"z_b.png",
+			"z_c.png",
+			"z_d.png",
+			"z_e.png",
+			"z_f.png",
+			"z_h.png",
+			"z_i.png",
+			"z_j.png",
+			"z_k.png"
+		],
+		"hat": {
+			"folder": "hat/",
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"d.png",
+				"e.png",
+				"e_a.png",
+				"f.png",
+				"g.png",
+				"h.png",
+				"i.png",
+				"j.png",
+				"k.png",
+				"l.png",
+				"l_a.png",
+				"m.png",
+				"m_a.png",
+				"m_b.png",
+				"m_c.png",
+				"n.png",
+				"o.png",
+				"p.png",
+				"p_b.png",
+				"q.png",
+				"r.png",
+				"s.png",
+				"t.png",
+				"u.png",
+				"u_2.png",
+				"u_3.png",
+				"u_4.png",
+				"u_5.png",
+				"v.png",
+				"v_a.png",
+				"v_b.png",
+				"v_c.png",
+				"v_d.png",
+				"w.png",
+				"w_a.png",
+				"w_c.png",
+				"x.png",
+				"y.png",
+				"y_a.png",
+				"y_b.png",
+				"y_c.png",
+				"y_d.png",
+				"y_e.png",
+				"y_f.png",
+				"y_g.png",
+				"y_h.png",
+				"y_i.png",
+				"y_j.png",
+				"z.png",
+				"z_a.png",
+				"z_b.png",
+				"z_c.png",
+				"z_d.png",
+				"z_e.png",
+				"z_f.png",
+				"z_h.png",
+				"z_i.png",
+				"z_j.png",
+				"z_k.png"
+			]
+		}
 	},
 	"poses": [
 		{
 			"name": "normal",
-			"style": "default",
+			"style": "default-hair",
 			"compatibleHeads": ["default"],
 			"left": ["1l.png", "2l.png", "4l.png"],
 			"right": ["1r.png", "2r.png", "4r.png"]
 		},
 		{
 			"name": "normal_arm_grab",
-			"style": "default",
+			"style": "default-hair",
 			"compatibleHeads": ["default"],
 			"left": ["4l.png"],
 			"right": ["5r.png"]
 		},
 		{
 			"name": "crossed_arms",
-			"style": "default",
+			"style": "default-hair",
 			"compatibleHeads": ["default"],
 			"static": "3.png"
 		},
 		{
 			"name": "folded_hands",
-			"style": "default",
+			"style": "default-hair",
 			"compatibleHeads": ["default"],
 			"static": "6.png"
+		},
+		{
+			"name": "normal-default_hat",
+			"style": "default-hat",
+			"compatibleHeads": ["hat"],
+			"left": ["1l.png", "2l.png", "4l.png"],
+			"right": ["1r.png", "2r.png", "4r.png"]
+		},
+		{
+			"name": "normal_arm_grab_default-hat",
+			"style": "default-hat",
+			"compatibleHeads": ["hat"],
+			"left": ["4l.png"],
+			"right": ["5r.png"]
+		},
+		{
+			"name": "crossed_arms_default-hat",
+			"style": "default-hat",
+			"compatibleHeads": ["hat"],
+			"static": "3.png"
+		},
+		{
+			"name": "folded_hands_default-hat",
+			"style": "default-hat",
+			"compatibleHeads": ["hat"],
+			"static": "6.png"
+		},
+		{
+			"name": "normal-casual_hair",
+			"style": "casual-hair",
+			"compatibleHeads": ["default"],
+			"left": ["1bl.png"],
+			"right": ["1br.png"]
+		},
+		{
+			"name": "normal-casual_hat",
+			"style": "casual-hat",
+			"compatibleHeads": ["hat"],
+			"left": ["1bl.png"],
+			"right": ["1br.png"]
 		}
 	]
 }
