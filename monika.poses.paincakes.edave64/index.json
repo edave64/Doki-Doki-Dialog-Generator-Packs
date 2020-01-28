@@ -5,7 +5,7 @@
 	"id": "ddlc.monika",
 	"folder": "./",
 	"heads": {
-		"straight": ["z.png"],
+		"straight": ["x.png", "y.png", "z.png"],
 		"sideways": {
 			"all": ["z2.png"],
 			"offset": [135, 75]
