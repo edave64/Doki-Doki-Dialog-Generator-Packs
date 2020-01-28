@@ -35,6 +35,7 @@
 	"poses": [
 		{
 			"name": "normal",
+			"left": [],
 			"right": ["5r.png"]
 		},
 		{
