@@ -11,7 +11,7 @@
 	"poses": [
 		{
 			"compatibleHeads": ["sideways"],
-			"name": "sideways",
+			"name": "sideways_casual",
 			"style": "casual",
 			"static": "3.png"
 		}
