@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "monika_r63.diaboliiique.edave64",
+	"packCredits": "Created by diaboliiique (@fiiiiioooo on Twitter)",
+	"id": "fan.diaboliiique.monika_r63.edave64",
+	"name": "Monika R63",
+	"internalId": "monika_r63_diaboliiique",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "glitch",
+			"label": "Glitchy"
+		}
+	],
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png"
+		],
+		"sideways": {
+			"all": ["a2.png", "b2.png"],
+			"offset": [135, 75]
+		}
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned",
+			"style": "uniform",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		},
+		{
+			"name": "glitch",
+			"style": "glitch",
+			"compatibleHeads": [],
+			"variant": ["g1_scaled.png", "g2.png", "g3.png", "g4.png"]
+		}
+	]
+}
