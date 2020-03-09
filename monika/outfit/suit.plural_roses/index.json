@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.suit.plural_roses.edave64",
+	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"cc2credits": {
+		"left": ["Monika in a suit", ""],
+		"right": [
+			"PluralRoses",
+			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
+		]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "suit_plural_roses",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-suit_plural_roses",
+			"style": "suit_plural_roses",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-suit_plural_roses",
+			"style": "suit_plural_roses",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}
