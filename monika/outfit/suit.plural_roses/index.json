@@ -31,6 +31,12 @@
 			"style": "suit_plural_roses",
 			"compatibleHeads": ["sideways"],
 			"static": "3.png"
+		},
+		{
+			"name": "figeting-suit_plural_roses",
+			"style": "suit_plural_roses",
+			"compatibleHeads": ["straight"],
+			"static": "4.png"
 		}
 	]
 }
