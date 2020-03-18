@@ -218,14 +218,14 @@
 			"style": "casual-hair",
 			"compatibleHeads": ["default"],
 			"left": ["1bl.png", "4bl.png"],
-			"right": ["1br.png", "4br.png"]
+			"right": ["1br.png", "4br.png", "5br.png"]
 		},
 		{
 			"name": "normal-casual_hat",
 			"style": "casual-hat",
 			"compatibleHeads": ["hat"],
 			"left": ["1bl.png", "4bl.png"],
-			"right": ["1br.png", "4br.png"]
+			"right": ["1br.png", "4br.png", "5br.png"]
 		}
 	]
 }
