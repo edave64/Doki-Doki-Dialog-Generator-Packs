@@ -111,12 +111,15 @@ a {
 }
 
 .input {
-	border: 2px black solid;
-	background: white;
+	border: 2px solid #ffbde1;
 	padding: 8px;
 	height: 42px;
 	overflow: hidden;
 	white-space: nowrap;
+	background: #ffe6f4 url(./search.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right center;
 }
 
 .suggestions {

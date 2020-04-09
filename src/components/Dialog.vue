@@ -14,8 +14,23 @@
 				>
 			</section>
 			<section>
-				<button v-if="pack.dddg1Path">Copy DDDG Content Pack</button>
-				<button v-if="pack.ddcc2Path">Download Comic Club Pack</button>
+				<button
+					v-if="pack.dddg1Path"
+					class="clipboard"
+					@click="copyToClipboard"
+				>
+					Copy DDDG Content Pack
+				</button>
+				<button v-if="pack.ddcc2Path" @click="openDDCCUrl">
+					Download Comic Club Pack
+				</button>
+				<input
+					v-if="pack.dddg1Path"
+					ref="copyable"
+					class="hide"
+					:value="pack.dddg1Path"
+					readonly
+				/>
 			</section>
 			<section>
 				<h3>Authors</h3>
@@ -99,6 +114,23 @@ export default class Dialog extends Vue {
 		return sanitize(credits);
 	}
 
+	private copyToClipboard() {
+		if (!this.$refs.copyable) return;
+		debugger;
+		const copyEle = this.$refs.copyable as HTMLInputElement;
+
+		/* Select the text field */
+		copyEle.select();
+		copyEle.setSelectionRange(0, 99999); /*For mobile devices*/
+
+		/* Copy the text inside the text field */
+		document.execCommand('copy');
+	}
+
+	private openDDCCUrl() {
+		window.open(this.pack.ddcc2Path!, '_blank');
+	}
+
 	private get pack(): IPack {
 		return this.packs.find(pack => pack.id === this.selected)!;
 	}
@@ -136,12 +168,13 @@ dialog {
 	background-color: #ffffff;
 	background-position: right center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	display: flex;
 	flex-direction: column;
 	align-self: center;
 	overflow: auto;
 	padding: 0;
+	border: 4px solid #ffbde1;
 
 	h1 {
 		font-size: 24px;
@@ -161,6 +194,9 @@ dialog {
 			rgba(255, 255, 255, 0) 75%
 		);
 		width: 473px;
+
+		text-shadow: 0 0 4px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+			-1px 1px 0 #fff, 1px 1px 0 #fff;
 	}
 
 	footer:last-child,
@@ -174,6 +210,12 @@ dialog {
 			rgba(255, 51, 51, 1) 25%,
 			rgba(255, 51, 51, 0) 75%
 		);
+	}
+
+	input.hide {
+		width: 6px;
+		opacity: 0;
+		overflow: hidden;
 	}
 }
 </style>

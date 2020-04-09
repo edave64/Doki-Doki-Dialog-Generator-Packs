@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "clipboard": "^2.0.6",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -16,6 +17,7 @@
     "vue-property-decorator": "^8.4.1"
   },
   "devDependencies": {
+    "@types/clipboard": "^2.0.1",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",

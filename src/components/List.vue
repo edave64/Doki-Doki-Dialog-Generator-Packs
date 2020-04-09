@@ -22,6 +22,19 @@
 				</tr>
 			</tbody>
 		</table>
+		<div class="spacer"></div>
+		<footer>
+			Created by edave64. Fork this on
+			<a
+				href="https://github.com/edave64/Doki-Doki-Dialog-Generator-Packs/tree/repo-browser"
+				>github</a
+			>.<br />
+			To be used with the
+			<a href="https://edave64.github.io/Doki-Doki-Dialog-Generator/release/"
+				>Doki Doki Dialog Generator</a
+			><br />
+			Using <a href="https://material.io/">material icons</a> by google
+		</footer>
 	</div>
 </template>
 
@@ -150,11 +163,20 @@ export default class List extends Vue {
 	left: 0px;
 	right: 0px;
 	overflow: auto;
+	display: flex;
+	flex-direction: column;
+}
+.spacer {
+	flex-grow: 1;
 }
 table {
 	text-align: left;
 	border-collapse: collapse;
 	min-width: 100%;
+	user-select: none;
+}
+tr:hover {
+	background: #ffe6f4;
 }
 th,
 td {
@@ -166,5 +188,9 @@ th {
 	position: sticky;
 	top: 0;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 1);
+}
+footer {
+	padding-top: 8px;
+	color: #444;
 }
 </style>

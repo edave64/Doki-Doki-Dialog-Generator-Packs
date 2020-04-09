@@ -79,6 +79,12 @@ body {
 	margin: 0;
 }
 
+button {
+	border: 2px solid #ffbde1;
+	background: #ffe6f4;
+	padding: 4px;
+}
+
 #center_wrapper {
 	width: 768px;
 	max-width: 100vw;
