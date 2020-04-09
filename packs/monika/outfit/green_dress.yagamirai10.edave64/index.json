@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.green_dress.yagamirai10.edave64",
+	"packCredits": "Created by yagamirai10",
+	"packName": "Hakama",
+	"authors": ["yagamirai10"],
+	"comicClubUrl": "https://drive.google.com/open?id=1OelZbACzK235OChUomvLeB0T_NMWd_yw",
+	"cc2credits": {
+		"left": ["Monika Hakama outfit"],
+		"right": ["yagamirai10"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "dress_yagamirai10",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-dress_yagamirai10",
+			"style": "dress_yagamirai10",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-dress_yagamirai10",
+			"style": "dress_yagamirai10",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

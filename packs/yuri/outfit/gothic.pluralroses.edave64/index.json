@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.yuri",
+	"packId": "yuri.outfit.gothic.pluralroses.edave64",
+	"packCredits": "<a href='https://www.reddit.com/e0zuxg'>Created by</a> PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"packName": "Gothic Outfit",
+	"authors": ["Plural Roses"],
+	"source": "https://www.reddit.com/e0zuxg/",
+	"comicClubUrl": "https://drive.google.com/open?id=1A1uDP4atCFQg83f1pBZQvxjapC39ji0U",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "gothic_PluralRoses",
+			"label": "Gothic"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-gothic_PluralRoses",
+			"style": "gothic_PluralRoses",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}

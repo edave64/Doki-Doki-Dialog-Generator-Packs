@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "sayori_eating_cake.edave64",
+	"packCredits": "<a href='https://www.reddit.com/d7qlrr'>Created by</a> EDave64",
+	"packName": "Eating Cake",
+	"authors": ["edave64"],
+	"source": "https://www.reddit.com/d7qlrr",
+	"id": "ddlc.sayori",
+	"folder": "./",
+	"heads": {},
+	"poses": [
+		{
+			"name": "edave64.eating_cake.nom",
+			"style": "casual",
+			"compatibleHeads": [],
+			"left": ["eating.png"],
+			"right": [
+				"1br.png",
+				"2br.png",
+				"right-pcake.png",
+				"right-pcake-bitten.png",
+				"right-pcake-eaten.png"
+			]
+		},
+		{
+			"name": "normal_casual",
+			"style": "casual",
+			"compatibleHeads": [],
+			"left": ["left-scake.png", "left-sempty.png"],
+			"right": [
+				"right-pcake.png",
+				"right-pcake-bitten.png",
+				"right-pcake-eaten.png"
+			]
+		}
+	]
+}

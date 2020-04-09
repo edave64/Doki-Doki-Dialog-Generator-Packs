@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.sayori",
+	"packId": "sayori.outfit.hoodie.gurogurl.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8rfjmh'>Created by</a> gurogurl",
+	"packName": "Hoodie",
+	"authors": ["gurogurl"],
+	"source": "https://www.reddit.com/8rfjmh",
+	"comicClubUrl": "https://drive.google.com/open?id=1pgYHipG1ArtI3scqke5ZkhxM7ETZ283x",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "casual_gurogurl",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "gurogurl.casual",
+			"style": "casual_gurogurl",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}

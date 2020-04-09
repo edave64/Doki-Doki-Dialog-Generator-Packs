@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.sayori",
+	"packId": "sayori.outfit.summerdress.cyrke.edave",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+	"packName": "Summer dress",
+	"authors": ["Cyrke"],
+	"comicClubUrl": "https://drive.google.com/open?id=1F2AYfvwwyuMVWUh6sm-VePFP0VbgY0d6",
+	"cc2credits": {
+		"left": ["Sayori summer dress"],
+		"right": ["Cyrke"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "dress_cyrke",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-dress_cyrke",
+			"style": "dress_cyrke",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}

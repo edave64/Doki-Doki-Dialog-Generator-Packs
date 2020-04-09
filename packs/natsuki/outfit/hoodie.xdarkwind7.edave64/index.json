@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.natsuki",
+	"packId": "natsuki.outfit.hoodie.xdarkwind7.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8q341d' target='_blank' rel='noopener noreferrer'>Created by</a> xDarkWind7",
+	"packName": "Hoodie",
+	"authors": ["xDarkWind7"],
+	"source": "https://www.reddit.com/8q341d",
+	"comicClubUrl": "https://drive.google.com/open?id=1sENbLyxk2LpAQFhHCp4g-TL50HIVlUgm",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "hoodie_xdarkwind7",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-hoodie_xdarkwind7",
+			"style": "hoodie_xdarkwind7",
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"headInForeground": true,
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-hoodie_xdarkwind7",
+			"style": "hoodie_xdarkwind7",
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"headInForeground": true,
+			"headAnchor": [18, 22],
+			"static": "3.png"
+		}
+	]
+}

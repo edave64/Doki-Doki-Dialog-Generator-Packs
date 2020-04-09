@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "monika.expressions.horrified.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/9ehpss' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"packName": "Horrified expressions",
+	"authors": ["Lunatic Rabbit"],
+	"source": "https://www.reddit.com/9ehpss",
+	"id": "ddlc.monika",
+	"folder": "./",
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png"
+		]
+	},
+	"poses": []
+}

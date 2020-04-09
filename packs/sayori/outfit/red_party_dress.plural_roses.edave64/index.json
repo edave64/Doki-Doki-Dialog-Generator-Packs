@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.sayori",
+	"packId": "sayori.outfit.red_party_dress.plural_roses.edave64",
+	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+	"packName": "Red dress",
+	"authors": ["Plural Roses"],
+	"source": "https://www.reddit.com/edceu7",
+	"comicClubUrl": "https://drive.google.com/open?id=1YyF2NWAVVgoHfKarbsIf3O69mTTh9Xa7",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "red_party_dress_plural_roses",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal_red_party_dress_plural_roses",
+			"style": "red_party_dress_plural_roses",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "sideways_red_party_dress_plural_roses",
+			"style": "red_party_dress_plural_roses",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

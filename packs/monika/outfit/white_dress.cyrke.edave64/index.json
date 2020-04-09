@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.white_dress.cyrke.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_' target='_blank' rel='noopener noreferrer'>Cyrke</a>",
+	"packName": "Summer dress",
+	"authors": ["Cyrke"],
+	"comicClubUrl": "https://drive.google.com/open?id=1p-tuj3zRw3y4BB-yiMZvh52CNmJJ8bAv",
+	"cc2credits": {
+		"left": ["Monika traditional outfit"],
+		"right": ["{a='https://www.reddit.com/u/Cyrke_}Cyrke{/a}"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "dress_cyrke",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-dress_cyrke",
+			"style": "dress_cyrke",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-dress_cyrke",
+			"style": "dress_cyrke",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

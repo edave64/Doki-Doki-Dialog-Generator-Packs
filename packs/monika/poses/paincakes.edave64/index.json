@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "monika.poses.paincakes.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/el9jzv/' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
+	"packName": "Extra Poses and Expressions",
+	"authors": ["ButtermilkPaincakes"],
+	"source": "https://www.reddit.com/el9jzv",
+	"id": "ddlc.monika",
+	"folder": "./",
+	"heads": {
+		"straight": ["x.png", "y.png", "z.png"],
+		"sideways": {
+			"all": ["z2.png"],
+			"offset": [135, 75]
+		},
+		"paincake_sideways": {
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"d.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"h.png",
+				"i.png",
+				"j.png",
+				"k.png",
+				"l.png",
+				"m.png",
+				"n.png",
+				"o.png",
+				"p.png"
+			],
+			"offset": [135, 75]
+		}
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"left": [],
+			"right": ["5r.png"]
+		},
+		{
+			"name": "paincake_table",
+			"style": "uniform",
+			"compatibleHeads": ["straight"],
+			"static": "3.png"
+		},
+		{
+			"name": "paincake_leaning",
+			"style": "uniform",
+			"compatibleHeads": ["paincake_sideways"],
+			"variant": ["1.png", "2.png", "4.png"]
+		}
+	]
+}

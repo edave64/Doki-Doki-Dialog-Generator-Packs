@@ -1,0 +1,134 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "yuri_r63.diaboliiique.edave64",
+	"packCredits": "Created by diaboliiique (@fiiiiioooo on Twitter)",
+	"packName": "Rule 63 Yuri",
+	"authors": ["diaboliiique"],
+	"id": "fan.diaboliiique.yuri_r63.edave64",
+	"name": "Yuri R63",
+	"internalId": "yuri_r63_diaboliiique",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "casual",
+			"label": "Casual attire"
+		},
+		{
+			"name": "glitch",
+			"label": "Glitchy"
+		}
+	],
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"y1.png",
+			"y2.png",
+			"y3.png",
+			"y4.png",
+			"y5.png",
+			"y6.png",
+			"y7.png",
+			"hisui.png"
+		],
+		"sideways": ["a2.png", "b2.png", "c2.png", "d2.png", "e2.png"]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["straight", "sideways"],
+			"headInForeground": true,
+			"left": ["1l.png", "2l.png"],
+			"right": [
+				"1r.png",
+				"2r.png",
+				{
+					"img": "2r_cuts.png",
+					"nsfw": true
+				}
+			]
+		},
+		{
+			"name": "hairplay",
+			"style": "uniform",
+			"compatibleHeads": ["straight", "sideways"],
+			"headInForeground": true,
+			"static": "3.png"
+		},
+		{
+			"name": "normal_causal",
+			"style": "casual",
+			"compatibleHeads": ["straight", "sideways"],
+			"headInForeground": true,
+			"left": ["1bl.png", "2bl.png"],
+			"right": ["1br.png", "2br.png"]
+		},
+		{
+			"name": "hairplay_casual",
+			"style": "casual",
+			"headInForeground": true,
+			"compatibleHeads": ["straight", "sideways"],
+			"static": "3b.png"
+		},
+		{
+			"name": "stabbing",
+			"style": "uniform",
+			"compatibleHeads": [],
+			"headInForeground": true,
+			"folder": "stab/",
+			"variant": ["1.png", "2.png", "3.png", "4.png", "5.png", "6-full.png"],
+			"nsfw": true
+		},
+		{
+			"name": "glitching",
+			"style": "glitch",
+			"compatibleHeads": [],
+			"headInForeground": true,
+			"variant": [
+				"0a.png",
+				"0b.png",
+				"eyesfull.png",
+				"glitch1.png",
+				"glitch2.png",
+				"glitch3.png",
+				"glitch4.png",
+				"glitch5.png"
+			],
+			"nsfw": true
+		},
+		{
+			"name": "dragon",
+			"style": "uniform",
+			"compatibleHeads": [],
+			"headInForeground": true,
+			"variant": ["dragon1.png", "dragon2.png"]
+		}
+	]
+}

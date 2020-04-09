@@ -1,0 +1,105 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.anita6artania.mc",
+	"packId": "mc.anita6artania.edave64",
+	"packCredits": "<a href='https://www.reddit.com/dq74jr' target='_blank' rel='noopener noreferrer'>Created by</a> anita6artania",
+	"packName": "MC",
+	"authors": ["anita6artania"],
+	"source": "https://www.reddit.com/dq74jr",
+	"name": "MC (Slim)",
+	"internalId": "SlimC",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"eyes": {
+		"yellow": "faces_yellow/part.png",
+		"red": "faces_red/part.png"
+	},
+	"styles": [
+		{
+			"name": "uniform-yellow",
+			"label": "Uniform and yellow eyes"
+		},
+		{
+			"name": "uniform-red",
+			"label": "Uniform and red eyes"
+		}
+	],
+	"heads": {
+		"straight_red": {
+			"folder": "faces_red/",
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"d.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"af.png",
+				"bf.png",
+				"cf.png",
+				"df.png",
+				"ef.png",
+				"ff.png",
+				"ac.png",
+				"bc.png",
+				"dc.png",
+				"ec.png",
+				"fc.png",
+				"gc.png",
+				"afc.png",
+				"bfc.png",
+				"dfc.png",
+				"efc.png",
+				"ffc.png",
+				"glitch.png"
+			]
+		},
+		"straight_yellow": {
+			"folder": "faces_yellow/",
+			"all": [
+				"a.png",
+				"./faces_red/b.png",
+				"./faces_red/c.png",
+				"d.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"af.png",
+				"./faces_red/bf.png",
+				"./faces_red/cf.png",
+				"df.png",
+				"ef.png",
+				"ff.png",
+				"ac.png",
+				"./faces_red/bc.png",
+				"dc.png",
+				"ec.png",
+				"fc.png",
+				"gc.png",
+				"afc.png",
+				"./faces_red/bfc.png",
+				"dfc.png",
+				"efc.png",
+				"ffc.png",
+				"./faces_red/glitch.png"
+			]
+		}
+	},
+	"poses": [
+		{
+			"name": "normal-uniform-yellow",
+			"style": "uniform-red",
+			"compatibleHeads": ["straight_red"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "normal-uniform-red",
+			"style": "uniform-yellow",
+			"compatibleHeads": ["straight_yellow"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		}
+	]
+}

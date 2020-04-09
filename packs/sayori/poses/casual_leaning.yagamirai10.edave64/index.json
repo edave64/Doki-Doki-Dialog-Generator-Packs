@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "sayori.pose.casual_leaning.yagamirai10.edave64",
+	"packCredits": "<a href='https://www.reddit.com/by3x8g' target='_blank' rel='noopener noreferrer'>Created by</a> yagamirai10",
+	"packName": "Casual leaning",
+	"authors": ["yagamirai10"],
+	"source": "https://www.reddit.com/by3x8g",
+	"cc2credits": {
+		"left": ["{a=https://www.reddit.com/by3x8g}Casual leaning Sayori{/a}"],
+		"right": ["yagamirai10"]
+	},
+	"id": "ddlc.sayori",
+	"folder": "./",
+	"poses": [
+		{
+			"compatibleHeads": ["sideways"],
+			"name": "sideways_casual",
+			"style": "casual",
+			"static": "3.png"
+		}
+	]
+}

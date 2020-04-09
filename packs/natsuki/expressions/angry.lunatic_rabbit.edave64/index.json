@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "natsuki.expressions.angry.lunatic_rabbit.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8n8ii6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+	"packName": "Angry expressions",
+	"authors": ["Lunatic Rabbit"],
+	"source": "https://www.reddit.com/8n8ii6",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8n8ii6}Angry Natsuki expressions{/a}"
+		],
+		"right": ["Lunatic_Rabbit"]
+	},
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"heads": {
+		"straight": ["a.png", "b.png", "c.png", "d.png", "e.png", "f.png"]
+	},
+	"poses": []
+}

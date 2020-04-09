@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.yuri",
+	"packId": "yuri.outfit.sports.pluralroses.edave64",
+	"packName": "Sports Outfit",
+	"authors": ["Plural Roses"],
+	"source": "https://www.reddit.com/ejgy8i",
+	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea'>DeviantArt</a>)",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "sports_PluralRoses",
+			"label": "Sports outfit"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-sports_PluralRoses",
+			"style": "sports_PluralRoses",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "hairplay-sports_PluralRoses",
+			"style": "sports_PluralRoses",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

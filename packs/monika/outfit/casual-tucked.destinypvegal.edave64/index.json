@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.casual-tucked.destinypvegal.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8t62u7' target='_blank' rel='noopener noreferrer'>Created by</a> DestinyPvEGal",
+	"packName": "Casual Outfit (Tucked in)",
+	"authors": ["DestinyPvEGal"],
+	"source": "https://www.reddit.com/8t62u7",
+	"comicClubUrl": "https://drive.google.com/open?id=1-jt7yG8dD67hlRTMyJdrhwmQIg7Tgyx8",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8t62u7}Monika casual outfit (tucked in){/a}"
+		],
+		"right": ["DestinyPvEGal"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "casual_tucked_destinypvegal",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-casual_tucked_destinypvegal",
+			"style": "casual_tucked_destinypvegal",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-casual_tucked_destinypvegal",
+			"style": "casual_tucked_destinypvegal",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}

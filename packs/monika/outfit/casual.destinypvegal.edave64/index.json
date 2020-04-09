@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.casual.destinypvegal.edave64",
+	"packCredits": "<a href='https://www.reddit.com/comments/8t62u7' target='_blank' rel='noopener noreferrer'>Created by</a> DestinyPvEGal",
+	"packName": "Casual Outfit",
+	"authors": ["DestinyPvEGal"],
+	"source": "https://www.reddit.com/8t62u7",
+	"comicClubUrl": "https://drive.google.com/open?id=1LddghKV1i0eWWjEixHWiBViTNhmQcqfl",
+	"cc2credits": {
+		"left": [
+			"{a=https://www.reddit.com/comments/8t62u7}Monika casual outfit{/a}"
+		],
+		"right": ["DestinyPvEGal"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "casual_destinypvegal",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-casual_destinypvegal",
+			"style": "casual_destinypvegal",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-casual_destinypvegal",
+			"style": "casual_destinypvegal",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}
