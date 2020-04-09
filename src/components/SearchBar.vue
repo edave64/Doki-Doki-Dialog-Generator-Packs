@@ -1,0 +1,155 @@
+<template>
+	<div class="search-bar" @focusin="onFocusIn" @focusout="onFocusOut">
+		<contenteditable
+			tag="div"
+			class="input"
+			:contenteditable="true"
+			v-model="message"
+			:noNL="true"
+			:noHTML="false"
+			@returned="doUpdate"
+			@input="onUpdate"
+		/>
+		<div
+			v-if="focus && suggestions.length > 0"
+			class="suggestions"
+			tabindex="0"
+		>
+			<div
+				v-for="suggestion of suggestions"
+				:key="suggestion[0]"
+				:class="{
+					suggestion: true,
+					active: currentSuggestion === suggestion[0],
+				}"
+			>
+				<span class="primary">{{ suggestion[0] }}</span
+				>&nbsp;
+				<span class="secondary">{{ suggestion[1] }}</span>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Watch } from 'vue-property-decorator';
+
+const debounce = 500;
+
+@Component
+export default class SearchBar extends Vue {
+	@Prop() private value!: string;
+
+	private focus = false;
+	private message = '';
+	private debounceTimeout: number | null = null;
+
+	private get suggestions(): [string, string][] {
+		return [];
+		/*
+		return [
+			['by', 'author'],
+			['for', 'character'],
+			['has', 'style, expressions, etc'],
+		];
+		*/
+	}
+
+	private onFocusIn(event: FocusEvent) {
+		console.log(event);
+		this.focus = true;
+	}
+
+	private onFocusOut(event: FocusEvent) {
+		console.log(event);
+		this.focus = false;
+		console.log(document.activeElement);
+	}
+
+	@Watch('value')
+	private updateInternalValue() {
+		this.message = this.value;
+	}
+
+	private onUpdate() {
+		if (this.debounceTimeout) clearTimeout(this.debounceTimeout);
+		this.debounceTimeout = setTimeout(this.doUpdate, debounce);
+	}
+
+	private doUpdate() {
+		if (this.debounceTimeout) clearTimeout(this.debounceTimeout);
+		this.debounceTimeout = null;
+		this.$emit('input', this.message);
+	}
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+h3 {
+	margin: 40px 0 0;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+a {
+	color: #42b983;
+}
+
+.search-bar {
+	position: absolute;
+	top: 8px;
+	height: 20px;
+	left: 8px;
+	right: 8px;
+}
+
+.input {
+	border: 2px black solid;
+	background: white;
+	padding: 8px;
+	height: 42px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.suggestions {
+	border: 2px black solid;
+	border-top: 0;
+	background: white;
+
+	.suggestion {
+		border: 0;
+		line-height: 24px;
+		padding: 4px;
+	}
+	.suggestion {
+		border: 0;
+		line-height: 24px;
+		padding: 4px;
+		border-radius: 4px;
+
+		.primary {
+			font-weight: bolder;
+		}
+
+		.secondary {
+			color: #222;
+		}
+
+		&.active {
+			background: cyan;
+		}
+
+		&:hover {
+			background: lightcyan;
+		}
+	}
+}
+</style>
