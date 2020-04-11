@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "monika.poses.cross.phathom.edave64",
+	"packCredits": "Created by Phathom",
+	"packName": "Crossed armes",
+	"authors": ["Phathom"],
+	"id": "ddlc.monika",
+	"folder": "./",
+	"heads": {
+		"turned": ["a.png", "b.png", "c.png", "d.png", "e.png"]
+	},
+	"poses": [
+		{
+			"compatibleHeads": ["turned"],
+			"name": "crossed",
+			"style": "uniform",
+			"static": "1.png"
+		}
+	]
+}

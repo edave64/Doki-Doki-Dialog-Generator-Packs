@@ -1,0 +1,111 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.sayonika",
+	"packId": "sayonika.sr229.edave64",
+	"packCredits": "The contents of this pack is licensed under Creative Commons 4.0 Attribution-Noncommercial under: The Sayonika Project Authors (<a href=\"https://github.com/sr229\">sr229</a>, <a href=\"\">Ovyerus</a>), <a href=\"https://reddit.com/u/Cyrke_\">Cyrke</a> and <a href=\"https://reddit.com/u/its_nuxill\">Nuxill</a>. <a href=\"https://github.com/Sayo-nika/PressKit/blob/master/LICENSE\">Licence here</a>.",
+	"packName": "Sayonika",
+	"source": "https://github.com/Sayo-nika/PressKit/tree/master/mascot",
+	"authors": ["sr229", "Ovyerus", "Cyrke", "Nuxill"],
+	"name": "Sayonika",
+	"internalId": "sayonika",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "casual",
+			"label": "Casual"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"l2.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z.png"
+		],
+		"sideways": {
+			"offset": [150, 120],
+			"all": [
+				"a-2.png",
+				"b-2.png",
+				"c-2.png",
+				"d-2.png",
+				"e-2.png",
+				"f-2.png",
+				"g-2.png",
+				"h-2.png",
+				"i-2.png",
+				"j-2.png",
+				"k-2.png",
+				"l-2.png"
+			]
+		}
+	},
+	"poses": [
+		{
+			"name": "arms_behind_back",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"static": "1.png"
+		},
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"left": ["2l.png"],
+			"right": ["2r.png", "2r2.png"]
+		},
+		{
+			"name": "leaning",
+			"style": "uniform",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		},
+		{
+			"name": "arms_behind_back-casual",
+			"style": "casual",
+			"compatibleHeads": ["default"],
+			"static": "1b.png"
+		},
+		{
+			"name": "normal-casual",
+			"style": "casual",
+			"compatibleHeads": ["default"],
+			"left": ["2bl.png"],
+			"right": ["2br.png", "2br2.png"]
+		},
+		{
+			"name": "leaning-casual",
+			"style": "casual",
+			"compatibleHeads": ["sideways"],
+			"static": "3b.png"
+		}
+	]
+}

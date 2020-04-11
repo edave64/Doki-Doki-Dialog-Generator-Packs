@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "yuri.poses.paincakes.edave64",
+	"packCredits": "<a href='https://www.reddit.com/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
+	"packName": "Extra Poses and Expressions",
+	"authors": ["ButtermilkPaincakes"],
+	"source": "https://www.reddit.com/el9jzv",
+	"id": "ddlc.yuri",
+	"folder": "./",
+	"heads": {
+		"straight": ["a.png", "b.png", "c.png", "d.png"],
+		"straight_flipped": ["a2.png", "b2.png"]
+	},
+	"poses": [
+		{
+			"name": "pointing",
+			"compatibleHeads": ["straight"],
+			"style": "uniform",
+			"static": "1.png",
+			"headAnchor": [171, 0]
+		},
+		{
+			"name": "flipped_normal",
+			"style": "uniform",
+			"compatibleHeads": ["straight_flipped"],
+			"static": "2.png"
+		},
+		{
+			"name": "flipped_pointing",
+			"style": "uniform",
+			"compatibleHeads": ["straight_flipped"],
+			"static": "3.png",
+			"headAnchor": [-160, 0]
+		}
+	]
+}

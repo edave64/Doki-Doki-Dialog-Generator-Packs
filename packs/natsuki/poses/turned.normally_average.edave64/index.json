@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "natsuki.poses.turned.normally_average.edave64",
+	"packCredits": "<a href=\"https://reddit.com/ffgxy7/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+	"source": "https://www.reddit.com/ffgxy7/",
+	"packName": "Crossed armes",
+	"authors": ["NormallyAverage"],
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"heads": {},
+	"poses": [
+		{
+			"compatibleHeads": [
+				"straight",
+				"straight_nsfw",
+				"sideways",
+				"turnedAway"
+			],
+			"name": "turned",
+			"style": "uniform",
+			"left": ["1l.png", "2l.png", "3l.png"],
+			"right": ["1r.png", "2r.png"],
+			"headInForeground": true,
+			"headAnchor": [18, 22]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fusion.satsuki",
+	"packId": "satsuki.normally_average.edave64",
+	"packCredits": "<a href=\"https://reddit.com/abe0za/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+	"packName": "Satsuki",
+	"source": "https://www.reddit.com/abe0za/",
+	"authors": ["NormallyAverage"],
+	"name": "Satsuki",
+	"internalId": "Satsuki",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"scream.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "default",
+			"compatibleHeads": ["default"],
+			"left": ["1r.png", "2r.png"],
+			"right": ["1l.png", "2l.png"]
+		}
+	]
+}

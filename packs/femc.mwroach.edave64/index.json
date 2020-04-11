@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.femc2",
+	"packId": "femc.mwroach.edave64",
+	"packCredits": "<a href=\"https://reddit.com/bi0ulm/\">Art</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Original design by <a href=\"https://reddit.com/u/MWRoach\">MW Roach</a>",
+	"packName": "FeMC (Switcheroo)",
+	"source": "https://reddit.com/bi0ulm/",
+	"authors": ["Black Rabbit Artworks", "MW Roach"],
+	"name": "FeMC (Switcheroo)",
+	"internalId": "femc_switch",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "casual",
+			"label": "Casual"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "crossed_arms",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"static": "3.png"
+		},
+		{
+			"name": "normal-causal",
+			"style": "casual",
+			"compatibleHeads": ["default"],
+			"left": ["1br.png"],
+			"right": ["1bl.png", "2bl.png"]
+		},
+		{
+			"name": "crossed_arms-causal",
+			"style": "casual",
+			"compatibleHeads": ["default"],
+			"static": "4b.png"
+		}
+	]
+}
