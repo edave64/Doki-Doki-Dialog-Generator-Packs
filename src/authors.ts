@@ -10,4 +10,7 @@ export interface IAuthor {
 	pixiv?: string;
 	website?: string;
 	discord?: string;
+	facebook?: string;
+	github?: string;
+	patreon?: string;
 }

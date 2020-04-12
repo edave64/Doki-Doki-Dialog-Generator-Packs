@@ -75,6 +75,9 @@ const linkablePlatforms: Array<[keyof IAuthor, string, string]> = [
 	['deviantart', 'https://www.deviantart.com/%1', 'deviantart.png'],
 	['twitter', 'https://twitter.com/%1', 'twitter.svg'],
 	['pixiv', 'https://www.pixiv.net/users/%1', 'pixiv.ico'],
+	['patreon', 'https://www.patreon.com/%1', 'patreon.png'],
+	['facebook', 'https://www.facebook.com/%1', 'facebook.png'],
+	['github', 'https://github.com/%1', 'github.png'],
 	['website', '%1', 'website.svg'],
 ];
 
