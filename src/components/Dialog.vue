@@ -120,7 +120,6 @@ export default class Dialog extends Vue {
 
 	private copyToClipboard() {
 		if (!this.$refs.copyable) return;
-		debugger;
 		const copyEle = this.$refs.copyable as HTMLInputElement;
 
 		/* Select the text field */

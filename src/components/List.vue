@@ -128,7 +128,6 @@ export default class List extends Vue {
 						) ||
 						pack.kind.find(kind => matchingKinds.has(kind))
 					) {
-						debugger;
 						matchingPacks.add(pack.id);
 					}
 				}
