@@ -24,13 +24,14 @@
 				<button v-if="pack.ddcc2Path" @click="openDDCCUrl">
 					Download Comic Club Pack
 				</button>
-				<input
-					v-if="pack.dddg1Path"
-					ref="copyable"
-					class="hide"
-					:value="pack.dddg1Path"
-					readonly
-				/>
+				<div class="copy-wrapper">
+					<input
+						v-if="pack.dddg1Path"
+						ref="copyable"
+						:value="pack.dddg1Path"
+						readonly
+					/>
+				</div>
 			</section>
 			<section>
 				<h3>Authors</h3>
@@ -219,10 +220,15 @@ dialog {
 		);
 	}
 
-	input.hide {
-		width: 6px;
-		opacity: 0;
+	.copy-wrapper {
+		display: block;
+		width: 0;
 		overflow: hidden;
+		height: 0;
+
+		input {
+			position: relative;
+		}
 	}
 }
 </style>
