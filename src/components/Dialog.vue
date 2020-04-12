@@ -222,9 +222,10 @@ dialog {
 
 	.copy-wrapper {
 		display: block;
-		width: 0;
+		width: 1px;
 		overflow: hidden;
-		height: 0;
+		height: 1px;
+		opacity: 0;
 
 		input {
 			position: relative;
