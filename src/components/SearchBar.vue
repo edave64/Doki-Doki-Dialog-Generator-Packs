@@ -44,6 +44,7 @@ export default class SearchBar extends Vue {
 	private focus = false;
 	private message = '';
 	private debounceTimeout: number | null = null;
+	private lastSend = '';
 
 	private get suggestions(): [string, string][] {
 		return [];
@@ -69,6 +70,10 @@ export default class SearchBar extends Vue {
 
 	@Watch('value')
 	private updateInternalValue() {
+		if (this.lastSend === this.value) {
+			this.lastSend = '';
+			return;
+		}
 		this.message = this.value;
 	}
 
@@ -80,7 +85,10 @@ export default class SearchBar extends Vue {
 	private doUpdate() {
 		if (this.debounceTimeout) clearTimeout(this.debounceTimeout);
 		this.debounceTimeout = null;
-		this.$emit('input', this.message);
+		const div = document.createElement('div');
+		div.innerHTML = this.message;
+		this.lastSend = div.innerText;
+		this.$emit('input', div.innerText);
 	}
 }
 </script>

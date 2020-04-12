@@ -2,7 +2,7 @@
 	<div id="app">
 		<div id="center_wrapper" :class="{ blured: selected }">
 			<list
-				:search="search.replace(/&nbsp;/g, ' ')"
+				:search="search"
 				:authors="authors"
 				:packs="packs"
 				@selected="selected = $event"
