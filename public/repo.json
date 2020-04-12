@@ -17,6 +17,23 @@
 		"searchWords": []
 	},
 	{
+		"id": "femc.mwroach.edave64",
+		"name": "FeMC (Switcheroo)",
+		"characters": ["FeMC (Switcheroo)"],
+		"authors": ["Black Rabbit Artworks", "MW Roach"],
+		"kind": ["Characters"],
+		"source": "https://reddit.com/bi0ulm/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/index.json",
+		"description": "<a href=\"https://reddit.com/bi0ulm/\">Art</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Original design by <a href=\"https://reddit.com/u/MWRoach\">MW Roach</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "mc.anita6artania.edave64",
 		"name": "MC",
 		"characters": ["MC (Slim)"],
@@ -280,6 +297,21 @@
 		"searchWords": []
 	},
 	{
+		"id": "monika.poses.cross.phathom.edave64",
+		"name": "Crossed armes",
+		"characters": ["Monika"],
+		"authors": ["Phathom"],
+		"kind": ["Poses"],
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/cross.phantom.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/cross.phantom.edave64/index.json",
+		"description": "Created by Phathom",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/cross.phantom.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/cross.phantom.edave64/1.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "monika.poses.paincakes.edave64",
 		"name": "Extra Poses and Expressions",
 		"characters": ["Monika"],
@@ -452,6 +484,22 @@
 		"searchWords": []
 	},
 	{
+		"id": "natsuki.poses.turned.normally_average.edave64",
+		"name": "Turned",
+		"characters": ["Natsuki"],
+		"authors": ["NormallyAverage"],
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/ffgxy7/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/index.json",
+		"description": "<a href=\"https://reddit.com/ffgxy7/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "natsuki_r63.diaboliiique.edave64",
 		"name": "Rule 63 Natsuki",
 		"characters": ["Natsuki R63"],
@@ -462,6 +510,39 @@
 		"description": "Created by diaboliiique (@fiiiiioooo on Twitter)",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki_r63/diaboliiique.edave64/preview.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "satsuki.normally_average.edave64",
+		"name": "Satsuki",
+		"characters": ["Satsuki"],
+		"authors": ["NormallyAverage"],
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/abe0za/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/index.json",
+		"description": "<a href=\"https://reddit.com/abe0za/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/1r.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/1l.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "sayonika.sr229.edave64",
+		"name": "Sayonika",
+		"characters": ["Sayonika"],
+		"authors": ["sr229", "Ovyerus", "Cyrke", "Nuxill"],
+		"kind": ["Characters"],
+		"source": "https://github.com/Sayo-nika/PressKit/tree/master/mascot",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/index.json",
+		"description": "The contents of this pack is licensed under Creative Commons 4.0 Attribution-Noncommercial under: The Sayonika Project Authors (<a href=\"https://github.com/sr229\">sr229</a>, <a href=\"\">Ovyerus</a>), <a href=\"https://reddit.com/u/Cyrke_\">Cyrke</a> and <a href=\"https://reddit.com/u/its_nuxill\">Nuxill</a>. <a href=\"https://github.com/Sayo-nika/PressKit/blob/master/LICENSE\">Licence here</a>.",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/1.png"
 		],
 		"searchWords": []
 	},
@@ -492,6 +573,21 @@
 		"description": "<a href='https://www.reddit.com/comments/9a0yo6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/horrified.lunatic_rabbit.edave64/a.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "sayori.expressions.paincakes.edave64",
+		"name": "Extra expressions",
+		"characters": ["Sayori"],
+		"authors": ["ButtermilkPaincakes"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/el9jzv",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/paincakes.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/paincakes.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/paincakes.edave64/a.png"
 		],
 		"searchWords": []
 	},
@@ -660,8 +756,8 @@
 		"source": "https://www.reddit.com/e97f0h/",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/index.json",
-		"disclaimer": "These sprites are based of a real person. Please be respectful and don't use these as your OC",
-		"description": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />These sprites are based of a real person. Please be respectful and don't use these as your OC",
+		"disclaimer": "These sprites are based on a real person. Please be respectful and don't use these as your OC.",
+		"description": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/a.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/1l.png",
@@ -807,6 +903,22 @@
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/sports.pluralroses.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/sports.pluralroses.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "yuri.poses.paincakes.edave64",
+		"name": "Extra Poses and Expressions",
+		"characters": ["Yuri"],
+		"authors": ["ButtermilkPaincakes"],
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/el9jzv",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/paincakes.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/paincakes.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/paincakes.edave64/a2.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/paincakes.edave64/2.png"
 		],
 		"searchWords": []
 	},

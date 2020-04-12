@@ -45,6 +45,7 @@
 									:href="link.target"
 									target="_blank"
 									rel="noopener noreferrer"
+									class="platform_button"
 									><img
 										:title="link.platform"
 										:src="link.icon"
@@ -160,6 +161,10 @@ interface AuthorLink {
 	left: 0;
 	background: rgba($color: #000000, $alpha: 0.5);
 	display: flex;
+}
+
+.platform_button {
+	margin-right: 6px;
 }
 
 dialog {
