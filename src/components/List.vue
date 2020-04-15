@@ -41,7 +41,10 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { IPack } from '../pack';
-import { IAuthors, IAuthor } from '../authors';
+import { IAuthors } from '../authors';
+import parse from '../filterparser/parser';
+import optimize from '../filterparser/optimize';
+import compile from '../filterparser/compile';
 
 @Component
 export default class List extends Vue {
@@ -71,84 +74,15 @@ export default class List extends Vue {
 	}
 
 	private filterList(list: IPack[], search: string): IPack[] {
-		if (!search) return list;
-		const searchWords = search
-			.toLowerCase()
-			.replace(/\s+/g, ' ')
-			.trim()
-			.split(' ')
-			// Eliminate prefixes
-			.sort()
-			.filter(
-				(word, idx, ary) => !ary[idx + 1] || !ary[idx + 1].startsWith(word)
-			);
-		console.log(searchWords);
-		const newCache: { [id: string]: Set<string> } = {};
-
-		for (const searchWord of searchWords) {
-			if (this.wordCache[searchWord]) {
-				newCache[searchWord] = this.wordCache[searchWord];
-				console.log('reuse cache');
-			} else {
-				console.log('no cache');
-				const matchingAuthors = new Set<string>();
-				for (const authorKey in this.authors) {
-					if (!Object.prototype.hasOwnProperty.call(this.authors, authorKey))
-						continue;
-					const author = this.authors[authorKey]!;
-					const props = Object.keys(author) as (keyof IAuthor)[];
-					if (
-						props.find(
-							prop => author[prop]!.toLowerCase().indexOf(searchWord) >= 0
-						)
-					) {
-						matchingAuthors.add(authorKey);
-					}
-				}
-				const matchingKinds = new Set(
-					['Styles', 'Characters', 'Expressions', 'Poses', 'Misc'].filter(
-						kind => kind.toLowerCase().indexOf(searchWord) >= 0
-					)
-				);
-				const matchingCharacters = new Set(
-					this.uniqueCharacters.filter(char => char.indexOf(searchWord) >= 0)
-				);
-				const matchingPacks = new Set<string>();
-
-				for (const pack of this.packs) {
-					if (
-						pack.id.toLowerCase().indexOf(searchWord) >= 0 ||
-						pack.name.toLowerCase().indexOf(searchWord) >= 0 ||
-						pack.searchWords.find(
-							word => word.toLowerCase().indexOf(searchWord) >= 0
-						) ||
-						pack.authors.find(author => matchingAuthors.has(author)) ||
-						pack.characters.find(char =>
-							matchingCharacters.has(char.toLowerCase())
-						) ||
-						pack.kind.find(kind => matchingKinds.has(kind))
-					) {
-						matchingPacks.add(pack.id);
-					}
-				}
-
-				newCache[searchWord] = matchingPacks;
-			}
-		}
-
-		this.wordCache = newCache;
-
-		const matchedPacks = Object.values(newCache);
-		const lowestMatches = matchedPacks.reduce((acc, val) =>
-			val.size < acc.size ? val : acc
+		if (!search) return [...list];
+		const parsed = parse(search);
+		const optimized = optimize(parsed);
+		const compiled = compile(optimized, this.authors, list);
+		if (compiled.find(matcher => matcher.isImpossible)) return [];
+		const filteredList = list.filter(pack =>
+			compiled.every(matcher => matcher.match(pack))
 		);
-
-		const totalMatches = Array.from(lowestMatches).filter(match =>
-			matchedPacks.every(pack => pack.has(match))
-		);
-
-		const packById = this.listById;
-		return totalMatches.map(id => packById.get(id)!);
+		return filteredList;
 	}
 }
 </script>
