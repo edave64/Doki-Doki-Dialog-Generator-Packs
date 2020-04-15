@@ -3,10 +3,21 @@
 		<table>
 			<thead>
 				<tr>
-					<th>Pack</th>
-					<th>Character</th>
-					<th>Type</th>
-					<th>By</th>
+					<th
+						v-for="(header, idx) of [
+							['name', 'Pack'],
+							['characters', 'Character'],
+							['kind', 'Type'],
+							['authors', 'Authors'],
+						]"
+						:key="idx"
+						@click="sortBy(header[0])"
+					>
+						<div>
+							<div>{{ header[1] }}</div>
+							<div v-if="sort === header[0]">{{ desc ? '▼' : '▲' }}</div>
+						</div>
+					</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -51,11 +62,32 @@ export default class List extends Vue {
 	@Prop() private search!: string;
 	@Prop() private authors!: IAuthors;
 	@Prop() private packs!: IPack[];
+	private sort: keyof IPack | '' = '';
+	private desc = false;
 
 	private wordCache: { [id: string]: Set<string> } = {};
 
 	public get list(): IPack[] {
 		const filtered = this.filterList(this.packs, this.search);
+		if (this.sort && filtered.length > 0) {
+			const sort = this.sort as keyof IPack;
+			let sortFunc: ((a: IPack, b: IPack) => number) | undefined = undefined;
+			if (typeof filtered[0][sort] === 'string') {
+				sortFunc = (a, b) => b.name.localeCompare(a.name);
+			} else if (filtered[0][sort] instanceof Array) {
+				sortFunc = (a, b) =>
+					(a as any)[sort]
+						.join(', ')
+						.localeCompare((b as any)[sort].join(', '));
+			}
+			if (sortFunc) {
+				if (this.desc) {
+					const oldSort = sortFunc;
+					sortFunc = (b, a) => oldSort(a, b);
+				}
+				filtered.sort(sortFunc);
+			}
+		}
 		return filtered;
 	}
 
@@ -71,6 +103,20 @@ export default class List extends Vue {
 				)
 			)
 		);
+	}
+
+	private sortBy(by: keyof IPack) {
+		if (this.sort === by) {
+			if (!this.desc) {
+				this.desc = true;
+			} else {
+				this.sort = '';
+				this.desc = false;
+			}
+		} else {
+			this.sort = by;
+			this.desc = false;
+		}
 	}
 
 	private filterList(list: IPack[], search: string): IPack[] {
@@ -108,8 +154,10 @@ table {
 	min-width: 100%;
 	user-select: none;
 }
-tr:hover {
+tr:hover,
+th:hover {
 	background: #ffe6f4;
+	cursor: pointer;
 }
 th,
 td {
@@ -121,6 +169,11 @@ th {
 	position: sticky;
 	top: 0;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 1);
+
+	> div {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 footer {
 	padding-top: 8px;
