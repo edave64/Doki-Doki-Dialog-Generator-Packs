@@ -1,32 +1,77 @@
 <template>
-	<div class="search-bar" @focusin="onFocusIn" @focusout="onFocusOut">
-		<contenteditable
-			tag="div"
-			class="input"
-			:contenteditable="true"
-			v-model="message"
-			:noNL="true"
-			:noHTML="false"
-			@returned="doUpdate"
-			@input="onUpdate"
-		/>
-		<div
-			v-if="focus && suggestions.length > 0"
-			class="suggestions"
-			tabindex="0"
-		>
-			<div
-				v-for="suggestion of suggestions"
-				:key="suggestion[0]"
-				:class="{
-					suggestion: true,
-					active: currentSuggestion === suggestion[0],
-				}"
-			>
-				<span class="primary">{{ suggestion[0] }}</span
-				>&nbsp;
-				<span class="secondary">{{ suggestion[1] }}</span>
-			</div>
+	<div class="search-area">
+		<div class="search-bar">
+			<input
+				class="input"
+				v-model="message"
+				@input="onUpdate"
+				@click="$event.dontCloseHelp = true"
+			/>
+			<button
+				:class="{ help: true, toggled: showHelp }"
+				@click.stop="
+					showHelp = !showHelp;
+					$event.dontCloseHelp = true;
+				"
+			/>
+		</div>
+		<div class="info-area" v-if="showHelp" @click="$event.dontCloseHelp = true">
+			<p>Enter the text you want to search for. E.g. <code>Monika</code></p>
+			<p>
+				If multiple words are given, each word must be found. E.g.
+				<code>Monika Pose</code>
+			</p>
+			<p>
+				To search phrases with spaces, surround them with double quotes. E.g.
+				<code>"Monika R63" Pose</code>
+			</p>
+			<p>
+				To limit your search to specific attributes of a pack, you can use the
+				following prefixes:
+			</p>
+			<table>
+				<tr>
+					<th>Prefix</th>
+					<th>Description</th>
+					<th>Example</th>
+				</tr>
+				<tr>
+					<td>Character:</td>
+					<td></td>
+					<td><code>Character: Monika</code></td>
+				</tr>
+				<tr>
+					<td>Artist:</td>
+					<td></td>
+					<td><code>Artist: edave64</code></td>
+				</tr>
+				<tr>
+					<td>Type:</td>
+					<td>
+						<code>Expressions</code>, <code>Styles</code>, <code>Poses</code> or
+						<code>Characters</code>
+					</td>
+					<td><code>Type: Poses</code></td>
+				</tr>
+				<tr>
+					<td>Engine:</td>
+					<td>
+						<code>Doki Doki Dialog Generator</code>, <code>DDDG</code> or
+						<code>Doki Doki Comic Club</code>, <code>DDCC</code>
+					</td>
+					<td><code>Engine: DDCC</code></td>
+				</tr>
+				<tr>
+					<td>Pack:</td>
+					<td>The pack itself must contain the text</td>
+					<td><code>Pack: Angry</code></td>
+				</tr>
+			</table>
+
+			<p>
+				Prefixes can be shorted, so <code>Character: Monika</code> can be
+				shortend to <code>C: Monika</code>
+			</p>
 		</div>
 	</div>
 </template>
@@ -37,35 +82,28 @@ import { Watch } from 'vue-property-decorator';
 
 const debounce = 500;
 
-@Component
+@Component({})
 export default class SearchBar extends Vue {
 	@Prop() private value!: string;
 
-	private focus = false;
+	private showHelp = false;
 	private message = '';
 	private debounceTimeout: number | null = null;
 	private lastSend = '';
 
-	private get suggestions(): [string, string][] {
-		return [];
-		/*
-		return [
-			['by', 'author'],
-			['for', 'character'],
-			['has', 'style, expressions, etc'],
-		];
-		*/
+	private created() {
+		document.body.addEventListener('click', this.documentClickHandler);
 	}
 
-	private onFocusIn(event: FocusEvent) {
-		console.log(event);
-		this.focus = true;
+	private destroyed() {
+		document.body.removeEventListener('click', this.documentClickHandler);
 	}
 
-	private onFocusOut(event: FocusEvent) {
-		console.log(event);
-		this.focus = false;
-		console.log(document.activeElement);
+	private documentClickHandler(
+		event: MouseEvent & { dontCloseHelp?: boolean }
+	) {
+		if (event.dontCloseHelp) return;
+		this.showHelp = false;
 	}
 
 	@Watch('value')
@@ -113,12 +151,48 @@ a {
 .search-bar {
 	position: absolute;
 	top: 8px;
-	height: 20px;
 	left: 8px;
 	right: 8px;
+	display: flex;
+}
+
+.info-area {
+	position: absolute;
+	top: 48px;
+	left: 8px;
+	right: 8px;
+	border: 2px solid #ffbde1;
+	background: #fff;
+	max-height: calc(100vh - 56px);
+	overflow: auto;
+	box-shadow: 0px 2px 4px 4px rgba(255, 189, 225, 1);
+
+	code {
+		padding: 2px;
+		background: #ffe6f4;
+		font-family: monospace;
+		white-space: nowrap;
+	}
+}
+
+.help {
+	height: 42px;
+	width: 40px;
+	border: 2px solid #ffbde1;
+	border-left: 0;
+	background: #ffe6f4 url(./info.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+
+	&.toggled {
+		background-color: #ffbde1;
+	}
 }
 
 .input {
+	display: block;
+	width: calc(100% - 40px);
 	border: 2px solid #ffbde1;
 	padding: 8px;
 	height: 42px;
@@ -128,6 +202,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right center;
+	padding-right: 64px;
 }
 
 .suggestions {
