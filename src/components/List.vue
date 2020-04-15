@@ -73,7 +73,7 @@ export default class List extends Vue {
 			const sort = this.sort as keyof IPack;
 			let sortFunc: ((a: IPack, b: IPack) => number) | undefined = undefined;
 			if (typeof filtered[0][sort] === 'string') {
-				sortFunc = (a, b) => b.name.localeCompare(a.name);
+				sortFunc = (a, b) => a.name.localeCompare(b.name);
 			} else if (filtered[0][sort] instanceof Array) {
 				sortFunc = (a, b) =>
 					(a as any)[sort]
