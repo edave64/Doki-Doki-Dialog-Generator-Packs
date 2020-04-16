@@ -28,6 +28,7 @@
 				<input
 					v-if="pack.dddg1Path"
 					ref="copyable"
+					tabindex="-1"
 					:value="pack.dddg1Path"
 					readonly
 				/>
