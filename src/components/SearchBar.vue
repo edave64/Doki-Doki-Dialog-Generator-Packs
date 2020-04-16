@@ -5,12 +5,14 @@
 				class="input"
 				ref="input"
 				v-model="message"
+				:disabled="disabled"
 				@input="onUpdate"
 				@click="$event.dontCloseHelp = true"
 				@keydown="keydownHandler"
 			/>
 			<button
 				:class="{ help: true, toggled: showHelp }"
+				:disabled="disabled"
 				@click.stop="
 					showHelp = !showHelp;
 					$event.dontCloseHelp = true;
@@ -86,6 +88,7 @@ const debounce = 250;
 
 @Component({})
 export default class SearchBar extends Vue {
+	@Prop({ default: false }) private disabled!: boolean;
 	@Prop() private value!: string;
 
 	private showHelp = false;

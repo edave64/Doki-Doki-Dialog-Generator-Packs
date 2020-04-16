@@ -5,6 +5,7 @@
 				class="search-bar"
 				ref="searchBar"
 				v-model="search"
+				:disabled="!!selected"
 				@focus-list="focusListHandler"
 			/>
 			<list
@@ -13,6 +14,7 @@
 				:search="search"
 				:authors="authors"
 				:packs="packs"
+				:disabled="!!selected"
 				@selected="onSelect"
 				@select-search-bar="$refs.searchBar.focus()"
 			/>

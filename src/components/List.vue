@@ -11,7 +11,7 @@
 							['authors', 'Authors'],
 						]"
 						:key="idx"
-						:tabindex="0"
+						:tabindex="disabled ? -1 : 0"
 						@click="sortBy(header[0])"
 						@keydown="headerKeydownListener($event, header[0])"
 					>
@@ -26,7 +26,7 @@
 				name="tbody-group"
 				tag="tbody"
 				ref="tbody"
-				:tabindex="0"
+				:tabindex="disabled ? -1 : 0"
 				@keydown.native="keydownHandler"
 				@focus.native="updateFocusedItem"
 			>
@@ -54,13 +54,20 @@
 			Created by edave64. Fork this on
 			<a
 				href="https://github.com/edave64/Doki-Doki-Dialog-Generator-Packs/tree/repo-browser"
+				:tabindex="disabled ? -1 : 0"
 				>github</a
 			>.<br />
 			To be used with the
-			<a href="https://edave64.github.io/Doki-Doki-Dialog-Generator/release/"
+			<a
+				href="https://edave64.github.io/Doki-Doki-Dialog-Generator/release/"
+				:tabindex="disabled ? -1 : 0"
 				>Doki Doki Dialog Generator</a
 			><br />
-			Using <a href="https://material.io/">material icons</a> by google
+			Using
+			<a href="https://material.io/" :tabindex="disabled ? -1 : 0"
+				>material icons</a
+			>
+			by google
 		</footer>
 	</div>
 </template>
@@ -79,6 +86,7 @@ export default class List extends Vue {
 	@Prop() private search!: string;
 	@Prop() private authors!: IAuthors;
 	@Prop() private packs!: IPack[];
+	@Prop({ default: false }) private disabled!: boolean;
 	private sort: keyof IPack | '' = '';
 	private desc = false;
 	private focusedItem = '';
