@@ -1,7 +1,12 @@
 <template>
 	<div class="dialog-wrapper" @click="$emit('leave')">
-		<dialog ref="packDialog" open>
-			<pack-display :selected="selected" :authors="authors" :packs="packs" />
+		<dialog open>
+			<pack-display
+				ref="packDialog"
+				:selected="selected"
+				:authors="authors"
+				:packs="packs"
+			/>
 		</dialog>
 	</div>
 </template>
@@ -17,6 +22,10 @@ export default class Dialog extends Vue {
 	@Prop() private selected!: string;
 	@Prop() private authors!: IAuthors;
 	@Prop() private packs!: IPack[];
+
+	public focus() {
+		(this.$refs.packDialog as PackDisplay).focus();
+	}
 }
 </script>
 

@@ -35,7 +35,7 @@
 						focused: focusedItem === pack.id,
 					}"
 					@click="
-						$emit('selected', pack.id);
+						$emit('selected', { id: pack.id, source: 'pointer' });
 					"
 				>
 					<td>{{ pack.name }}</td>
@@ -142,6 +142,11 @@ export default class List extends Vue {
 		);
 		return filteredList;
 	}
+}
+
+export interface SelectedEvent {
+	id: string;
+	source: 'keyboard' | 'pointer';
 }
 </script>
 

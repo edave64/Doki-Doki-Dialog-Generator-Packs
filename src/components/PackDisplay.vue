@@ -13,7 +13,12 @@
 			>
 		</section>
 		<section>
-			<button v-if="pack.dddg1Path" class="clipboard" @click="copyToClipboard">
+			<button
+				v-if="pack.dddg1Path"
+				class="clipboard"
+				ref="toFocus"
+				@click="copyToClipboard"
+			>
 				Copy DDDG Content Pack
 			</button>
 			<button v-if="pack.ddcc2Path" @click="openDDCCUrl">
@@ -82,10 +87,14 @@ const expandablePlatforms: Array<[keyof IAuthor, string]> = [
 ];
 
 @Component({})
-export default class Dialog extends Vue {
+export default class PackDisplay extends Vue {
 	@Prop() private selected!: string;
 	@Prop() private authors!: IAuthors;
 	@Prop() private packs!: IPack[];
+
+	public focus() {
+		(this.$refs.toFocus as HTMLElement).focus();
+	}
 
 	private authorName(authorId: string) {
 		const author = this.authors[authorId];

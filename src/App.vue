@@ -5,7 +5,7 @@
 				:search="search"
 				:authors="authors"
 				:packs="packs"
-				@selected="selected = $event"
+				@selected="onSelect"
 			/>
 			<search-bar v-model="search" />
 		</div>
@@ -22,7 +22,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import SearchBar from './components/SearchBar.vue';
-import List from './components/List.vue';
+import List, { SelectedEvent } from './components/List.vue';
 import PackDialog from './components/Dialog.vue';
 import { IAuthors } from './authors';
 import { IPack } from './pack';
@@ -52,6 +52,17 @@ export default class App extends Vue {
 		const req = await fetch(path);
 		return await req.json();
 	}
+
+	private onSelect({ id, source }: SelectedEvent) {
+		this.selected = id;
+		if (source === 'keyboard') {
+			this.$nextTick(() => {
+				const dialog = this.$refs.dialog as PackDialog;
+				dialog.focus();
+			});
+		}
+	}
+
 }
 </script>
 
