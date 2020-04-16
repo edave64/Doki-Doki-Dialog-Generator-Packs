@@ -2,7 +2,7 @@
 	<div class="list">
 		<table>
 			<thead>
-				<tr>
+				<tr ref="header">
 					<th
 						v-for="(header, idx) of [
 							['name', 'Pack'],
@@ -11,7 +11,9 @@
 							['authors', 'Authors'],
 						]"
 						:key="idx"
+						:tabindex="0"
 						@click="sortBy(header[0])"
+						@keydown="headerKeydownListener($event, header[0])"
 					>
 						<div>
 							<div>{{ header[1] }}</div>
@@ -23,9 +25,10 @@
 			<transition-group
 				name="tbody-group"
 				tag="tbody"
-				tabindex="0"
-				@keydown="keydownHandler"
-				@focus="updateFocusedItem"
+				ref="tbody"
+				:tabindex="0"
+				@keydown.native="keydownHandler"
+				@focus.native="updateFocusedItem"
 			>
 				<tr
 					v-for="pack of list"
@@ -35,6 +38,7 @@
 						focused: focusedItem === pack.id,
 					}"
 					@click="
+						focusedItem = pack.id;
 						$emit('selected', { id: pack.id, source: 'pointer' });
 					"
 				>
@@ -68,6 +72,7 @@ import { IAuthors } from '../authors';
 import parse from '../filterparser/parser';
 import optimize from '../filterparser/optimize';
 import compile from '../filterparser/compile';
+import { Watch } from 'vue-property-decorator';
 
 @Component
 export default class List extends Vue {
@@ -76,6 +81,7 @@ export default class List extends Vue {
 	@Prop() private packs!: IPack[];
 	private sort: keyof IPack | '' = '';
 	private desc = false;
+	private focusedItem = '';
 
 	private wordCache: { [id: string]: Set<string> } = {};
 
@@ -105,6 +111,114 @@ export default class List extends Vue {
 
 	public get listById(): Map<string, IPack> {
 		return new Map(this.packs.map(pack => [pack.id, pack]));
+	}
+
+	private keydownHandler(event: KeyboardEvent) {
+		const indexOf = this.list.findIndex(pack => pack.id === this.focusedItem);
+		console.log(indexOf);
+		switch (event.key) {
+			case 'Enter':
+				this.$emit('selected', { id: this.focusedItem, source: 'keyboard' });
+				event.stopPropagation();
+				event.preventDefault();
+				break;
+			case 'ArrowUp':
+				event.preventDefault();
+				event.stopPropagation();
+				if (indexOf === 0) {
+					this.$emit('select-search-bar');
+				} else {
+					this.focusedItem = this.list[indexOf - 1].id;
+				}
+				break;
+			case 'ArrowDown':
+				event.preventDefault();
+				event.stopPropagation();
+				if (indexOf < this.list.length - 1) {
+					this.focusedItem = this.list[indexOf + 1].id;
+				}
+				break;
+			case 'PageUp': {
+				event.preventDefault();
+				event.stopPropagation();
+				let newIdx = indexOf - 10;
+				if (newIdx < 0) {
+					newIdx = 0;
+				}
+				this.focusedItem = this.list[newIdx].id;
+				break;
+			}
+			case 'PageDown': {
+				event.preventDefault();
+				event.stopPropagation();
+				let newIdx = indexOf + 10;
+				const max = this.list.length - 1;
+				if (newIdx > max) {
+					newIdx = max;
+				}
+				this.focusedItem = this.list[newIdx].id;
+				break;
+			}
+		}
+	}
+
+	private headerKeydownListener(event: KeyboardEvent, headerId: keyof IPack) {
+		switch (event.key) {
+			case 'Enter':
+			case ' ':
+				this.sortBy(headerId);
+				event.preventDefault();
+				event.stopPropagation();
+				break;
+			case 'ArrowDown':
+				this.focus();
+				event.stopPropagation();
+				event.preventDefault();
+				break;
+			case 'ArrowUp':
+				this.$emit('select-search-bar');
+				event.stopPropagation();
+				event.preventDefault();
+				break;
+		}
+	}
+
+	public focus(): void {
+		((this.$refs.tbody as Vue).$el as HTMLElement).focus();
+	}
+
+	@Watch('focusedItem')
+	private updateFocusedItem() {
+		if (this.list.length === 0) {
+			this.focusedItem = '';
+			return;
+		}
+		if (this.focusedItem === '') {
+			this.focusedItem = this.list[0].id;
+		}
+
+		this.$nextTick(() => {
+			const header = this.$refs.header as HTMLElement;
+			const element = document.querySelector(
+				'.list tbody .focused'
+			) as HTMLDivElement;
+
+			const containerHeight =
+				(this.$el as HTMLElement).offsetHeight - header.offsetHeight;
+			const scrollTop = this.$el.scrollTop;
+			const scrollBottom = scrollTop + containerHeight;
+
+			if (element) {
+				const itemTop = element.offsetTop - header.offsetHeight;
+				const itemBottom = itemTop + element.offsetHeight;
+
+				if (itemBottom > scrollBottom) {
+					this.$el.scrollTop = itemBottom - containerHeight;
+				} else if (itemTop < scrollTop) {
+					this.$el.scrollTop = itemTop;
+				}
+			}
+		});
 	}
 
 	private get uniqueCharacters(): string[] {
@@ -179,6 +293,15 @@ table {
 	border-collapse: collapse;
 	min-width: 100%;
 	user-select: none;
+	.focused {
+		background: #ffe6f4;
+	}
+}
+tbody:focus {
+	outline: 0;
+	.focused {
+		background: #ffbde1;
+	}
 }
 tr:hover,
 th:hover {
