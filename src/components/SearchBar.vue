@@ -3,9 +3,11 @@
 		<div class="search-bar">
 			<input
 				class="input"
+				ref="input"
 				v-model="message"
 				@input="onUpdate"
 				@click="$event.dontCloseHelp = true"
+				@keydown="keydownHandler"
 			/>
 			<button
 				:class="{ help: true, toggled: showHelp }"
@@ -91,6 +93,10 @@ export default class SearchBar extends Vue {
 	private debounceTimeout: number | null = null;
 	private lastSend = '';
 
+	public focus() {
+		(this.$refs.input as HTMLElement).focus();
+	}
+
 	private created() {
 		document.body.addEventListener('click', this.documentClickHandler);
 	}
@@ -104,6 +110,14 @@ export default class SearchBar extends Vue {
 	) {
 		if (event.dontCloseHelp) return;
 		this.showHelp = false;
+	}
+
+	private keydownHandler(event: KeyboardEvent) {
+		if (event.key === 'ArrowDown') {
+			this.$emit('focus-list');
+			event.preventDefault();
+			event.stopPropagation();
+		}
 	}
 
 	@Watch('value')

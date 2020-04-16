@@ -1,16 +1,25 @@
 <template>
-	<div id="app">
+	<div id="app" @keydown="keydownHandler">
 		<div id="center_wrapper" :class="{ blured: selected }">
+			<search-bar
+				class="search-bar"
+				ref="searchBar"
+				v-model="search"
+				@focus-list="focusListHandler"
+			/>
 			<list
+				class="list"
+				ref="list"
 				:search="search"
 				:authors="authors"
 				:packs="packs"
 				@selected="onSelect"
+				@select-search-bar="$refs.searchBar.focus()"
 			/>
-			<search-bar v-model="search" />
 		</div>
 		<pack-dialog
 			v-if="selected"
+			ref="dialog"
 			:authors="authors"
 			:packs="packs"
 			:selected="selected"
@@ -53,6 +62,15 @@ export default class App extends Vue {
 		return await req.json();
 	}
 
+	private keydownHandler(event: KeyboardEvent) {
+		if (event.key === 'Escape') {
+			this.selected = '';
+			this.$nextTick(() => {
+				(this.$refs.searchBar as SearchBar).focus();
+			});
+		}
+	}
+
 	private onSelect({ id, source }: SelectedEvent) {
 		this.selected = id;
 		if (source === 'keyboard') {
@@ -63,6 +81,9 @@ export default class App extends Vue {
 		}
 	}
 
+	private focusListHandler() {
+		(this.$refs.list as List).focus();
+	}
 }
 </script>
 
@@ -106,6 +127,14 @@ button {
 	&.blured {
 		transition: filter 250ms;
 		filter: blur(2px);
+	}
+
+	.list {
+		z-index: 0;
+	}
+
+	.search-bar {
+		z-index: 1;
 	}
 }
 </style>
