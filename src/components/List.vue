@@ -20,18 +20,30 @@
 					</th>
 				</tr>
 			</thead>
-			<tbody>
+			<transition-group
+				name="tbody-group"
+				tag="tbody"
+				tabindex="0"
+				@keydown="keydownHandler"
+				@focus="updateFocusedItem"
+			>
 				<tr
 					v-for="pack of list"
 					:key="pack.id"
-					@click="$emit('selected', pack.id)"
+					:class="{
+						'tbody-group-item': true,
+						focused: focusedItem === pack.id,
+					}"
+					@click="
+						$emit('selected', pack.id);
+					"
 				>
 					<td>{{ pack.name }}</td>
 					<td>{{ pack.characters.join(', ') }}</td>
 					<td>{{ pack.kind.join(', ') }}</td>
 					<td>{{ pack.authors.join(', ') }}</td>
 				</tr>
-			</tbody>
+			</transition-group>
 		</table>
 		<div class="spacer"></div>
 		<footer>
@@ -145,6 +157,15 @@ export default class List extends Vue {
 	display: flex;
 	flex-direction: column;
 }
+
+.tbody-group-item {
+	opacity: 1;
+	transition: all 0.15s;
+}
+.tbody-group-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
+	opacity: 0;
+}
+
 .spacer {
 	flex-grow: 1;
 }

@@ -80,7 +80,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { Watch } from 'vue-property-decorator';
 
-const debounce = 500;
+const debounce = 250;
 
 @Component({})
 export default class SearchBar extends Vue {
