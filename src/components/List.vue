@@ -37,10 +37,8 @@
 						'tbody-group-item': true,
 						focused: focusedItem === pack.id,
 					}"
-					@click="
-						focusedItem = pack.id;
-						$emit('selected', { id: pack.id, source: 'pointer' });
-					"
+					@mousedown="focusedItem = pack.id"
+					@click="$emit('selected', { id: pack.id, source: 'pointer' })"
 				>
 					<td>{{ pack.name }}</td>
 					<td>{{ pack.characters.join(', ') }}</td>
@@ -197,6 +195,7 @@ export default class List extends Vue {
 
 	@Watch('focusedItem')
 	private updateFocusedItem() {
+		debugger;
 		if (this.list.length === 0) {
 			this.focusedItem = '';
 			return;

@@ -1,7 +1,14 @@
 <template>
 	<div class="pack-display" :style="{ backgroundImage }" @click.stop>
 		<header>
-			<h1>{{ pack.name }}</h1>
+			<h1>
+				<button
+					v-if="showBack"
+					class="exit-button"
+					@click="$emit('leave', true)"
+				></button>
+				{{ pack.name }}
+			</h1>
 			<h2>{{ pack.id }}</h2>
 		</header>
 		<section class="disclaimer" v-if="pack.disclaimer">
@@ -92,6 +99,7 @@ export default class PackDisplay extends Vue {
 	@Prop() private selected!: string;
 	@Prop() private authors!: IAuthors;
 	@Prop() private packs!: IPack[];
+	@Prop({ type: Boolean, default: false }) private showBack!: boolean;
 
 	public focus() {
 		(this.$refs.toFocus as HTMLElement).focus();
@@ -159,6 +167,15 @@ interface AuthorLink {
 <style scoped lang="scss">
 .platform_button {
 	margin-right: 6px;
+}
+
+.exit-button {
+	background: url(./clear.svg);
+	height: 32px;
+	width: 32px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .pack-display {

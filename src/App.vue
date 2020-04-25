@@ -1,56 +1,26 @@
 <template>
-	<div id="app" @keydown="keydownHandler">
-		<div id="center_wrapper" :class="{ blured: selected }">
-			<search-bar
-				class="search-bar"
-				ref="searchBar"
-				v-model="search"
-				:disabled="!!selected"
-				@focus-list="focusListHandler"
-			/>
-			<list
-				class="list"
-				ref="list"
-				:search="search"
-				:authors="authors"
-				:packs="packs"
-				:disabled="!!selected"
-				@selected="onSelect"
-				@select-search-bar="$refs.searchBar.focus()"
-			/>
-		</div>
-		<pack-dialog
-			v-if="selected"
-			ref="dialog"
-			:authors="authors"
-			:packs="packs"
-			:selected="selected"
-			@leave="selected = null"
-		/>
-	</div>
+	<standalone :authors="authors" :packs="packs" />
+	<!--<div style="width: 100vw; height: 100vh">
+		<single-box :authors="authors" :packs="packs" />
+	</div>-->
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import SearchBar from './components/SearchBar.vue';
-import List, { SelectedEvent } from './components/List.vue';
-import PackDialog from './components/Dialog.vue';
+import Standalone from './layouts/Standalone.vue';
+// import SingleBox from './layouts/SingleBox.vue';
 import { IAuthors } from './authors';
 import { IPack } from './pack';
 
 @Component({
 	components: {
-		SearchBar,
-		List,
-		PackDialog,
+		Standalone,
+		//SingleBox,
 	},
 })
 export default class App extends Vue {
-	private search = '';
 	private authors: IAuthors = {};
 	private packs: IPack[] = [];
-
-	private selected: string | null = null;
 
 	public async created() {
 		[this.packs, this.authors] = await Promise.all([
@@ -62,29 +32,6 @@ export default class App extends Vue {
 	private async fetchJSON<A>(path: string): Promise<A> {
 		const req = await fetch(path);
 		return await req.json();
-	}
-
-	private keydownHandler(event: KeyboardEvent) {
-		if (event.key === 'Escape') {
-			this.selected = '';
-			this.$nextTick(() => {
-				(this.$refs.searchBar as SearchBar).focus();
-			});
-		}
-	}
-
-	private onSelect({ id, source }: SelectedEvent) {
-		this.selected = id;
-		if (source === 'keyboard') {
-			this.$nextTick(() => {
-				const dialog = this.$refs.dialog as PackDialog;
-				dialog.focus();
-			});
-		}
-	}
-
-	private focusListHandler() {
-		(this.$refs.list as List).focus();
 	}
 }
 </script>
