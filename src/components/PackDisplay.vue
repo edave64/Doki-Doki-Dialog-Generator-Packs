@@ -75,8 +75,8 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import { IAuthors, IAuthor } from '../authors';
-import { IPack } from '../pack';
+import { IAuthor, IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
 import { sanitize } from '../character-pack-sanitizer';
 
 const linkablePlatforms: Array<[keyof IAuthor, string, string]> = [
@@ -88,10 +88,6 @@ const linkablePlatforms: Array<[keyof IAuthor, string, string]> = [
 	['facebook', 'https://www.facebook.com/%1', 'facebook.png'],
 	['github', 'https://github.com/%1', 'github.png'],
 	['website', '%1', 'website.svg'],
-];
-
-const expandablePlatforms: Array<[keyof IAuthor, string]> = [
-	['discord', 'discord.svg'],
 ];
 
 @Component({})

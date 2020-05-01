@@ -71,13 +71,10 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
-import { IPack } from '../pack';
-import { IAuthors } from '../authors';
-import parse from '../filterparser/parser';
-import optimize from '../filterparser/optimize';
-import compile from '../filterparser/compile';
-import { Watch } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
+import { IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import run from '@edave64/dddg-repo-filters/dist/main';
 
 @Component
 export default class List extends Vue {
@@ -254,14 +251,7 @@ export default class List extends Vue {
 
 	private filterList(list: IPack[], search: string): IPack[] {
 		if (!search) return [...list];
-		const parsed = parse(search);
-		const optimized = optimize(parsed);
-		const compiled = compile(optimized, this.authors, list);
-		if (compiled.find(matcher => matcher.isImpossible)) return [];
-		const filteredList = list.filter(pack =>
-			compiled.every(matcher => matcher.match(pack))
-		);
-		return filteredList;
+		return run(search, this.authors, list);
 	}
 }
 

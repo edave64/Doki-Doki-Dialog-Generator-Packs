@@ -35,8 +35,8 @@ import { Component, Vue } from 'vue-property-decorator';
 import SearchBar from '../components/SearchBar.vue';
 import List, { SelectedEvent } from '../components/List.vue';
 import PackDialog from '../components/Dialog.vue';
-import { IAuthors } from '../authors';
-import { IPack } from '../pack';
+import { IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
 import { Prop } from 'vue-property-decorator';
 
 @Component({

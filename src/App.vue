@@ -9,8 +9,8 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Standalone from './layouts/Standalone.vue';
 // import SingleBox from './layouts/SingleBox.vue';
-import { IAuthors } from './authors';
-import { IPack } from './pack';
+import { IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
 
 @Component({
 	components: {

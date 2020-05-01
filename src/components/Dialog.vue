@@ -13,8 +13,8 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import { IAuthors } from '../authors';
-import { IPack } from '../pack';
+import { IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
 import PackDisplay from './PackDisplay.vue';
 
 @Component({ components: { PackDisplay } })

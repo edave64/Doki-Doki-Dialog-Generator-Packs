@@ -38,8 +38,8 @@ import { Component, Vue } from 'vue-property-decorator';
 import SearchBar from '../components/SearchBar.vue';
 import List, { SelectedEvent } from '../components/List.vue';
 import PackDisplay from '../components/PackDisplay.vue';
-import { IAuthors } from '../authors';
-import { IPack } from '../pack';
+import { IAuthors } from '@edave64/dddg-repo-filters/dist/authors';
+import { IPack } from '@edave64/dddg-repo-filters/dist/pack';
 
 @Component({
 	components: {
