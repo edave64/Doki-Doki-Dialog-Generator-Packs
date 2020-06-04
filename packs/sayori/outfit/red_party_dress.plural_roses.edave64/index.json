@@ -5,6 +5,10 @@
 	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
 	"packName": "Red dress",
 	"authors": ["Plural Roses"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/edceu7'}Sayori party dress{/a}"],
+		"right": ["{a='https://www.deviantart.com/15laruea'}PluralRoses{/a}"]
+	},
 	"source": "https://www.reddit.com/edceu7",
 	"comicClubUrl": "https://drive.google.com/open?id=1YyF2NWAVVgoHfKarbsIf3O69mTTh9Xa7",
 	"folder": "./",

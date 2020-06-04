@@ -5,6 +5,10 @@
 	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
 	"packName": "Gym Outfit",
 	"authors": ["Cyrke"],
+	"cc2credits": {
+		"left": ["Natsuki gym outfit"],
+		"right": ["{a='https://www.reddit.com/u/Cyrke_'}Cyrke{/a}"]
+	},
 	"comicClubUrl": "https://drive.google.com/open?id=16wOZC6EmbaE_TWqu2DlDby_qKfiaKp9w",
 	"folder": "./",
 	"styles": [

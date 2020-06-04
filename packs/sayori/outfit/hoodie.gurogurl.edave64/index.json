@@ -5,6 +5,10 @@
 	"packCredits": "<a href='https://www.reddit.com/comments/8rfjmh'>Created by</a> gurogurl",
 	"packName": "Hoodie",
 	"authors": ["gurogurl"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/8rfjmh'}Sayori hoodie{/a}"],
+		"right": ["gurogurl"]
+	},
 	"source": "https://www.reddit.com/8rfjmh",
 	"comicClubUrl": "https://drive.google.com/open?id=1pgYHipG1ArtI3scqke5ZkhxM7ETZ283x",
 	"folder": "./",

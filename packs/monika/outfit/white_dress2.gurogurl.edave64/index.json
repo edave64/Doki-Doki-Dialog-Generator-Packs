@@ -9,7 +9,7 @@
 	"source": "https://www.reddit.com/comments/8x5hsf/",
 	"cc2credits": {
 		"left": ["White summer dress"],
-		"right": ["{a='https://www.reddit.com/u/gurogurl}gurogurl{/a}"]
+		"right": ["{a='https://www.reddit.com/u/gurogurl'}gurogurl{/a}"]
 	},
 	"folder": "./",
 	"styles": [

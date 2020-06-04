@@ -38,15 +38,27 @@ async function singlePack() {}
  */
 async function getAllPacks(basedir) {
 	const contents = await promisify(fs.readdir)(basedir);
-	const fullPaths = contents.map(item => path.join(basedir, item));
-	const areDirectory = await Promise.all(fullPaths.map(path => isDir(path)));
+	const fullPaths = contents.map((item) => path.join(basedir, item));
+	const areDirectory = await Promise.all(fullPaths.map((path) => isDir(path)));
 	const dirs = contents.filter((_val, idx) => areDirectory[idx]);
+
 	const hasJSON = await Promise.all(
-		dirs.map(async dir => {
+		dirs.map(async (dir) => {
 			return await isFile(path.join(basedir, dir, 'index.json'));
 		})
 	);
-	return dirs.filter((dir, idx) => hasJSON[idx]);
+
+	const packs = dirs.filter((dir, idx) => hasJSON[idx]);
+	const recursionSubFolders = dirs.filter((dir, idx) => !hasJSON[idx]);
+
+	for (const subFolder of recursionSubFolders) {
+		const subPacks = await getAllPacks(path.join(basedir, subFolder));
+		for (const subPack of subPacks) {
+			packs.push(subFolder + '/' + subPack);
+		}
+	}
+
+	return packs;
 }
 
 /**
@@ -68,12 +80,12 @@ function filtering(filter, packs) {
 		'^' +
 			filter
 				.split('*')
-				.map(x => escapeStringRegexp(x))
+				.map((x) => escapeStringRegexp(x))
 				.join('.*') +
 			'$',
 		'i'
 	);
-	return packs.filter(pack => pack.match(regex));
+	return packs.filter((pack) => pack.match(regex));
 }
 
 const headAssoc = {
@@ -87,6 +99,20 @@ const headAssoc = {
 	'ddlc.natsuki.sideways': '_head_cpack_compat',
 	'ddlc.natsuki.turned': '_head_cpack_compat',
 };
+
+/**
+ * @param {string} styleName
+ * @returns {string}
+ */
+function normalizeStyleName(styleName) {
+	if (styleName === 'uniform') {
+		return '';
+	}
+	if (styleName === 'casual') {
+		return '_cas';
+	}
+	return '_' + styleName;
+}
 
 /**
  * @param {string} characterName
@@ -105,10 +131,16 @@ async function writeCharacterFile(
 		`character="${characterName}"\n` +
 		`custom=True\n`;
 
-	const subPoses = [];
+	const subPosesByStyle = {};
 	const id = json.id;
 	for (const pose of json.poses) {
-		const heads = pose.compatibleHeads.map(head => headAssoc[`${id}.${head}`]);
+		if (!subPosesByStyle[normalizeStyleName(pose.style)]) {
+			subPosesByStyle[normalizeStyleName(pose.style)] = [];
+		}
+		const subPoses = subPosesByStyle[normalizeStyleName(pose.style)];
+		const heads = pose.compatibleHeads.map(
+			(head) => headAssoc[`${id}.${head}`]
+		);
 
 		const uniqueHeads = [];
 		for (const head of heads) {
@@ -140,8 +172,8 @@ async function writeCharacterFile(
 				}
 			}
 		}
-		const noExtPoses = poses.map(pose =>
-			pose.map(posePart => {
+		const noExtPoses = poses.map((pose) =>
+			pose.map((posePart) => {
 				if (typeof posePart === 'object') {
 					posePart = posePart.img;
 				}
@@ -161,11 +193,23 @@ async function writeCharacterFile(
 		}
 	}
 
-	out += `poses=[${subPoses
-		.map(subPose => {
-			return `(${subPose.map(formatSubposeElement).join(',')})`;
-		})
-		.join(',')}]\n`;
+	const newStyles = Object.keys(subPosesByStyle).filter(
+		(style) => style !== '' && style !== '_cas'
+	);
+
+	if (newStyles.length > 0) {
+		out += `styles=[${newStyles.map((style) => `"${style}"`).join(',')}]\n`;
+	}
+
+	for (const style in subPosesByStyle) {
+		if (!subPosesByStyle.hasOwnProperty(style)) continue;
+		const subPoses = subPosesByStyle[style];
+		out += `poses${style}=[${subPoses
+			.map((subPose) => {
+				return `(${subPose.map(formatSubposeElement).join(',')})`;
+			})
+			.join(',')}]\n`;
+	}
 
 	console.log(
 		'Enter credits. They are split into left and right side. Leave both sides empty to stop.'
@@ -228,12 +272,12 @@ async function convertPackage(
 	}
 	const characterName = dgName2ccName(json.id);
 
-	const cc2PackName = dgPackId2ccPackId(packName);
+	const cc2PackName = dgPackId2ccPackId(json.packId);
 	const assetFolderName = cc2PackName.startsWith(`${characterName}__`)
 		? cc2PackName.slice(characterName.length + 2)
 		: cc2PackName;
 	if (useSubfolders) {
-		outdir = path.join(outdir, packName);
+		outdir = path.join(outdir, json.packId);
 		await mkdirp(outdir);
 	}
 	const assetDir = path.join(
@@ -265,14 +309,14 @@ async function convertPackage(
 async function copyPngs(source, dest) {
 	const allFiles = await promisify(fs.readdir)(source);
 	const possiblePngs = allFiles
-		.filter(filename => filename.endsWith('.png'))
-		.map(filename => path.join(source, filename));
+		.filter((filename) => filename.endsWith('.png'))
+		.map((filename) => path.join(source, filename));
 	const areFiles = await Promise.all(
-		possiblePngs.map(filePath => isFile(filePath))
+		possiblePngs.map((filePath) => isFile(filePath))
 	);
 	const actualPngs = possiblePngs.filter((_path, idx) => areFiles[idx]);
 	const copyP = promisify(fs.copyFile);
-	const copyPs = actualPngs.map(pngPath =>
+	const copyPs = actualPngs.map((pngPath) =>
 		copyP(pngPath, path.join(dest, path.basename(pngPath)))
 	);
 	await Promise.all(copyPs);
@@ -286,7 +330,7 @@ async function main() {
 		'Which directory do you want to read the packs from?',
 		path.resolve('.'),
 		false,
-		async dir => {
+		async (dir) => {
 			const packs = await getAllPacks(dir);
 			if (packs.length === 0) {
 				if (await isFile(path.join(dir, 'index.json'))) {
@@ -319,7 +363,7 @@ async function main() {
 	filter = await readline.ask(
 		'Which mask do you want the packs to be filtered by?',
 		filter,
-		str => {
+		(str) => {
 			if (filtering(str, packs).length === 0) {
 				console.error('Filter matches no pack');
 				return false;

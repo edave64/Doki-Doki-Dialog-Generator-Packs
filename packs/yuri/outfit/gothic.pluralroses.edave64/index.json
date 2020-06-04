@@ -5,6 +5,10 @@
 	"packCredits": "<a href='https://www.reddit.com/e0zuxg'>Created by</a> PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
 	"packName": "Gothic Outfit",
 	"authors": ["Plural Roses"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/e0zuxg'}Yuri gothic outfit{/a}"],
+		"right": ["{a='https://www.deviantart.com/15laruea'}PluralRoses{/a}"]
+	},
 	"source": "https://www.reddit.com/e0zuxg/",
 	"comicClubUrl": "https://drive.google.com/open?id=1A1uDP4atCFQg83f1pBZQvxjapC39ji0U",
 	"folder": "./",

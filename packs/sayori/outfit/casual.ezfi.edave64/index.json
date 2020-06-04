@@ -5,6 +5,12 @@
 	"packCredits": "<a href='https://www.reddit.com/80rf5i'>Created by</a> ezfi",
 	"packName": "Tee shirt and jeans",
 	"authors": ["ezfi"],
+	"cc2credits": {
+		"left": [
+			"{a='https://www.reddit.com/80rf5i'}Sayori tee shirt and jeans{/a}"
+		],
+		"right": ["ezfi"]
+	},
 	"source": "https://www.reddit.com/80rf5i",
 	"comicClubUrl": "https://drive.google.com/open?id=1pt9Z92exAbw-CfwYXKigY9NdoXgXDEWO",
 	"folder": "./",

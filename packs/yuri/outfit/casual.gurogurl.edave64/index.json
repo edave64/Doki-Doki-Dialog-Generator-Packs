@@ -5,6 +5,10 @@
 	"packCredits": "<a href='https://www.reddit.com/8xxfbb'>Created by</a> gurogurl)",
 	"packName": "Summer casuals",
 	"authors": ["gurogurl"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/8xxfbb'}Yuri summer casuals{/a}"],
+		"right": ["gurogurl"]
+	},
 	"source": "https://www.reddit.com/8xxfbb",
 	"comicClubUrl": "https://drive.google.com/open?id=1eKqWh2r8vOrY_V5PJVOuavRr7dQICug5",
 	"folder": "./",
