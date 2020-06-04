@@ -5,6 +5,11 @@
 	"source": "https://www.reddit.com/ffgxy7/",
 	"packName": "Turned",
 	"authors": ["NormallyAverage"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/ffgxy7'}Natsuki turned{/a}"],
+		"right": ["{a='https://reddit.com/u/NormallyAverage'}Normally Average{/a}"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/1egKnQYyV9ZbKPMfH6dEy6cU0xrPfDiTq/view?usp=sharing",
 	"id": "ddlc.natsuki",
 	"folder": "./",
 	"heads": {},
