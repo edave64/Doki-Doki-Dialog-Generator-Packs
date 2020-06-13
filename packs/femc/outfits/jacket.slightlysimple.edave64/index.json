@@ -1,0 +1,96 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.femc",
+	"packId": "femc.oufits.jacket.slightlysimple.edave64",
+	"packCredits": "Created by SlightlySimple, original sprites by Meddy-sin",
+	"packName": "Jacket",
+	"source": "https://www.reddit.com/9tma47",
+	"authors": ["SlightlySimple", "meddy-sin"],
+	"cc2credits": {
+		"left": ["FeMC shirt (Short sleeves)", ""],
+		"right": ["SlightlySimple", "Meddy-Sin"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/1JUnRZIL5OhTzl21TPSeIgR8PBIu9B19w/view?usp=sharing",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "jacket_slightlysimple-sh-yellow",
+			"label": ""
+		},
+		{
+			"name": "jacket_slightlysimple-lh-yellow",
+			"label": ""
+		},
+		{
+			"name": "jacket_slightlysimple-sh-hetero",
+			"label": ""
+		},
+		{
+			"name": "jacket_slightlysimple-lh-hetero",
+			"label": ""
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-jacket_slightlysimple-sh-yellow",
+			"style": "jacket_slightlysimple-sh-yellow",
+			"folder": "sh/",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png", "4l.png", "5l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "crossed_arms-jacket_slightlysimple-sh-yellow",
+			"style": "jacket_slightlysimple-sh-yellow",
+			"folder": "sh/",
+			"compatibleHeads": ["straight"],
+			"static": "3.png"
+		},
+		{
+			"name": "normal-jacket_slightlysimple-sh-hetero",
+			"style": "jacket_slightlysimple-sh-hetero",
+			"folder": "sh/",
+			"compatibleHeads": ["straight_hetero"],
+			"left": ["1l.png", "2l.png", "4l.png", "5l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "crossed_arms-jacket_slightlysimple-sh-hetero",
+			"style": "jacket_slightlysimple-sh-hetero",
+			"folder": "sh/",
+			"compatibleHeads": ["straight_hetero"],
+			"static": "3.png"
+		},
+		{
+			"name": "normal-jacket_slightlysimple-lh-yellow",
+			"style": "jacket_slightlysimple-lh-yellow",
+			"folder": "lh/",
+			"compatibleHeads": ["straight_lh"],
+			"left": ["1l.png", "2l.png", "4l.png", "5l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "crossed_arms-jacket_slightlysimple-lh-yellow",
+			"style": "jacket_slightlysimple-lh-yellow",
+			"folder": "lh/",
+			"compatibleHeads": ["straight_lh"],
+			"static": "3.png"
+		},
+		{
+			"name": "normal-jacket_slightlysimple-lh-hetero",
+			"style": "jacket_slightlysimple-lh-hetero",
+			"folder": "lh/",
+			"compatibleHeads": ["straight_hetero_lh"],
+			"left": ["1l.png", "2l.png", "4l.png", "5l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "crossed_arms-jacket_slightlysimple-lh-hetero",
+			"style": "jacket_slightlysimple-lh-hetero",
+			"folder": "lh/",
+			"compatibleHeads": ["straight_hetero_lh"],
+			"static": "3.png"
+		}
+	]
+}
