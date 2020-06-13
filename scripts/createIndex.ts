@@ -58,6 +58,7 @@ const V1CharMap = new Map([
 	['ddlc.natsuki', 'Natsuki'],
 	['ddlc.sayori', 'Sayori'],
 	['ddlc.yuri', 'Yuri'],
+	['ddlc.fan.femc', 'FeMC'],
 ]);
 
 async function parseV1(
@@ -156,10 +157,8 @@ function extractPreview(pack: Character<HeadCollections>): string[] {
 		} else {
 			return poseImages;
 		}
-	} else {
-		return [pack.heads[Object.keys(pack.heads)[0]].all[0].img];
 	}
-	return [];
+	return [pack.heads[Object.keys(pack.heads)[0]].all[0].img];
 }
 
 function emptyAnchor(anchor: [number, number]) {

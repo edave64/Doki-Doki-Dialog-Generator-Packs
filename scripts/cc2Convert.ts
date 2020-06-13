@@ -1,42 +1,31 @@
-const readline = require('./readline');
-const path = require('path');
-const fs = require('fs');
-const { promisify } = require('util');
-const { isDir, isFile, mkdirp } = require('./file');
-const escapeStringRegexp = require('escape-string-regexp');
+import * as readline from './readline';
+import path from 'path';
+import fs from 'fs';
+import { promisify } from 'util';
+import { isDir, isFile, mkdirp } from './file';
+import escapeStringRegexp from 'escape-string-regexp';
+import {
+	JSONCharacter,
+	JSONHeadCollections,
+} from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/jsonFormat';
+import { NsfwAbleImg } from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/model';
 
-/**
- * @param {string} name
- * @returns {string}
- */
-function ccName2dgName(name) {
+function ccName2dgName(name: string): string {
 	return `ddlc.${name}`;
 }
 
-/**
- * @param {string} name
- * @returns {string}
- */
-function dgName2ccName(name) {
+function dgName2ccName(name: string): string {
 	const segments = name.split('.');
 	return segments[segments.length - 1];
 }
 
-/**
- * @param {string} name
- * @returns {string}
- */
-function dgPackId2ccPackId(name) {
+function dgPackId2ccPackId(name: string): string {
 	return name.replace(/\./g, '__').replace(/[^a-zA-Z0-9_]/gi, '_');
 }
 
 async function singlePack() {}
 
-/**
- * @param {string} basedir
- * @returns {Promise<Array<string>>}
- */
-async function getAllPacks(basedir) {
+async function getAllPacks(basedir: string): Promise<string[]> {
 	const contents = await promisify(fs.readdir)(basedir);
 	const fullPaths = contents.map((item) => path.join(basedir, item));
 	const areDirectory = await Promise.all(fullPaths.map((path) => isDir(path)));
@@ -61,21 +50,12 @@ async function getAllPacks(basedir) {
 	return packs;
 }
 
-/**
- * @param {string} dir
- * @returns {Promise<boolean>}
- */
-async function isCCDir(outdir) {
+async function isCCDir(outdir: string): Promise<boolean> {
 	const contents = await promisify(fs.readdir)(outdir);
 	return contents.includes('characters') && contents.includes('custom_assets');
 }
 
-/**
- * @param {string} filter
- * @param {string[]} packs
- * @returns {string[]}
- */
-function filtering(filter, packs) {
+function filtering(filter: string, packs: string[]): string[] {
 	const regex = new RegExp(
 		'^' +
 			filter
@@ -88,61 +68,99 @@ function filtering(filter, packs) {
 	return packs.filter((pack) => pack.match(regex));
 }
 
-const headAssoc = {
-	'ddlc.monika.straight': '_head',
-	'ddlc.monika.sideways': '_head_cpack_compat_leaning',
-	'ddlc.yuri.straight': '_head',
-	'ddlc.yuri.sideways': '_head_alt',
-	'ddlc.sayori.straight': '_head',
-	'ddlc.sayori.sideways': '_head_cpack_compat_leaning',
-	'ddlc.natsuki.straight': '_head_cpack_compat',
-	'ddlc.natsuki.sideways': '_head_cpack_compat',
-	'ddlc.natsuki.turned': '_head_cpack_compat',
+const headAssoc: { [dddgId: string]: string } = {
+	'ddlc.monika.straight': '',
+	'ddlc.monika.sideways': '_cpack_compat_leaning',
+	'ddlc.yuri.straight': '',
+	'ddlc.yuri.sideways': '_alt',
+	'ddlc.sayori.straight': '',
+	'ddlc.sayori.sideways': '_cpack_compat_leaning',
+	'ddlc.natsuki.straight': '_cpack_compat',
+	'ddlc.natsuki.straight_nsfw': '_cpack_compat',
+	'ddlc.natsuki.sideways': '_cpack_compat',
+	'ddlc.natsuki.turned': '_cpack_compat',
+	'ddlc.natsuki.turnedAway': '_cpack_compat',
+	'ddlc.fan.femc.straight': '',
+	'ddlc.fan.femc.straight_hetero': '_alter',
+	'ddlc.fan.femc.straight_lh': '_lh',
+	'ddlc.fan.femc.straight_hetero_lh': '_lh_alter',
 };
 
-/**
- * @param {string} styleName
- * @returns {string}
- */
-function normalizeStyleName(styleName) {
+/** @type Object.<string, Object.<string, string>> */
+const clrMatch: { [dddgId: string]: { [styleElementId: string]: string } } = {
+	'ddlc.fan.femc': {
+		yellow: '../clrdot/y',
+		hetero: '../clrdot/b',
+	},
+};
+
+function normalizeStyleName(styleName: string): string {
 	if (styleName === 'uniform') {
 		return '';
 	}
 	if (styleName === 'casual') {
 		return '_cas';
 	}
-	return '_' + styleName;
+	return '_' + styleName.replace(/-/g, '__');
 }
 
-/**
- * @param {string} characterName
- * @param {any} json
- * @param {boolean} exportCredits
- * @param {string} cc2PackName
- */
+type CCPose = Array<string | [string, undefined] | [number, number]>;
+
+function unNsfw(val: string | NsfwAbleImg): string {
+	if (typeof val === 'string') {
+		return val;
+	}
+	return val.img;
+}
+
+function normalizeJoinDddgPath(
+	base: string,
+	sub: string | undefined,
+	paths: { [s: string]: string }
+) {
+	if (!sub) return base;
+	for (var path in paths) {
+		if (sub.startsWith(path)) {
+			return paths[path] + sub.slice(path.length);
+		}
+	}
+	return base + sub;
+}
+
 async function writeCharacterFile(
-	characterName,
-	json,
-	exportCredits,
-	assetFolderName
+	characterName: string,
+	json: JSONCharacter<{ [s: string]: any }>,
+	exportCredits: boolean,
+	assetFolderName: string
 ) {
 	let out =
 		'# This file needs the content pack compatibility files\n' +
 		`character="${characterName}"\n` +
 		`custom=True\n`;
 
-	const subPosesByStyle = {};
+	const paths: { [s: string]: string } = {
+		'./': `${assetFolderName}/`,
+	};
+
+	const charFolder = normalizeJoinDddgPath('', json.folder || '/', paths);
+
+	const subPosesByStyle: { [id: string]: CCPose[] } = {};
 	const id = json.id;
-	for (const pose of json.poses) {
+	for (const pose of json.poses || []) {
 		if (!subPosesByStyle[normalizeStyleName(pose.style)]) {
 			subPosesByStyle[normalizeStyleName(pose.style)] = [];
 		}
 		const subPoses = subPosesByStyle[normalizeStyleName(pose.style)];
-		const heads = pose.compatibleHeads.map(
-			(head) => headAssoc[`${id}.${head}`]
-		);
+		console.log(JSON.stringify(pose));
+		const heads = (pose.compatibleHeads || []).map((head) => {
+			const assoc = headAssoc[`${id}.${head}`];
+			if (assoc !== undefined) return '_head' + assoc;
+			return '_head_' + head;
+		});
 
-		const uniqueHeads = [];
+		const poseFolder = normalizeJoinDddgPath(charFolder, pose.folder, paths);
+
+		const uniqueHeads: CCPose = [];
 		for (const head of heads) {
 			if (!head) continue;
 			if (uniqueHeads.includes(head)) continue;
@@ -156,39 +174,50 @@ async function writeCharacterFile(
 			}
 		}
 
-		const poses = [];
-		if (pose.static) {
-			poses.push([pose.static]);
-		}
-		if (pose.variant) {
-			for (const variant of pose.variant) {
-				poses.push([variant]);
+		const clrDot: [string, undefined][] = [];
+		const charClrMatch = clrMatch[id];
+		if (charClrMatch) {
+			const keys = Object.keys(charClrMatch);
+
+			for (const key of keys) {
+				const matcher = new RegExp(`-${key}(-|$)`);
+				if (pose.style.match(matcher)) {
+					clrDot.push([charClrMatch[key], undefined]);
+					break;
+				}
 			}
 		}
-		if (pose.left) {
+
+		const poses: string[][] = [];
+		if ('static' in pose) {
+			poses.push([pose.static]);
+		}
+		if ('variant' in pose) {
+			for (const variant of pose.variant) {
+				poses.push([unNsfw(variant)]);
+			}
+		}
+		if ('left' in pose) {
 			for (const left of pose.left) {
 				for (const right of pose.right) {
-					poses.push([left, right]);
+					poses.push([unNsfw(left), unNsfw(right)]);
 				}
 			}
 		}
 		const noExtPoses = poses.map((pose) =>
 			pose.map((posePart) => {
-				if (typeof posePart === 'object') {
-					posePart = posePart.img;
-				}
 				const filename = posePart.endsWith('.png')
 					? posePart.slice(0, -4)
 					: posePart;
 
-				return `${assetFolderName}/${filename}`;
+				return normalizeJoinDddgPath(poseFolder, filename, paths);
 			})
 		);
 		for (const noExtPose of noExtPoses) {
 			if (pose.headInForeground) {
-				subPoses.push([].concat(noExtPose, uniqueHeads));
+				subPoses.push([...clrDot, ...noExtPose, ...uniqueHeads]);
 			} else {
-				subPoses.push([].concat(uniqueHeads, noExtPose));
+				subPoses.push([...clrDot, ...uniqueHeads, ...noExtPose]);
 			}
 		}
 	}
@@ -217,8 +246,11 @@ async function writeCharacterFile(
 	console.log(`The current package is ${json.packId}.`);
 	console.log(`Original credits: ${json.packCredits}`);
 
-	const leftCredits = (json.cc2credits && json.cc2credits.left) || [];
-	const rightCredits = (json.cc2credits && json.cc2credits.right) || [];
+	const jsonAny = json as any;
+	const leftCredits: string[] =
+		(jsonAny.cc2credits && jsonAny.cc2credits.left) || [];
+	const rightCredits: string[] =
+		(jsonAny.cc2credits && jsonAny.cc2credits.right) || [];
 
 	while (
 		exportCredits &&
@@ -241,28 +273,29 @@ async function writeCharacterFile(
 	return out;
 }
 
-function formatSubposeElement(element) {
+function formatSubposeElement(
+	element: string | [string, undefined] | [number, number]
+) {
 	if (typeof element === 'string') return `"${element}"`;
-	if (element instanceof Array) {
-		return `(${element[0]},${element[1]})`;
-	}
-	return '';
+	const elements = (element as Array<string | number>).map((x) => {
+		if (typeof x === 'string') {
+			return `"${x}"`;
+		}
+		if (x === undefined) {
+			return '';
+		}
+		return x.toString();
+	});
+	return `(${elements.join(',')})`;
 }
 
-/**
- * @param {string} basedir
- * @param {string} outdir
- * @param {string} packName
- * @param {boolean} useSubfolders
- * @param {boolean} exportCredits
- */
 async function convertPackage(
-	basedir,
-	outdir,
-	packName,
-	useSubfolders,
-	exportCredits
-) {
+	basedir: string,
+	outdir: string,
+	packName: string,
+	useSubfolders: boolean,
+	exportCredits: boolean
+): Promise<void> {
 	basedir = path.join(basedir, packName);
 	let json;
 	try {
@@ -302,19 +335,23 @@ async function convertPackage(
 	await Promise.all([adnFileP, copyPngP]);
 }
 
-/**
- * @param {string} source
- * @param {string} dest
- */
-async function copyPngs(source, dest) {
+async function copyPngs(source: string, dest: string) {
 	const allFiles = await promisify(fs.readdir)(source);
-	const possiblePngs = allFiles
-		.filter((filename) => filename.endsWith('.png'))
-		.map((filename) => path.join(source, filename));
 	const areFiles = await Promise.all(
-		possiblePngs.map((filePath) => isFile(filePath))
+		allFiles.map((filePath) => isFile(path.join(source, filePath)))
 	);
-	const actualPngs = possiblePngs.filter((_path, idx) => areFiles[idx]);
+
+	const actualPngs = allFiles
+		.filter((filename, i) => areFiles[i] && filename.endsWith('.png'))
+		.map((filename) => path.join(source, filename));
+	const subFolders = allFiles.filter((filename, i) => !areFiles[i]);
+
+	await mkdirp(dest);
+
+	for (const subFolder of subFolders) {
+		await copyPngs(path.join(source, subFolder), path.join(dest, subFolder));
+	}
+
 	const copyP = promisify(fs.copyFile);
 	const copyPs = actualPngs.map((pngPath) =>
 		copyP(pngPath, path.join(dest, path.basename(pngPath)))
@@ -376,8 +413,7 @@ async function main() {
 	const isCC = await isCCDir(outdir);
 	const useSubfolders = await readline.askBool(
 		'Do you want to use sub folders?',
-		!isCC,
-		true
+		!isCC
 	);
 
 	const exportCredits = await readline.askBool(

@@ -1,75 +1,59 @@
-const readline = require('readline');
-const fs = require('fs');
-const { promisify } = require('util');
-const { isDir, isFile, mkdirp } = require('./file');
+import readline from 'readline';
+import fs from 'fs';
+import { promisify } from 'util';
+import { isDir, isFile, mkdirp } from './file';
 
 /** @type {readline.Interface} */
-const line = new readline.Interface({
-	input: process.stdin,
-	output: process.stdout,
-});
+const line = readline.createInterface(process.stdin, process.stdout);
 
 exports.line = line;
 
-/**
- * @async
- * @param {string} question
- * @param {string} defaultValue
- * @param {Function} validate
- * @returns {Promise<string>}
- */
-exports.ask = async function(question, defaultValue = '', validate) {
+export async function ask(
+	question: string,
+	defaultValue: string = '',
+	validate?: (
+		str: string
+	) => boolean | string | undefined | Promise<boolean | string | undefined>
+): Promise<string> {
 	return new Promise((resolve, reject) => {
 		line.question(
 			`${question}${defaultValue ? ` (${defaultValue})` : ''}: `,
-			async str => {
+			async (str) => {
 				str = str || defaultValue;
 				if (validate) {
 					const ret = await validate(str);
 					if (ret === false)
 						str = await exports.ask(question, defaultValue, validate);
-					if (ret !== true && ret !== undefined) str = ret;
+					else if (ret !== true && ret !== undefined) str = ret;
 				}
 				resolve(str);
 			}
 		);
 	});
-};
+}
 
-/**
- * @async
- * @param {string} question
- * @param {boolean} defaultValue
- * @returns {Promise<string>}
- */
-exports.askBool = async function(question, defaultValue) {
-	const ret = await exports.ask(
-		question,
-		defaultValue ? 'yes' : 'no',
-		answer => {
-			answer = answer.toLowerCase();
-			if ('yes'.startsWith(answer)) return 'yes';
-			if ('no'.startsWith(answer)) return 'no';
-			console.log('Please answer either yes or no.');
-			return false;
-		}
-	);
+export async function askBool(
+	question: string,
+	defaultValue: boolean
+): Promise<boolean> {
+	const ret = await ask(question, defaultValue ? 'yes' : 'no', (answer) => {
+		answer = answer.toLowerCase();
+		if ('yes'.startsWith(answer)) return 'yes';
+		if ('no'.startsWith(answer)) return 'no';
+		console.log('Please answer either yes or no.');
+		return false;
+	});
 	return ret === 'yes';
-};
+}
 
-/**
- * @param {string} question
- * @param {string} defaultValue
- * @param {boolean} needWrite
- * @param {Function} validate
- * @returns {Promise<string>}
- */
-exports.askFolder = async function askFolder(
-	question,
-	defaultValue,
-	needWrite,
-	validate
-) {
+export async function askFolder(
+	question: string,
+	defaultValue: string,
+	needWrite: boolean = false,
+	validate?: (
+		str: string
+	) => boolean | string | undefined | Promise<boolean | string | undefined>
+): Promise<string> {
 	while (true) {
 		const dir = await exports.ask(question, defaultValue);
 
@@ -118,4 +102,4 @@ exports.askFolder = async function askFolder(
 
 		return dir;
 	}
-};
+}
