@@ -4,6 +4,11 @@
 	"packCredits": "<a href='https://www.reddit.com/d7qlrr'>Created by</a> EDave64",
 	"packName": "Eating Cake",
 	"authors": ["edave64"],
+	"cc2credits": {
+		"left": ["{a='https://www.reddit.com/d7qlrr'}Sayori eating cake{/a}"],
+		"right": ["EDave64"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/15dkXDopX0FXaCOZd3cR0hIxb0SAl3RgZ/view?usp=sharing",
 	"source": "https://www.reddit.com/d7qlrr",
 	"id": "ddlc.sayori",
 	"folder": "./",

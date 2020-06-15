@@ -113,6 +113,10 @@ function unNsfw(val: string | NsfwAbleImg): string {
 	return val.img;
 }
 
+function unPng(val: string): string {
+	return val.endsWith('.png') ? val.slice(0, -4) : val;
+}
+
 function normalizeJoinDddgPath(
 	base: string,
 	sub: string | undefined,
@@ -129,7 +133,7 @@ function normalizeJoinDddgPath(
 
 async function writeCharacterFile(
 	characterName: string,
-	json: JSONCharacter<{ [s: string]: any }>,
+	json: JSONCharacter<JSONHeadCollections>,
 	exportCredits: boolean,
 	assetFolderName: string
 ) {
@@ -147,6 +151,7 @@ async function writeCharacterFile(
 	const subPosesByStyle: { [id: string]: CCPose[] } = {};
 	const id = json.id;
 	for (const pose of json.poses || []) {
+		if (!pose.style) console.log('What?', JSON.stringify(pose));
 		if (!subPosesByStyle[normalizeStyleName(pose.style)]) {
 			subPosesByStyle[normalizeStyleName(pose.style)] = [];
 		}
@@ -206,10 +211,7 @@ async function writeCharacterFile(
 		}
 		const noExtPoses = poses.map((pose) =>
 			pose.map((posePart) => {
-				const filename = posePart.endsWith('.png')
-					? posePart.slice(0, -4)
-					: posePart;
-
+				const filename = unPng(posePart);
 				return normalizeJoinDddgPath(poseFolder, filename, paths);
 			})
 		);
@@ -219,6 +221,43 @@ async function writeCharacterFile(
 			} else {
 				subPoses.push([...clrDot, ...uniqueHeads, ...noExtPose]);
 			}
+		}
+	}
+
+	const outHeads: { [id: string]: string[] } = {};
+	const outHeadOffsets: { [id: string]: [number, number] } = {};
+	if (json.heads) {
+		const headKeys = Object.keys(json.heads);
+		for (const headKey of headKeys) {
+			const headListEntry = json.heads[headKey];
+			const headFolder = normalizeJoinDddgPath(
+				charFolder,
+				(headListEntry as any).folder,
+				paths
+			);
+			const headList = (headListEntry instanceof Array
+				? headListEntry
+				: headListEntry.all
+			)
+				.map(unNsfw)
+				.map((x) => normalizeJoinDddgPath(headFolder, x, paths))
+				.map(unPng);
+			let assoc = headAssoc[`${id}.${headKey}`];
+			console.log('pre assoc', assoc);
+			if (assoc !== undefined) assoc = 'faces' + assoc;
+			else assoc = 'faces_' + headKey;
+			console.log('post assoc', assoc);
+			if (!outHeads[assoc]) {
+				outHeads[assoc] = [];
+				if (!headAssoc[`${id}.${headKey}`]) {
+					if (!(headListEntry instanceof Array)) {
+						outHeadOffsets[assoc] = headListEntry.offset || [290, 70];
+					} else {
+						outHeadOffsets[assoc] = [290, 70];
+					}
+				}
+			}
+			outHeads[assoc] = [...outHeads[assoc], ...headList];
 		}
 	}
 
@@ -240,6 +279,24 @@ async function writeCharacterFile(
 			.join(',')}]\n`;
 	}
 
+	console.log(JSON.stringify(outHeads));
+
+	for (const headKey in outHeads) {
+		if (!outHeads.hasOwnProperty(headKey)) continue;
+		const heads = outHeads[headKey];
+		out += `${headKey}=${JSON.stringify(heads)}\n`;
+	}
+	/*
+	for (const headKey in outHeadOffsets) {
+		if (!subPosesByStyle.hasOwnProperty(style)) continue;
+		const subPoses = subPosesByStyle[style];
+		out += `poses${style}=[${subPoses
+			.map((subPose) => {
+				return `(${subPose.map(formatSubposeElement).join(',')})`;
+			})
+			.join(',')}]\n`;
+	}
+	*/
 	console.log(
 		'Enter credits. They are split into left and right side. Leave both sides empty to stop.'
 	);

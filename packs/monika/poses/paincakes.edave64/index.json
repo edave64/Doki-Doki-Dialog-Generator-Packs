@@ -4,6 +4,14 @@
 	"packCredits": "<a href='https://www.reddit.com/comments/el9jzv/' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
 	"packName": "Extra Poses and Expressions",
 	"authors": ["ButtermilkPaincakes"],
+	"cc2credits": {
+		"left": [
+			"{a='https://www.reddit.com/el9jzv'}Monika extra poses{/a}",
+			" and expressions"
+		],
+		"right": ["ButtermilkPaincakes"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/1mpKtufw8uMr7iG4ZqKuP3Sy9NK-B7Itg/view?usp=sharing",
 	"source": "https://www.reddit.com/el9jzv",
 	"id": "ddlc.monika",
 	"folder": "./",
@@ -38,6 +46,7 @@
 	"poses": [
 		{
 			"name": "normal",
+			"style": "uniform",
 			"left": [],
 			"right": ["5r.png"]
 		},
