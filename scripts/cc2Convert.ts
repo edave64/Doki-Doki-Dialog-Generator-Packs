@@ -15,6 +15,7 @@ function ccName2dgName(name: string): string {
 }
 
 function dgName2ccName(name: string): string {
+	if (ccCharName[name]) return ccCharName[name];
 	const segments = name.split('.');
 	return segments[segments.length - 1];
 }
@@ -84,6 +85,12 @@ const headAssoc: { [dddgId: string]: string } = {
 	'ddlc.fan.femc.straight_hetero': '_alter',
 	'ddlc.fan.femc.straight_lh': '_lh',
 	'ddlc.fan.femc.straight_hetero_lh': '_lh_alter',
+	'ddlc.fan.mc2.straight': '',
+	'ddlc.fan.mc2.straight_red': '_alter',
+};
+
+const ccCharName: { [dddgId: string]: string } = {
+	'ddlc.fan.mc2': 'mc',
 };
 
 /** @type Object.<string, Object.<string, string>> */
@@ -91,6 +98,10 @@ const clrMatch: { [dddgId: string]: { [styleElementId: string]: string } } = {
 	'ddlc.fan.femc': {
 		yellow: '../clrdot/y',
 		hetero: '../clrdot/b',
+	},
+	'ddlc.fan.mc2': {
+		yellow: '../clrdot/y',
+		red: '../clrdot/r',
 	},
 };
 
