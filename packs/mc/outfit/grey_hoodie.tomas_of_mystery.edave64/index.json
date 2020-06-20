@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.mc2",
+	"packId": "mc.oufits.grey_hoodie.tomas_of_mystery.edave64",
+	"packCredits": "Created by tomas_of_mystery, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
+	"packName": "Grey hoodie",
+	"source": "https://www.reddit.com/9tma47",
+	"authors": ["tomas_of_mystery", "gurogurl", "SlightlySimple"],
+	"cc2credits": {
+		"left": [
+			"MC Grey Hoodie",
+			"  based on Sayori Hoodie by",
+			"  based on casual MC by"
+		],
+		"right": ["tomas_of_mystery", "gurogurl", "SlightlySimple"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/1s6fzs6_P0TO_SsoEDdLyeAN7rxlCEQIT/view?usp=sharing",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "grey_hoodie_tomas_of_mystery-yellow",
+			"label": "Grey hoodie with yellow eyes"
+		},
+		{
+			"name": "grey_hoodie_tomas_of_mystery-red",
+			"label": "Grey hoodie with red eyes"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-grey_hoodie_tomas_of_mystery-yellow",
+			"style": "grey_hoodie_tomas_of_mystery-yellow",
+			"compatibleHeads": ["straight"],
+			"left": ["1cl.png", "2cl.png"],
+			"right": ["1cr.png", "2cr.png"],
+			"headInForeground": true
+		},
+		{
+			"name": "crossed_arms-grey_hoodie_tomas_of_mystery-yellow",
+			"style": "grey_hoodie_tomas_of_mystery-yellow",
+			"compatibleHeads": ["straight"],
+			"static": "3c.png",
+			"headInForeground": true
+		},
+		{
+			"name": "normal-grey_hoodie_tomas_of_mystery-red",
+			"style": "grey_hoodie_tomas_of_mystery-red",
+			"compatibleHeads": ["straight_red"],
+			"left": ["1cl.png", "2cl.png"],
+			"right": ["1cr.png", "2cr.png"],
+			"headInForeground": true
+		},
+		{
+			"name": "crossed_arms-grey_hoodie_tomas_of_mystery-red",
+			"style": "grey_hoodie_tomas_of_mystery-red",
+			"compatibleHeads": ["straight_red"],
+			"static": "3c.png",
+			"headInForeground": true
+		}
+	]
+}
