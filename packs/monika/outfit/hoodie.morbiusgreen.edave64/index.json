@@ -32,7 +32,7 @@
 		{
 			"name": "left_hand_over_heart-hoodie_morbiusgreen",
 			"style": "hoodie_morbiusgreen",
-			"compatibleHeads": ["sideways"],
+			"compatibleHeads": ["straight"],
 			"static": "5.png"
 		},
 		{
