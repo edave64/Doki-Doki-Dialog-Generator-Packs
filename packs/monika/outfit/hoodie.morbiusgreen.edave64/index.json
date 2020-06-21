@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.hoodie.morbiusgreen.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/morbiusgreen'>morbiusgreen</a> and improved by <a href='https://www.reddit.com/u/SYwaves'>SYwaves</a>",
+	"packName": "Hoodie",
+	"authors": ["morbiusgreen", "SYwaves"],
+	"comicClubUrl": "https://drive.google.com/file/d/17DggJxHnXS3A_gif72UHSmH8mVbdLtRk/view?usp=sharing",
+	"cc2credits": {
+		"left": ["Monika Hoodie by", " improved by"],
+		"right": [
+			"{a=https://www.reddit.com/u/morbiusgreen}morbiusgreen{/a}",
+			"{a=https://www.reddit.com/u/SYwaves}SYwaves{/a}"
+		]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "hoodie_morbiusgreen",
+			"label": "Hoodie"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-hoodie_morbiusgreen",
+			"style": "hoodie_morbiusgreen",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png", "3l.png", "4l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "left_hand_over_heart-hoodie_morbiusgreen",
+			"style": "hoodie_morbiusgreen",
+			"compatibleHeads": ["sideways"],
+			"static": "5.png"
+		},
+		{
+			"name": "right_hand_over_heart-hoodie_morbiusgreen",
+			"style": "hoodie_morbiusgreen",
+			"compatibleHeads": ["straight"],
+			"static": "6.png"
+		},
+		{
+			"name": "hands_over_heart-hoodie_morbiusgreen",
+			"style": "hoodie_morbiusgreen",
+			"compatibleHeads": ["straight"],
+			"static": "7.png"
+		}
+	]
+}
