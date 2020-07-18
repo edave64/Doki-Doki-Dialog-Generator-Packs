@@ -24,7 +24,7 @@ async function main() {
 	});
 	const files = listOfFiles(entry as Directory);
 	const jsons = await Promise.all(files.map((path) => fetchJSON(path)));
-	console.log(JSON.stringify(jsons));
+	console.log(JSON.stringify(jsons, null, "\t"));
 }
 
 function listOfFiles(directory: Directory): string[] {
