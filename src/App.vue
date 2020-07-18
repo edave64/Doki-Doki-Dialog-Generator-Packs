@@ -23,10 +23,14 @@ export default class App extends Vue {
 	private packs: IPack[] = [];
 
 	public async created() {
-		[this.packs, this.authors] = await Promise.all([
+		const [packs, authors] = await Promise.all([
 			this.fetchJSON<IPack[]>('repo.json'),
 			this.fetchJSON<IAuthors>('people.json'),
 		]);
+
+		// Don't show DDDG2 only packs, since that has the build in repo list
+		this.packs = packs.filter(pack => pack.dddg1Path || pack.ddcc2Path);
+		this.authors = authors;
 	}
 
 	private async fetchJSON<A>(path: string): Promise<A> {
