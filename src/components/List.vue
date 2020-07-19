@@ -53,16 +53,32 @@
 			<a
 				href="https://github.com/edave64/Doki-Doki-Dialog-Generator-Packs/tree/repo-browser"
 				:tabindex="disabled ? -1 : 0"
+				target="_blank"
+				rel="noopener noreferrer"
 				>github</a
 			>.<br />
+			If you are using Comic club, you will need the
+			<a
+				href="https://drive.google.com/file/d/15IAbhTkA2xRejvTHu_rZ24kZB2vhQcGM/view?usp=sharing"
+				:tabindex="disabled ? -1 : 0"
+				target="_blank"
+				rel="noopener noreferrer"
+				>Content Pack compatibilty files</a
+			><br />
 			To be used with the
 			<a
 				href="https://edave64.github.io/Doki-Doki-Dialog-Generator/release/"
 				:tabindex="disabled ? -1 : 0"
+				target="_blank"
+				rel="noopener noreferrer"
 				>Doki Doki Dialog Generator</a
 			><br />
 			Using
-			<a href="https://material.io/" :tabindex="disabled ? -1 : 0"
+			<a
+				href="https://material.io/"
+				:tabindex="disabled ? -1 : 0"
+				target="_blank"
+				rel="noopener noreferrer"
 				>material icons</a
 			>
 			by google
