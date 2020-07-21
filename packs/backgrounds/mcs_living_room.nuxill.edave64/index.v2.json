@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "dddg.buildin.backgrounds",
+	"packCredits": "Created by Nuxill, with edits by Yagamirai10",
+	"folder": "./",
+	"backgrounds": [
+		{
+			"id": "mc_living_room",
+			"label": "MC's living room",
+			"variants": [
+				["daytime.png"],
+				["daytime-yaga.png"],
+				["afternoon.png"],
+				["afternoon1.png"],
+				["night.png"],
+				["night1.png"]
+			]
+		}
+	]
+}

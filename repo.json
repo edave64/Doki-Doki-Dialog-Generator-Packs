@@ -1492,5 +1492,23 @@
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri_r63/diaboliiique.edave64/preview.png"
 		],
 		"searchWords": []
+	},
+	{
+		"id": "backgrounds.mcs_living_room.nuxill.edave64",
+		"name": "MC's living room",
+		"characters": [],
+		"authors": [
+			"nuxill",
+			"yagamirai10"
+		],
+		"kind": [
+			"Backgrounds"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/index.v2.json",
+		"description": "Created by nuxill, edited by yagamirai10",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/daytime.png"
+		],
+		"searchWords": []
 	}
 ]
