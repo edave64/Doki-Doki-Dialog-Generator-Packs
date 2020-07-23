@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "sprites.reginald.fat_dongle_dog.edave64",
+	"packCredits": "Original by FatDongleDog, newer version by CanisAries",
+	"folder": "./",
+	"sprites": [
+		{
+			"id": "reginald",
+			"label": "Reginald Original",
+			"variants": [
+				["original.png"]
+			]
+		},
+		{
+			"id": "reginald",
+			"label": "Reginald New",
+			"variants": [
+				["new.png"]
+			]
+		}
+	]
+}

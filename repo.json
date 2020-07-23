@@ -1510,5 +1510,23 @@
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/daytime.png"
 		],
 		"searchWords": []
+	},
+	{
+		"id": "sprites.reginald.fat_dongle_dog.edave64",
+		"name": "Reginald",
+		"characters": [],
+		"authors": [
+			"FatDongleDog",
+			"CanisAries"
+		],
+		"kind": [
+			"Sprites"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/index.v2.json",
+		"description": "Original by FatDongleDog, newer version by CanisAries",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/sprites/sprites/reginald.fat_dongle_dog.edave64/original.png"
+		],
+		"searchWords": []
 	}
 ]
