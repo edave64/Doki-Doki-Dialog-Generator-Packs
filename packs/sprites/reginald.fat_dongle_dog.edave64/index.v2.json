@@ -6,14 +6,14 @@
 	"folder": "./",
 	"sprites": [
 		{
-			"id": "reginald",
+			"id": "reginald_old",
 			"label": "Reginald Original",
 			"variants": [
 				["original.png"]
 			]
 		},
 		{
-			"id": "reginald",
+			"id": "reginald_new",
 			"label": "Reginald New",
 			"variants": [
 				["new.png"]
