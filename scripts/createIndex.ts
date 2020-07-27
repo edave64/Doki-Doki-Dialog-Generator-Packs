@@ -12,6 +12,8 @@ import {
 	Character,
 	HeadCollections,
 } from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/model';
+import V2JSON from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/jsonFormat';
+import V2Parser from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/parser';
 
 const set = new Set<string>();
 
@@ -24,7 +26,7 @@ async function main() {
 	});
 	const files = listOfFiles(entry as Directory);
 	const jsons = await Promise.all(files.map((path) => fetchJSON(path)));
-	console.log(JSON.stringify(jsons, null, "\t"));
+	console.log(JSON.stringify(jsons.filter(x => x !== null), null, '\t'));
 }
 
 function listOfFiles(directory: Directory): string[] {
@@ -37,21 +39,63 @@ function listOfFiles(directory: Directory): string[] {
 	});
 }
 
-async function fetchJSON(path: string): Promise<IPack> {
+async function fetchJSON(path: string): Promise<IPack | null> {
 	const jsonString = await promisify(fs.readFile)(path, { encoding: 'utf8' });
 	const json = JSON.parse(jsonString);
 
 	if (json.version === '2.0') {
-		return parseV2();
+		return null;
+		//return parseV2(path, json);
 	}
 
 	return parseV1(path, json);
 }
+/*
+async function parseV2(
+	path: string,
+	pack: V2JSON.JSONContentPack
+): Promise<IPack> {
+	if (!pack.packId) {
+		throw new Error(`Pack without id cannot be indexed! (${path})`);
+	}
+	if (!pack.authors) {
+		throw new Error(`Pack has no specified authors! (${path})`);
+	}
+	const charName = pack.name || V1CharMap.get(pack.id);
+	if (!charName) {
+		throw new Error(
+			`Pack contains character with unrecognized name '${pack.id}' (${path})`
+		);
+	}
+	const packPath =
+		'https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/';
+	const dddgPath = path.replace('../packs/', packPath);
+	const parsedPack = V2Parser.normalizeContentPack(pack, {
+		'/': 'https://edave64.github.io/Doki-Doki-Dialog-Generator/release/assets/',
+		'./': dirname(dddgPath) + '/',
+	});
 
-async function parseV2(): Promise<IPack> {
-	throw new Error('V2 packs are not yet supported');
+	const previewExists = await fileExists(join(dirname(path), 'preview.png'));
+
+	return {
+		id: pack.packId,
+		name: pack.packName || pack.packId,
+		characters: [charName],
+		authors: pack.authors,
+		ddcc2Path: pack.comicClubUrl,
+		kind: detectV1Kinds(pack),
+		source: pack.source,
+		dddg1Path: dddgPath,
+		dddg2Path: dddgPath,
+		disclaimer: pack.disclaimer,
+		description: formatDescription(pack.packCredits),
+		preview: previewExists
+			? [dirname(dddgPath) + '/' + 'preview.png']
+			: extractPreview(parsedPack),
+		searchWords: extractSearchWords(pack),
+	};
 }
-
+*/
 const V1CharMap = new Map([
 	['ddlc.monika', 'Monika'],
 	['ddlc.fan.mc2', 'MC'],
