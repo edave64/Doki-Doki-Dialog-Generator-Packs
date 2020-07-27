@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"packId": "mio.outfits.dress.blackrabbitartworks.edave64",
+	"packCredits": "Created by Black Rabbit Artworks",
+	"disclaimer": "You need to add the pack for 'Mio' before adding this",
+	"packName": "Mio's white dress",
+	"authors": ["Black Rabbit Artworks"],
+	"cc2credits": {
+		"left": ["Mio's white dress"],
+		"right": ["Black Rabbit Artworks"]
+	},
+	"source": "https://drive.google.com/drive/folders/1swxMNIKwGZPqxA8uY5rhwFPE3xquNY4n",
+	"comicClubUrl": "https://drive.google.com/file/d/1AsjuHZFL4NBeOoVjiUT1Y4JlwVw-aCQ4/view?usp=sharing",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "mio.yagamirai10.edave64:ddlc.oc.mio",
+			"styleGroups": [
+				{
+					"id": "dress",
+					"styles": [
+						{
+							"components": {},
+							"poses": [
+								{
+									"id": "normal",
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									],
+									"compatibleHeads": ["mio.yagamirai10.edave64:default"],
+									"positions": {
+										"Variant": [
+											["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
