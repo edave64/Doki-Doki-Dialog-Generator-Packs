@@ -11,9 +11,11 @@
 			</h1>
 			<h2>{{ pack.id }}</h2>
 		</header>
-		<section class="disclaimer" v-if="pack.disclaimer">
-			{{ pack.disclaimer }}
-		</section>
+		<section
+			class="disclaimer"
+			v-if="pack.disclaimer"
+			v-html="sanitize(pack.disclaimer)"
+		/>
 		<section v-if="pack.source">
 			<a :href="pack.source" target="_blank" rel="noopener noreferrer"
 				>Source</a
