@@ -3,13 +3,13 @@
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.cat_shirt.fat_dongle_dog.edave64",
 	"source": "https://www.reddit.com/9wn4gr",
-	"packCredits": "Created by <a href='https://www.reddit.com/u/FatDongleDog'>FatDongleDog</a>",
+	"packCredits": "Created by <a href='https://www.reddit.com/u/FatDongleDog'>FatDongleDog</a>, alternative pose by SlightlySimple",
 	"packName": "Cat shirt",
-	"authors": ["FatDongleDog"],
+	"authors": ["FatDongleDog", "SlightlySimple"],
 	"comicClubUrl": "https://drive.google.com/file/d/1Vlmw-rd_yDPxn_c9R_j7Fxp744bOMjbP/view?usp=sharing",
 	"cc2credits": {
-		"left": ["Sayori cat shirt"],
-		"right": ["FatDongleDog"]
+		"left": ["Sayori cat shirt", "  alternative pose"],
+		"right": ["FatDongleDog", "SlightlySimple"]
 	},
 	"folder": "./",
 	"styles": [
@@ -24,7 +24,8 @@
 			"name": "normal-cat_shirt_fat_dongle_dog",
 			"style": "cat_shirt_fat_dongle_dog",
 			"compatibleHeads": ["straight"],
-			"static": "1.png"
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
 		}
 	]
 }
