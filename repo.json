@@ -216,6 +216,27 @@
 		"searchWords": []
 	},
 	{
+		"id": "mio.cgs.cyrke.blackrabbitartworks.edave64",
+		"name": "Mio CGs",
+		"characters": [
+			"Mio"
+		],
+		"authors": [
+			"Cyrke",
+			"Black Rabbit Artworks",
+			"yagamirai10"
+		],
+		"kind": [
+			"Backgrounds"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/index.v2.json",
+		"description": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/sitting.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "mio.outfits.dress.blackrabbitartworks.edave64",
 		"name": "Mio's white dress",
 		"characters": [
