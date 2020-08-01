@@ -1,0 +1,200 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"packId": "tina.johnrdvsmarston.edave64",
+	"packCredits": "<a href='https://www.reddit.com/r/DDLCMods/comments/fitnr9/'>Created</a> by JohnRDVSMarston",
+	"version": "2.0",
+	"packName": "Tina",
+	"authors": ["JohnRDVSMarston"],
+	"cc2credits": {
+		"left": ["Tina"],
+		"right": ["JohnRDVSMarston"]
+	},
+	"source": "https://www.reddit.com/r/DDLCMods/comments/fitnr9/",
+	"comicClubUrl": "https://drive.google.com/file/d/1_MrMCGZS0qu3WjZRej4_37FzjzpH2cPU/view?usp=sharing",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "ddlc.oc.tina",
+			"chibi": "chibi.png",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"components": {},
+							"poses": [
+								{
+									"id": "normal",
+									"renderCommands": [
+										{ "type": "pose-part", "part": "Face-Base" },
+										{ "type": "pose-part", "part": "Eyebrows" },
+										{ "type": "pose-part", "part": "Eyes" },
+										{ "type": "pose-part", "part": "Mouth" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" }
+									],
+									"positions": {
+										"Face-Base": [
+											["base.png"],
+											["base-mark.png"],
+											["base-low-blush.png"],
+											["base-low-blush-mark.png"],
+											["base-heavy-blush.png"],
+											["base-heavy-blush-mark.png"]
+										],
+										"Eyebrows": [
+											["brow-a.png"],
+											["brow-fakesmile.png"],
+											["brow-g1.png"],
+											["brow-laugh.png"],
+											["brow-s1.png"],
+											["brow-sc.png"]
+										],
+										"Eyes": [
+											["eyes-a.png"],
+											["eyes-a-cry.png"],
+											["eyes-c1.png"],
+											["eyes-c2.png"],
+											["eyes-c3.png"],
+											["eyes-e.png"],
+											["eyes-e-cry.png"],
+											["eyes-fakesmile.png"],
+											["eyes-g1-new.png"],
+											["eyes-surprised.png"],
+											["eyes-w2.png"]
+										],
+										"Mouth": [
+											["mouth-a.png"],
+											["mouth-a.png", "f2-cig1.png"],
+											["mouth-a.png", "f2-cig2.png"],
+											["mouth-b2.png"],
+											["mouth-b2.png", "b2-cig1.png"],
+											["mouth-b2.png", "b2-cig2.png"],
+											["mouth-beta.png"],
+											["mouth-beta.png", "f1-cig1.png"],
+											["mouth-beta.png", "f1-cig2.png"],
+											["mouth-c1.png"],
+											["mouth-c1.png", "f1-cig1.png"],
+											["mouth-c1.png", "f1-cig2.png"],
+											["mouth-c2.png"],
+											["mouth-c2.png", "f1-cig1.png"],
+											["mouth-c2.png", "f1-cig2.png"],
+											["mouth-f2.png"],
+											["mouth-f2.png", "f2-cig1.png"],
+											["mouth-f2.png", "f2-cig2.png"],
+											["mouth-s1.png"],
+											["mouth-f2.png", "f2-cig1.png"],
+											["mouth-f2.png", "f2-cig2.png"],
+											["mouth-s2.png"],
+											["mouth-s2.png", "f2-cig1.png"],
+											["mouth-s2.png", "f2-cig2.png"],
+											["mouth-s3.png"],
+											["mouth-s3.png", "f2-cig1.png"],
+											["mouth-s3.png", "f2-cig2.png"],
+											["mouth-t1.png"],
+											["mouth-t1.png", "f1-cig1.png"],
+											["mouth-t1.png", "f1-cig2.png"],
+											["mouth-t2.png"],
+											["mouth-t2.png", "b2-cig1.png"],
+											["mouth-t2.png", "b2-cig2.png"],
+											["mouth-u.png"],
+											["mouth-u.png", "b2-cig1.png"],
+											["mouth-u.png", "b2-cig2.png"],
+											["mouth-v.png"],
+											["mouth-w1.png"],
+											["mouth-w1.png", "f1-cig1.png"],
+											["mouth-w1.png", "f1-cig2.png"],
+											["mouth-ydg3.png"],
+											["mouth-ydg3.png", "f2-cig1.png"],
+											["mouth-ydg3.png", "f2-cig2.png"]
+										],
+										"Left": [
+											["1l.png"],
+											["2l.png"],
+											["3l.png"]
+										],
+										"Right": [
+											["1r.png"],
+											["2r.png"],
+											["2rcig.png"],
+											["2rcig2.png"],
+											["3r.png"],
+											["4r.png"],
+											["4ralt.png"],
+											["4rcig.png"],
+											["4rcig2.png"]
+										]
+									}
+								},
+								{
+									"id": "normal",
+									"renderCommands": [
+										{ "type": "pose-part", "part": "Face-Base" },
+										{ "type": "pose-part", "part": "Eyebrows" },
+										{ "type": "pose-part", "part": "Eyes" },
+										{ "type": "pose-part", "part": "Mouth" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"positions": {
+										"Face-Base": [
+											["base.png"],
+											["base-mark.png"],
+											["base-low-blush.png"],
+											["base-low-blush-mark.png"],
+											["base-heavy-blush.png"],
+											["base-heavy-blush-mark.png"]
+										],
+										"Eyebrows": [
+											["brow-a.png"],
+											["brow-fakesmile.png"],
+											["brow-g1.png"],
+											["brow-laugh.png"],
+											["brow-s1.png"],
+											["brow-sc.png"]
+										],
+										"Eyes": [
+											["eyes-a.png"],
+											["eyes-a-cry.png"],
+											["eyes-c1.png"],
+											["eyes-c2.png"],
+											["eyes-c3.png"],
+											["eyes-e.png"],
+											["eyes-e-cry.png"],
+											["eyes-fakesmile.png"],
+											["eyes-g1-new.png"],
+											["eyes-surprised.png"],
+											["eyes-w2.png"]
+										],
+										"Mouth": [
+											["mouth-a.png"],
+											["mouth-b2.png"],
+											["mouth-beta.png"],
+											["mouth-c1.png"],
+											["mouth-c2.png"],
+											["mouth-f2.png"],
+											["mouth-s1.png"],
+											["mouth-s2.png"],
+											["mouth-s3.png"],
+											["mouth-t1.png"],
+											["mouth-t2.png"],
+											["mouth-u.png"],
+											["mouth-v.png"],
+											["mouth-w1.png"],
+											["mouth-ydg3.png"]
+										],
+										"Variant": [
+											["4.png"],
+											["4alt.png"],
+											["4cig.png"],
+											["4cig2.png"]
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
