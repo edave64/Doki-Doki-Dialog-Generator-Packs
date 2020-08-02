@@ -1,0 +1,108 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.oc.kotonoha",
+	"packId": "kotonoha.cyrke.edave64",
+	"packCredits": "Created by Cyrke",
+	"packName": "Kotonoha",
+	"authors": ["Cyrke"],
+	"cc2credits": {
+		"left": ["Kotonoha", "  Chibi"],
+		"right": ["Cyrke", "SlightlySimple"]
+	},
+	"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
+	"comicClubUrl": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
+	"name": "Kotonoha",
+	"internalId": "Kotonoha",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "dress",
+			"label": "Dress"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"h1.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"t1.png",
+			"u.png",
+			"u2.png",
+			"u3.png",
+			"v.png",
+			"v1.png",
+			"w.png",
+			"w2.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"left": [
+				"1l.png",
+				"2l.png",
+				"3l.png"
+			],
+			"right": [
+				"1r.png",
+				"2r.png",
+				"3r.png"
+			]
+		},
+		{
+			"name": "normal_dress",
+			"style": "dress",
+			"compatibleHeads": ["default"],
+			"left": [
+				"1bl.png",
+				"2bl.png",
+				"3bl.png"
+			],
+			"right": [
+				"1br.png",
+				"2br.png",
+				"3br.png"
+			]
+		},
+		{
+			"name": "normal_bikini",
+			"style": "bikini",
+			"compatibleHeads": ["default"],
+			"left": [
+				"1cl.png",
+				"2cl.png",
+				"3cl.png"
+			],
+			"right": [
+				"1cr.png",
+				"2cr.png",
+				"3cr.png"
+			]
+		}
+	]
+}

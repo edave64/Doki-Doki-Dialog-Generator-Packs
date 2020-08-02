@@ -282,6 +282,30 @@
 		"searchWords": []
 	},
 	{
+		"id": "kotonoha.cyrke.edave64",
+		"name": "Kotonoha",
+		"characters": [
+			"Kotonoha"
+		],
+		"authors": [
+			"Cyrke"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
+		"kind": [
+			"Characters"
+		],
+		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.v2.json",
+		"description": "Created by Cyrke",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/3l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "momyori.latteaddicted.edave64",
 		"name": "Sayori's Mom",
 		"characters": [
