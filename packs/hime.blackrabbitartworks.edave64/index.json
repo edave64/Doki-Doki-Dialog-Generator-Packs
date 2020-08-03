@@ -1,0 +1,70 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.oc.hime",
+	"packId": "hime.blackrabbitartworks.edave64",
+	"packCredits": "<a href=\"https://www.reddit.com/r/DDLCMods/comments/hqw0cj/\">Created</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>",
+	"packName": "Hime",
+	"comicClubUrl": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
+	"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/",
+	"authors": ["Black Rabbit Artworks"],
+	"name": "Hime",
+	"internalId": "hime",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "dress",
+			"label": "Dress"
+		}
+	],
+	"heads": {
+		"default": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z1.png",
+			"z2.png",
+			"z3.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal_uniform",
+			"style": "uniform",
+			"compatibleHeads": ["default"],
+			"variant": ["1.png", "2.png", "3.png"]
+		},
+		{
+			"name": "normal_dress",
+			"style": "dress",
+			"compatibleHeads": ["default"],
+			"variant": ["1b.png", "2b.png", "3b.png"]
+		}
+	]
+}

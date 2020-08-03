@@ -306,6 +306,29 @@
 		"searchWords": []
 	},
 	{
+		"id": "hime.blackrabbitartworks.edave64",
+		"name": "Hime",
+		"characters": [
+			"Hime"
+		],
+		"authors": [
+			"Black Rabbit Artworks"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
+		"description": "Created by Cyrke",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "momyori.latteaddicted.edave64",
 		"name": "Sayori's Mom",
 		"characters": [
