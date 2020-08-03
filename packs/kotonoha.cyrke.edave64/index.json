@@ -2,9 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.oc.kotonoha",
 	"packId": "kotonoha.cyrke.edave64",
-	"packCredits": "Created by Cyrke",
+	"packCredits": "Created by Cyrke, Chibi by SlightlySimple",
 	"packName": "Kotonoha",
-	"authors": ["Cyrke"],
+	"authors": ["Cyrke", "SlightlySimple"],
 	"cc2credits": {
 		"left": ["Kotonoha", "  Chibi"],
 		"right": ["Cyrke", "SlightlySimple"]
