@@ -3,6 +3,8 @@ export type PackKind =
 	| 'Characters'
 	| 'Expressions'
 	| 'Poses'
+	| 'Backgrounds'
+	| 'Sprites'
 	| 'Misc';
 
 export interface IPack {
@@ -14,8 +16,8 @@ export interface IPack {
 	source?: string;
 	disclaimer?: string;
 	description: string;
-	dddg1Path: string;
-	dddg2Path: string;
+	dddg1Path?: string;
+	dddg2Path?: string;
 	ddcc2Path?: string;
 	searchWords: string[];
 	authors: string[];

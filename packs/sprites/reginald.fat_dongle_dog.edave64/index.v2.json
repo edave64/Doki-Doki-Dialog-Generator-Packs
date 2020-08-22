@@ -4,6 +4,8 @@
 	"packId": "sprites.reginald.fat_dongle_dog.edave64",
 	"packCredits": "Original by FatDongleDog, newer version by CanisAries",
 	"folder": "./",
+	"packName": "Reginald",
+	"authors": ["FatDongleDog", "CanisAries"],
 	"sprites": [
 		{
 			"id": "reginald_old",

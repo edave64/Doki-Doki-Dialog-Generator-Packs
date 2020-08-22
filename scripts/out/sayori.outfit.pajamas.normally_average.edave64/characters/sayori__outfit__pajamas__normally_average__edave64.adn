@@ -1,0 +1,10 @@
+# This file needs the content pack compatibility files
+character="sayori"
+custom=True
+styles=["_pajamas_normally_average"]
+poses_pajamas_normally_average=[("_head","_left_pajamas_normally_average","_right_pajamas_normally_average")]
+# poses_dpt_pajamas_normally_average=[("_pthead","_left_pajamas_normally_average","_right_pajamas_normally_average",("Pose Tool",))]
+left_pajamas_normally_average=["outfit__pajamas__normally_average__edave64/1l","outfit__pajamas__normally_average__edave64/2l"]
+right_pajamas_normally_average=["outfit__pajamas__normally_average__edave64/1r","outfit__pajamas__normally_average__edave64/2r"]
+credits_l = ["{a='https://www.reddit.com/r/DDLC/comments/axfu4e/'}Sayori's Pajamas{/a}","  Alternative Pose"]
+credits_r = ["NormallyAverage","SlightlySimple"]

@@ -24,8 +24,6 @@ function dgPackId2ccPackId(name: string): string {
 	return name.replace(/\./g, '__').replace(/[^a-zA-Z0-9_]/gi, '_');
 }
 
-async function singlePack() {}
-
 async function getAllPacks(basedir: string): Promise<string[]> {
 	const contents = await promisify(fs.readdir)(basedir);
 	const fullPaths = contents.map((item) => path.join(basedir, item));

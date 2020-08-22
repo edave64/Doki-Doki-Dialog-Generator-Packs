@@ -3,6 +3,13 @@
 	"version": "2.0",
 	"packId": "backgrounds.mcs_living_room.nuxill.edave64",
 	"packCredits": "Created by Nuxill, with edits by Yagamirai10",
+	"packName": "MC's living room",
+	"authors": ["Nuxill", "yagamirai10"],
+	"cc2credits": {
+		"left": ["MC's living room", "  edits by"],
+		"right": ["Nuxill", "yagamirai10"]
+	},
+	"comicClubUrl": "https://drive.google.com/file/d/1rOE9rzYTrlQuNEHpl1igsB070wK_5-P6/view?usp=sharing",
 	"folder": "./",
 	"backgrounds": [
 		{

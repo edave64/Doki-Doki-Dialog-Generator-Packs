@@ -16,6 +16,7 @@
 		{
 			"id": "ddlc.oc.tina",
 			"chibi": "chibi.png",
+			"label": "Tina",
 			"styleGroups": [
 				{
 					"id": "uniform",
