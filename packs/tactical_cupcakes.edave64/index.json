@@ -226,11 +226,37 @@
 			"right": ["1br.png", "4br.png", "5br.png"]
 		},
 		{
+			"name": "normal_arm_grab-casual_hair",
+			"style": "casual-hair",
+			"compatibleHeads": ["default"],
+			"left": ["4bl.png"],
+			"right": ["5br.png"]
+		},
+		{
+			"name": "crossed_arms-casual_hair",
+			"style": "casual-hair",
+			"compatibleHeads": ["default"],
+			"static": "3b.png"
+		},
+		{
 			"name": "normal-casual_hat",
 			"style": "casual-hat",
 			"compatibleHeads": ["hat"],
 			"left": ["1bl.png", "4bl.png"],
 			"right": ["1br.png", "4br.png", "5br.png"]
+		},
+		{
+			"name": "normal_arm_grab-casual_hat",
+			"style": "casual-hat",
+			"compatibleHeads": ["hat"],
+			"left": ["4bl.png"],
+			"right": ["5br.png"]
+		},
+		{
+			"name": "crossed_arms-casual_hat",
+			"style": "casual-hat",
+			"compatibleHeads": ["hat"],
+			"static": "3b.png"
 		}
 	]
 }
