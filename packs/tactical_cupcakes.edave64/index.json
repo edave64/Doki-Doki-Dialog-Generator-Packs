@@ -222,8 +222,8 @@
 			"name": "normal-casual_hair",
 			"style": "casual-hair",
 			"compatibleHeads": ["default"],
-			"left": ["1bl.png", "4bl.png"],
-			"right": ["1br.png", "4br.png", "5br.png"]
+			"left": ["1bl.png", "2bl.png", "4bl.png"],
+			"right": ["1br.png", "2br.png", "4br.png"]
 		},
 		{
 			"name": "normal_arm_grab-casual_hair",
@@ -242,8 +242,8 @@
 			"name": "normal-casual_hat",
 			"style": "casual-hat",
 			"compatibleHeads": ["hat"],
-			"left": ["1bl.png", "4bl.png"],
-			"right": ["1br.png", "4br.png", "5br.png"]
+			"left": ["1bl.png", "2bl.png", "4bl.png"],
+			"right": ["1br.png", "2br.png", "4br.png"]
 		},
 		{
 			"name": "normal_arm_grab-casual_hat",
