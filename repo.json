@@ -1,5 +1,24 @@
 [
 	{
+		"id": "backgrounds.mcs_living_room.nuxill.edave64",
+		"name": "MC's living room",
+		"characters": [],
+		"authors": [
+			"Nuxill",
+			"yagamirai10"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1rOE9rzYTrlQuNEHpl1igsB070wK_5-P6/view?usp=sharing",
+		"kind": [
+			"Backgrounds"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/index.v2.json",
+		"description": "Created by Nuxill, with edits by Yagamirai10",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/daytime.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "dadsuki.soviet_spartan.edave64",
 		"name": "Dadsuki (SovietSpartan)",
 		"characters": [
@@ -96,13 +115,63 @@
 		"searchWords": []
 	},
 	{
+		"id": "hime.blackrabbitartworks.edave64",
+		"name": "Hime",
+		"characters": [
+			"Hime"
+		],
+		"authors": [
+			"Daikaiju-fanboy",
+			"Black Rabbit Artworks",
+			"AjTheYandere"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
+		"description": "Commissioned and owned by Daikaiju-fanboy, <a href=\"https://www.reddit.com/r/DDLCMods/comments/hqw0cj/\">created</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Chibi by AjTheYandere",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/1.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "kotonoha.cyrke.edave64",
+		"name": "Kotonoha",
+		"characters": [
+			"Kotonoha"
+		],
+		"authors": [
+			"Cyrke",
+			"SlightlySimple"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
+		"kind": [
+			"Characters"
+		],
+		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.v2.json",
+		"description": "Created by Cyrke, Chibi by SlightlySimple",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "mc.oufits.grey_hoodie.tomas_of_mystery.edave64",
 		"name": "Grey hoodie",
 		"characters": [
 			"MC"
 		],
 		"authors": [
-			"tomas_of_mystery",
+			"ThoMysteriousY",
 			"gurogurl",
 			"SlightlySimple"
 		],
@@ -110,10 +179,10 @@
 		"kind": [
 			"Styles"
 		],
-		"source": "https://discordapp.com/channels/339272843327963136/373669252554686464/721123343302000671",
+		"source": "https://www.reddit.com/r/DDLCMods/comments/h7u6t9/mcs_new_sprite_hoodie/",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/grey_hoodie.tomas_of_mystery.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/grey_hoodie.tomas_of_mystery.edave64/index.json",
-		"description": "Created by tomas_of_mystery, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
+		"description": "Created by ThoMysteriousY, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/grey_hoodie.tomas_of_mystery.edave64/1cl.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/grey_hoodie.tomas_of_mystery.edave64/1cr.png"
@@ -127,7 +196,7 @@
 			"MC"
 		],
 		"authors": [
-			"tomas_of_mystery",
+			"ThoMysteriousY",
 			"gurogurl",
 			"SlightlySimple"
 		],
@@ -135,10 +204,10 @@
 		"kind": [
 			"Styles"
 		],
-		"source": "https://discordapp.com/channels/339272843327963136/373669252554686464/721123343302000671",
+		"source": "https://www.reddit.com/r/DDLCMods/comments/h7u6t9/mcs_new_sprite_hoodie/",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/red_hoodie.tomas_of_mystery.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/red_hoodie.tomas_of_mystery.edave64/index.json",
-		"description": "Created by tomas_of_mystery, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
+		"description": "Created by ThoMysteriousY, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/red_hoodie.tomas_of_mystery.edave64/1cl.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/red_hoodie.tomas_of_mystery.edave64/1cr.png"
@@ -192,6 +261,48 @@
 		"searchWords": []
 	},
 	{
+		"id": "mio.cgs.cyrke.blackrabbitartworks.edave64",
+		"name": "Mio CGs",
+		"characters": [],
+		"authors": [
+			"Cyrke",
+			"Black Rabbit Artworks",
+			"yagamirai10"
+		],
+		"kind": [
+			"Backgrounds"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/index.v2.json",
+		"description": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/sitting_1.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "mio.outfits.dress.blackrabbitartworks.edave64",
+		"name": "Mio's white dress",
+		"characters": [
+			"Mio"
+		],
+		"authors": [
+			"Black Rabbit Artworks"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1AsjuHZFL4NBeOoVjiUT1Y4JlwVw-aCQ4/view?usp=sharing",
+		"kind": [
+			"Styles"
+		],
+		"source": "https://drive.google.com/drive/folders/1swxMNIKwGZPqxA8uY5rhwFPE3xquNY4n",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/index.v2.json",
+		"disclaimer": "You need to add the pack for 'Mio' before adding this",
+		"description": "Created by Black Rabbit Artworks",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/1.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "mio.yagamirai10.edave64",
 		"name": "Mio",
 		"characters": [
@@ -212,119 +323,6 @@
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/yagamirai10.edave64/a.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/yagamirai10.edave64/1.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "mio.cgs.cyrke.blackrabbitartworks.edave64",
-		"name": "Mio CGs",
-		"characters": [
-			"Mio"
-		],
-		"authors": [
-			"Cyrke",
-			"Black Rabbit Artworks",
-			"yagamirai10"
-		],
-		"kind": [
-			"Backgrounds"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/1EdVsZIcWGrzXYp4YHJ6c_TYwYI3oK2N7/view?usp=sharing",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/index.v2.json",
-		"description": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/sitting_1.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "mio.outfits.dress.blackrabbitartworks.edave64",
-		"name": "Mio's white dress",
-		"characters": [
-			"Mio"
-		],
-		"authors": [
-			"Black Rabbit Artworks"
-		],
-		"kind": [
-			"Styles"
-		],
-		"source": "https://drive.google.com/drive/folders/1swxMNIKwGZPqxA8uY5rhwFPE3xquNY4n",
-		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/index.json",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/index.v2.json",
-		"ddcc2Path": "https://drive.google.com/file/d/1AsjuHZFL4NBeOoVjiUT1Y4JlwVw-aCQ4/view?usp=sharing",
-		"disclaimer": "You need to add the pack for 'Mio' before adding this",
-		"description": "Created by Black Rabbit Artworks",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/1.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "tina.johnrdvsmarston.edave64",
-		"name": "Tina",
-		"characters": [
-			"Tina"
-		],
-		"authors": [
-			"JohnRDVSMarston"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/1_MrMCGZS0qu3WjZRej4_37FzjzpH2cPU/view?usp=sharing",
-		"kind": [
-			"Characters"
-		],
-		"source": "https://www.reddit.com/r/DDLCMods/comments/fitnr9/",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tina.johnrdvsmarston.edave64/index.v2.json",
-		"description": "<a href='https://www.reddit.com/r/DDLCMods/comments/fitnr9/'>Created</a> by JohnRDVSMarston",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tina.johnrdvsmarston.edave64/preview.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "kotonoha.cyrke.edave64",
-		"name": "Kotonoha",
-		"characters": [
-			"Kotonoha"
-		],
-		"authors": [
-			"Cyrke", "SlightlySimple"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
-		"kind": [
-			"Characters"
-		],
-		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
-		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.json",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.v2.json",
-		"description": "Created by Cyrke, Chibi by SlightlySimple",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/3l.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1r.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "hime.blackrabbitartworks.edave64",
-		"name": "Hime",
-		"characters": [
-			"Hime"
-		],
-		"authors": [
-			"Daikaiju-fanboy", "Black Rabbit Artworks", "AjTheYandere"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
-		"kind": [
-			"Characters"
-		],
-		"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/",
-		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
-		"description": "Commissioned and owned by Daikaiju-fanboy, created by Black Rabbit Artworks, Chibi by AjTheYandere",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/1.png"
 		],
 		"searchWords": []
 	},
@@ -1196,7 +1194,8 @@
 			"Sayori"
 		],
 		"authors": [
-			"FatDongleDog", "SlightlySimple"
+			"FatDongleDog",
+			"SlightlySimple"
 		],
 		"ddcc2Path": "https://drive.google.com/file/d/1Vlmw-rd_yDPxn_c9R_j7Fxp744bOMjbP/view?usp=sharing",
 		"kind": [
@@ -1207,7 +1206,8 @@
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/cat_shirt.fat_dongle_dog.edave64/index.json",
 		"description": "Created by <a href='https://www.reddit.com/u/FatDongleDog'>FatDongleDog</a>, alternative pose by SlightlySimple",
 		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/cat_shirt.fat_dongle_dog.edave64/1.png"
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/cat_shirt.fat_dongle_dog.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/cat_shirt.fat_dongle_dog.edave64/1r.png"
 		],
 		"searchWords": []
 	},
@@ -1231,6 +1231,30 @@
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/hoodie.gurogurl.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/hoodie.gurogurl.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "sayori.outfit.pajamas.normally_average.edave64",
+		"name": "Pajamas",
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"NormallyAverage",
+			"SlightlySimple"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/17tUblqGMCaCRKX-B6Mj6QzLNdeEkqGHS/view?usp=sharing",
+		"kind": [
+			"Styles"
+		],
+		"source": "https://www.reddit.com/r/DDLC/comments/axfu4e/",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/pajamas.normally_average.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/pajamas.normally_average.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/r/DDLC/comments/axfu4e/'>Created by</a> NormallyAverage, Alternative pose by SlightlySimple",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/pajamas.normally_average.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/pajamas.normally_average.edave64/1r.png"
 		],
 		"searchWords": []
 	},
@@ -1365,6 +1389,24 @@
 		"searchWords": []
 	},
 	{
+		"id": "sprites.reginald.fat_dongle_dog.edave64",
+		"name": "Reginald",
+		"characters": [],
+		"authors": [
+			"FatDongleDog",
+			"CanisAries"
+		],
+		"kind": [
+			"Sprites"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/index.v2.json",
+		"description": "Original by FatDongleDog, newer version by CanisAries",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/original.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "tactical_cupcakes.edave64",
 		"name": "TacticalCupcakes",
 		"characters": [
@@ -1373,7 +1415,8 @@
 		"authors": [
 			"TacticalCupcakes",
 			"yagamirai10",
-			"E-Natr"
+			"E-Natr",
+			"SlightlySimple"
 		],
 		"ddcc2Path": "https://drive.google.com/file/d/1nxQVEwE_KOIcccyv4ASCPigs7FOerOJH/view",
 		"kind": [
@@ -1383,11 +1426,32 @@
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/index.json",
 		"disclaimer": "These sprites are based on a real person. Please be respectful and don't use these as your OC.",
-		"description": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
+		"description": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />Cross-armed casual pose: <a href='https://www.reddit.com/u/SlightlySimple' target='_blank' rel='noopener noreferrer'>/u/SlightlySimple</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/a.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "tina.johnrdvsmarston.edave64",
+		"name": "Tina",
+		"characters": [
+			"Tina"
+		],
+		"authors": [
+			"JohnRDVSMarston"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1_MrMCGZS0qu3WjZRej4_37FzjzpH2cPU/view?usp=sharing",
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/fitnr9/",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tina.johnrdvsmarston.edave64/index.v2.json",
+		"description": "<a href='https://www.reddit.com/r/DDLCMods/comments/fitnr9/'>Created</a> by JohnRDVSMarston",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tina.johnrdvsmarston.edave64/preview.png"
 		],
 		"searchWords": []
 	},
@@ -1627,43 +1691,6 @@
 		"description": "Created by diaboliiique (@fiiiiioooo on Twitter)",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri_r63/diaboliiique.edave64/preview.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "backgrounds.mcs_living_room.nuxill.edave64",
-		"name": "MC's living room",
-		"characters": [],
-		"authors": [
-			"Nuxill",
-			"yagamirai10"
-		],
-		"kind": [
-			"Backgrounds"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/1rOE9rzYTrlQuNEHpl1igsB070wK_5-P6/view?usp=sharing",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/index.v2.json",
-		"description": "Created by nuxill, edited by yagamirai10",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/daytime.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "sprites.reginald.fat_dongle_dog.edave64",
-		"name": "Reginald",
-		"characters": [],
-		"authors": [
-			"FatDongleDog",
-			"CanisAries"
-		],
-		"kind": [
-			"Sprites"
-		],
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/index.v2.json",
-		"description": "Original by FatDongleDog, newer version by CanisAries",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/original.png"
 		],
 		"searchWords": []
 	}
