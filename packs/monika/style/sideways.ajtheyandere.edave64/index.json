@@ -15,7 +15,7 @@
 		]
 	},
 	"heads": {
-		"sideways": [
+		"sideways_aj": [
 			"a.png",
 			"b.png",
 			"c.png",
@@ -50,7 +50,7 @@
 		{
 			"style": "uniform_sideways",
 			"name": "uniform_sideways",
-			"compatibleHeads": ["sideways"],
+			"compatibleHeads": ["sideways_aj"],
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		},
