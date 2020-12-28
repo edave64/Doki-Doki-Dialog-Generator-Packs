@@ -27,18 +27,16 @@ export class CC2Style {
 	public readonly poses: CC2Pose[] = [];
 	public constructor(
 		public readonly character: CC2Character,
-		public readonly id: string = ''
+		public readonly id: string = '',
+		public readonly allowsDPT: boolean
 	) {}
-
-
 
 	public getStyleNames(): string[] {
 		if (!this.poses) return [];
-		const styleVariants = 
 		if (!this.allowsDPT) return [`_${this.id}`];
-		if (this.character.id !== 'natsuki')
-			return [`_${this.id}`, `_dpt_${this.id}`];
-		return [`_${this.id}`, `_dpt_${this.id}`, `_dpt_alt_${this.id}`];
+		if (this.character.id === 'natsuki')
+			return [`_${this.id}`, `_dpt_${this.id}`, `_dpt_alt_${this.id}`];
+		return [`_${this.id}`, `_dpt_${this.id}`];
 	}
 
 	public toCC2BodyString(): string {

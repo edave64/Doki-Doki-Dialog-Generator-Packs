@@ -798,6 +798,30 @@
 		"searchWords": []
 	},
 	{
+		"id": "monika.sideways.ajtheyandere.edave64",
+		"name": "Sideways Monika",
+		"characters": [
+			"Monika"
+		],
+		"authors": [
+			"AjTheYandere"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1ZdxU2Dogu8qR_81bqe3PcjLA3i2QZ3HK/view?usp=sharing",
+		"kind": [
+			"Styles"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "monika_r63.diaboliiique.edave64",
 		"name": "Rule 63 Monika",
 		"characters": [

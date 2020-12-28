@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"folder": "./",
+	"packId": "monika.sideways.ajtheyandere.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
+	"packName": "Sideways Monika",
+	"authors": ["AjTheYandere"],
+	"source": "https://www.reddit.com/klgmd2",
+	"comicClubUrl": "https://drive.google.com/file/d/1ZdxU2Dogu8qR_81bqe3PcjLA3i2QZ3HK/view?usp=sharing",
+	"cc2credits": {
+		"left": ["Shorter haired Monika"],
+		"right": [
+			"AjTheYandere"
+		]
+	},
+	"heads": {
+		"sideways": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png"
+		]
+	},
+	"styles": [
+		{
+			"name": "uniform_sideways",
+			"label": "Uniform and sideways"
+		},
+		{
+			"name": "uniform_sideways_glitchy",
+			"label": "Uniform, sideways and glitchy"
+		}
+	],
+	"poses": [
+		{
+			"style": "uniform_sideways",
+			"name": "uniform_sideways",
+			"compatibleHeads": ["sideways"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"style": "uniform_sideways_glitchy",
+			"name": "uniform_sideways_glitchy",
+			"compatibleHeads": [],
+			"static": "g1.png"
+		}
+	]
+}
