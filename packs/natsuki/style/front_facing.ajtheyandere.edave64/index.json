@@ -1,0 +1,47 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.natsuki",
+	"folder": "./",
+	"packId": "natsuki.front_facing.ajtheyandere.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
+	"packName": "Front facing Natsuki",
+	"authors": ["AjTheYandere"],
+	"source": "https://www.reddit.com/klgmd2",
+	"cc2credits": {
+		"left": ["Front facing Natsuki"],
+		"right": ["AjTheYandere"]
+	},
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z.png",
+			"scream.png"
+		]
+	},
+	"styles": [],
+	"poses": []
+}

@@ -1,0 +1,6 @@
+# This file needs the content pack compatibility files
+character="natsuki"
+custom=True
+faces_cpack_compat=["front_facing__ajtheyandere__edave64/a","front_facing__ajtheyandere__edave64/b","front_facing__ajtheyandere__edave64/c","front_facing__ajtheyandere__edave64/d","front_facing__ajtheyandere__edave64/e","front_facing__ajtheyandere__edave64/f","front_facing__ajtheyandere__edave64/g","front_facing__ajtheyandere__edave64/h","front_facing__ajtheyandere__edave64/i","front_facing__ajtheyandere__edave64/j","front_facing__ajtheyandere__edave64/k","front_facing__ajtheyandere__edave64/l","front_facing__ajtheyandere__edave64/m","front_facing__ajtheyandere__edave64/n","front_facing__ajtheyandere__edave64/o","front_facing__ajtheyandere__edave64/p","front_facing__ajtheyandere__edave64/q","front_facing__ajtheyandere__edave64/r","front_facing__ajtheyandere__edave64/s","front_facing__ajtheyandere__edave64/t","front_facing__ajtheyandere__edave64/u","front_facing__ajtheyandere__edave64/v","front_facing__ajtheyandere__edave64/w","front_facing__ajtheyandere__edave64/x","front_facing__ajtheyandere__edave64/y","front_facing__ajtheyandere__edave64/z","front_facing__ajtheyandere__edave64/scream"]
+credits_l = ["Front facing Natsuki"]
+credits_r = ["AjTheYandere"]
