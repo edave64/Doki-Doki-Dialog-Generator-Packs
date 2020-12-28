@@ -1037,6 +1037,27 @@
 		"searchWords": []
 	},
 	{
+		"id": "natsuki.front_facing.ajtheyandere.edave64",
+		"name": "Front facing Natsuki",
+		"characters": [
+			"Natsuki"
+		],
+		"authors": [
+			"AjTheYandere"
+		],
+		"kind": [
+			"Expressions"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/a.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "natsuki_r63.diaboliiique.edave64",
 		"name": "Rule 63 Natsuki",
 		"characters": [
