@@ -2,12 +2,12 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"folder": "./",
-	"packId": "monika.sideways.ajtheyandere.edave64",
+	"packId": "monika.poses.sideways.ajtheyandere.edave64",
 	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
 	"packName": "Sideways Monika",
 	"authors": ["AjTheYandere", "Ein Had A Motive"],
 	"source": "https://www.reddit.com/klgmd2",
-	"comicClubUrl": "https://drive.google.com/file/d/1ZdxU2Dogu8qR_81bqe3PcjLA3i2QZ3HK/view?usp=sharing",
+	"comicClubUrl": "https://drive.google.com/file/d/1-gHL_WtRGtsIGk7vqo4cCY7-TInViZh9/view?usp=sharing",
 	"cc2credits": {
 		"left": ["Side facing Monika", ""],
 		"right": [
@@ -36,26 +36,17 @@
 			"r.png"
 		]
 	},
-	"styles": [
-		{
-			"name": "uniform_sideways",
-			"label": "Uniform and sideways"
-		},
-		{
-			"name": "uniform_sideways_glitchy",
-			"label": "Uniform, sideways and glitchy"
-		}
-	],
+	"styles": [],
 	"poses": [
 		{
-			"style": "uniform_sideways",
+			"style": "uniform",
 			"name": "uniform_sideways",
 			"compatibleHeads": ["sideways_aj"],
 			"left": ["1l.png", "2l.png"],
 			"right": ["1r.png", "2r.png"]
 		},
 		{
-			"style": "uniform_sideways_glitchy",
+			"style": "glitch",
 			"name": "uniform_sideways_glitchy",
 			"compatibleHeads": [],
 			"static": "g1.png"

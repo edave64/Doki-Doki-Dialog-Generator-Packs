@@ -2,14 +2,14 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.natsuki",
 	"folder": "./",
-	"packId": "natsuki.front_facing.ajtheyandere.edave64",
+	"packId": "natsuki.expressions.front_facing.ajtheyandere.edave64",
 	"packCredits": "Expressions created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, base by SpringingTraps",
 	"packName": "Front facing Natsuki",
 	"authors": ["AjTheYandere", "SpringingTraps"],
 	"source": "https://www.reddit.com/klgmd2",
 	"cc2credits": {
-		"left": ["Front facing Natsuki"],
-		"right": ["AjTheYandere"]
+		"left": ["Front facing Natsuki", "  base by"],
+		"right": ["AjTheYandere", "SpringingTraps"]
 	},
 	"heads": {
 		"straight": [

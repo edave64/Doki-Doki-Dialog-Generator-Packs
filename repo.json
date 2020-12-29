@@ -773,6 +773,31 @@
 		"searchWords": []
 	},
 	{
+		"id": "monika.poses.sideways.ajtheyandere.edave64",
+		"name": "Sideways Monika",
+		"characters": [
+			"Monika"
+		],
+		"authors": [
+			"AjTheYandere",
+			"Ein Had A Motive"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1-gHL_WtRGtsIGk7vqo4cCY7-TInViZh9/view?usp=sharing",
+		"kind": [
+			"Poses"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "monika.shorter_hair.tactical_cupcakes.edave64",
 		"name": "Shorter-haired Monika",
 		"characters": [
@@ -794,30 +819,6 @@
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/shorter_hair.tactical_cupcakes.edave64/a.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/shorter_hair.tactical_cupcakes.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/shorter_hair.tactical_cupcakes.edave64/1r.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "monika.sideways.ajtheyandere.edave64",
-		"name": "Sideways Monika",
-		"characters": [
-			"Monika"
-		],
-		"authors": [
-			"AjTheYandere"
-		],
-		"ddcc2Path": "https://drive.google.com/file/d/1ZdxU2Dogu8qR_81bqe3PcjLA3i2QZ3HK/view?usp=sharing",
-		"kind": [
-			"Styles"
-		],
-		"source": "https://www.reddit.com/klgmd2",
-		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/index.json",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/index.json",
-		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/1l.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/sideways.ajtheyandere.edave64/1r.png"
 		],
 		"searchWords": []
 	},
@@ -880,6 +881,28 @@
 		"description": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/base.lunatic_rabbit.edave64/a.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "natsuki.expressions.front_facing.ajtheyandere.edave64",
+		"name": "Front facing Natsuki",
+		"characters": [
+			"Natsuki"
+		],
+		"authors": [
+			"AjTheYandere",
+			"SpringingTraps"
+		],
+		"kind": [
+			"Expressions"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/front_facing.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/front_facing.ajtheyandere.edave64/index.json",
+		"description": "Expressions created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, base by SpringingTraps",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/front_facing.ajtheyandere.edave64/a.png"
 		],
 		"searchWords": []
 	},
@@ -1033,27 +1056,6 @@
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/1r.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "natsuki.front_facing.ajtheyandere.edave64",
-		"name": "Front facing Natsuki",
-		"characters": [
-			"Natsuki"
-		],
-		"authors": [
-			"AjTheYandere"
-		],
-		"kind": [
-			"Expressions"
-		],
-		"source": "https://www.reddit.com/klgmd2",
-		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/index.json",
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/index.json",
-		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/style/front_facing.ajtheyandere.edave64/a.png"
 		],
 		"searchWords": []
 	},
@@ -1715,6 +1717,31 @@
 		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/sports.pluralroses.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/sports.pluralroses.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "yuri.poses.front_facing.ajtheyandere.edave64",
+		"name": "Front facing Yuri",
+		"characters": [
+			"Yuri"
+		],
+		"authors": [
+			"AjTheYandere",
+			"Ein Had A Motive"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/17XjPO6OdibOsQCS4RVk94UZAtSiziVqu/view?usp=sharing",
+		"kind": [
+			"Poses"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/1r.png"
 		],
 		"searchWords": []
 	},
