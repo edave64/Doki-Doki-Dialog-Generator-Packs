@@ -148,8 +148,7 @@ async function writeCharacterFile(
 ) {
 	let out =
 		'# This file needs the content pack compatibility files\n' +
-		`character="${characterName}"\n` +
-		`custom=True\n`;
+		`character="${characterName}"\n`;
 
 	const paths: { [s: string]: string } = {
 		'./': `${assetFolderName}/`,

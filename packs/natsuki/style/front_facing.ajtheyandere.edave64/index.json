@@ -3,9 +3,9 @@
 	"id": "ddlc.natsuki",
 	"folder": "./",
 	"packId": "natsuki.front_facing.ajtheyandere.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>",
+	"packCredits": "Expressions created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, base by SpringingTraps",
 	"packName": "Front facing Natsuki",
-	"authors": ["AjTheYandere"],
+	"authors": ["AjTheYandere", "SpringingTraps"],
 	"source": "https://www.reddit.com/klgmd2",
 	"cc2credits": {
 		"left": ["Front facing Natsuki"],
