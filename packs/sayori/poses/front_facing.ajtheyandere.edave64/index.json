@@ -1,0 +1,72 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.sayori",
+	"folder": "./",
+	"packId": "sayori.poses.front_facing.ajtheyandere.edave64",
+	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
+	"packName": "Front facing Sayori",
+	"authors": ["AjTheYandere", "Ein Had A Motive"],
+	"source": "https://www.reddit.com/klgmd2",
+	"comicClubUrl": "https://drive.google.com/file/d/1bHnpgKAk02q5eBa1CcUYi2eg82t7B4Dd/view?usp=sharing",
+	"cc2credits": {
+		"left": ["Front facing Sayori", ""],
+		"right": ["AjTheYandere", "Ein Had A Motive"]
+	},
+	"heads": {
+		"front_facing_aj": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"moni/a.png",
+			"moni/b.png",
+			"moni/c.png",
+			"moni/d.png",
+			"moni/e.png",
+			"moni/f.png",
+			"moni/g.png",
+			"moni/h.png",
+			"moni/i.png",
+			"moni/j.png",
+			"moni/k.png",
+			"moni/l.png",
+			"moni/m.png",
+			"moni/n.png",
+			"moni/o.png",
+			"moni/p.png",
+			"moni/q.png",
+			"moni/r.png"
+		]
+	},
+	"styles": [],
+	"poses": [
+		{
+			"style": "uniform",
+			"name": "uniform_front_facing",
+			"compatibleHeads": ["front_facing_aj"],
+			"left": ["1l.png", "2l.png", "3l.png"],
+			"right": ["1r.png", "2r.png", "3r.png"]
+		}
+	]
+}

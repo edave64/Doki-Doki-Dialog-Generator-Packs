@@ -1438,6 +1438,31 @@
 		"searchWords": []
 	},
 	{
+		"id": "sayori.poses.front_facing.ajtheyandere.edave64",
+		"name": "Front facing Sayori",
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"AjTheYandere",
+			"Ein Had A Motive"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/1bHnpgKAk02q5eBa1CcUYi2eg82t7B4Dd/view?usp=sharing",
+		"kind": [
+			"Poses"
+		],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/index.json",
+		"description": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "sayori_r63.diaboliiique.edave64",
 		"name": "Rule 63 Sayori",
 		"characters": [
