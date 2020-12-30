@@ -67,6 +67,13 @@
 			"compatibleHeads": ["front_facing_aj"],
 			"left": ["1l.png", "2l.png", "3l.png"],
 			"right": ["1r.png", "2r.png", "3r.png"]
+		},
+		{
+			"style": "casual",
+			"name": "casual_front_facing",
+			"compatibleHeads": ["front_facing_aj"],
+			"left": ["1bl.png", "2bl.png", "3bl.png"],
+			"right": ["1br.png", "2br.png", "3br.png"]
 		}
 	]
 }
