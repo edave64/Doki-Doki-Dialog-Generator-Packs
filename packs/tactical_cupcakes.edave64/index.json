@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.oc.tactical_cupcakes",
 	"packId": "tactical_cupcakes.edave64",
-	"packCredits": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />Cross-armed casual pose: <a href='https://www.reddit.com/u/SlightlySimple' target='_blank' rel='noopener noreferrer'>/u/SlightlySimple</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
+	"packCredits": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />Cross-armed casual pose: <a href='https://www.reddit.com/u/SlightlySimple' target='_blank' rel='noopener noreferrer'>/u/SlightlySimple</a><br />Shrugging pose by TacticalCupcakes</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
 	"disclaimer": "These sprites are based on a real person. Please be respectful and don't use these as your OC.",
 	"packName": "TacticalCupcakes",
 	"authors": ["TacticalCupcakes", "yagamirai10", "E-Natr", "SlightlySimple"],
@@ -96,7 +96,8 @@
 			"z_h.png",
 			"z_i.png",
 			"z_j.png",
-			"z_k.png"
+			"z_k.png",
+			"z_l.png"
 		],
 		"hat": {
 			"folder": "hat/",
@@ -161,7 +162,8 @@
 				"z_h.png",
 				"z_i.png",
 				"z_j.png",
-				"z_k.png"
+				"z_k.png",
+				"z_l.png"
 			]
 		}
 	},
@@ -170,8 +172,8 @@
 			"name": "normal",
 			"style": "default-hair",
 			"compatibleHeads": ["default"],
-			"left": ["1l.png", "2l.png", "4l.png"],
-			"right": ["1r.png", "2r.png", "4r.png"]
+			"left": ["1l.png", "2l.png", "4l.png", "7l_By TC.png"],
+			"right": ["1r.png", "2r.png", "4r.png", "7r_By TC.png"]
 		},
 		{
 			"name": "normal_arm_grab",
@@ -196,8 +198,8 @@
 			"name": "normal-default_hat",
 			"style": "default-hat",
 			"compatibleHeads": ["hat"],
-			"left": ["1l.png", "2l.png", "4l.png"],
-			"right": ["1r.png", "2r.png", "4r.png"]
+			"left": ["1l.png", "2l.png", "4l.png", "7l_By TC.png"],
+			"right": ["1r.png", "2r.png", "4r.png", "7r_By TC.png"]
 		},
 		{
 			"name": "normal_arm_grab_default-hat",
@@ -222,8 +224,8 @@
 			"name": "normal-casual_hair",
 			"style": "casual-hair",
 			"compatibleHeads": ["default"],
-			"left": ["1bl.png", "2bl.png", "4bl.png"],
-			"right": ["1br.png", "2br.png", "4br.png"]
+			"left": ["1bl.png", "2bl.png", "4bl.png", "7bl_By TC.png"],
+			"right": ["1br.png", "2br.png", "4br.png", "7br_By TC.png"]
 		},
 		{
 			"name": "normal_arm_grab-casual_hair",
@@ -242,8 +244,8 @@
 			"name": "normal-casual_hat",
 			"style": "casual-hat",
 			"compatibleHeads": ["hat"],
-			"left": ["1bl.png", "2bl.png", "4bl.png"],
-			"right": ["1br.png", "2br.png", "4br.png"]
+			"left": ["1bl.png", "2bl.png", "4bl.png", "7bl_By TC.png"],
+			"right": ["1br.png", "2br.png", "4br.png", "7br_By TC.png"]
 		},
 		{
 			"name": "normal_arm_grab-casual_hat",
