@@ -3,14 +3,14 @@
 	"version": "2.0",
 	"packId": "mc.storm_blaze.edave64",
 	"packCredits": "<a href='https://www.reddit.com/ofkg59'>Created by</a> StormBlazed76, <a href='https://www.reddit.com/og6shh'>red</a> and <a href='https://www.reddit.com/oft3vb'>yellow</a> eyes by YinuS_WinneR, <a href='https://www.reddit.com/ofof3o'>chibi</a> by Hadrosaur838",
-	"packName": "MC",
+	"packName": "MC (Concept)",
 	"authors": ["StormBlazed76", "YinuS_WinneR", "Hadrosaur838"],
 	"source": "https://www.reddit.com/ofkg59",
 	"folder": "./",
 	"characters": [
 		{
 			"id": "ddlc.fan.storm_blaze.mc",
-			"label": "MC (Concept)",
+			"label": "MC",
 			"chibi": "chibi.png",
 			"styleGroups": [
 				{
