@@ -1,0 +1,202 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.fan.storm_blaze.mc",
+	"packId": "mc.storm_blaze.edave64",
+	"packCredits": "<a href='https://www.reddit.com/ofkg59'>Created by</a> StormBlazed76, <a href='https://www.reddit.com/og6shh'>red</a> and <a href='https://www.reddit.com/oft3vb'>yellow</a> eyes by YinuS_WinneR, <a href='https://www.reddit.com/ofof3o'>chibi</a> by Hadrosaur838",
+	"packName": "MC",
+	"authors": ["StormBlazed76", "YinuS_WinneR", "Hadrosaur838"],
+	"source": "https://www.reddit.com/ofkg59",
+	"name": "MC (Concept)",
+	"internalId": "concept_mc",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"eyes": {
+		"brown": "preview-brown.png",
+		"yellow": "preview-yellow.png",
+		"red": "preview-red.png"
+	},
+	"styles": [
+		{
+			"name": "uniform-brown",
+			"label": "Uniform and brown eyes"
+		},
+		{
+			"name": "uniform-yellow",
+			"label": "Uniform and yellow eyes"
+		},
+		{
+			"name": "uniform-red",
+			"label": "Uniform and red eyes"
+		},
+		{
+			"name": "casual-brown",
+			"label": "Casual and brown eyes"
+		},
+		{
+			"name": "casual-yellow",
+			"label": "Casual and yellow eyes"
+		},
+		{
+			"name": "casual-red",
+			"label": "Casual and red eyes"
+		}
+	],
+	"heads": {
+		"straight_eyes_closed": {
+			"folder": "brown/",
+			"all": [
+				"h1.png",
+				"i1.png",
+				"j1.png",
+				"k1.png",
+				"l1.png"
+			]
+		},
+		"straight_brown": {
+			"folder": "brown/",
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"h.png",
+				"i.png",
+				"j.png",
+				"k.png",
+				"l.png",
+				"m.png",
+				"n.png",
+				"o.png",
+				"p.png",
+				"q.png",
+				"r.png",
+				"s.png",
+				"t.png",
+				"u.png",
+				"v.png",
+				"w.png",
+				"x.png",
+				"y.png",
+				"z.png",
+				"a1.png",
+				"b1.png",
+				"c1.png",
+				"e1.png",
+				"f1.png",
+				"g1.png"
+			]
+		},
+		"straight_yellow": {
+			"folder": "yellow/",
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"h.png",
+				"i.png",
+				"j.png",
+				"k.png",
+				"l.png",
+				"m.png",
+				"n.png",
+				"o.png",
+				"p.png",
+				"q.png",
+				"r.png",
+				"s.png",
+				"t.png",
+				"u.png",
+				"v.png",
+				"w.png",
+				"x.png",
+				"y.png",
+				"z.png",
+				"a1.png",
+				"b1.png",
+				"c1.png",
+				"e1.png",
+				"f1.png",
+				"g1.png"
+			]
+		},
+		"straight_red": {
+			"folder": "red/",
+			"all": [
+				"a.png",
+				"b.png",
+				"c.png",
+				"e.png",
+				"f.png",
+				"g.png",
+				"h.png",
+				"i.png",
+				"j.png",
+				"k.png",
+				"l.png",
+				"m.png",
+				"n.png",
+				"o.png",
+				"p.png",
+				"q.png",
+				"r.png",
+				"s.png",
+				"t.png",
+				"u.png",
+				"v.png",
+				"w.png",
+				"x.png",
+				"y.png",
+				"z.png",
+				"a1.png",
+				"b1.png",
+				"c1.png",
+				"e1.png",
+				"f1.png",
+				"g1.png"
+			]
+		}
+	},
+	"poses": [
+		{
+			"name": "normal-uniform-brown",
+			"style": "uniform-red",
+			"compatibleHeads": ["straight_brown", "straight_eyes_closed"],
+			"variant": ["1.png", "2.png"]
+		},
+		{
+			"name": "normal-uniform-yellow",
+			"style": "uniform-yellow",
+			"compatibleHeads": ["straight_yellow", "straight_eyes_closed"],
+			"variant": ["1.png", "2.png"]
+		},
+		{
+			"name": "normal-uniform-red",
+			"style": "uniform-red",
+			"compatibleHeads": ["straight_red", "straight_eyes_closed"],
+			"variant": ["1.png", "2.png"]
+		},
+		{
+			"name": "normal-casual-brown",
+			"style": "casual-red",
+			"compatibleHeads": ["straight_brown", "straight_eyes_closed"],
+			"variant": ["1b.png", "2b.png"]
+		},
+		{
+			"name": "normal-casual-yellow",
+			"style": "casual-yellow",
+			"compatibleHeads": ["straight_yellow", "straight_eyes_closed"],
+			"variant": ["1b.png", "2b.png"]
+		},
+		{
+			"name": "normal-casual-red",
+			"style": "casual-red",
+			"compatibleHeads": ["straight_red", "straight_eyes_closed"],
+			"variant": ["1b.png", "2b.png"]
+		}
+	]
+}
