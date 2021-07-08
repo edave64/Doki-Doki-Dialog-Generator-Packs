@@ -1,0 +1,279 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "mc.storm_blaze.edave64",
+	"packCredits": "<a href='https://www.reddit.com/ofkg59'>Created by</a> StormBlazed76, <a href='https://www.reddit.com/og6shh'>red</a> and <a href='https://www.reddit.com/oft3vb'>yellow</a> eyes by YinuS_WinneR, <a href='https://www.reddit.com/ofof3o'>chibi</a> by Hadrosaur838",
+	"packName": "MC",
+	"authors": ["StormBlazed76", "YinuS_WinneR", "Hadrosaur838"],
+	"source": "https://www.reddit.com/ofkg59",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "ddlc.fan.storm_blaze.mc",
+			"label": "MC (Concept)",
+			"chibi": "chibi.png",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styleComponents": [
+						{
+							"id": "eyes",
+							"label": "Eyes",
+							"variants": {
+								"brown": "preview-brown.png",
+								"yellow": "preview-yellow.png",
+								"red": "preview-red.png"
+							}
+						}
+					],
+					"styles": [
+						{
+							"components": {
+								"eyes": "brown"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_brown", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1.png"], ["2.png"]]
+									}
+								}
+							]
+						},
+						{
+							"components": {
+								"eyes": "yellow"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_yellow", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1.png"], ["2.png"]]
+									}
+								}
+							]
+						},
+						{
+							"components": {
+								"eyes": "red"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_red", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1.png"], ["2.png"]]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "casual",
+					"styleComponents": [
+						{
+							"id": "eyes",
+							"label": "Eyes",
+							"variants": {
+								"brown": "preview-brown.png",
+								"yellow": "preview-yellow.png",
+								"red": "preview-red.png"
+							}
+						}
+					],
+					"styles": [
+						{
+							"components": {
+								"eyes": "brown"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_brown", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1b.png"], ["2b.png"]]
+									}
+								}
+							]
+						},
+						{
+							"components": {
+								"eyes": "yellow"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_yellow", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1b.png"], ["2b.png"]]
+									}
+								}
+							]
+						},
+						{
+							"components": {
+								"eyes": "red"
+							},
+							"poses": [
+								{
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									],
+									"id": "normal",
+									"compatibleHeads": ["straight_red", "straight_eyes_closed"],
+									"positions": {
+										"Variant": [["1b.png"], ["2b.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"straight_eyes_closed": {
+					"folder": "brown/",
+					"variants": [
+						["h1.png"],
+						["i1.png"],
+						["j1.png"],
+						["k1.png"],
+						["l1.png"]
+					]
+				},
+				"straight_brown": {
+					"folder": "brown/",
+					"variants": [
+						["a.png"],
+						["b.png"],
+						["c.png"],
+						["e.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["m.png"],
+						["n.png"],
+						["o.png"],
+						["p.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["v.png"],
+						["w.png"],
+						["x.png"],
+						["y.png"],
+						["z.png"],
+						["a1.png"],
+						["b1.png"],
+						["c1.png"],
+						["e1.png"],
+						["f1.png"],
+						["g1.png"]
+					]
+				},
+				"straight_yellow": {
+					"folder": "yellow/",
+					"variants": [
+						["a.png"],
+						["b.png"],
+						["c.png"],
+						["e.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["m.png"],
+						["n.png"],
+						["o.png"],
+						["p.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["v.png"],
+						["w.png"],
+						["x.png"],
+						["y.png"],
+						["z.png"],
+						["a1.png"],
+						["b1.png"],
+						["c1.png"],
+						["e1.png"],
+						["f1.png"],
+						["g1.png"]
+					]
+				},
+				"straight_red": {
+					"folder": "red/",
+					"variants": [
+						["a.png"],
+						["b.png"],
+						["c.png"],
+						["e.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["m.png"],
+						["n.png"],
+						["o.png"],
+						["p.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["v.png"],
+						["w.png"],
+						["x.png"],
+						["y.png"],
+						["z.png"],
+						["a1.png"],
+						["b1.png"],
+						["c1.png"],
+						["e1.png"],
+						["f1.png"],
+						["g1.png"]
+					]
+				}
+			}
+		}
+	]
+}
