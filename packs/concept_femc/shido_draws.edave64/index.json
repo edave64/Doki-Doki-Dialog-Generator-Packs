@@ -1,0 +1,76 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "concept_femc.shido_draws.edave64",
+	"packCredits": "<a href='https://www.reddit.com/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
+	"packName": "FeMC (Concept)",
+	"authors": ["ShidoDraws", "SlightlySimple"],
+	"source": "https://www.reddit.com/oosuxu",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "ddlc.fan.storm_blaze.mc",
+			"label": "FeMC",
+			"chibi": "chibi.png",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"compatibleHeads": ["straight"],
+									"positions": {
+										"Variant": [["1.png"], ["2.png"], ["2a.png"], ["3.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"straight": {
+					"variants": [
+						["a.png"],
+						["b.png"],
+						["c.png"],
+						["d.png"],
+						["e.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["m.png"],
+						["n.png"],
+						["o.png"],
+						["p.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["v.png"],
+						["w.png"],
+						["x.png"],
+						["y.png"],
+						["z.png"],
+						["aa.png"],
+						["ab.png"],
+						["ac.png"],
+						["ad.png"],
+						["ae.png"],
+						["af.png"],
+						["ag.png"],
+						["ah.png"],
+						["ai.png"]
+					]
+				}
+			}
+		}
+	]
+}

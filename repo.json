@@ -19,6 +19,28 @@
 		"searchWords": []
 	},
 	{
+		"id": "concept_femc.shido_draws.edave64",
+		"name": "FeMC (Concept)",
+		"characters": [
+			"FeMC"
+		],
+		"authors": [
+			"ShidoDraws",
+			"SlightlySimple"
+		],
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/oosuxu",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/1.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/a.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "mc.storm_blaze.edave64",
 		"name": "MC (Concept)",
 		"characters": [
