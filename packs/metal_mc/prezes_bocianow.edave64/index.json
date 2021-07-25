@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "metal_mc.prezes_bocianow.edave64",
+	"packCredits": "Commissioned and owned by PrezesBocianow, created by StromBlazed76. Chibi by PrezesBocianow",
+	"disclaimer": "<p>Some rules and description for you wonderful people :P</p><p>MetalMC is pretty much the MC that deserves to be Sayori's best friend. He likes sarcasm and joking about people (including himself). He's caring. He's so much caring, that he can be hostile towards any bulli, which may make him just a little bit edgy and maybe a little bit annoying. *IMPORTANT* His greeting is \"Hello there\", so when making any CD, don't mistake it with anything else :P. Oh, I almost forgot, he lost his parents.</p><p>Now some rules:</p><ul><li>He shall NEVER be rude (he can tease tho, just don't make him an asshole) to any of the Dokis besides other MC's</li><li>No NSFW CD's, unless they are jokes</li><li>If you want to use him as a character other than MetalMC, please ask for permission on reddit: u/PrezesBocianow, or change his hair and eyes color</li><li>I have nothing against you giving him some new outfits or expressions hehe</li></ul><p>Oh, and it would be appreciated if you could ping me in the comments, I'd love to see your work :P</p>",
+	"packName": "Metal MC",
+	"authors": ["StromBlazed76", "PrezesBocianow"],
+	"folder": "./",
+	"characters": [
+		{
+			"id": "ddlc.fan.storm_blaze.mc",
+			"label": "FeMC",
+			"chibi": "chibi.png",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"compatibleHeads": ["straight"],
+									"positions": {
+										"Variant": [["1.png"], ["2.png"]]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "casual",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"compatibleHeads": ["straight"],
+									"positions": {
+										"Variant": [["1b.png"], ["2b.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"straight": {
+					"variants": [
+						["a.png"],
+						["b.png"],
+						["c.png"],
+						["d.png"],
+						["e.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["m.png"],
+						["n.png"],
+						["o.png"],
+						["p.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["v.png"],
+						["w.png"],
+						["x.png"],
+						["y.png"],
+						["z.png"],
+						["a1.png"],
+						["b1.png"],
+						["c1.png"],
+						["d1.png"],
+						["e1.png"],
+						["f1.png"],
+						["g1.png"],
+						["h1.png"],
+						["i1.png"],
+						["j1.png"],
+						["k1.png"],
+						["l1.png"]
+					]
+				}
+			}
+		}
+	]
+}
