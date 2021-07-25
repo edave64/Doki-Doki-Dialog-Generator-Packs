@@ -19,6 +19,42 @@
 		"searchWords": []
 	},
 	{
+		"id": "dddg.ex-buildin.amy1",
+		"name": "Classic Amy",
+		"characters": [
+			"Amy (Classic)"
+		],
+		"authors": [
+			"Meddy-sin",
+			"SlightlySimple"
+		],
+		"kind": [
+			"Characters"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/index.json",
+		"description": "",
+		"preview": [],
+		"searchWords": []
+	},
+	{
+		"id": "dddg.ex-buildin.mc1",
+		"name": "Classic MC",
+		"characters": [
+			"MC (Classic)"
+		],
+		"authors": [
+			"Childish-N",
+			"GyleToTheRescue"
+		],
+		"kind": [
+			"Characters"
+		],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/buildin.extra.mc_classic.json",
+		"description": "",
+		"preview": [],
+		"searchWords": []
+	},
+	{
 		"id": "concept_femc.shido_draws.edave64",
 		"name": "FeMC (Concept)",
 		"characters": [
@@ -34,10 +70,7 @@
 		"source": "https://www.reddit.com/oosuxu",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/index.json",
 		"description": "<a href='https://www.reddit.com/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/1.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/a.png"
-		],
+		"preview": [],
 		"searchWords": []
 	},
 	{
@@ -200,11 +233,7 @@
 		"source": "https://www.reddit.com/oolv7k",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/index.json",
 		"description": "<a href='https://www.reddit.com/oolv7k'>Created by</a> StormBlazed76",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/1l.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/1r.png"
-		],
+		"preview": [],
 		"searchWords": []
 	},
 	{
@@ -225,11 +254,7 @@
 		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.json",
 		"description": "Created by Cyrke, Chibi by SlightlySimple",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1l.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/1r.png"
-		],
+		"preview": [],
 		"searchWords": []
 	},
 	{
@@ -347,28 +372,6 @@
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc.anita6artania.edave64/faces_red/a.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc.anita6artania.edave64/1l.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc.anita6artania.edave64/1r.png"
-		],
-		"searchWords": []
-	},
-	{
-		"id": "metal_mc.prezes_bocianow.edave64",
-		"name": "Metal MC",
-		"characters": [
-			"FeMC"
-		],
-		"authors": [
-			"StromBlazed76",
-			"PrezesBocianow"
-		],
-		"kind": [
-			"Characters"
-		],
-		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/metal_mc/prezes_bocianow.edave64/index.json",
-		"disclaimer": "<p>Some rules and description for you wonderful people :P</p><p>MetalMC is pretty much the MC that deserves to be Sayori's best friend. He likes sarcasm and joking about people (including himself). He's caring. He's so much caring, that he can be hostile towards any bulli, which may make him just a little bit edgy and maybe a little bit annoying. *IMPORTANT* His greeting is \"Hello there\", so when making any CD, don't mistake it with anything else :P. Oh, I almost forgot, he lost his parents.</p><p>Now some rules:</p><ul><li>He shall NEVER be rude (he can tease tho, just don't make him an asshole) to any of the Dokis besides other MC's</li><li>No NSFW CD's, unless they are jokes</li><li>If you want to use him as a character other than MetalMC, please ask for permission on reddit: u/PrezesBocianow, or change his hair and eyes color</li><li>I have nothing against you giving him some new outfits or expressions hehe</li></ul><p>Oh, and it would be appreciated if you could ping me in the comments, I'd love to see your work :P</p>",
-		"description": "Commissioned and owned by PrezesBocianow, created by StromBlazed76. Chibi by PrezesBocianow",
-		"preview": [
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/metal_mc/prezes_bocianow.edave64/a.png",
-			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/metal_mc/prezes_bocianow.edave64/1.png"
 		],
 		"searchWords": []
 	},
