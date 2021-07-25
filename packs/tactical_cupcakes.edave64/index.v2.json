@@ -1,0 +1,488 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "tactical_cupcakes.edave64",
+	"packCredits": "Original design and some expressions by <a href='https://www.reddit.com/u/TacticalCupcakes' target='_blank' rel='noopener noreferrer'>/u/TacticalCupcakes</a><br />Artist for main sprites and expressions: <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a><br />Artist for chibi: <a href='https://www.reddit.com/u/e-natr' target='_blank' rel='noopener noreferrer'>/u/e-natr</a><br />Cross-armed casual pose: <a href='https://www.reddit.com/u/SlightlySimple' target='_blank' rel='noopener noreferrer'>/u/SlightlySimple</a><br />Shrugging pose by TacticalCupcakes</a><br />These sprites are based on a real person. Please be respectful and don't use these as your OC.",
+	"disclaimer": "These sprites are based on a real person. Please be respectful and don't use these as your OC.",
+	"packName": "TacticalCupcakes",
+	"authors": ["TacticalCupcakes", "yagamirai10", "E-Natr", "SlightlySimple"],
+	"source": "https://www.reddit.com/e97f0h/",
+	"comicClubUrl": "https://drive.google.com/file/d/1nxQVEwE_KOIcccyv4ASCPigs7FOerOJH/view",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "ddlc.oc.tactical_cupcakes",
+			"label": "TacticalCupcakes",
+			"chibi": "chibi.png",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styleComponents": [
+						{
+							"id": "hat",
+							"label": "Hat",
+							"variants": {
+								"none": "parts/default.png",
+								"hat": "parts/hat.png"
+							}
+						}
+					],
+					"styles": [
+						{
+							"components": { "hat": "none" },
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "normal",
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"], ["4l.png"], ["7l.png"]],
+										"Right": [["1r.png"], ["2r.png"], ["4r.png"], ["7r.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" }
+									]
+								},
+								{
+									"id": "arm_grab",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["4l.png"] },
+										{ "type": "image", "images": ["5r.png"] }
+									]
+								},
+								{
+									"id": "crossed_arms",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["3.png"] }
+									]
+								},
+								{
+									"id": "folded_hands",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["6.png"] }
+									]
+								},
+								{
+									"id": "ff_normal",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"], ["3l.png"], ["5l.png"]],
+										"Right": [["1r.png"], ["2r.png"], ["3r.png"], ["5r.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" }
+									]
+								},
+								{
+									"id": "ff_crossed",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Variant": [["4a.png"], ["4b.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									]
+								}
+							]
+						},
+						{
+							"components": { "hat": "hat" },
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "normal",
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"], ["4l.png"], ["7l.png"]],
+										"Right": [["1r.png"], ["2r.png"], ["4r.png"], ["7r.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "arm_grab",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["4l.png"] },
+										{ "type": "image", "images": ["5r.png"] }
+									]
+								},
+								{
+									"id": "crossed_arms",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["3.png"] },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "folded_hands",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["6.png"] },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "ff_normal",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Left": [["1l.png"], ["2l.png"], ["3l.png"], ["5l.png"]],
+										"Right": [["1r.png"], ["2r.png"], ["3r.png"], ["5r.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "ff_crossed",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Variant": [["4a.png"], ["4b.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "casual",
+					"styleComponents": [
+						{
+							"id": "hat",
+							"label": "Hat",
+							"variants": {
+								"none": "parts/default.png",
+								"hat": "parts/hat.png"
+							}
+						}
+					],
+					"styles": [
+						{
+							"components": { "hat": "none" },
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "normal",
+									"positions": {
+										"Left": [["1bl.png"], ["2bl.png"], ["4bl.png"], ["7bl.png"]],
+										"Right": [["1br.png"], ["2br.png"], ["4br.png"], ["7br.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" }
+									]
+								},
+								{
+									"id": "arm_grab",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["4bl.png"] },
+										{ "type": "image", "images": ["5br.png"] }
+									]
+								},
+								{
+									"id": "crossed_arms",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["3b.png"] }
+									]
+								},
+								{
+									"id": "ff_normal",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Left": [["1bl.png"], ["6bl.png"], ["7bl.png"]],
+										"Right": [["1br.png"], ["6br.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" }
+									]
+								},
+								{
+									"id": "ff_arm_grab",
+									"compatibleHeads": ["frontfacing"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["7bl.png"] },
+										{ "type": "image", "images": ["7br.png"] }
+									]
+								},
+								{
+									"id": "ff_crossed",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Variant": [["8.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" }
+									]
+								}
+							]
+						},
+						{
+							"components": { "hat": "hat" },
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "normal",
+									"positions": {
+										"Left": [["1bl.png"], ["2bl.png"], ["4bl.png"], ["7bl.png"]],
+										"Right": [["1br.png"], ["2br.png"], ["4br.png"], ["7br.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "arm_grab",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["4bl.png"] },
+										{ "type": "image", "images": ["5br.png"] },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "crossed_arms",
+									"compatibleHeads": ["default"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["3b.png"] },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "ff_normal",
+									"compatibleHeads": ["frontfacing"],
+									"folder": "./frontfacing",
+									"positions": {
+										"Left": [["1bl.png"], ["6bl.png"], ["7bl.png"]],
+										"Right": [["1br.png"], ["6br.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "ff_arm_grab",
+									"folder": "./frontfacing",
+									"compatibleHeads": ["frontfacing"],
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "image", "images": ["7bl.png"] },
+										{ "type": "image", "images": ["7br.png"] },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								},
+								{
+									"id": "ff_crossed",
+									"folder": "./frontfacing",
+									"compatibleHeads": ["frontfacing"],
+									"positions": {
+										"Variant": [["8.png"]]
+									},
+									"renderCommands": [
+										{ "type": "head" },
+										{ "type": "pose-part", "part": "Variant" },
+										{ "type": "image", "images": ["hat.png"] }
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"heads": {
+				"default": [
+					["a.png"],
+					["b.png"],
+					["c.png"],
+					["d.png"],
+					["e.png"],
+					["e_a.png"],
+					["f.png"],
+					["g.png"],
+					["h.png"],
+					["i.png"],
+					["j.png"],
+					["k.png"],
+					["l.png"],
+					["l_a.png"],
+					["m.png"],
+					["m_a.png"],
+					["m_b.png"],
+					["m_c.png"],
+					["n.png"],
+					["o.png"],
+					["p.png"],
+					["p_b.png"],
+					["q.png"],
+					["r.png"],
+					["s.png"],
+					["t.png"],
+					["u.png"],
+					["u_2.png"],
+					["u_3.png"],
+					["u_4.png"],
+					["u_5.png"],
+					["v.png"],
+					["v_a.png"],
+					["v_b.png"],
+					["v_c.png"],
+					["v_d.png"],
+					["w.png"],
+					["w_a.png"],
+					["w_c.png"],
+					["x.png"],
+					["y.png"],
+					["y_a.png"],
+					["y_b.png"],
+					["y_c.png"],
+					["y_d.png"],
+					["y_e.png"],
+					["y_f.png"],
+					["y_g.png"],
+					["y_h.png"],
+					["y_i.png"],
+					["y_j.png"],
+					["z_a.png"],
+					["z_b.png"],
+					["z_c.png"],
+					["z_d.png"],
+					["z_e.png"],
+					["z_f.png"],
+					["z_h.png"],
+					["z_i.png"],
+					["z_j.png"],
+					["z_k.png"],
+					["z_l.png"]
+				],
+				"frontfacing": {
+					"folder": "./frontfacing",
+					"variants": [
+						["a.png"],
+						["a_a.png"],
+						["a_b.png"],
+						["a_c.png"],
+						["b.png"],
+						["b_a.png"],
+						["b_b.png"],
+						["b_c.png"],
+						["c.png"],
+						["d.png"],
+						["e.png"],
+						["e_a.png"],
+						["e_b.png"],
+						["e_c.png"],
+						["e_d.png"],
+						["e_e.png"],
+						["e_f.png"],
+						["e_g.png"],
+						["e_h.png"],
+						["e_i.png"],
+						["e_j.png"],
+						["e_k.png"],
+						["e_l.png"],
+						["f.png"],
+						["g.png"],
+						["h.png"],
+						["i.png"],
+						["i_d.png"],
+						["j.png"],
+						["k.png"],
+						["l.png"],
+						["l_a.png"],
+						["l_b.png"],
+						["l_c.png"],
+						["m.png"],
+						["m_a.png"],
+						["m_d.png"],
+						["n.png"],
+						["o.png"],
+						["o_a.png"],
+						["p.png"],
+						["p_b.png"],
+						["q.png"],
+						["r.png"],
+						["s.png"],
+						["t.png"],
+						["u.png"],
+						["u_2.png"],
+						["u_3.png"],
+						["u_4.png"],
+						["u_5.png"],
+						["v.png"],
+						["v_a.png"],
+						["v_b.png"],
+						["v_c.png"],
+						["v_d.png"],
+						["w.png"],
+						["w_a.png"],
+						["w_c.png"],
+						["x.png"],
+						["y.png"],
+						["y_a.png"],
+						["y_b.png"],
+						["y_c.png"],
+						["y_d.png"],
+						["y_e.png"],
+						["y_f.png"],
+						["y_g.png"],
+						["y_h.png"],
+						["y_i.png"],
+						["y_j.png"],
+						["z_a.png"],
+						["z_b.png"],
+						["z_c.png"],
+						["z_d.png"],
+						["z_e.png"],
+						["z_f.png"],
+						["z_h.png"],
+						["z_i.png"],
+						["z_j.png"],
+						["z_k.png"],
+						["z_l.png"]
+					]
+				}
+			}
+		}
+	]
+}

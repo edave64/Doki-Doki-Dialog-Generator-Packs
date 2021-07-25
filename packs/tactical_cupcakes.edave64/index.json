@@ -14,20 +14,12 @@
 	"folder": "./",
 	"styles": [
 		{
-			"name": "default-hair",
+			"name": "default",
 			"label": "Default"
 		},
 		{
-			"name": "default-hat",
-			"label": "Default with hat"
-		},
-		{
-			"name": "casual-hair",
+			"name": "casual",
 			"label": "Casual outfit"
-		},
-		{
-			"name": "casual-hat",
-			"label": "Casual outfit with hat"
 		}
 	],
 	"hairs": {
@@ -98,166 +90,53 @@
 			"z_j.png",
 			"z_k.png",
 			"z_l.png"
-		],
-		"hat": {
-			"folder": "hat/",
-			"all": [
-				"a.png",
-				"b.png",
-				"c.png",
-				"d.png",
-				"e.png",
-				"e_a.png",
-				"f.png",
-				"g.png",
-				"h.png",
-				"i.png",
-				"j.png",
-				"k.png",
-				"l.png",
-				"l_a.png",
-				"m.png",
-				"m_a.png",
-				"m_b.png",
-				"m_c.png",
-				"n.png",
-				"o.png",
-				"p.png",
-				"p_b.png",
-				"q.png",
-				"r.png",
-				"s.png",
-				"t.png",
-				"u.png",
-				"u_2.png",
-				"u_3.png",
-				"u_4.png",
-				"u_5.png",
-				"v.png",
-				"v_a.png",
-				"v_b.png",
-				"v_c.png",
-				"v_d.png",
-				"w.png",
-				"w_a.png",
-				"w_c.png",
-				"x.png",
-				"y.png",
-				"y_a.png",
-				"y_b.png",
-				"y_c.png",
-				"y_d.png",
-				"y_e.png",
-				"y_f.png",
-				"y_g.png",
-				"y_h.png",
-				"y_i.png",
-				"y_j.png",
-				"z_a.png",
-				"z_b.png",
-				"z_c.png",
-				"z_d.png",
-				"z_e.png",
-				"z_f.png",
-				"z_h.png",
-				"z_i.png",
-				"z_j.png",
-				"z_k.png",
-				"z_l.png"
-			]
-		}
+		]
 	},
 	"poses": [
 		{
 			"name": "normal",
-			"style": "default-hair",
+			"style": "default",
 			"compatibleHeads": ["default"],
-			"left": ["1l.png", "2l.png", "4l.png", "7l_By TC.png"],
-			"right": ["1r.png", "2r.png", "4r.png", "7r_By TC.png"]
+			"left": ["1l.png", "2l.png", "4l.png", "7l.png"],
+			"right": ["1r.png", "2r.png", "4r.png", "7r.png"]
 		},
 		{
 			"name": "normal_arm_grab",
-			"style": "default-hair",
+			"style": "default",
 			"compatibleHeads": ["default"],
 			"left": ["4l.png"],
 			"right": ["5r.png"]
 		},
 		{
 			"name": "crossed_arms",
-			"style": "default-hair",
+			"style": "default",
 			"compatibleHeads": ["default"],
 			"static": "3.png"
 		},
 		{
 			"name": "folded_hands",
-			"style": "default-hair",
+			"style": "default",
 			"compatibleHeads": ["default"],
 			"static": "6.png"
 		},
 		{
-			"name": "normal-default_hat",
-			"style": "default-hat",
-			"compatibleHeads": ["hat"],
-			"left": ["1l.png", "2l.png", "4l.png", "7l_By TC.png"],
-			"right": ["1r.png", "2r.png", "4r.png", "7r_By TC.png"]
-		},
-		{
-			"name": "normal_arm_grab_default-hat",
-			"style": "default-hat",
-			"compatibleHeads": ["hat"],
-			"left": ["4l.png"],
-			"right": ["5r.png"]
-		},
-		{
-			"name": "crossed_arms_default-hat",
-			"style": "default-hat",
-			"compatibleHeads": ["hat"],
-			"static": "3.png"
-		},
-		{
-			"name": "folded_hands_default-hat",
-			"style": "default-hat",
-			"compatibleHeads": ["hat"],
-			"static": "6.png"
-		},
-		{
-			"name": "normal-casual_hair",
-			"style": "casual-hair",
+			"name": "normal-casual",
+			"style": "casual",
 			"compatibleHeads": ["default"],
-			"left": ["1bl.png", "2bl.png", "4bl.png", "7bl_By TC.png"],
-			"right": ["1br.png", "2br.png", "4br.png", "7br_By TC.png"]
+			"left": ["1bl.png", "2bl.png", "4bl.png", "7bl.png"],
+			"right": ["1br.png", "2br.png", "4br.png", "7br.png"]
 		},
 		{
-			"name": "normal_arm_grab-casual_hair",
-			"style": "casual-hair",
+			"name": "normal_arm_grab-casual",
+			"style": "casual",
 			"compatibleHeads": ["default"],
 			"left": ["4bl.png"],
 			"right": ["5br.png"]
 		},
 		{
-			"name": "crossed_arms-casual_hair",
-			"style": "casual-hair",
+			"name": "crossed_arms-casual",
+			"style": "casual",
 			"compatibleHeads": ["default"],
-			"static": "3b.png"
-		},
-		{
-			"name": "normal-casual_hat",
-			"style": "casual-hat",
-			"compatibleHeads": ["hat"],
-			"left": ["1bl.png", "2bl.png", "4bl.png", "7bl_By TC.png"],
-			"right": ["1br.png", "2br.png", "4br.png", "7br_By TC.png"]
-		},
-		{
-			"name": "normal_arm_grab-casual_hat",
-			"style": "casual-hat",
-			"compatibleHeads": ["hat"],
-			"left": ["4bl.png"],
-			"right": ["5br.png"]
-		},
-		{
-			"name": "crossed_arms-casual_hat",
-			"style": "casual-hat",
-			"compatibleHeads": ["hat"],
 			"static": "3b.png"
 		}
 	]
