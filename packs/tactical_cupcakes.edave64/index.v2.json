@@ -154,7 +154,7 @@
 										{ "type": "pose-part", "part": "Left" },
 										{ "type": "pose-part", "part": "Right" },
 										{ "type": "head" },
-										{ "type": "image", "images": ["hat.png"] }
+										{ "type": "image", "images": ["./frontfacing/hat.png"] }
 									]
 								},
 								{
@@ -167,7 +167,7 @@
 									"renderCommands": [
 										{ "type": "pose-part", "part": "Variant" },
 										{ "type": "head" },
-										{ "type": "image", "images": ["hat.png"] }
+										{ "type": "image", "images": ["./frontfacing/hat.png"] }
 									]
 								}
 							]
@@ -237,10 +237,9 @@
 								{
 									"id": "ff_arm_grab",
 									"compatibleHeads": ["frontfacing"],
-									"folder": "./frontfacing/",
 									"renderCommands": [
-										{ "type": "image", "images": ["7bl.png"] },
-										{ "type": "image", "images": ["7br.png"] },
+										{ "type": "image", "images": ["./frontfacing/7bl.png"] },
+										{ "type": "image", "images": ["./frontfacing/7br.png"] },
 										{ "type": "head" }
 									]
 								},
@@ -306,18 +305,17 @@
 										{ "type": "pose-part", "part": "Left" },
 										{ "type": "pose-part", "part": "Right" },
 										{ "type": "head" },
-										{ "type": "image", "images": ["hat.png"] }
+										{ "type": "image", "images": ["./frontfacing/hat.png"] }
 									]
 								},
 								{
 									"id": "ff_arm_grab",
-									"folder": "./frontfacing/",
 									"compatibleHeads": ["frontfacing"],
 									"renderCommands": [
-										{ "type": "image", "images": ["7bl.png"] },
-										{ "type": "image", "images": ["7br.png"] },
+										{ "type": "image", "images": ["./frontfacing/7bl.png"] },
+										{ "type": "image", "images": ["./frontfacing/7br.png"] },
 										{ "type": "head" },
-										{ "type": "image", "images": ["hat.png"] }
+										{ "type": "image", "images": ["./frontfacing/hat.png"] }
 									]
 								},
 								{
@@ -330,7 +328,7 @@
 									"renderCommands": [
 										{ "type": "pose-part", "part": "Variant" },
 										{ "type": "head" },
-										{ "type": "image", "images": ["hat.png"] }
+										{ "type": "image", "images": ["./frontfacing/hat.png"] }
 									]
 								}
 							]
@@ -449,14 +447,6 @@
 						["p.png"],
 						["p_b.png"],
 						["q.png"],
-						["r.png"],
-						["s.png"],
-						["t.png"],
-						["u.png"],
-						["u_2.png"],
-						["u_3.png"],
-						["u_4.png"],
-						["u_5.png"],
 						["v.png"],
 						["v_a.png"],
 						["v_b.png"],
