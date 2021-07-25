@@ -186,6 +186,28 @@
 		"searchWords": []
 	},
 	{
+		"id": "kiyomi.storm_blazed.edave64",
+		"name": "Kiyomi",
+		"characters": [
+			"Kiyomi"
+		],
+		"authors": [
+			"StormBlazed76"
+		],
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/oolv7k",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/oolv7k'>Created by</a> StormBlazed76",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "kotonoha.cyrke.edave64",
 		"name": "Kotonoha",
 		"characters": [
