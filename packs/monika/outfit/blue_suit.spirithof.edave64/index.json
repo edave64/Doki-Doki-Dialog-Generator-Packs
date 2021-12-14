@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"id": "ddlc.monika",
+	"packId": "monika.outfit.blue_suit.spirithof.edave64",
+	"packCredits": "Created by SpiritH0F",
+	"packName": "Blue Suit",
+	"authors": ["SpiritH0F"],
+	"cc2credits": {
+		"left": ["Blue Suit"],
+		"right": ["SpiritH0F"]
+	},
+	"folder": "./",
+	"styles": [
+		{
+			"name": "blue_suit",
+			"label": "Default"
+		}
+	],
+	"heads": {},
+	"poses": [
+		{
+			"name": "normal-blue_suit",
+			"style": "blue_suit",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "leaned-blue_suit",
+			"style": "blue_suit",
+			"compatibleHeads": ["sideways"],
+			"static": "3.png"
+		}
+	]
+}
