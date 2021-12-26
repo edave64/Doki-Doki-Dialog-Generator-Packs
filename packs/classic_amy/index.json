@@ -70,8 +70,7 @@
 			"fg.png",
 			"fh.png",
 			"fi.png"
-		],
-		"sideways": ["a2.png", "b2.png", "c2.png", "d2.png"]
+		]
 	},
 	"poses": [
 		{
