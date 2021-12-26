@@ -79,7 +79,8 @@
 			"style": "uniform",
 			"compatibleHeads": ["straight"],
 			"left": ["1l.png", "2l.png"],
-			"right": ["1r.png"]
+			"right": ["1r.png"],
+			"headInForeground": true
 		},
 		{
 			"name": "crossed_arms",
