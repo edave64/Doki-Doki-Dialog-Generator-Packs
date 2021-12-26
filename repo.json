@@ -19,6 +19,50 @@
 		"searchWords": []
 	},
 	{
+		"id": "amy1.meddy-sin.edave64",
+		"name": "Classic Amy",
+		"characters": [
+			"Amy (Classic)"
+		],
+		"authors": [
+			"Meddy-sin"
+		],
+		"kind": [
+			"Characters"
+		],
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/index.json",
+		"description": "Classic Amy Sprite by Meddy-sin",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/aa.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/1r.png"
+		],
+		"searchWords": []
+	},
+	{
+		"id": "mc_classic.childish-n.edave64",
+		"name": "Classic MC",
+		"characters": [
+			"MC (Classic)"
+		],
+		"authors": [
+			"Childish-N",
+			"GyleToTheRescue"
+		],
+		"kind": [
+			"Characters"
+		],
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/index.json",
+		"description": "MC Classic Sprite by Childish-N<br />MC Classic Chibi by GyleToTheRescue",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/1.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "concept_femc.shido_draws.edave64",
 		"name": "FeMC (Concept)",
 		"characters": [
