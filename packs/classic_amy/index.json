@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "amy1.meddy-sin.edave64",
+	"packCredits": "Classic Amy Sprite by Meddy-sin",
+	"packName": "Classic Amy",
+	"authors": ["Meddy-sin"],
+	"id": "ddlc.fan.amy1",
+	"name": "Amy (Classic)",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		}
+	],
+	"heads": {
+		"straight": [
+			"aa.png",
+			"ab.png",
+			"ac.png",
+			"ad.png",
+			"ae.png",
+			"af.png",
+			"ag.png",
+			"ah.png",
+			"ai.png",
+			"ba.png",
+			"bb.png",
+			"bc.png",
+			"bd.png",
+			"be.png",
+			"bf.png",
+			"bg.png",
+			"bh.png",
+			"bi.png",
+			"ca.png",
+			"cb.png",
+			"cc.png",
+			"cd.png",
+			"ce.png",
+			"cf.png",
+			"cg.png",
+			"ch.png",
+			"ci.png",
+			"da.png",
+			"db.png",
+			"dc.png",
+			"dd.png",
+			"de.png",
+			"df.png",
+			"dg.png",
+			"dh.png",
+			"di.png",
+			"ea.png",
+			"eb.png",
+			"ec.png",
+			"ed.png",
+			"ee.png",
+			"ef.png",
+			"eg.png",
+			"eh.png",
+			"ei.png",
+			"fa.png",
+			"fb.png",
+			"fc.png",
+			"fd.png",
+			"fe.png",
+			"ff.png",
+			"fg.png",
+			"fh.png",
+			"fi.png"
+		],
+		"sideways": ["a2.png", "b2.png", "c2.png", "d2.png"]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png"]
+		},
+		{
+			"name": "crossed_arms",
+			"style": "uniform",
+			"compatibleHeads": ["straight"],
+			"static": "3.png"
+		}
+	]
+}
