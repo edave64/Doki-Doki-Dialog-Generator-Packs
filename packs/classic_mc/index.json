@@ -30,7 +30,7 @@
 	},
 	"poses": [
 		{
-			"id": "normal",
+			"name": "normal",
 			"compatibleHeads": ["straight"],
 			"style": "uniform",
 			"static": "1.png"
