@@ -359,7 +359,7 @@
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose2/1.png"] },
+										{ "type":"image", "images": ["./pose2/2.png"] },
 										{ "type": "head" }
 									]
 								},
@@ -367,7 +367,7 @@
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose3/1.png"] },
+										{ "type":"image", "images": ["./pose3/3.png"] },
 										{ "type": "head" }
 									]
 								}
@@ -392,7 +392,7 @@
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose2/1b.png"] },
+										{ "type":"image", "images": ["./pose2/2b.png"] },
 										{ "type": "head" }
 									]
 								},
@@ -400,7 +400,7 @@
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose3/1b.png"] },
+										{ "type":"image", "images": ["./pose3/3b.png"] },
 										{ "type": "head" }
 									]
 								}
