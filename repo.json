@@ -205,6 +205,30 @@
 		"searchWords": []
 	},
 	{
+		"id": "fnf.boyfriend.storm_blaze.edave64",
+		"name": "Boyfriend",
+		"characters": [
+			"Boyfriend"
+		],
+		"authors": [
+			"StormBlazed76",
+			"CPG Yuri",
+			"Phantom Fear",
+			"Aj the Funky"
+		],
+		"kind": [
+			"Characters",
+			"Sprites"
+		],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/fnf/boyfriend.storm_blaze.edave64/index.json",
+		"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, BF \"corrupted\" sprite by Phantom Fear, <a href=\"https://gamebanana.com/mods/43037\">BF in speakers</a> by Aj the Funky, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/fnf/boyfriend.storm_blaze.edave64/cbf-sitL.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "hime.blackrabbitartworks.edave64",
 		"name": "Hime",
 		"characters": [
