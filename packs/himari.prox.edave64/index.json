@@ -348,29 +348,26 @@
 						{
 							"poses": [
 								{
-									"folder": "./pose1/",
 									"compatibleHeads": ["left"],
 									"id": "left",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1.png"] },
+										{ "type":"image", "images": ["./pose1/1.png"] },
 										{ "type": "head" }
 									]
 								},
 								{
-									"folder": "./pose2/",
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1.png"] },
+										{ "type":"image", "images": ["./pose2/1.png"] },
 										{ "type": "head" }
 									]
 								},
 								{
-									"folder": "./pose3/",
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1.png"] },
+										{ "type":"image", "images": ["./pose3/1.png"] },
 										{ "type": "head" }
 									]
 								}
@@ -384,29 +381,26 @@
 						{
 							"poses": [
 								{
-									"folder": "./pose1/",
 									"compatibleHeads": ["left"],
 									"id": "left",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1b.png"] },
+										{ "type":"image", "images": ["./pose1/1b.png"] },
 										{ "type": "head" }
 									]
 								},
 								{
-									"folder": "./pose2/",
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1b.png"] },
+										{ "type":"image", "images": ["./pose2/1b.png"] },
 										{ "type": "head" }
 									]
 								},
 								{
-									"folder": "./pose3/",
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./1b.png"] },
+										{ "type":"image", "images": ["./pose3/1b.png"] },
 										{ "type": "head" }
 									]
 								}
