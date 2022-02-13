@@ -271,11 +271,11 @@
 		"source": "https://www.reddit.com/soqntz/",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/himari.prox.edave64/index.json",
 		"description": "<a href=\"https://www.reddit.com/soqntz/\">Created</a> by <a href=\"https://www.reddit.com/user/Proxyl_\">Prox</a>",
-		"preview": [],
-		"searchWords": [
+		"preview": [
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/himari.prox.edave64/pose1/1.png",
 			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/himari.prox.edave64/pose1/a.png"
-		]
+		],
+		"searchWords": []
 	},
 	{
 		"id": "hime.blackrabbitartworks.edave64",
