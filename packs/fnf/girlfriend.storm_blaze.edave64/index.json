@@ -1,0 +1,144 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "fnf.girlfriend.storm_blaze.edave64",
+	"packCredits": "Commissioned and owned by CPG Yuri, created by Storm Blaze, <a href=\"https://gamebanana.com/mods/43037\">GF idle/sit stickers</a> by Aj the Funky, <a href=\"https://gamebanana.com/mods/307184\">GF stickers</a> by DiegEx & ZoraZac, Crazy GF sticker by El Taco & Dr. Daynaze edited by CPG Yuri, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
+	"packName": "Girlfriend",
+	"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/",
+	"authors": ["StormBlazed76", "CPG Yuri", "Aj the Funky", "DiegEx", "ZoraZac", "El Taco", "Dr. Daynaze"],
+	"folder": "./",
+	"characters": [
+		{
+			"id": "fnf.girlfriend",
+			"label": "Girlfriend",
+			"chibi": "./cgf-sit.png",
+			"heads": {
+				"default": [
+					["a.png"],
+					["b.png"],
+					["c.png"],
+					["d.png"],
+					["e.png"],
+					["f.png"],
+					["g.png"],
+					["h.png"],
+					["i.png"],
+					["j.png"],
+					["k.png"],
+					["l.png"],
+					["m.png"],
+					["n.png"],
+					["o.png"],
+					["p.png"],
+					["q.png"],
+					["r.png"],
+					["s.png"],
+					["t.png"],
+					["v.png"],
+					["w.png"],
+					["x.png"],
+					["y.png"],
+					["z.png"],
+					["a1.png"],
+					["b1.png"],
+					["c1.png"],
+					["d1.png"],
+					["e1.png"],
+					["f1.png"],
+					["g1.png"],
+					["h1.png"],
+					["i1.png"],
+					["j1.png"],
+					["k1.png"],
+					["l1.png"]
+				]
+			},
+			"styleGroups": [
+				{
+					"id": "dress",
+					"styles": [
+						{
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "default",
+									"renderCommands": [
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "head" }
+									],
+									"positions": {
+										"Left": [
+											["./1l.png"], ["2l.png"]
+										],
+										"Right": [
+											["./1r.png"], ["2r.png"]
+										]
+									}
+								},
+								{
+									"compatibleHeads": [],
+									"id": "glitch",
+									"renderCommands": [
+										{ "type": "image", "images": ["glitch.png"] }
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"compatibleHeads": ["default"],
+									"id": "default",
+									"renderCommands": [
+										{ "type": "pose-part", "part": "Left" },
+										{ "type": "pose-part", "part": "Right" },
+										{ "type": "head" }
+									],
+									"positions": {
+										"Left": [
+											["./1bl.png"], ["2bl.png"]
+										],
+										"Right": [
+											["./1br.png"], ["2br.png"]
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "corrupted",
+					"styles": [
+						{
+							"poses": [
+								{
+									"compatibleHeads": [],
+									"id": "corrupted",
+									"renderCommands": [
+										{ "type": "image", "images": ["corrupted.png"] }
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"sprites": [
+		{
+			"id": "girlfriend-chibi",
+			"label": "Girlfriend",
+			"variants": [
+				["./cgf-sit.png"], ["./cgf-sit1.png"], ["./cgf-sit2.png"], ["./cgf-sit3.png"], ["./cgf-special.png"], ["./cgf-yee.png"], ["./cgf-yee2.png"], ["./cgf-aww.png"], ["./cgf-aww2.png"], ["./cgf-ogod.png"], ["./cgf-broken.png"]
+			]
+		}
+	]
+}
