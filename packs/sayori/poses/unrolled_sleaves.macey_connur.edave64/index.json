@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "sayori.pose.casual_leaning.yagamirai10.edave64",
+	"packCredits": "<a href='https://www.reddit.com/w5cjsw' target='_blank' rel='noopener noreferrer'>Created by</a> MaceyConnur",
+	"packName": "Casual with unrolled sleaves",
+	"authors": ["MaceyConnur"],
+	"source": "https://www.reddit.com/w5cjsw",
+	"cc2credits": {
+		"left": ["{a=https://www.reddit.com/w5cjsw}Casual Sayori with unrolled sleaves{/a}"],
+		"right": ["MaceyConnur"]
+	},
+	"id": "ddlc.sayori",
+	"folder": "./",
+	"poses": [
+		{
+			"name": "normal_casual",
+			"style": "casual",
+			"compatibleHeads": [],
+			"left": ["1bl.png", "2bl.png"],
+			"right": [ "1br.png", "2br.png" ]
+		}
+	],
+	"heads": {}
+}

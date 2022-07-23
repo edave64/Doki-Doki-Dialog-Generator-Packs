@@ -1701,6 +1701,28 @@
 		"searchWords": []
 	},
 	{
+		"id": "sayori.pose.unrolled_sleaves.macey_connur.edave64",
+		"name": "Casual with unrolled sleaves",
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"MaceyConnur"
+		],
+		"kind": [
+			"Poses"
+		],
+		"source": "https://www.reddit.com/w5cjsw",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/index.json",
+		"description": "<a href='https://www.reddit.com/w5cjsw' target='_blank' rel='noopener noreferrer'>Created by</a> MaceyConnur",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/1bl.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/1br.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "sayori_r63.diaboliiique.edave64",
 		"name": "Rule 63 Sayori",
 		"characters": [
