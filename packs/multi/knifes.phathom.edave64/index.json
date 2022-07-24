@@ -24,8 +24,8 @@
 								{
 									"id": "normal",
 									"positions": {
-										"Left": [["s1.png"]],
-										"Right": [["s2.png"]]
+										"Left": [["sl.png"]],
+										"Right": [["sr.png"]]
 									}
 								}
 							]
@@ -46,8 +46,8 @@
 								{
 									"id": "normal",
 									"positions": {
-										"Left": [["n1.png"]],
-										"Right": [["n2.png"]]
+										"Left": [["nl.png"]],
+										"Right": [["nr.png"]]
 									}
 								}
 							]
@@ -68,8 +68,8 @@
 								{
 									"id": "normal",
 									"positions": {
-										"Left": [["m1.png"]],
-										"Right": [["m2.png"]]
+										"Left": [["ml.png"]],
+										"Right": [["mr.png"]]
 									}
 								}
 							]
@@ -90,8 +90,8 @@
 								{
 									"id": "normal",
 									"positions": {
-										"Left": [["y1.png"]],
-										"Right": [["y2.png"]]
+										"Left": [["yl.png"]],
+										"Right": [["yr.png"]]
 									}
 								}
 							]
