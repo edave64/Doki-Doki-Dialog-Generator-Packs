@@ -17,12 +17,12 @@
 			"label": "Sayori",
 			"styleGroups": [
 				{
-					"id": "uniform",
+					"id": "dddg.buildin.sayori:uniform",
 					"styles": [
 						{
 							"poses": [
 								{
-									"id": "normal",
+									"id": "dddg.buildin.sayori:normal",
 									"positions": {
 										"Left": [["sl.png"]],
 										"Right": [["sr.png"]]
@@ -39,12 +39,12 @@
 			"label": "Natsuki",
 			"styleGroups": [
 				{
-					"id": "uniform",
+					"id": "dddg.buildin.natsuki:uniform",
 					"styles": [
 						{
 							"poses": [
 								{
-									"id": "normal",
+									"id": "dddg.buildin.natsuki:normal",
 									"positions": {
 										"Left": [["nl.png"]],
 										"Right": [["nr.png"]]
@@ -61,12 +61,12 @@
 			"label": "Monika",
 			"styleGroups": [
 				{
-					"id": "uniform",
+					"id": "dddg.buildin.monika:uniform",
 					"styles": [
 						{
 							"poses": [
 								{
-									"id": "normal",
+									"id": "dddg.buildin.monika:normal",
 									"positions": {
 										"Left": [["ml.png"]],
 										"Right": [["mr.png"]]
@@ -83,12 +83,12 @@
 			"label": "Yuri",
 			"styleGroups": [
 				{
-					"id": "uniform",
+					"id": "dddg.buildin.yuri:uniform",
 					"styles": [
 						{
 							"poses": [
 								{
-									"id": "normal",
+									"id": "dddg.buildin.yuri:normal",
 									"positions": {
 										"Left": [["yl.png"]],
 										"Right": [["yr.png"]]
