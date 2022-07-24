@@ -1,0 +1,104 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"version": "2.0",
+	"packId": "knifes.phantom.edave64",
+	"packCredits": "Originally created by Phathom, extracted from AgentGold's Dynamic Pose Tool",
+	"packName": "Knifes!",
+	"authors": ["Phathom", "AgentGold"],
+	"cc2credits": {
+		"left": ["{a='https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350'}Knifes{/a}", ""],
+		"right": ["Phathom", "AgentGold"]
+	},
+	"source": "https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350",
+	"folder": "./",
+	"characters": [
+		{
+			"id": "dddg.buildin.sayori:ddlc.sayori",
+			"label": "Sayori",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["s1.png"]],
+										"Right": [["s2.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.natsuki:ddlc.natsuki",
+			"label": "Natsuki",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["n1.png"]],
+										"Right": [["n2.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.monika:ddlc.monika",
+			"label": "Monika",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["m1.png"]],
+										"Right": [["m2.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.yuri:ddlc.yuri",
+			"label": "Yuri",
+			"styleGroups": [
+				{
+					"id": "uniform",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["y1.png"]],
+										"Right": [["y2.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1081,6 +1081,31 @@
 		"searchWords": []
 	},
 	{
+		"id": "knifes.phantom.edave64",
+		"name": "Knifes!",
+		"characters": [
+			"Monika",
+			"Natsuki",
+			"Sayori",
+			"Yuri"
+		],
+		"authors": [
+			"Phathom",
+			"AgentGold"
+		],
+		"kind": [
+			"Poses"
+		],
+		"source": "https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/knifes.phathom.edave64/index.json",
+		"description": "Originally created by Phathom, extracted from AgentGold's Dynamic Pose Tool",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/knifes.phathom.edave64/s1.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/knifes.phathom.edave64/s2.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "natsuki.expressions.angry.lunatic_rabbit.edave64",
 		"name": "Angry expressions",
 		"characters": [
