@@ -1,0 +1,79 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
+	"packId": "shiro.halibabica.edave64",
+	"packCredits": "The sprites in this pack were all drawn by halibabica with some artistic advisement from yagamirai10.\n\nFor characterization, they appear in DDLC: Take Two and Doki Doki Interview Club. Both mods can be found <a href='https://old.reddit.com/r/DDLCTakeTwo/comments/zf9q0w/ddlc_take_two_mod_releases/'>here</a>",
+	"packName": "Shiro",
+	"source": "https://www.reddit.com/100imdq",
+	"authors": ["halibabica", "yagamirai10"],
+	"id": "shiro.halibabica.edave64",
+	"name": "Shiro",
+	"internalId": "shiro_halibabica",
+	"chibi": "chibi.png",
+	"folder": "./",
+	"styles": [
+		{
+			"name": "uniform",
+			"label": "Uniform"
+		},
+		{
+			"name": "casual",
+			"label": "Casual attire"
+		}
+	],
+	"heads": {
+		"straight": [
+			"a.png",
+			"b.png",
+			"c.png",
+			"d.png",
+			"e.png",
+			"f.png",
+			"g.png",
+			"h.png",
+			"i.png",
+			"j.png",
+			"k.png",
+			"l.png",
+			"m.png",
+			"n.png",
+			"o.png",
+			"p.png",
+			"q.png",
+			"r.png",
+			"s.png",
+			"t.png",
+			"u.png",
+			"v.png",
+			"w.png",
+			"x.png",
+			"y.png",
+			"z.png",
+			"1.png",
+			"2.png",
+			"3.png",
+			"4.png"
+		]
+	},
+	"poses": [
+		{
+			"name": "normal",
+			"style": "uniform",
+			"compatibleHeads": ["straight"],
+			"left": ["1l.png", "2l.png"],
+			"right": ["1r.png", "2r.png"]
+		},
+		{
+			"name": "mad",
+			"style": "uniform",
+			"compatibleHeads": [],
+			"static": "mad.png"
+		},
+		{
+			"name": "normal_casual",
+			"style": "casual",
+			"compatibleHeads": ["straight"],
+			"left": ["1bl.png", "2bl.png"],
+			"right": ["1br.png", "2br.png"]
+		}
+	]
+}

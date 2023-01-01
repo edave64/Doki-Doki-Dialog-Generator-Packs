@@ -16,6 +16,7 @@ import * as V2JSON from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2
 import * as V2Model from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/model';
 import * as V2Parser from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/parser';
 import './polyfill.js';
+import { url } from 'inspector';
 
 const set = new Set<string>();
 
@@ -31,19 +32,24 @@ async function main(): Promise<IPack[]> {
 
 	const dedup: { [id: string]: IPack } = {};
 
-	return jsons.filter(json => {
+	return jsons.filter((json) => {
 		if (json === null) return false;
 		if (dedup[json.id]) {
 			const existing = dedup[json.id];
 			if (!existing.dddg1Path) existing.dddg1Path = json.dddg1Path;
-			if (!existing.dddg2Path || existing.dddg2Path == existing.dddg1Path) existing.dddg2Path = json.dddg2Path;
+			if (!existing.dddg2Path || existing.dddg2Path == existing.dddg1Path)
+				existing.dddg2Path = json.dddg2Path;
 			if (!existing.ddcc2Path) existing.ddcc2Path = json.ddcc2Path;
 			if (!existing.searchWords) existing.searchWords = json.searchWords;
-			
+
+			if (json.id === "tactical_cupcakes.edave64") return false;
+
 			if (JSON.stringify(existing.authors) !== JSON.stringify(json.authors)) {
 				throw new Error(`${json.id}: Author mismatch`);
 			}
-			if (JSON.stringify(existing.characters) !== JSON.stringify(json.characters)) {
+			if (
+				JSON.stringify(existing.characters) !== JSON.stringify(json.characters)
+			) {
 				throw new Error(`${json.id}: Character mismatch`);
 			}
 			if (existing.description !== json.description) {
@@ -61,7 +67,7 @@ async function main(): Promise<IPack[]> {
 			return false;
 		}
 		dedup[json.id] = json;
- 		return true;
+		return true;
 	}) as IPack[];
 }
 
@@ -90,6 +96,7 @@ async function parseV2(
 	path: string,
 	pack: V2JSON.JSONContentPack
 ): Promise<IPack> {
+	try {
 	if (!pack.packId) {
 		throw new Error(`Pack without id cannot be indexed! (${path})`);
 	}
@@ -129,14 +136,16 @@ async function parseV2(
 			console.error(`Background stuff ${preview.length} ${path}`);
 			for (const background of parsedPack.backgrounds) {
 				for (const variant of background.variants) {
-					console.error(`Toast ${variant.length} -> ${variant.length > preview.length}`);
+					console.error(
+						`Toast ${variant.length} -> ${variant.length > preview.length}`
+					);
 					if (variant.length > preview.length) {
 						preview = variant;
 					}
 				}
 			}
 		}
-	} 
+	}
 
 	if (parsedPack.sprites.length > 0) {
 		types.add('Sprites');
@@ -144,7 +153,9 @@ async function parseV2(
 			console.error(`Sprite stuff ${preview.length} ${path}`);
 			for (const sprite of parsedPack.sprites) {
 				for (const variant of sprite.variants) {
-					console.error(`Toast ${variant.length} -> ${variant.length > preview.length}`);
+					console.error(
+						`Toast ${variant.length} -> ${variant.length > preview.length}`
+					);
 					if (variant.length > preview.length) {
 						preview = variant;
 					}
@@ -167,15 +178,21 @@ async function parseV2(
 		preview,
 		searchWords: [],
 	};
+} catch (e) {
+	console.error("Error while processing package " + pack.packId, path);
+	throw e;
+}
 }
 
-function v2CharInfo (char: V2Model.Character<string>): [string, PackKind[], string[]] {
+function v2CharInfo(
+	char: V2Model.Character<string>
+): [string, PackKind[], string[]] {
 	let kinds: Set<PackKind> = new Set();
 	let preview: string[] = [];
 	if (char.chibi && char.label) {
 		kinds.add('Characters');
 	} else {
-		const isRemote = (x: {id: string}) => x.id.indexOf(':') >= 0;
+		const isRemote = (x: { id: string }) => x.id.indexOf(':') >= 0;
 		if (char.styleGroups) {
 			if (!char.styleGroups.find(isRemote)) {
 				kinds.add('Styles');
@@ -191,7 +208,9 @@ function v2CharInfo (char: V2Model.Character<string>): [string, PackKind[], stri
 			}
 		}
 		if (char.heads) {
-			const keys = Object.keys(char.heads).filter(headKey => headKey.indexOf(':') >= 0);
+			const keys = Object.keys(char.heads).filter(
+				(headKey) => headKey.indexOf(':') >= 0
+			);
 			if (keys.length > 0) {
 				kinds.add('Expressions');
 				const headGroup = char.heads[keys[0]];
@@ -213,56 +232,76 @@ function v2CharInfo (char: V2Model.Character<string>): [string, PackKind[], stri
 	return [charName, Array.from(kinds), preview];
 }
 
-function styleGroupPreview(char: V2Model.Character<string>, styleGroup: V2Model.StyleGroup<string>): string[] {
-	const style = styleGroup.styles[0];
-	if (!style) return [];
-	const packHeads = new Set(Object.keys(char.heads || {}));
-	const preferedPose =
-		style.poses.length > 0
-			? style.poses.reduce((acc, val) => {
-					// Prefer poses that also use heads from the pack.
-					if (
-						packHeads.size > 0 &&
-						!acc.compatibleHeads.find((heads) =>
-							packHeads.has(heads as string)
-						) &&
-						val.compatibleHeads.find((heads) => packHeads.has(heads as string))
-					) {
-						return val;
-					}
-					acc.renderCommands
-					// Prefer poses without head anchors
-					if (hasAnchors(acc.renderCommands) && !hasAnchors(val.renderCommands)) {
-						return val;
-					}
-					return acc;
-			  })
-			: undefined;
+function styleGroupPreview(
+	char: V2Model.Character<string>,
+	styleGroup: V2Model.StyleGroup<string>
+): string[] {
+	try {
+		const style = styleGroup.styles[0];
+		if (!style) return [];
+		const packHeads = new Set(Object.keys(char.heads || {}));
+		const preferedPose =
+			style.poses.length > 0
+				? style.poses.reduce((acc, val) => {
+						// Prefer poses that also use heads from the pack.
+						if (
+							packHeads.size > 0 &&
+							!acc.compatibleHeads.find((heads) =>
+								packHeads.has(heads as string)
+							) &&
+							val.compatibleHeads.find((heads) =>
+								packHeads.has(heads as string)
+							)
+						) {
+							return val;
+						}
+						acc.renderCommands;
+						// Prefer poses without head anchors
+						if (
+							hasAnchors(acc.renderCommands) &&
+							!hasAnchors(val.renderCommands)
+						) {
+							return val;
+						}
+						return acc;
+				  })
+				: undefined;
 
-	if (preferedPose) {
-		const compatibleHeads = preferedPose.compatibleHeads.find((heads) =>
-			packHeads.has(heads as string)
-		);
-		const images: string[] = [];
-		for (const command of preferedPose.renderCommands) {
-			if (command.type === 'head') {
-				if (compatibleHeads) {
-					const headImage = char.heads[compatibleHeads];
-					images.push(...headImage.variants[0]);
+		if (preferedPose) {
+			const compatibleHeads = preferedPose.compatibleHeads.find((heads) =>
+				packHeads.has(heads as string)
+			);
+			const images: string[] = [];
+			for (const command of preferedPose.renderCommands) {
+				if (command.type === 'head') {
+					if (compatibleHeads) {
+						const headImage = char.heads[compatibleHeads];
+						images.push(...headImage.variants[0]);
+					}
+				} else if (command.type === 'image') {
+					images.push(...command.images);
+				} else if (command.type === 'pose-part') {
+					if (!preferedPose.positions[command.part]) {
+						continue;
+					}
+					images.push(...preferedPose.positions[command.part][0]);
 				}
-			} else if (command.type === 'image') {
-				images.push(...command.images);
-			} else if (command.type === 'pose-part') {
-				images.push(...preferedPose.positions[command.part][0]);
 			}
+			return images;
 		}
-		return images;
+		return [];
+	} catch (e) {
+		console.error('Error in char ', char);
+		throw e;
 	}
-	return [];
 }
 
-function hasAnchors<T>(renderCommands: V2Model.PoseRenderCommand<T>[]): boolean {
-	return !renderCommands.find(command => command.offset[0] === 0 && command.offset[1] === 0);
+function hasAnchors<T>(
+	renderCommands: V2Model.PoseRenderCommand<T>[]
+): boolean {
+	return !renderCommands.find(
+		(command) => command.offset[0] === 0 && command.offset[1] === 0
+	);
 }
 
 const V1CharMap = new Map([
@@ -274,9 +313,7 @@ const V1CharMap = new Map([
 	['ddlc.fan.femc', 'FeMC'],
 ]);
 
-const V2CharMap = new Map([
-	['mio.yagamirai10.edave64:ddlc.oc.mio', 'Mio'],
-]);
+const V2CharMap = new Map([['mio.yagamirai10.edave64:ddlc.oc.mio', 'Mio']]);
 
 async function parseV1(
 	path: string,
@@ -401,5 +438,5 @@ function detectV1Kinds(pack: JSONCharacter<JSONHeadCollections>): PackKind[] {
 }
 
 main()
-	.then(x => console.log(JSON.stringify(x, null, '\t')))
-	.catch(err => console.error(err));
+	.then((x) => console.log(JSON.stringify(x, null, '\t')))
+	.catch((err) => console.error(err));
