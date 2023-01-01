@@ -1,6 +1,7 @@
 import { getEntry, Directory, Entry } from './fileScan';
 import { extname, dirname, join } from 'path';
 import fs from 'fs';
+import pathMod from 'path';
 import { promisify } from 'util';
 import {
 	JSONCharacter,
@@ -16,9 +17,17 @@ import * as V2JSON from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2
 import * as V2Model from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/model';
 import * as V2Parser from '@edave64/doki-doki-dialog-generator-pack-format/dist/v2/parser';
 import './polyfill.js';
-import { url } from 'inspector';
 
-const set = new Set<string>();
+const fsOpts = { encoding: 'utf-8' as BufferEncoding };
+
+const oldRepo: IPack[] = (() => {
+	try {
+		return JSON.parse(fs.readFileSync('../repo.json', fsOpts));
+	} catch (e) {
+		console.log('No existing repo list!', e);
+		return [];
+	}
+})();
 
 async function main(): Promise<IPack[]> {
 	const entry = await getEntry('../packs', (entry) => {
@@ -42,7 +51,7 @@ async function main(): Promise<IPack[]> {
 			if (!existing.ddcc2Path) existing.ddcc2Path = json.ddcc2Path;
 			if (!existing.searchWords) existing.searchWords = json.searchWords;
 
-			if (json.id === "tactical_cupcakes.edave64") return false;
+			if (json.id === 'tactical_cupcakes.edave64') return false;
 
 			if (JSON.stringify(existing.authors) !== JSON.stringify(json.authors)) {
 				throw new Error(`${json.id}: Author mismatch`);
@@ -82,7 +91,7 @@ function listOfFiles(directory: Directory): string[] {
 }
 
 async function fetchJSON(path: string): Promise<IPack | null> {
-	const jsonString = await promisify(fs.readFile)(path, { encoding: 'utf8' });
+	const jsonString = await promisify(fs.readFile)(path, fsOpts);
 	const json = JSON.parse(jsonString);
 
 	if (json.version === '2.0') {
@@ -97,91 +106,89 @@ async function parseV2(
 	pack: V2JSON.JSONContentPack
 ): Promise<IPack> {
 	try {
-	if (!pack.packId) {
-		throw new Error(`Pack without id cannot be indexed! (${path})`);
-	}
-	if (!pack.authors) {
-		throw new Error(`Pack has no specified authors! (${path})`);
-	}
-	const packPath =
-		'https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/';
-	const dddgPath = path.replace('../packs/', packPath);
-	const parsedPack = V2Parser.normalizeContentPack(pack, {
-		'/': 'https://edave64.github.io/Doki-Doki-Dialog-Generator/release/assets/',
-		'./': dirname(dddgPath) + '/',
-	});
-
-	const previewExists = await fileExists(join(dirname(path), 'preview.png'));
-
-	const chars = new Set<string>();
-	const types = new Set<PackKind>();
-	let preview = [] as string[];
-
-	if (previewExists) {
-		preview = [dirname(dddgPath) + '/' + 'preview.png'];
-	}
-
-	for (const char of parsedPack.characters) {
-		const [cName, cTypes, cPreview] = v2CharInfo(char);
-		chars.add(cName);
-		for (const type of cTypes) types.add(type);
-		if (!previewExists && cPreview.length > preview.length) {
-			preview = cPreview;
+		if (!pack.packId) {
+			throw new Error(`Pack without id cannot be indexed! (${path})`);
 		}
-	}
+		if (!pack.authors) {
+			throw new Error(`Pack has no specified authors! (${path})`);
+		}
+		const packPath =
+			'https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/';
+		const dddgPath = path
+			.replaceAll(pathMod.sep, '/')
+			.replace('../packs/', packPath);
+		const parsedPack = V2Parser.normalizeContentPack(pack, {
+			'/': 'https://edave64.github.io/Doki-Doki-Dialog-Generator/release/assets/',
+			'./': dirname(dddgPath) + '/',
+		});
 
-	if (parsedPack.backgrounds.length > 0) {
-		types.add('Backgrounds');
-		if (!previewExists) {
-			console.error(`Background stuff ${preview.length} ${path}`);
-			for (const background of parsedPack.backgrounds) {
-				for (const variant of background.variants) {
-					console.error(
-						`Toast ${variant.length} -> ${variant.length > preview.length}`
-					);
-					if (variant.length > preview.length) {
+		const chars = new Set<string>();
+		const types = new Set<PackKind>();
+		let preview: IPack['preview'] | null = null;
+
+		const oldExport = oldRepo.find((x) => x.id === pack.packId);
+		if (oldExport && oldExport.preview && oldExport.preview.length > 0) {
+			preview = oldExport.preview;
+		} else {
+			console.log("No existing preview for " + pack.packId);
+		}
+
+		if (
+			preview == null &&
+			(await fileExists(join(dirname(path), 'preview.png')))
+		) {
+			preview = [dirname(dddgPath) + '/' + 'preview.png'];
+		}
+
+		for (const char of parsedPack.characters) {
+			const [cName, cTypes, cPreview] = v2CharInfo(char);
+			chars.add(cName);
+			for (const type of cTypes) types.add(type);
+			if (preview == null) {
+				preview = cPreview;
+			}
+		}
+
+		if (parsedPack.backgrounds.length > 0) {
+			types.add('Backgrounds');
+			if (preview == null) {
+				for (const background of parsedPack.backgrounds) {
+					for (const variant of background.variants) {
 						preview = variant;
 					}
 				}
 			}
 		}
-	}
 
-	if (parsedPack.sprites.length > 0) {
-		types.add('Sprites');
-		if (!previewExists) {
-			console.error(`Sprite stuff ${preview.length} ${path}`);
-			for (const sprite of parsedPack.sprites) {
-				for (const variant of sprite.variants) {
-					console.error(
-						`Toast ${variant.length} -> ${variant.length > preview.length}`
-					);
-					if (variant.length > preview.length) {
+		if (parsedPack.sprites.length > 0) {
+			types.add('Sprites');
+			if (preview == null) {
+				for (const sprite of parsedPack.sprites) {
+					for (const variant of sprite.variants) {
 						preview = variant;
 					}
 				}
 			}
 		}
-	}
 
-	return {
-		id: pack.packId,
-		name: pack.packName || pack.packId,
-		characters: Array.from(chars).sort(),
-		authors: pack.authors,
-		ddcc2Path: pack.comicClubUrl,
-		kind: Array.from(types).sort(),
-		source: pack.source,
-		dddg2Path: dddgPath,
-		disclaimer: pack.disclaimer,
-		description: formatDescription(pack.packCredits as unknown as string),
-		preview,
-		searchWords: [],
-	};
-} catch (e) {
-	console.error("Error while processing package " + pack.packId, path);
-	throw e;
-}
+		return {
+			id: pack.packId,
+			name: pack.packName || pack.packId,
+			characters: Array.from(chars).sort(),
+			authors: pack.authors,
+			ddcc2Path: pack.comicClubUrl,
+			kind: Array.from(types).sort(),
+			source: pack.source,
+			dddg2Path: dddgPath,
+			disclaimer: pack.disclaimer,
+			description: formatDescription(pack.packCredits as unknown as string),
+			preview: preview || [],
+			searchWords: [],
+		};
+	} catch (e) {
+		console.error('Error while processing package ' + pack.packId, path);
+		throw e;
+	}
 }
 
 function v2CharInfo(
@@ -333,13 +340,31 @@ async function parseV1(
 	}
 	const packPath =
 		'https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/';
-	const dddgPath = path.replace('../packs/', packPath);
+	const dddgPath = path
+		.replaceAll(pathMod.sep, '/')
+		.replace('../packs/', packPath);
 	const parsedPack = normalizeCharacter(pack, {
 		'/': 'https://edave64.github.io/Doki-Doki-Dialog-Generator/release/assets/',
 		'./': dirname(dddgPath) + '/',
 	});
 
-	const previewExists = await fileExists(join(dirname(path), 'preview.png'));
+	let preview: IPack['preview'] | null = null;
+
+	const oldExport = oldRepo.find((x) => x.id === pack.packId);
+	if (oldExport) {
+		preview = oldExport.preview;
+	}
+
+	if (
+		preview == null &&
+		(await fileExists(join(dirname(path), 'preview.png')))
+	) {
+		preview = [dirname(dddgPath) + '/' + 'preview.png'];
+	}
+
+	if (preview == null) {
+		preview = extractPreview(parsedPack);
+	}
 
 	return {
 		id: pack.packId,
@@ -353,9 +378,7 @@ async function parseV1(
 		dddg2Path: dddgPath,
 		disclaimer: pack.disclaimer,
 		description: formatDescription(pack.packCredits),
-		preview: previewExists
-			? [dirname(dddgPath) + '/' + 'preview.png']
-			: extractPreview(parsedPack),
+		preview,
 		searchWords: extractSearchWords(pack),
 	};
 }
@@ -437,6 +460,12 @@ function detectV1Kinds(pack: JSONCharacter<JSONHeadCollections>): PackKind[] {
 	return ['Misc'];
 }
 
-main()
-	.then((x) => console.log(JSON.stringify(x, null, '\t')))
-	.catch((err) => console.error(err));
+(async function () {
+	try {
+		const x = await main();
+		const json = JSON.stringify(x, null, '\t');
+		await fs.promises.writeFile('../repo.json', json + '\n', fsOpts);
+	} catch (e) {
+		console.error(e);
+	}
+})();
