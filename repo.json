@@ -1852,6 +1852,30 @@
 		"searchWords": []
 	},
 	{
+		"id": "tiffany.halibabica.edave64",
+		"name": "Tiffany",
+		"characters": [
+			"Tiffany"
+		],
+		"authors": [
+			"halibabica",
+			"yagamirai10"
+		],
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/100imdq",
+		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/index.json",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/index.json",
+		"description": "The sprites in this pack were all drawn by halibabica with some artistic advisement from yagamirai10.\n\nFor characterization, they appear in DDLC: Take Two and Doki Doki Interview Club. Both mods can be found <a href='https://old.reddit.com/r/DDLCTakeTwo/comments/zf9q0w/ddlc_take_two_mod_releases/'>here</a>",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "tina.johnrdvsmarston.edave64",
 		"name": "Tina",
 		"characters": [
