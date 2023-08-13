@@ -17,7 +17,7 @@
 		{
 			"id": "ddlc.oc.nastya",
 			"label": "Nastya",
-			"chibi": "black hair/face/a.png",
+			"chibi": "chibi.png",
 			"styleGroups": [
 				{
 					"id": "uniform",
