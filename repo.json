@@ -1099,6 +1099,29 @@
 		"searchWords": []
 	},
 	{
+		"id": "nastya.nekolais.edave64",
+		"name": "Nastya",
+		"characters": [
+			"Nastya"
+		],
+		"authors": [
+			"NekoLaiS",
+			"Spirtowochka"
+		],
+		"kind": [
+			"Characters"
+		],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/12bbaaq/nastya_sprite_pack",
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/nastya.nekolais.edave64/index.v2.json",
+		"description": "",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/nastya.nekolais.edave64/black hair/face/a.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/nastya.nekolais.edave64/black hair/uniform/1l.png",
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/nastya.nekolais.edave64/black hair/uniform/1r.png"
+		],
+		"searchWords": []
+	},
+	{
 		"id": "natsuki.expressions.angry.lunatic_rabbit.edave64",
 		"name": "Angry expressions",
 		"characters": [
