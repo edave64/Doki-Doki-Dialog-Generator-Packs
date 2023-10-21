@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "yuri.outfit.pink_dress.pluralroses.edave64",
+		"name": "Pink Dress",
+		"characters": ["Yuri"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/open?id=1mkH0i02GXn22vOdqz0UzB4ZSKiuFre48",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea'>DeviantArt</a>)",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

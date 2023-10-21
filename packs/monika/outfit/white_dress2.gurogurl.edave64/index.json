@@ -2,15 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.white_dress2.gurogurl.edave64",
-	"packCredits": "<a href='https://www.reddit.com/comments/8x5hsf/'>Created</a> by <a href='https://www.reddit.com/u/gurogurl'>gurogurl</a>",
-	"packName": "White summer dress",
-	"authors": ["gurogurl"],
-	"comicClubUrl": "https://drive.google.com/file/d/106qbG6-UfbZzgPunzHI3vglS9zrlxnZm/view",
-	"source": "https://www.reddit.com/comments/8x5hsf/",
-	"cc2credits": {
-		"left": ["White summer dress"],
-		"right": ["{a='https://www.reddit.com/u/gurogurl'}gurogurl{/a}"]
-	},
 	"folder": "./",
 	"styles": [
 		{

@@ -1,0 +1,29 @@
+{
+	"pack": {
+		"id": "hime.blackrabbitartworks.edave64",
+		"name": "Hime",
+		"characters": ["Hime"],
+		"authors": ["Daikaiju-fanboy", "Black Rabbit Artworks", "AjTheYandere"],
+		"ddcc2Path": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/",
+		"dddg1Path": "index.json",
+		"description": "Commissioned and owned by Daikaiju-fanboy, <a href=\"https://www.reddit.com/r/DDLCMods/comments/hqw0cj/\">created</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Chibi by AjTheYandere",
+		"preview": ["a.png", "1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Daikaiju-fanboy": {
+			"deviantart": "daikaiju-fanboy"
+		},
+		"Black Rabbit Artworks": {
+			"reddit": "blackrabbitartworks",
+			"patreon": "BlackRabbitArtworks",
+			"deviantart": "blackrabbitartworks",
+			"facebook": "BlackRabbitArtworks"
+		},
+		"AjTheYandere": {
+			"reddit": "AjTheYandere"
+		}
+	}
+}

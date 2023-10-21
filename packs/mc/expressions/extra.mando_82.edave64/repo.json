@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "mc.expressions.extra.mando_82.edave64",
+		"name": "Extra expressions",
+		"characters": ["MC"],
+		"authors": ["Mando-82"],
+		"ddcc2Path": "https://drive.google.com/file/d/1j_0FcSudVczsrscOeC2TcUuvfsWEBos5/view?usp=sharing",
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/kflq2y",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/kflq2y' target='_blank' rel='noopener noreferrer'>Created by</a> Mando-82",
+		"preview": ["yellow/aa.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Mando-82": {
+			"reddit": "Mando-82"
+		}
+	}
+}

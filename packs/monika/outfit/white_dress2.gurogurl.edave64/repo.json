@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "monika.outfit.white_dress2.gurogurl.edave64",
+		"name": "White summer dress",
+		"characters": ["Monika"],
+		"authors": ["gurogurl"],
+		"ddcc2Path": "https://drive.google.com/file/d/106qbG6-UfbZzgPunzHI3vglS9zrlxnZm/view",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/comments/8x5hsf/",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/comments/8x5hsf/'>Created</a> by <a href='https://www.reddit.com/u/gurogurl'>gurogurl</a>",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"gurogurl": {
+			"reddit": "gurogurl"
+		}
+	}
+}

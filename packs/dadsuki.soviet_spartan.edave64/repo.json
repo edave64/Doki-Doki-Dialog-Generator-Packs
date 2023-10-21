@@ -1,0 +1,25 @@
+{
+	"pack": {
+		"id": "dadsuki.soviet_spartan.edave64",
+		"name": "Dadsuki (SovietSpartan)",
+		"characters": ["Dadsuki"],
+		"authors": ["SovietSpartan", "Meddy-sin"],
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/8ym847/",
+		"dddg1Path": "index.json",
+		"description": "Artwork by SovietSpartan (https://twitter.com/TsukiZuramaru), originally created for the Doki Doki Literature Club mod \"Doki Doki Rewind/Replay\", by Chronos (Discord: Chronos#1609), <a href='https://www.reddit.com/9275nf' target='_blank' rel='noopener noreferrer'>Chibi</a> by Meddy-sin",
+		"preview": ["a.png", "1r.png", "1l.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"SovietSpartan": {
+			"twitter": "TsukiZuramaru",
+			"reddit": "SovietSpartan",
+			"pixiv": "15493208",
+			"deviantart": "vaygrx"
+		},
+		"Meddy-sin": {
+			"reddit": "meddy-sin"
+		}
+	}
+}

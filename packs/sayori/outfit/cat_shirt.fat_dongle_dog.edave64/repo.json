@@ -1,0 +1,24 @@
+{
+	"pack": {
+		"id": "sayori.outfit.cat_shirt.fat_dongle_dog.edave64",
+		"name": "Cat shirt",
+		"characters": ["Sayori"],
+		"authors": ["FatDongleDog", "SlightlySimple"],
+		"ddcc2Path": "https://drive.google.com/file/d/1Vlmw-rd_yDPxn_c9R_j7Fxp744bOMjbP/view?usp=sharing",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/9wn4gr",
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/u/FatDongleDog'>FatDongleDog</a>, alternative pose by SlightlySimple",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"FatDongleDog": {
+			"reddit": "FatDongleDog"
+		},
+		"SlightlySimple": {
+			"reddit": "SlightlySimple",
+			"twitter": "SimpleSlightly"
+		}
+	}
+}

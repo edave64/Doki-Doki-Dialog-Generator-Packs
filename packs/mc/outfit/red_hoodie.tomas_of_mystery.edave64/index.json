@@ -2,19 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.fan.mc2",
 	"packId": "mc.oufits.red_hoodie.tomas_of_mystery.edave64",
-	"packCredits": "Created by ThoMysteriousY, based on the <a href='https://www.reddit.com/comments/8rfjmh'>red Sayori hoodie</a> by gurogurl and casual MC by SlightlySimple",
-	"packName": "Red hoodie",
-	"source": "https://www.reddit.com/r/DDLCMods/comments/h7u6t9/mcs_new_sprite_hoodie/",
-	"authors": ["ThoMysteriousY", "gurogurl", "SlightlySimple"],
-	"cc2credits": {
-		"left": [
-			"MC Red Hoodie",
-			"  based on Sayori Hoodie by",
-			"  based on casual MC by"
-		],
-		"right": ["ThoMysteriousY", "gurogurl", "SlightlySimple"]
-	},
-	"comicClubUrl": "https://drive.google.com/file/d/1acN7_oIWntRL2t_zi9OcsSOkvE7VjbVM/view?usp=sharing",
 	"folder": "./",
 	"styles": [
 		{

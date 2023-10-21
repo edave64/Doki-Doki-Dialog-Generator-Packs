@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "yuri.outfit.gothic.pluralroses.edave64",
+		"name": "Gothic Outfit",
+		"characters": ["Yuri"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/open?id=1A1uDP4atCFQg83f1pBZQvxjapC39ji0U",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/e0zuxg/",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/e0zuxg'>Created by</a> PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

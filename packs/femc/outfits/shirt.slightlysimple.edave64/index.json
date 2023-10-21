@@ -2,15 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.fan.femc",
 	"packId": "femc.oufits.shirt.slightlysimple.edave64",
-	"packCredits": "Created by SlightlySimple, original sprites by Meddy-sin",
-	"packName": "Shirt (Short sleeves)",
-	"source": "https://www.reddit.com/9yatqd",
-	"authors": ["SlightlySimple", "Meddy-sin"],
-	"cc2credits": {
-		"left": ["FeMC shirt (Short sleeves)", ""],
-		"right": ["SlightlySimple", "Meddy-Sin"]
-	},
-	"comicClubUrl": "https://drive.google.com/file/d/1TaMXmSVut1_P9k5j6CtO_L58V8RE3i-b/view?usp=sharing",
 	"folder": "./",
 	"styles": [
 		{

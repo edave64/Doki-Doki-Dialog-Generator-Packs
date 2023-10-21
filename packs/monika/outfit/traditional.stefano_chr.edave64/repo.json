@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "monika.outfit.traditional.stefano_chr.edave64",
+		"name": "Traditional Outfit",
+		"characters": ["Monika"],
+		"authors": ["Stefano.chr"],
+		"ddcc2Path": "https://drive.google.com/open?id=1Oc7_FkJrl2Peo-_0NlwrvE3wPj7QLsim",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by Stefano.chr",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Stefano.chr": {
+			"discord": "Stefano#4553"
+		}
+	}
+}

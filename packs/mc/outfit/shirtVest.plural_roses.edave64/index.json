@@ -2,18 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.fan.mc2",
 	"packId": "mc.oufits.shirtVest.plural_roses.edave64",
-	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
-	"packName": "Shirt and Vest",
-	"source": "https://www.reddit.com/en9ezu",
-	"authors": ["Plural Roses"],
-	"cc2credits": {
-		"left": ["MC in shirt and vest", ""],
-		"right": [
-			"PluralRoses",
-			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
-		]
-	},
-	"comicClubUrl": "https://drive.google.com/open?id=1gNMiX0U-dD7UY5oibmdq2IqqMDftYZ3y",
 	"folder": "./",
 	"styles": [
 		{

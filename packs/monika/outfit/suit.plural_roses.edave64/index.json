@@ -2,18 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.suit.plural_roses.edave64",
-	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
-	"packName": "Suit",
-	"authors": ["Plural Roses"],
-	"source": "https://www.reddit.com/ffzn4n",
-	"comicClubUrl": "https://drive.google.com/open?id=1svq2Cp8Op85HHI4LuNuubBJ8nF8DxHuk",
-	"cc2credits": {
-		"left": ["Monika in a suit", ""],
-		"right": [
-			"PluralRoses",
-			" {a=https://www.deviantart.com/15laruea}on DeviantArt{/a}"
-		]
-	},
 	"folder": "./",
 	"styles": [
 		{

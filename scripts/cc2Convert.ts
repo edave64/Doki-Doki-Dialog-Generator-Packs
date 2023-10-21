@@ -243,9 +243,8 @@ async function writeCharacterFile(
 				(headListEntry as any).folder,
 				paths
 			);
-			const headList = (headListEntry instanceof Array
-				? headListEntry
-				: headListEntry.all
+			const headList = (
+				headListEntry instanceof Array ? headListEntry : headListEntry.all
 			)
 				.map(unNsfw)
 				.map((x) => normalizeJoinDddgPath(headFolder, x, paths))

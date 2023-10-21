@@ -3,17 +3,6 @@
 	"id": "ddlc.monika",
 	"folder": "./",
 	"packId": "monika.poses.sideways.ajtheyandere.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
-	"packName": "Sideways Monika",
-	"authors": ["AjTheYandere", "Ein Had A Motive"],
-	"source": "https://www.reddit.com/klgmd2",
-	"comicClubUrl": "https://drive.google.com/file/d/1-gHL_WtRGtsIGk7vqo4cCY7-TInViZh9/view?usp=sharing",
-	"cc2credits": {
-		"left": ["Side facing Monika", ""],
-		"right": [
-			"AjTheYandere", "Ein Had A Motive"
-		]
-	},
 	"heads": {
 		"sideways_aj": [
 			"a.png",

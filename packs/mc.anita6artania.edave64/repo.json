@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "mc.anita6artania.edave64",
+		"name": "MC",
+		"characters": ["MC (Slim)"],
+		"authors": ["anita6artania"],
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/dq74jr",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/dq74jr' target='_blank' rel='noopener noreferrer'>Created by</a> anita6artania",
+		"preview": ["faces_red/a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"anita6artania": {
+			"reddit": "anita6artania"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"id": "monika_r63.diaboliiique.edave64",
+		"name": "Rule 63 Monika",
+		"characters": ["Monika R63"],
+		"authors": ["diaboliiique"],
+		"kind": ["Characters"],
+		"dddg1Path": "index.json",
+		"description": "Created by diaboliiique (@fiiiiioooo on Twitter)",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"diaboliiique": {
+			"twitter": "fiiiiioooo"
+		}
+	}
+}

@@ -2,17 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.hoodie.morbiusgreen.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/u/morbiusgreen'>morbiusgreen</a> and improved by <a href='https://www.reddit.com/u/SYwaves'>SYwaves</a>",
-	"packName": "Hoodie",
-	"authors": ["morbiusgreen", "SYwaves"],
-	"comicClubUrl": "https://drive.google.com/file/d/17DggJxHnXS3A_gif72UHSmH8mVbdLtRk/view?usp=sharing",
-	"cc2credits": {
-		"left": ["Monika Hoodie by", " improved by"],
-		"right": [
-			"{a=https://www.reddit.com/u/morbiusgreen}morbiusgreen{/a}",
-			"{a=https://www.reddit.com/u/SYwaves}SYwaves{/a}"
-		]
-	},
 	"folder": "./",
 	"styles": [
 		{

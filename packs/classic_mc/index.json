@@ -1,9 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "mc_classic.childish-n.edave64",
-	"packCredits": "MC Classic Sprite by Childish-N<br />MC Classic Chibi by GyleToTheRescue",
-	"packName": "Classic MC",
-	"authors": ["Childish-N", "GyleToTheRescue"],
 	"id": "ddlc.fan.mc1",
 	"name": "MC (Classic)",
 	"chibi": "chibi.png",

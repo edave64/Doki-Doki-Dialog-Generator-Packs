@@ -1,0 +1,27 @@
+{
+	"pack": {
+		"id": "mio.cgs.cyrke.blackrabbitartworks.edave64",
+		"name": "Mio CGs",
+		"characters": [],
+		"authors": ["Cyrke", "Black Rabbit Artworks", "yagamirai10"],
+		"kind": ["Backgrounds"],
+		"description": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
+		"preview": ["sitting_1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		},
+		"Black Rabbit Artworks": {
+			"reddit": "blackrabbitartworks",
+			"patreon": "BlackRabbitArtworks",
+			"deviantart": "blackrabbitartworks",
+			"facebook": "BlackRabbitArtworks"
+		},
+		"yagamirai10": {
+			"reddit": "yagamirai10",
+			"discord": "yagamirai10#7046"
+		}
+	}
+}

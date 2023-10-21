@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "natsuki.expressions.angry.lunatic_rabbit.edave64",
+		"name": "Angry expressions",
+		"characters": ["Natsuki"],
+		"authors": ["Lunatic Rabbit"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/8n8ii6",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/comments/8n8ii6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+		"preview": ["a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Lunatic Rabbit": {
+			"reddit": "Lunatic_Rabbit",
+			"deviantart": "the-lunatic-rabbit",
+			"twitter": "IchijoPaniPoni"
+		}
+	}
+}

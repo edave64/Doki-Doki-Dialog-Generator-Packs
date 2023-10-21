@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"id": "sayori.outfit.shirt.yagamirai10.edave64",
+		"name": "Shirt",
+		"characters": ["Sayori"],
+		"authors": ["yagamirai10", "NormallyAverage"],
+		"ddcc2Path": "https://drive.google.com/file/d/1M17Ru2ruIfTGrR0c_6iYFHi642O6N1DH/view?usp=sharing",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by yagamirai10, leaning sprite by /u/NormallyAverage",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"yagamirai10": {
+			"reddit": "yagamirai10",
+			"discord": "yagamirai10#7046"
+		},
+		"NormallyAverage": {
+			"reddit": "NormallyAverage"
+		}
+	}
+}

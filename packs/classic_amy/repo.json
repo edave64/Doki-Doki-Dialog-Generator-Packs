@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"id": "amy1.meddy-sin.edave64",
+		"name": "Classic Amy",
+		"characters": ["Amy (Classic)"],
+		"authors": ["Meddy-sin"],
+		"kind": ["Characters"],
+		"dddg1Path": "index.json",
+		"description": "Classic Amy Sprite by Meddy-sin",
+		"preview": ["1l.png", "1r.png", "aa.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Meddy-sin": {
+			"reddit": "meddy-sin"
+		}
+	}
+}

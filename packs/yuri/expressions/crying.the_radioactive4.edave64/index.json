@@ -1,10 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "yuri.expressions.crying.the_radioactive4.edave64",
-	"packCredits": "<a href='https://www.reddit.com/9jn97t' target='_blank' rel='noopener noreferrer'>Created by</a> TheRadioactive4",
-	"packName": "Crying",
-	"authors": ["Radiation"],
-	"source": "https://www.reddit.com/9jn97t",
 	"id": "ddlc.yuri",
 	"folder": "./",
 	"heads": {

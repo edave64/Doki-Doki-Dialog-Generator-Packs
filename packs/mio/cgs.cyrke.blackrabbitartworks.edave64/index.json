@@ -2,35 +2,18 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "mio.cgs.cyrke.blackrabbitartworks.edave64",
-	"packName": "Mio CGs",
-	"packCredits": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
 	"ddcc2Path": "https://drive.google.com/file/d/1EdVsZIcWGrzXYp4YHJ6c_TYwYI3oK2N7/view?usp=sharing",
-	"authors": [
-		"Cyrke",
-		"Black Rabbit Artworks",
-		"yagamirai10"
-	],
-	"cc2credits": {
-		"left": ["Mio Kneeling CG", "Mio Sitting CG"],
-		"right": ["Cyrke", "Black Rabbit Artworks"]
-	},
 	"folder": "./",
 	"backgrounds": [
 		{
 			"id": "mio_sitting",
 			"label": "Mio sitting",
-			"variants": [
-				["sitting_1.png"],
-				["sitting_2.png"]
-			]
+			"variants": [["sitting_1.png"], ["sitting_2.png"]]
 		},
 		{
 			"id": "mio_kneeling",
 			"label": "Mio kneeling",
-			"variants": [
-				["kneeling_1.png"],
-				["kneeling_2.png"]
-			]
+			"variants": [["kneeling_1.png"], ["kneeling_2.png"]]
 		}
 	]
 }

@@ -1,0 +1,73 @@
+{
+	"pack": {
+		"id": "momyori.latteaddicted.edave64",
+		"name": "Sayori's Mom",
+		"characters": ["Sayori's Mom"],
+		"authors": [
+			"LatteAddicted",
+			"SovietSpartan",
+			"Lucy",
+			"RyuseDraws",
+			"EntonyEscX",
+			"Lunatic Rabbit",
+			"MattyD",
+			"leodecraprio",
+			"FuckingMoniker_mmmmm",
+			"Plural Roses"
+		],
+		"ddcc2Path": "https://drive.google.com/file/d/15EUm-xpsTJND-Xhn4GqvwulLIlHT9Hfg/view?usp=sharing",
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/dciech",
+		"dddg1Path": "index.json",
+		"description": "<ul><li>Doki Doki Literature Club<ul><li>Intellectual property - Dan Salvato</li><li>Game art - Satchely</li></ul></li><li>This idea was inspired by <a href='https://www.reddit.com/r/DDLC/comments/89435j/' target='_blank' rel='noopener noreferrer'>a post</a> created by crybaby_natsuki</li><li>The “Blue V-Neck Shirt with Black Yoga Pants”, the “Pink Collared Shirt with Tan Shorts” and the “Swimsuit” were edited from sprites made by SovietSpartan<ul><li>These assets can be found in his <a href='https://www.reddit.com/comments/7xj3yj/' target='_blank' rel='noopener noreferrer'>DDLC Our Time Demo Mod</a></li></ul></li><li>The funeral clothes were done by Lucy#4433 and were posted on the <a href='https://discordapp.com/invite/Gx7m9xE' target='_blank' rel='noopener noreferrer'>Doki Doki Modding Club Discord</a></li><li>The sundress sprites were edited from an edit made by <a href='https://www.reddit.com/user/EntonyEscX/' target='_blank' rel='noopener noreferrer'>EntonyEscX</a><ul><li>The original sundress sprites were made by leemuel01</li></ul></li><li>Many of the facial sprites were custom made by a large amount of different people<ul><li><a href='https://www.reddit.com/user/Lunatic_Rabbit' target='_blank' rel='noopener noreferrer'>Lunatic_Rabbit</a></li><li><a href='https://www.reddit.com/user/_MattyD' target='_blank' rel='noopener noreferrer'>Mattyd</a></li><li><a href='https://www.reddit.com/user/leodecraprio' target='_blank' rel='noopener noreferrer'>LeoDeCraprio</a></li><li><a href='https://www.reddit.com/user/FuckingMoniker_mmmmm' target='_blank' rel='noopener noreferrer'>FuckingMoniker_mmmmm</a></li></ul></li><li>The base sprites were supplied by <a href='https://www.reddit.com/user/15LarueA' target='_blank' rel='noopener noreferrer'>15LarueA</a> on the <a href='https://discordapp.com/invite/Gx7m9xE' target='_blank' rel='noopener noreferrer'>Doki Doki Modding Club Discord</a> in a pack</li><li><a href='https://www.reddit.com/user/latteaddicted/submitted/' target='_blank' rel='noopener noreferrer'>latteaddicted</a>, for making <a href='https://www.reddit.com/comments/dciech' target='_blank' rel='noopener noreferrer'>the sprite and sprite pack</a></li></ul>",
+		"preview": [
+			"Faces+Glasses/a.png",
+			"Blue V-Neck Shirt with Black Yoga Pants/1l.png",
+			"Blue V-Neck Shirt with Black Yoga Pants/1r.png"
+		],
+		"searchWords": []
+	},
+	"authors": {
+		"LatteAddicted": {
+			"reddit": "latteaddicted"
+		},
+		"SovietSpartan": {
+			"twitter": "TsukiZuramaru",
+			"reddit": "SovietSpartan",
+			"pixiv": "15493208",
+			"deviantart": "vaygrx"
+		},
+		"Lucy": {
+			"discord": "Lucy#4433",
+			"twitter": "AWretchedLucy"
+		},
+		"RyuseDraws": {
+			"deviantart": "ryusedraws",
+			"reddit": "leemuel01",
+			"twitter": "Ryuse68098095",
+			"pixiv": "33350693"
+		},
+		"EntonyEscX": {
+			"reddit": "EntonyEscX"
+		},
+		"Lunatic Rabbit": {
+			"reddit": "Lunatic_Rabbit",
+			"deviantart": "the-lunatic-rabbit",
+			"twitter": "IchijoPaniPoni"
+		},
+		"MattyD": {
+			"reddit": "_MattyD",
+			"website": "https://www.macdaddymatty.com/"
+		},
+		"leodecraprio": {
+			"reddit": "leodecraprio"
+		},
+		"FuckingMoniker_mmmmm": {
+			"reddit": "FuckingMoniker_mmmmm"
+		},
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

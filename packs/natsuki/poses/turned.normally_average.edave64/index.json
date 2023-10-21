@@ -1,15 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "natsuki.poses.turned.normally_average.edave64",
-	"packCredits": "<a href=\"https://reddit.com/ffgxy7/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
-	"source": "https://www.reddit.com/ffgxy7/",
-	"packName": "Turned",
-	"authors": ["NormallyAverage"],
-	"cc2credits": {
-		"left": ["{a='https://www.reddit.com/ffgxy7'}Natsuki turned{/a}"],
-		"right": ["{a='https://reddit.com/u/NormallyAverage'}Normally Average{/a}"]
-	},
-	"comicClubUrl": "https://drive.google.com/file/d/1egKnQYyV9ZbKPMfH6dEy6cU0xrPfDiTq/view?usp=sharing",
 	"id": "ddlc.natsuki",
 	"folder": "./",
 	"heads": {},

@@ -1,0 +1,22 @@
+{
+	"pack": {
+		"id": "monika.outfit.hoodie.morbiusgreen.edave64",
+		"name": "Hoodie",
+		"characters": ["Monika"],
+		"authors": ["morbiusgreen", "SYwaves"],
+		"ddcc2Path": "https://drive.google.com/file/d/17DggJxHnXS3A_gif72UHSmH8mVbdLtRk/view?usp=sharing",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/u/morbiusgreen'>morbiusgreen</a> and improved by <a href='https://www.reddit.com/u/SYwaves'>SYwaves</a>",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"morbiusgreen": {
+			"reddit": "morbiusgreen"
+		},
+		"SYwaves": {
+			"reddit": "SYwaves"
+		}
+	}
+}

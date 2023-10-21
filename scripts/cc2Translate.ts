@@ -16,7 +16,7 @@ export const translateHeads: {
 	'ddlc.fan.femc:straight_hetero': '_alter',
 	'ddlc.fan.femc:straight_hetero_lh': '_lh_alter',
 	'ddlc.fan.mc2:straight': '',
-	'ddlc.fan.mc2:straight_red': '_alter'
+	'ddlc.fan.mc2:straight_red': '_alter',
 };
 
 export const ccCharName: { [dddgId: string]: string } = {

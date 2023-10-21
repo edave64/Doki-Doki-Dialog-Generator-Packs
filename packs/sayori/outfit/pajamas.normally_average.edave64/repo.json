@@ -1,0 +1,24 @@
+{
+	"pack": {
+		"id": "sayori.outfit.pajamas.normally_average.edave64",
+		"name": "Pajamas",
+		"characters": ["Sayori"],
+		"authors": ["NormallyAverage", "SlightlySimple"],
+		"ddcc2Path": "https://drive.google.com/file/d/17tUblqGMCaCRKX-B6Mj6QzLNdeEkqGHS/view?usp=sharing",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/r/DDLC/comments/axfu4e/",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/r/DDLC/comments/axfu4e/'>Created by</a> NormallyAverage, Alternative pose by SlightlySimple",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"NormallyAverage": {
+			"reddit": "NormallyAverage"
+		},
+		"SlightlySimple": {
+			"reddit": "SlightlySimple",
+			"twitter": "SimpleSlightly"
+		}
+	}
+}

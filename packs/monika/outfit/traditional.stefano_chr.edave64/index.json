@@ -2,14 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.traditional.stefano_chr.edave64",
-	"packCredits": "Created by Stefano.chr",
-	"packName": "Traditional Outfit",
-	"authors": ["Stefano.chr"],
-	"comicClubUrl": "https://drive.google.com/open?id=1Oc7_FkJrl2Peo-_0NlwrvE3wPj7QLsim",
-	"cc2credits": {
-		"left": ["Monika traditional outfit"],
-		"right": ["Stefano.chr"]
-	},
 	"folder": "./",
 	"styles": [
 		{

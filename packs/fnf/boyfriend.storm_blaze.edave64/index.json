@@ -2,10 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "fnf.boyfriend.storm_blaze.edave64",
-	"packCredits": "Commissioned and owned by CPG Yuri, created by Storm Blaze, BF \"corrupted\" sprite by Phantom Fear, <a href=\"https://gamebanana.com/mods/43037\">BF in speakers</a> by Aj the Funky, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
-	"packName": "Boyfriend",
-	"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/",
-	"authors": ["StormBlazed76", "CPG Yuri", "Phantom Fear", "Aj the Funky"],
 	"folder": "./",
 	"characters": [
 		{
@@ -81,36 +77,44 @@
 									"compatibleHeads": ["default"],
 									"id": "default",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Left" },
-										{ "type": "pose-part", "part": "Right" },
-										{ "type": "head" }
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										},
+										{
+											"type": "head"
+										}
 									],
 									"positions": {
-										"Left": [
-											["./1l.png"], ["2l.png"]
-										],
-										"Right": [
-											["./1r.png"], ["2r.png"]
-										]
+										"Left": [["./1l.png"], ["2l.png"]],
+										"Right": [["./1r.png"], ["2r.png"]]
 									}
 								},
 								{
 									"compatibleHeads": [],
 									"id": "fail",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Variant" }
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
 									],
 									"positions": {
-										"Variant": [
-											["./fail1.png"], ["fail2.png"]
-										]
+										"Variant": [["./fail1.png"], ["fail2.png"]]
 									}
 								},
 								{
 									"compatibleHeads": [],
 									"id": "glitch",
 									"renderCommands": [
-										{ "type": "image", "images": ["glitch.png"] }
+										{
+											"type": "image",
+											"images": ["glitch.png"]
+										}
 									]
 								}
 							]
@@ -126,29 +130,34 @@
 									"compatibleHeads": ["default"],
 									"id": "default",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Left" },
-										{ "type": "pose-part", "part": "Right" },
-										{ "type": "head" }
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										},
+										{
+											"type": "head"
+										}
 									],
 									"positions": {
-										"Left": [
-											["./1bl.png"], ["2bl.png"]
-										],
-										"Right": [
-											["./1br.png"], ["2br.png"]
-										]
+										"Left": [["./1bl.png"], ["2bl.png"]],
+										"Right": [["./1br.png"], ["2br.png"]]
 									}
 								},
 								{
 									"compatibleHeads": [],
 									"id": "fail",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Variant" }
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
 									],
 									"positions": {
-										"Variant": [
-											["./fail1b.png"], ["fail2b.png"]
-										]
+										"Variant": [["./fail1b.png"], ["fail2b.png"]]
 									}
 								}
 							]
@@ -164,7 +173,10 @@
 									"compatibleHeads": [],
 									"id": "corrupted",
 									"renderCommands": [
-										{ "type": "image", "images": ["corrupted.png"] }
+										{
+											"type": "image",
+											"images": ["corrupted.png"]
+										}
 									]
 								}
 							]
@@ -179,7 +191,13 @@
 			"id": "boyfriend-chibi",
 			"label": "Boyfriend",
 			"variants": [
-				["./cbf-sitL.png"], ["./cbf-sitM.png"], ["./cbf-sitR.png"], ["./cbf-yee.png"], ["./cbf-yee2.png"], ["./cbf-aww.png"], ["./cbf-broken.png"]
+				["./cbf-sitL.png"],
+				["./cbf-sitM.png"],
+				["./cbf-sitR.png"],
+				["./cbf-yee.png"],
+				["./cbf-yee2.png"],
+				["./cbf-aww.png"],
+				["./cbf-broken.png"]
 			]
 		}
 	]

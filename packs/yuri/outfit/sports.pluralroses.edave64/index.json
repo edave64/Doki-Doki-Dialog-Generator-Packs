@@ -2,15 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.yuri",
 	"packId": "yuri.outfit.sports.pluralroses.edave64",
-	"packName": "Sports Outfit",
-	"authors": ["Plural Roses"],
-	"cc2credits": {
-		"left": ["{a='https://www.reddit.com/ejgy8i'}Yuri sports outfit{/a}"],
-		"right": ["{a='https://www.deviantart.com/15laruea'}PluralRoses{/a}"]
-	},
-	"comicClubUrl": "https://drive.google.com/file/d/1e9oCu3W_fYfvr-zVojt7Eizpd6xsIhPO/view?usp=sharing",
-	"source": "https://www.reddit.com/ejgy8i",
-	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea'>DeviantArt</a>)",
 	"folder": "./",
 	"styles": [
 		{

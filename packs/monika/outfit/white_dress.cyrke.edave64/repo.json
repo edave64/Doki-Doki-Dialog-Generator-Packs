@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "monika.outfit.white_dress.cyrke.edave64",
+		"name": "Summer dress",
+		"characters": ["Monika"],
+		"authors": ["Cyrke"],
+		"ddcc2Path": "https://drive.google.com/open?id=1p-tuj3zRw3y4BB-yiMZvh52CNmJJ8bAv",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/u/Cyrke_' target='_blank' rel='noopener noreferrer'>Cyrke</a>",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		}
+	}
+}

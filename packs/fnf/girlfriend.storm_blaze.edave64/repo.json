@@ -1,0 +1,30 @@
+{
+	"pack": {
+		"id": "fnf.girlfriend.storm_blaze.edave64",
+		"name": "Girlfriend",
+		"characters": ["Girlfriend"],
+		"authors": [
+			"StormBlazed76",
+			"CPG Yuri",
+			"Aj the Funky",
+			"DiegEx",
+			"ZoraZac",
+			"El Taco",
+			"Dr. Daynaze"
+		],
+		"kind": ["Characters", "Sprites"],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/",
+		"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, <a href=\"https://gamebanana.com/mods/43037\">GF idle/sit stickers</a> by Aj the Funky, <a href=\"https://gamebanana.com/mods/307184\">GF stickers</a> by DiegEx & ZoraZac, Crazy GF sticker by El Taco & Dr. Daynaze edited by CPG Yuri, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
+		"preview": ["1l.png", "1r.png", "a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"StormBlazed76": {
+			"reddit": "StormBlazed76",
+			"discord": "Storm Blaze#7530"
+		},
+		"CPG Yuri": {
+			"reddit": "reckonusm"
+		}
+	}
+}

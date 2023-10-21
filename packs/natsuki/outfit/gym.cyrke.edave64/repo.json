@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "natsuki.outfit.gym.cyrke.edave64",
+		"name": "Gym Outfit",
+		"characters": ["Natsuki"],
+		"authors": ["Cyrke"],
+		"ddcc2Path": "https://drive.google.com/open?id=16wOZC6EmbaE_TWqu2DlDby_qKfiaKp9w",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		}
+	}
+}

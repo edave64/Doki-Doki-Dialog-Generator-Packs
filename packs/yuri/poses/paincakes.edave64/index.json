@@ -1,18 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "yuri.poses.paincakes.edave64",
-	"packCredits": "<a href='https://www.reddit.com/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
-	"packName": "Extra Poses and Expressions",
-	"authors": ["ButtermilkPaincakes"],
-	"cc2credits": {
-		"left": [
-			"{a='https://www.reddit.com/el9jzv'}Yuri extra poses{/a}",
-			" and expressions"
-		],
-		"right": ["ButtermilkPaincakes"]
-	},
-	"comicClubUrl": "https://drive.google.com/file/d/18krghlpNwjYTxnEVun2dhsxFnI7M2hXV/view?usp=sharing",
-	"source": "https://www.reddit.com/el9jzv",
 	"id": "ddlc.yuri",
 	"folder": "./",
 	"heads": {

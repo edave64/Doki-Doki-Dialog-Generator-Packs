@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "monika.outfit.green_dress.yagamirai10.edave64",
+		"name": "Hakama",
+		"characters": ["Monika"],
+		"authors": ["yagamirai10"],
+		"ddcc2Path": "https://drive.google.com/open?id=1OelZbACzK235OChUomvLeB0T_NMWd_yw",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by yagamirai10",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"yagamirai10": {
+			"reddit": "yagamirai10",
+			"discord": "yagamirai10#7046"
+		}
+	}
+}

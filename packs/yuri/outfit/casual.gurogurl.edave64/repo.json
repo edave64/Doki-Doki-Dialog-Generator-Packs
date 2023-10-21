@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "yuri.outfit.casual.gurogurl.edave64",
+		"name": "Summer casuals",
+		"characters": ["Yuri"],
+		"authors": ["gurogurl"],
+		"ddcc2Path": "https://drive.google.com/open?id=1eKqWh2r8vOrY_V5PJVOuavRr7dQICug5",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/8xxfbb",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/8xxfbb'>Created by</a> gurogurl",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"gurogurl": {
+			"reddit": "gurogurl"
+		}
+	}
+}

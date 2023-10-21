@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"id": "monika.shorter_hair.tactical_cupcakes.edave64",
+		"name": "Shorter-haired Monika",
+		"characters": ["Monika"],
+		"authors": ["TacticalCupcakes", "edave64"],
+		"ddcc2Path": "https://drive.google.com/open?id=1xKt9OBMLTsB8DYPPaXYwNN2GcFQrLTm4",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/e8beiy",
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>TacticalCupcakes</a> and <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>EDave64</a>",
+		"preview": ["a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"TacticalCupcakes": {
+			"reddit": "TacticalCupcakes"
+		},
+		"edave64": {
+			"reddit": "edave64"
+		}
+	}
+}

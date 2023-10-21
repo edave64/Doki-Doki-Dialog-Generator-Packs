@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "sayori_eating_cake.edave64",
+		"name": "Eating Cake",
+		"characters": ["Sayori"],
+		"authors": ["edave64"],
+		"ddcc2Path": "https://drive.google.com/file/d/15dkXDopX0FXaCOZd3cR0hIxb0SAl3RgZ/view?usp=sharing",
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/d7qlrr",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/d7qlrr'>Created by</a> EDave64",
+		"preview": ["eating.png", "1br.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"edave64": {
+			"reddit": "edave64"
+		}
+	}
+}

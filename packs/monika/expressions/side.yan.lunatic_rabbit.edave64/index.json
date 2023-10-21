@@ -1,10 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "monika.expressions.side.yan.lunatic_rabbit.edave64",
-	"packCredits": "<a href='https://www.reddit.com/comments/9ed6sr' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
-	"packName": "Yandere expressions (Leaning pose)",
-	"authors": ["Lunatic Rabbit"],
-	"source": "https://www.reddit.com/9ed6sr",
 	"id": "ddlc.monika",
 	"folder": "./",
 	"heads": {

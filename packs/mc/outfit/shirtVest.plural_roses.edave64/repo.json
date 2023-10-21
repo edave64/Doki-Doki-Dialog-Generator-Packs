@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "mc.oufits.shirtVest.plural_roses.edave64",
+		"name": "Shirt and Vest",
+		"characters": ["MC"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/open?id=1gNMiX0U-dD7UY5oibmdq2IqqMDftYZ3y",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/en9ezu",
+		"dddg1Path": "index.json",
+		"description": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

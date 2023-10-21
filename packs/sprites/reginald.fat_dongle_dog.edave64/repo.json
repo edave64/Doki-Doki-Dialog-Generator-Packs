@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "sprites.reginald.fat_dongle_dog.edave64",
+		"name": "Reginald",
+		"characters": [],
+		"authors": ["FatDongleDog", "CanisAries"],
+		"kind": ["Sprites"],
+		"description": "Original by FatDongleDog, newer version by CanisAries",
+		"preview": ["original.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"FatDongleDog": {
+			"reddit": "FatDongleDog"
+		},
+		"CanisAries": {
+			"reddit": "CanisAries"
+		}
+	}
+}

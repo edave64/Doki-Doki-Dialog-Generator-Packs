@@ -1,16 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"packId": "tina.johnrdvsmarston.edave64",
-	"packCredits": "<a href='https://www.reddit.com/r/DDLCMods/comments/fitnr9/'>Created</a> by JohnRDVSMarston",
 	"version": "2.0",
-	"packName": "Tina",
-	"authors": ["JohnRDVSMarston"],
-	"cc2credits": {
-		"left": ["Tina"],
-		"right": ["JohnRDVSMarston"]
-	},
-	"source": "https://www.reddit.com/r/DDLCMods/comments/fitnr9/",
-	"comicClubUrl": "https://drive.google.com/file/d/1_MrMCGZS0qu3WjZRej4_37FzjzpH2cPU/view?usp=sharing",
 	"folder": "./",
 	"characters": [
 		{
@@ -27,12 +18,30 @@
 								{
 									"id": "normal",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Face-Base" },
-										{ "type": "pose-part", "part": "Eyebrows" },
-										{ "type": "pose-part", "part": "Eyes" },
-										{ "type": "pose-part", "part": "Mouth" },
-										{ "type": "pose-part", "part": "Left" },
-										{ "type": "pose-part", "part": "Right" }
+										{
+											"type": "pose-part",
+											"part": "Face-Base"
+										},
+										{
+											"type": "pose-part",
+											"part": "Eyebrows"
+										},
+										{
+											"type": "pose-part",
+											"part": "Eyes"
+										},
+										{
+											"type": "pose-part",
+											"part": "Mouth"
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
 									],
 									"positions": {
 										"Face-Base": [
@@ -109,11 +118,7 @@
 											["mouth-ydg3.png", "f2-cig1.png"],
 											["mouth-ydg3.png", "f2-cig2.png"]
 										],
-										"Left": [
-											["1l.png"],
-											["2l.png"],
-											["3l.png"]
-										],
+										"Left": [["1l.png"], ["2l.png"], ["3l.png"]],
 										"Right": [
 											["1r.png"],
 											["2r.png"],
@@ -130,11 +135,26 @@
 								{
 									"id": "normal",
 									"renderCommands": [
-										{ "type": "pose-part", "part": "Face-Base" },
-										{ "type": "pose-part", "part": "Eyebrows" },
-										{ "type": "pose-part", "part": "Eyes" },
-										{ "type": "pose-part", "part": "Mouth" },
-										{ "type": "pose-part", "part": "Variant" }
+										{
+											"type": "pose-part",
+											"part": "Face-Base"
+										},
+										{
+											"type": "pose-part",
+											"part": "Eyebrows"
+										},
+										{
+											"type": "pose-part",
+											"part": "Eyes"
+										},
+										{
+											"type": "pose-part",
+											"part": "Mouth"
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
 									],
 									"positions": {
 										"Face-Base": [

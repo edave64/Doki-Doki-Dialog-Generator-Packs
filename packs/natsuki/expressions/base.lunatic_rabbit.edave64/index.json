@@ -1,11 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "natsuki.expressions.base.lunatic_rabbit.edave64",
-	"packCredits": "<a href='https://www.reddit.com/comments/9afi6g' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
 	"id": "ddlc.natsuki",
-	"packName": "Extra expressions",
-	"authors": ["Lunatic Rabbit"],
-	"source": "https://www.reddit.com/9afi6g",
 	"folder": "./",
 	"heads": {
 		"straight": [

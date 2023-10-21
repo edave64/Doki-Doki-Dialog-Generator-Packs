@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "sayori.outfit.red_party_dress.plural_roses.edave64",
+		"name": "Red dress",
+		"characters": ["Sayori"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/open?id=1YyF2NWAVVgoHfKarbsIf3O69mTTh9Xa7",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/edceu7",
+		"dddg1Path": "index.json",
+		"description": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

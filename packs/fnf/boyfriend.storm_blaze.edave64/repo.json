@@ -1,0 +1,22 @@
+{
+	"pack": {
+		"id": "fnf.boyfriend.storm_blaze.edave64",
+		"name": "Boyfriend",
+		"characters": ["Boyfriend"],
+		"authors": ["StormBlazed76", "CPG Yuri", "Phantom Fear", "Aj the Funky"],
+		"kind": ["Characters", "Sprites"],
+		"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/",
+		"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, BF \"corrupted\" sprite by Phantom Fear, <a href=\"https://gamebanana.com/mods/43037\">BF in speakers</a> by Aj the Funky, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
+		"preview": ["1l.png", "1r.png", "a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"StormBlazed76": {
+			"reddit": "StormBlazed76",
+			"discord": "Storm Blaze#7530"
+		},
+		"CPG Yuri": {
+			"reddit": "reckonusm"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"pack": {
+		"id": "monika.outfit.blue_suit.spirithof.edave64",
+		"name": "Blue Suit",
+		"characters": ["Monika"],
+		"authors": ["SpiritH0F"],
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by SpiritH0F",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"SpiritH0F": {
+			"discord": "SpiritH0F#6969"
+		}
+	}
+}

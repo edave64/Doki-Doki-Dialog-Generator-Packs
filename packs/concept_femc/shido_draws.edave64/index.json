@@ -2,10 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "concept_femc.shido_draws.edave64",
-	"packCredits": "<a href='https://www.reddit.com/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
-	"packName": "FeMC (Concept)",
-	"authors": ["ShidoDraws", "SlightlySimple"],
-	"source": "https://www.reddit.com/oosuxu",
 	"folder": "./",
 	"characters": [
 		{

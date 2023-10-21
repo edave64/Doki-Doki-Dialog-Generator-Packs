@@ -1,0 +1,25 @@
+{
+	"pack": {
+		"id": "mio.outfits.dress.blackrabbitartworks.edave64",
+		"name": "Mio's white dress",
+		"characters": ["Mio"],
+		"authors": ["Black Rabbit Artworks"],
+		"ddcc2Path": "https://drive.google.com/file/d/1AsjuHZFL4NBeOoVjiUT1Y4JlwVw-aCQ4/view?usp=sharing",
+		"kind": ["Styles"],
+		"source": "https://drive.google.com/drive/folders/1swxMNIKwGZPqxA8uY5rhwFPE3xquNY4n",
+		"dddg1Path": "index.json",
+		"dddg2Path": "index.v2.json",
+		"disclaimer": "You need to add the pack for 'Mio' before adding this",
+		"description": "Created by Black Rabbit Artworks",
+		"preview": ["1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Black Rabbit Artworks": {
+			"reddit": "blackrabbitartworks",
+			"patreon": "BlackRabbitArtworks",
+			"deviantart": "blackrabbitartworks",
+			"facebook": "BlackRabbitArtworks"
+		}
+	}
+}

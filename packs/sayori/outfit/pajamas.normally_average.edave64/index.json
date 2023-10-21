@@ -2,15 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.sayori",
 	"packId": "sayori.outfit.pajamas.normally_average.edave64",
-	"packCredits": "<a href='https://www.reddit.com/r/DDLC/comments/axfu4e/'>Created by</a> NormallyAverage, Alternative pose by SlightlySimple",
-	"packName": "Pajamas",
-	"authors": ["NormallyAverage", "SlightlySimple"],
-	"cc2credits": {
-		"left": ["{a='https://www.reddit.com/r/DDLC/comments/axfu4e/'}Sayori's Pajamas{/a}", "  Alternative Pose"],
-		"right": ["NormallyAverage", "SlightlySimple"]
-	},
-	"source": "https://www.reddit.com/r/DDLC/comments/axfu4e/",
-	"comicClubUrl": "https://drive.google.com/file/d/17tUblqGMCaCRKX-B6Mj6QzLNdeEkqGHS/view?usp=sharing",
 	"folder": "./",
 	"styles": [
 		{

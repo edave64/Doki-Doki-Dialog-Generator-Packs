@@ -1,0 +1,28 @@
+{
+	"pack": {
+		"id": "sayonika.sr229.edave64",
+		"name": "Sayonika",
+		"characters": ["Sayonika"],
+		"authors": ["sr229", "Ovyerus", "Cyrke"],
+		"kind": ["Characters"],
+		"source": "https://github.com/Sayo-nika/PressKit/tree/master/mascot",
+		"dddg1Path": "index.json",
+		"description": "The contents of this pack is licensed under Creative Commons 4.0 Attribution-Noncommercial under: The Sayonika Project Authors (<a href=\"https://github.com/sr229\">sr229</a>, <a href=\"\">Ovyerus</a>), <a href=\"https://reddit.com/u/Cyrke_\">Cyrke</a>. <a href=\"https://github.com/Sayo-nika/PressKit/blob/master/LICENSE\">Licence here</a>.",
+		"preview": ["a.png", "1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"sr229": {
+			"github": "sr229",
+			"twitter": "enrawau",
+			"website": "https://sr229.github.io/"
+		},
+		"Ovyerus": {
+			"github": "Ovyerus",
+			"website": "https://ovyerus.com/"
+		},
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "natsuki.outfit.sundress.plural_roses.edave64",
+		"name": "Sundress",
+		"characters": ["Natsuki"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/open?id=1v8jrwrtsQqo1tBnUgBmO8fkSJ-BFUaZb",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/ebg6ir",
+		"dddg1Path": "index.json",
+		"description": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

@@ -2,13 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.monika",
 	"packId": "monika.outfit.beige_casual.spirithof.edave64",
-	"packCredits": "Created by SpiritH0F",
-	"packName": "Beige Casual Outfit",
-	"authors": ["SpiritH0F"],
-	"cc2credits": {
-		"left": ["Beige Casual Outfit"],
-		"right": ["SpiritH0F"]
-	},
 	"folder": "./",
 	"styles": [
 		{

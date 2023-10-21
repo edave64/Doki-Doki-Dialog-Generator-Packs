@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"id": "mc_classic.childish-n.edave64",
+		"name": "Classic MC",
+		"characters": ["MC (Classic)"],
+		"authors": ["Childish-N", "GyleToTheRescue"],
+		"kind": ["Characters"],
+		"dddg1Path": "index.json",
+		"description": "MC Classic Sprite by Childish-N<br />MC Classic Chibi by GyleToTheRescue",
+		"preview": ["a.png", "1.png"],
+		"searchWords": []
+	},
+	"authors": {}
+}

@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "yuri.expressions.extra.lunatic_rabbit.edave64",
+		"name": "Extra expressions",
+		"characters": ["Yuri"],
+		"authors": ["Lunatic Rabbit"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/9a8blj",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/9a8blj'>Created by</a> Lunatic_Rabbit",
+		"preview": ["a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Lunatic Rabbit": {
+			"reddit": "Lunatic_Rabbit",
+			"deviantart": "the-lunatic-rabbit",
+			"twitter": "IchijoPaniPoni"
+		}
+	}
+}

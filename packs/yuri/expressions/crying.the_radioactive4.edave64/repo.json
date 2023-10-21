@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "yuri.expressions.crying.the_radioactive4.edave64",
+		"name": "Crying",
+		"characters": ["Yuri"],
+		"authors": ["Radiation"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/9jn97t",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/9jn97t' target='_blank' rel='noopener noreferrer'>Created by</a> TheRadioactive4",
+		"preview": ["a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Radiation": {
+			"reddit": "TheRadioactive4"
+		}
+	}
+}

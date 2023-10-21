@@ -2,14 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "knifes.phantom.edave64",
-	"packCredits": "Originally created by Phathom, extracted from AgentGold's Dynamic Pose Tool",
-	"packName": "Knifes!",
-	"authors": ["Phathom", "AgentGold"],
-	"cc2credits": {
-		"left": ["{a='https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350'}Knifes{/a}", ""],
-		"right": ["Phathom", "AgentGold"]
-	},
-	"source": "https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350",
 	"folder": "./",
 	"characters": [
 		{

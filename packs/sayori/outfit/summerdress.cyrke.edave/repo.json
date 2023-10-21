@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "sayori.outfit.summerdress.cyrke.edave",
+		"name": "Summer dress",
+		"characters": ["Sayori"],
+		"authors": ["Cyrke"],
+		"ddcc2Path": "https://drive.google.com/open?id=1F2AYfvwwyuMVWUh6sm-VePFP0VbgY0d6",
+		"kind": ["Styles"],
+		"dddg1Path": "index.json",
+		"description": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
+		"preview": ["preview.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		}
+	}
+}

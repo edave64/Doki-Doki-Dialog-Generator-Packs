@@ -1,10 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "natsuki.expressions.horrified.lunatic_rabbit.edave64",
-	"packCredits": "<a href='https://www.reddit.com/comments/9gnlwb' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
-	"packName": "Horrified expressions",
-	"authors": ["Lunatic Rabbit"],
-	"source": "https://www.reddit.com/9gnlwb",
 	"id": "ddlc.natsuki",
 	"folder": "./",
 	"heads": {

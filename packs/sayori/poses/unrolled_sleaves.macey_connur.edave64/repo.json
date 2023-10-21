@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "sayori.pose.unrolled_sleaves.macey_connur.edave64",
+		"name": "Casual with unrolled sleaves",
+		"characters": ["Sayori"],
+		"authors": ["MaceyConnur"],
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/w5cjsw",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/w5cjsw' target='_blank' rel='noopener noreferrer'>Created by</a> MaceyConnur",
+		"preview": ["1bl.png", "1br.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"MaceyConnur": {
+			"reddit": "MaceyConnur"
+		}
+	}
+}

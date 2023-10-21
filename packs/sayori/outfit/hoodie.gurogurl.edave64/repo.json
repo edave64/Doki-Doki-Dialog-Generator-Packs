@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "sayori.outfit.hoodie.gurogurl.edave64",
+		"name": "Hoodie",
+		"characters": ["Sayori"],
+		"authors": ["gurogurl"],
+		"ddcc2Path": "https://drive.google.com/open?id=1pgYHipG1ArtI3scqke5ZkhxM7ETZ283x",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/8rfjmh",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/comments/8rfjmh'>Created by</a> gurogurl",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"gurogurl": {
+			"reddit": "gurogurl"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"id": "kotonoha.cyrke.edave64",
+		"name": "Kotonoha",
+		"characters": ["Kotonoha"],
+		"authors": ["Cyrke", "SlightlySimple", "Moshie"],
+		"ddcc2Path": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
+		"kind": ["Characters"],
+		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
+		"description": "Created by Cyrke, Chibi by SlightlySimple",
+		"preview": ["a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Cyrke": {
+			"reddit": "Cyrke_"
+		},
+		"SlightlySimple": {
+			"reddit": "SlightlySimple",
+			"twitter": "SimpleSlightly"
+		}
+	}
+}

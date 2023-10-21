@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "satsuki.normally_average.edave64",
+		"name": "Satsuki",
+		"characters": ["Satsuki"],
+		"authors": ["NormallyAverage"],
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/od6ehx/",
+		"dddg1Path": "index.json",
+		"description": "<a href=\"https://reddit.com/od6ehx/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+		"preview": ["a.png", "1r.png", "1l.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"NormallyAverage": {
+			"reddit": "NormallyAverage"
+		}
+	}
+}

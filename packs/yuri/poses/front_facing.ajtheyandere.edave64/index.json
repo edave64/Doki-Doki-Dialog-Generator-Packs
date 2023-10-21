@@ -3,15 +3,6 @@
 	"id": "ddlc.yuri",
 	"folder": "./",
 	"packId": "yuri.poses.front_facing.ajtheyandere.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, helped by Ein Had A Motive",
-	"packName": "Front facing Yuri",
-	"authors": ["AjTheYandere", "Ein Had A Motive"],
-	"source": "https://www.reddit.com/klgmd2",
-	"comicClubUrl": "https://drive.google.com/file/d/17XjPO6OdibOsQCS4RVk94UZAtSiziVqu/view?usp=sharing",
-	"cc2credits": {
-		"left": ["Front facing Yuri", ""],
-		"right": ["AjTheYandere", "Ein Had A Motive"]
-	},
 	"heads": {
 		"front_facing_aj": [
 			"a.png",

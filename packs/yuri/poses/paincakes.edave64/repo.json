@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "yuri.poses.paincakes.edave64",
+		"name": "Extra Poses and Expressions",
+		"characters": ["Yuri"],
+		"authors": ["ButtermilkPaincakes"],
+		"ddcc2Path": "https://drive.google.com/file/d/18krghlpNwjYTxnEVun2dhsxFnI7M2hXV/view?usp=sharing",
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/el9jzv",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
+		"preview": ["a2.png", "2.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"ButtermilkPaincakes": {
+			"reddit": "ButtermilkPaincakes"
+		}
+	}
+}

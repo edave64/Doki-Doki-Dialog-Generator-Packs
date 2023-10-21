@@ -1,0 +1,24 @@
+{
+	"pack": {
+		"id": "femc.oufits.shirt.slightlysimple.edave64",
+		"name": "Shirt (Short sleeves)",
+		"characters": ["FeMC"],
+		"authors": ["SlightlySimple", "Meddy-sin"],
+		"ddcc2Path": "https://drive.google.com/file/d/1TaMXmSVut1_P9k5j6CtO_L58V8RE3i-b/view?usp=sharing",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/9yatqd",
+		"dddg1Path": "index.json",
+		"description": "Created by SlightlySimple, original sprites by Meddy-sin",
+		"preview": ["sh/1l.png", "sh/1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"SlightlySimple": {
+			"reddit": "SlightlySimple",
+			"twitter": "SimpleSlightly"
+		},
+		"Meddy-sin": {
+			"reddit": "meddy-sin"
+		}
+	}
+}

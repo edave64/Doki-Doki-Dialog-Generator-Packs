@@ -2,16 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.oc.mio",
 	"packId": "mio.yagamirai10.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/u/yagamirai10' target='_blank' rel='noopener noreferrer'>/u/yagamirai10</a>",
-	"disclaimer": "The author would like these rules to be respected when using the character:<br /><ul><li>NSFW/lewd is forbidden without specific permission.</li><li>Usage of the sprite and character in any work containing hate speech or inciting/encouraging hate against a group of people is forbidden.</li><li>Please keep her character more or less intact and keep the name \"Mio\". Changing her personality to some extent is fine (and I purposely kept the details vague), particularly if you're doing a meme mod or something where you change everything, but don't use the sprites for a different character. Using edits for OCs is fine, just please make it look like a different character, don't just change the hair color.</li></ul>Her profile:<br />Mio is an 18 year old third year student. While somewhat reserved, it's not out of shyness - she's just quite proper and ladylike. She tends to be a \"mom friend\" and frets about people around her. Before joining the Literature Club (or if she's not in the Literature Club) she was a member of her school's go club and is quite skilled at the game. (Competition being the one thing that brings out her less-than-ladylike side.)<br /><br />Her favorite books are classic Japanese literature, and she writes haiku. (Or otherwise short but evocative poems.)<br />Her words tend to relate to nature, Japanese culture, and \"classy\"/traditional things.",
-	"packName": "Mio",
-	"authors": ["yagamirai10"],
-	"cc2credits": {
-		"left": ["Mio"],
-		"right": ["yagamirai10"]
-	},
-	"source": "https://drive.google.com/drive/folders/1qU3Z6k81VQgQMmMwomZ0c-85E7pdky5f",
-	"comicClubUrl": "https://drive.google.com/file/d/1GY3iQo_8YLNjc_aM9dRFtl4wQR0UC1P_/view?usp=sharing",
 	"name": "Mio",
 	"internalId": "mio",
 	"chibi": "chibi.png",

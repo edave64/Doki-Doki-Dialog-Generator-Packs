@@ -1,9 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "amy1.meddy-sin.edave64",
-	"packCredits": "Classic Amy Sprite by Meddy-sin",
-	"packName": "Classic Amy",
-	"authors": ["Meddy-sin"],
 	"id": "ddlc.fan.amy1",
 	"name": "Amy (Classic)",
 	"chibi": "chibi.png",

@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "monika.outfit.thighspeed.mouhantain.edave64",
+		"name": "Thighspeed",
+		"characters": ["Monika"],
+		"authors": ["Mouhantain"],
+		"ddcc2Path": "https://drive.google.com/open?id=1ViNtu72G9_agBsXT7y92BaVQQqFppOIt",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/8i689w",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/comments/8i689w' target='_blank' rel='noopener noreferrer'>Created by</a> Mouhantain",
+		"preview": ["1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Mouhantain": {
+			"reddit": "Mouhantain",
+			"twitter": "Mouhantain"
+		}
+	}
+}

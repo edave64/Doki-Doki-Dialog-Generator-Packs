@@ -1,0 +1,22 @@
+{
+	"pack": {
+		"id": "backgrounds.mcs_living_room.nuxill.edave64",
+		"name": "MC's living room",
+		"characters": [],
+		"authors": ["Nuxill", "yagamirai10"],
+		"ddcc2Path": "https://drive.google.com/file/d/1rOE9rzYTrlQuNEHpl1igsB070wK_5-P6/view?usp=sharing",
+		"kind": ["Backgrounds"],
+		"description": "Created by Nuxill, with edits by Yagamirai10",
+		"preview": ["daytime.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Nuxill": {
+			"reddit": "its_nuxill"
+		},
+		"yagamirai10": {
+			"reddit": "yagamirai10",
+			"discord": "yagamirai10#7046"
+		}
+	}
+}

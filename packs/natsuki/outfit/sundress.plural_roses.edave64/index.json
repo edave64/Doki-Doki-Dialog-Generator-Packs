@@ -2,15 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.sundress.plural_roses.edave64",
-	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea' target='_blank' rel='noopener noreferrer'>DeviantArt</a>)",
-	"packName": "Sundress",
-	"authors": ["Plural Roses"],
-	"cc2credits": {
-		"left": ["{a='https://www.reddit.com/ebg6ir'}Natsuki sundress{/a}"],
-		"right": ["{a='https://www.deviantart.com/15laruea'}PluralRoses{/a}"]
-	},
-	"source": "https://www.reddit.com/ebg6ir",
-	"comicClubUrl": "https://drive.google.com/open?id=1v8jrwrtsQqo1tBnUgBmO8fkSJ-BFUaZb",
 	"folder": "./",
 	"styles": [
 		{

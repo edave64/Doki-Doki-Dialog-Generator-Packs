@@ -1,0 +1,28 @@
+{
+	"pack": {
+		"id": "sayori.expressions.todbot1",
+		"name": "Extra expressions",
+		"characters": ["Sayori"],
+		"authors": ["todbot1", "AgentGold", "yagamirai10", "chronoshag"],
+		"kind": ["Expressions"],
+		"dddg1Path": "index.json",
+		"description": "Created by todbot1, using assets from the <a href='https://www.reddit.com/r/DDLCMods/comments/9yc94p/'>Dynamic Pose Tool</a> by AgentGold and <a href='https://www.reddit.com/r/DDLCMods/comments/emennq/'>Mood Posing Tool</a> by chronoshag and yagamirai10",
+		"preview": ["a1.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"todbot1": {
+			"reddit": "todbot1"
+		},
+		"AgentGold": {
+			"reddit": "AgentGold"
+		},
+		"yagamirai10": {
+			"reddit": "yagamirai10",
+			"discord": "yagamirai10#7046"
+		},
+		"chronoshag": {
+			"reddit": "chronoshag"
+		}
+	}
+}

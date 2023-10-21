@@ -1,9 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"packId": "sayori_r63.diaboliiique.edave64",
-	"packCredits": "Created by diaboliiique (@fiiiiioooo on Twitter)",
-	"packName": "Rule 63 Sayori",
-	"authors": ["diaboliiique"],
 	"id": "fan.diaboliiique.sayori_r63.edave64",
 	"name": "Sayori R63",
 	"internalId": "sayori_r63_diaboliiique",

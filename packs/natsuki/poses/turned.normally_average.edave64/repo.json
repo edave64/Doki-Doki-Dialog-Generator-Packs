@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "natsuki.poses.turned.normally_average.edave64",
+		"name": "Turned",
+		"characters": ["Natsuki"],
+		"authors": ["NormallyAverage"],
+		"ddcc2Path": "https://drive.google.com/file/d/1egKnQYyV9ZbKPMfH6dEy6cU0xrPfDiTq/view?usp=sharing",
+		"kind": ["Poses"],
+		"source": "https://www.reddit.com/ffgxy7/",
+		"dddg1Path": "index.json",
+		"description": "<a href=\"https://reddit.com/ffgxy7/\">Created</a> by <a href=\"https://reddit.com/u/NormallyAverage\">Normally Average</a>",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"NormallyAverage": {
+			"reddit": "NormallyAverage"
+		}
+	}
+}

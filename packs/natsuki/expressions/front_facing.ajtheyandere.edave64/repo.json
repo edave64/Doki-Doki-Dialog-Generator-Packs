@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "natsuki.expressions.front_facing.ajtheyandere.edave64",
+		"name": "Front facing Natsuki",
+		"characters": ["Natsuki"],
+		"authors": ["AjTheYandere", "SpringingTraps"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/klgmd2",
+		"dddg1Path": "index.json",
+		"description": "Expressions created by <a href='https://www.reddit.com/klgmd2' target='_blank' rel='noopener noreferrer'>AjTheYandere</a>, base by SpringingTraps",
+		"preview": ["a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"AjTheYandere": {
+			"reddit": "AjTheYandere"
+		}
+	}
+}

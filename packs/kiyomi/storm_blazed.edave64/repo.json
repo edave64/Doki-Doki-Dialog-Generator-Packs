@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"id": "kiyomi.storm_blazed.edave64",
+		"name": "Kiyomi",
+		"characters": ["Kiyomi"],
+		"authors": ["StormBlazed76"],
+		"kind": ["Characters"],
+		"source": "https://www.reddit.com/oolv7k",
+		"description": "<a href='https://www.reddit.com/oolv7k'>Created by</a> StormBlazed76",
+		"preview": ["a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"StormBlazed76": {
+			"reddit": "StormBlazed76",
+			"discord": "Storm Blaze#7530"
+		}
+	}
+}

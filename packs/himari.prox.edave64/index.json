@@ -2,10 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "himari.prox.edave64",
-	"packCredits": "<a href=\"https://www.reddit.com/soqntz/\">Created</a> by <a href=\"https://www.reddit.com/user/Proxyl_\">Prox</a>",
-	"packName": "Himari",
-	"source": "https://www.reddit.com/soqntz/",
-	"authors": ["Prox"],
 	"folder": "./",
 	"characters": [
 		{
@@ -351,24 +347,39 @@
 									"compatibleHeads": ["left"],
 									"id": "left",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose1/1.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose1/1.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								},
 								{
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose2/2.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose2/2.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								},
 								{
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose3/3.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose3/3.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								}
 							]
@@ -384,24 +395,39 @@
 									"compatibleHeads": ["left"],
 									"id": "left",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose1/1b.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose1/1b.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								},
 								{
 									"compatibleHeads": ["middle"],
 									"id": "middle",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose2/2b.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose2/2b.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								},
 								{
 									"compatibleHeads": ["right"],
 									"id": "right",
 									"renderCommands": [
-										{ "type":"image", "images": ["./pose3/3b.png"] },
-										{ "type": "head" }
+										{
+											"type": "image",
+											"images": ["./pose3/3b.png"]
+										},
+										{
+											"type": "head"
+										}
 									]
 								}
 							]

@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "yuri.outfit.sports.pluralroses.edave64",
+		"name": "Sports Outfit",
+		"characters": ["Yuri"],
+		"authors": ["Plural Roses"],
+		"ddcc2Path": "https://drive.google.com/file/d/1e9oCu3W_fYfvr-zVojt7Eizpd6xsIhPO/view?usp=sharing",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/ejgy8i",
+		"dddg1Path": "index.json",
+		"description": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea'>DeviantArt</a>)",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Plural Roses": {
+			"deviantart": "15laruea",
+			"reddit": "15laruea"
+		}
+	}
+}

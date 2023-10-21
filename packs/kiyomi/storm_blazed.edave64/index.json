@@ -2,10 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
 	"version": "2.0",
 	"packId": "kiyomi.storm_blazed.edave64",
-	"packCredits": "<a href='https://www.reddit.com/oolv7k'>Created by</a> StormBlazed76",
-	"packName": "Kiyomi",
-	"authors": ["StormBlazed76"],
-	"source": "https://www.reddit.com/oolv7k",
 	"folder": "./",
 	"characters": [
 		{
@@ -20,9 +16,17 @@
 							"poses": [
 								{
 									"renderCommands": [
-										{ "type": "head" },
-										{ "type": "pose-part", "part": "Left" },
-										{ "type": "pose-part", "part": "Right" }
+										{
+											"type": "head"
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
 									],
 									"id": "normal",
 									"compatibleHeads": ["straight"],
@@ -42,9 +46,17 @@
 							"poses": [
 								{
 									"renderCommands": [
-										{ "type": "head" },
-										{ "type": "pose-part", "part": "Left" },
-										{ "type": "pose-part", "part": "Right" }
+										{
+											"type": "head"
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
 									],
 									"id": "normal",
 									"compatibleHeads": ["straight"],

@@ -1,4 +1,4 @@
-import { ccCharName } from "cc2Translate";
+import { ccCharName } from 'cc2Translate';
 
 export class CC2Pack {
 	public readonly characters: CC2Character[] = [];

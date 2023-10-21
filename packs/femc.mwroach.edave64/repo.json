@@ -1,0 +1,25 @@
+{
+	"pack": {
+		"id": "femc.mwroach.edave64",
+		"name": "FeMC (Switcheroo)",
+		"characters": ["FeMC (Switcheroo)"],
+		"authors": ["Black Rabbit Artworks", "MW Roach"],
+		"kind": ["Characters"],
+		"source": "https://reddit.com/bi0ulm/",
+		"dddg1Path": "index.json",
+		"description": "<a href=\"https://reddit.com/bi0ulm/\">Art</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Original design by <a href=\"https://reddit.com/u/MWRoach\">MW Roach</a>",
+		"preview": ["a.png", "1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Black Rabbit Artworks": {
+			"reddit": "blackrabbitartworks",
+			"patreon": "BlackRabbitArtworks",
+			"deviantart": "blackrabbitartworks",
+			"facebook": "BlackRabbitArtworks"
+		},
+		"MW Roach": {
+			"reddit": "MWRoach"
+		}
+	}
+}

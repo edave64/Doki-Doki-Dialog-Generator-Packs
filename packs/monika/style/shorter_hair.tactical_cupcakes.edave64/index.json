@@ -3,18 +3,6 @@
 	"id": "ddlc.monika",
 	"folder": "./",
 	"packId": "monika.shorter_hair.tactical_cupcakes.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>TacticalCupcakes</a> and <a href='https://www.reddit.com/cfm489' target='_blank' rel='noopener noreferrer'>EDave64</a>",
-	"packName": "Shorter-haired Monika",
-	"authors": ["TacticalCupcakes", "edave64"],
-	"source": "https://www.reddit.com/e8beiy",
-	"comicClubUrl": "https://drive.google.com/open?id=1xKt9OBMLTsB8DYPPaXYwNN2GcFQrLTm4",
-	"cc2credits": {
-		"left": ["Shorter haired Monika", ""],
-		"right": [
-			"{a=https://www.reddit.com/cfm489}TacticalCupcakes{/a}",
-			"{a=https://www.reddit.com/e8beiy}EDave64{/a}"
-		]
-	},
 	"heads": {
 		"straight_sh": [
 			"a.png",

@@ -2,14 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.natsuki",
 	"packId": "natsuki.outfit.gym.cyrke.edave64",
-	"packCredits": "Created by <a href='https://www.reddit.com/u/Cyrke_'>Cyrke</a>",
-	"packName": "Gym Outfit",
-	"authors": ["Cyrke"],
-	"cc2credits": {
-		"left": ["Natsuki gym outfit"],
-		"right": ["{a='https://www.reddit.com/u/Cyrke_'}Cyrke{/a}"]
-	},
-	"comicClubUrl": "https://drive.google.com/open?id=16wOZC6EmbaE_TWqu2DlDby_qKfiaKp9w",
 	"folder": "./",
 	"styles": [
 		{

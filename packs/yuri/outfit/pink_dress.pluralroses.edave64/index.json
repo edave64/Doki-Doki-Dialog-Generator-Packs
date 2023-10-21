@@ -2,14 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v1/schema.json",
 	"id": "ddlc.yuri",
 	"packId": "yuri.outfit.pink_dress.pluralroses.edave64",
-	"packCredits": "Created by PluralRoses (<a href='https://www.deviantart.com/15laruea'>DeviantArt</a>)",
-	"packName": "Pink Dress",
-	"authors": ["Plural Roses"],
-	"cc2credits": {
-		"left": ["Yuri pink dress"],
-		"right": ["{a='https://www.deviantart.com/15laruea'}PluralRoses{/a}"]
-	},
-	"comicClubUrl": "https://drive.google.com/open?id=1mkH0i02GXn22vOdqz0UzB4ZSKiuFre48",
 	"folder": "./",
 	"styles": [
 		{

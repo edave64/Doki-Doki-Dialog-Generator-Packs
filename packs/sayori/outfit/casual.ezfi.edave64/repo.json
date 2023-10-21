@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"id": "sayori.outfit.casual.ezfi.edave64",
+		"name": "Tee shirt and jeans",
+		"characters": ["Sayori"],
+		"authors": ["ezfi"],
+		"ddcc2Path": "https://drive.google.com/open?id=1pt9Z92exAbw-CfwYXKigY9NdoXgXDEWO",
+		"kind": ["Styles"],
+		"source": "https://www.reddit.com/80rf5i",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/80rf5i'>Created by</a> ezfi",
+		"preview": ["1l.png", "1r.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"ezfi": {
+			"reddit": "ezfi"
+		}
+	}
+}

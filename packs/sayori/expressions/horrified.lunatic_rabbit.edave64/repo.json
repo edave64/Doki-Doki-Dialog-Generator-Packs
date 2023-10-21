@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"id": "sayori.expressions.horrified.lunatic_rabbit.edave64",
+		"name": "Horrified expressions",
+		"characters": ["Sayori"],
+		"authors": ["Lunatic Rabbit"],
+		"kind": ["Expressions"],
+		"source": "https://www.reddit.com/9a0yo6",
+		"dddg1Path": "index.json",
+		"description": "<a href='https://www.reddit.com/comments/9a0yo6' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
+		"preview": ["a.png"],
+		"searchWords": []
+	},
+	"authors": {
+		"Lunatic Rabbit": {
+			"reddit": "Lunatic_Rabbit",
+			"deviantart": "the-lunatic-rabbit",
+			"twitter": "IchijoPaniPoni"
+		}
+	}
+}
