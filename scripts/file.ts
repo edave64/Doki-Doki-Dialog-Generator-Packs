@@ -1,10 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { promisify } from 'util';
+import fs from 'fs/promises';
 
 export async function isDir(path: string): Promise<boolean> {
 	try {
-		const stat = await promisify(fs.stat)(path);
+		const stat = await fs.stat(path);
 		return stat.isDirectory();
 	} catch (e) {
 		return false;
@@ -13,7 +11,7 @@ export async function isDir(path: string): Promise<boolean> {
 
 export async function isFile(path: string): Promise<boolean> {
 	try {
-		const stat = await promisify(fs.stat)(path);
+		const stat = await fs.stat(path);
 		return stat.isFile();
 	} catch (e) {
 		return false;
@@ -21,7 +19,6 @@ export async function isFile(path: string): Promise<boolean> {
 }
 
 export async function mkdirp(dir: string) {
-	if (await exports.isDir(dir)) return;
-	await exports.mkdirp(path.dirname(dir));
-	await promisify(fs.mkdir)(dir);
+	if (await isDir(dir)) return;
+	await fs.mkdir(dir, { recursive: true });
 }

@@ -1,14 +1,13 @@
-import * as readline from './readline';
+import * as readline from './readline.js';
 import path from 'path';
 import fs from 'fs';
 import { promisify } from 'util';
-import { isDir, isFile, mkdirp } from './file';
-import escapeStringRegexp from 'escape-string-regexp';
+import { isDir, isFile, mkdirp } from './file.js';
 import {
 	JSONCharacter,
 	JSONHeadCollections,
-} from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/jsonFormat';
-import { NsfwAbleImg } from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/model';
+} from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/jsonFormat.js';
+import { NsfwAbleImg } from '@edave64/doki-doki-dialog-generator-pack-format/dist/v1/model.js';
 
 function ccName2dgName(name: string): string {
 	return `ddlc.${name}`;
@@ -59,7 +58,7 @@ function filtering(filter: string, packs: string[]): string[] {
 		'^' +
 			filter
 				.split('*')
-				.map((x) => escapeStringRegexp(x))
+				.map((x) => RegExp.escape(x))
 				.join('.*') +
 			'$',
 		'i'

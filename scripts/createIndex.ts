@@ -1,9 +1,8 @@
-import { dirname, join } from 'path';
+import { dirname } from 'path';
 import fsp from 'fs/promises';
-import './polyfill.js';
-import FastGlob from 'fast-glob';
 import { deepStrictEqual } from 'assert';
 import stringify from 'json-stable-stringify';
+import { glob } from 'glob';
 
 const fsOpts = { encoding: 'utf-8' as BufferEncoding };
 
@@ -16,7 +15,7 @@ const repoTargetPath = '../repo.json';
 const authorsTargetPath = '../people.json';
 
 async function main(): Promise<void> {
-	const repoEntries = await FastGlob('../packs/**/repo.json');
+	const repoEntries = await glob.glob('../packs/**/repo.json');
 	repoEntries.sort();
 	for (const repoEntry of repoEntries) {
 		const dir = dirname(repoEntry);
@@ -55,12 +54,12 @@ async function main(): Promise<void> {
 	await Promise.all([
 		fsp.writeFile(
 			repoTargetPath,
-			stringify(repoIndex, undefined, '\t'),
+			stringify(repoIndex, { space: '\t' })!,
 			fsOpts
 		),
 		fsp.writeFile(
 			authorsTargetPath,
-			stringify(authorIndex, undefined, '\t'),
+			stringify(authorIndex, { space: '\t' })!,
 			fsOpts
 		),
 	]);

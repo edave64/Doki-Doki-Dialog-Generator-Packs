@@ -1,84 +1,195 @@
 {
-	"AgentGold": { "reddit": "AgentGold" },
-	"AjTheYandere": { "reddit": "AjTheYandere" },
+	"AgentGold": {
+		"reddit": "AgentGold"
+	},
+	"AjTheYandere": {
+		"reddit": "AjTheYandere"
+	},
 	"Black Rabbit Artworks": {
 		"deviantart": "blackrabbitartworks",
 		"facebook": "BlackRabbitArtworks",
 		"patreon": "BlackRabbitArtworks",
 		"reddit": "blackrabbitartworks"
 	},
-	"ButtermilkPaincakes": { "reddit": "ButtermilkPaincakes" },
-	"CPG Yuri": { "reddit": "reckonusm" },
-	"CanisAries": { "reddit": "CanisAries" },
-	"Cyrke": { "reddit": "Cyrke_" },
-	"Daikaiju-fanboy": { "deviantart": "daikaiju-fanboy" },
-	"DestinyPvEGal": { "reddit": "DestinyPvEGal" },
-	"E-Natr": { "reddit": "e-natr" },
-	"Ein Had A Motive": { "discord": "Ein Had A Motive#7895" },
-	"EntonyEscX": { "reddit": "EntonyEscX" },
-	"FatDongleDog": { "reddit": "FatDongleDog" },
-	"FuckingMoniker_mmmmm": { "reddit": "FuckingMoniker_mmmmm" },
-	"Hadrosaur838": { "reddit": "Hadrosaur838" },
-	"LatteAddicted": { "reddit": "latteaddicted" },
-	"Lucy": { "discord": "Lucy#4433", "twitter": "AWretchedLucy" },
+	"ButtermilkPaincakes": {
+		"reddit": "ButtermilkPaincakes"
+	},
+	"CPG Yuri": {
+		"reddit": "reckonusm"
+	},
+	"CanisAries": {
+		"reddit": "CanisAries"
+	},
+	"Cyrke": {
+		"reddit": "Cyrke_"
+	},
+	"Daikaiju-fanboy": {
+		"deviantart": "daikaiju-fanboy"
+	},
+	"DestinyPvEGal": {
+		"reddit": "DestinyPvEGal"
+	},
+	"E-Natr": {
+		"reddit": "e-natr"
+	},
+	"Ein Had A Motive": {
+		"discord": "Ein Had A Motive#7895"
+	},
+	"EntonyEscX": {
+		"reddit": "EntonyEscX"
+	},
+	"FatDongleDog": {
+		"reddit": "FatDongleDog"
+	},
+	"FuckingMoniker_mmmmm": {
+		"reddit": "FuckingMoniker_mmmmm"
+	},
+	"Hadrosaur838": {
+		"reddit": "Hadrosaur838"
+	},
+	"LatteAddicted": {
+		"reddit": "latteaddicted"
+	},
+	"Lucy": {
+		"discord": "Lucy#4433",
+		"twitter": "AWretchedLucy"
+	},
 	"Lunatic Rabbit": {
 		"deviantart": "the-lunatic-rabbit",
 		"reddit": "Lunatic_Rabbit",
 		"twitter": "IchijoPaniPoni"
 	},
-	"MW Roach": { "reddit": "MWRoach", "deviantart": "mwroach" },
-	"MaceyConnur": { "reddit": "MaceyConnur" },
-	"Mando-82": { "reddit": "Mando-82" },
+	"MW Roach": {
+		"deviantart": "mwroach",
+		"reddit": "MWRoach"
+	},
+	"MaceyConnur": {
+		"reddit": "MaceyConnur"
+	},
+	"Mando-82": {
+		"reddit": "Mando-82"
+	},
 	"MattyD": {
 		"reddit": "_MattyD",
 		"website": "https://www.macdaddymatty.com/"
 	},
-	"Meddy-sin": { "reddit": "meddy-sin" },
-	"Mouhantain": { "reddit": "Mouhantain", "twitter": "Mouhantain" },
-	"NekoLaiS": { "discord": "NekoLaiS#8541", "reddit": "Vitkovskikh" },
-	"NormallyAverage": { "reddit": "NormallyAverage" },
-	"Nuxill": { "reddit": "its_nuxill" },
-	"Ovyerus": { "github": "Ovyerus", "website": "https://ovyerus.com/" },
-	"Phathom": { "reddit": "Phathom" },
-	"Plural Roses": { "deviantart": "15laruea", "reddit": "15laruea" },
-	"PrezesBocianow": { "reddit": "PrezesBocianow" },
-	"Prox": { "discord": "Prox#9492", "reddit": "Proxyl_" },
-	"Radiation": { "reddit": "TheRadioactive4" },
+	"Meddy-sin": {
+		"reddit": "meddy-sin"
+	},
+	"Mouhantain": {
+		"reddit": "Mouhantain",
+		"twitter": "Mouhantain"
+	},
+	"NekoLaiS": {
+		"discord": "NekoLaiS#8541",
+		"reddit": "Vitkovskikh"
+	},
+	"NormallyAverage": {
+		"reddit": "NormallyAverage"
+	},
+	"Nuxill": {
+		"reddit": "its_nuxill"
+	},
+	"Ovyerus": {
+		"github": "Ovyerus",
+		"website": "https://ovyerus.com/"
+	},
+	"Phathom": {
+		"reddit": "Phathom"
+	},
+	"Plural Roses": {
+		"deviantart": "15laruea",
+		"reddit": "15laruea"
+	},
+	"PrezesBocianow": {
+		"reddit": "PrezesBocianow"
+	},
+	"Prox": {
+		"discord": "Prox#9492",
+		"reddit": "Proxyl_"
+	},
+	"Radiation": {
+		"reddit": "TheRadioactive4"
+	},
 	"RyuseDraws": {
 		"deviantart": "ryusedraws",
 		"pixiv": "33350693",
 		"reddit": "leemuel01",
 		"twitter": "Ryuse68098095"
 	},
-	"SYwaves": { "reddit": "SYwaves" },
-	"ShidoDraws": { "reddit": "ShidoDraws" },
-	"SlightlySimple": { "reddit": "SlightlySimple", "twitter": "SimpleSlightly" },
+	"SYwaves": {
+		"reddit": "SYwaves"
+	},
+	"ShidoDraws": {
+		"reddit": "ShidoDraws"
+	},
+	"SlightlySimple": {
+		"reddit": "SlightlySimple",
+		"twitter": "SimpleSlightly"
+	},
 	"SovietSpartan": {
 		"deviantart": "vaygrx",
 		"pixiv": "15493208",
 		"reddit": "SovietSpartan",
 		"twitter": "TsukiZuramaru"
 	},
-	"SpiritH0F": { "discord": "SpiritH0F#6969" },
-	"Stefano.chr": { "discord": "Stefano#4553" },
-	"StormBlazed76": { "discord": "Storm Blaze#7530", "reddit": "StormBlazed76" },
-	"TacticalCupcakes": { "reddit": "TacticalCupcakes" },
-	"ThoMysteriousY": { "reddit": "ThoMysteriousY" },
-	"YinuS_WinneR": { "reddit": "YinuS_WinneR" },
-	"anita6artania": { "reddit": "anita6artania" },
-	"chronoshag": { "reddit": "chronoshag" },
-	"diaboliiique": { "twitter": "fiiiiioooo", "deviantart": "yonappi" },
-	"edave64": { "reddit": "edave64" },
-	"ezfi": { "reddit": "ezfi" },
-	"gurogurl": { "reddit": "gurogurl" },
-	"leodecraprio": { "reddit": "leodecraprio" },
-	"morbiusgreen": { "reddit": "morbiusgreen" },
+	"SpiritH0F": {
+		"discord": "SpiritH0F#6969"
+	},
+	"Stefano.chr": {
+		"discord": "Stefano#4553"
+	},
+	"StormBlazed76": {
+		"discord": "Storm Blaze#7530",
+		"reddit": "StormBlazed76"
+	},
+	"TacticalCupcakes": {
+		"reddit": "TacticalCupcakes"
+	},
+	"ThoMysteriousY": {
+		"reddit": "ThoMysteriousY"
+	},
+	"YinuS_WinneR": {
+		"reddit": "YinuS_WinneR"
+	},
+	"anita6artania": {
+		"reddit": "anita6artania"
+	},
+	"chronoshag": {
+		"reddit": "chronoshag"
+	},
+	"diaboliiique": {
+		"deviantart": "yonappi",
+		"twitter": "fiiiiioooo"
+	},
+	"edave64": {
+		"reddit": "edave64"
+	},
+	"ezfi": {
+		"reddit": "ezfi"
+	},
+	"gurogurl": {
+		"reddit": "gurogurl"
+	},
+	"leodecraprio": {
+		"reddit": "leodecraprio"
+	},
+	"morbiusgreen": {
+		"reddit": "morbiusgreen"
+	},
 	"sr229": {
 		"github": "sr229",
 		"twitter": "enrawau",
 		"website": "https://sr229.github.io/"
 	},
-	"todbot1": { "reddit": "todbot1" },
-	"xDarkWind7": { "reddit": "xDarkWind7" },
-	"yagamirai10": { "discord": "yagamirai10#7046", "reddit": "yagamirai10" }
+	"todbot1": {
+		"reddit": "todbot1"
+	},
+	"xDarkWind7": {
+		"reddit": "xDarkWind7"
+	},
+	"yagamirai10": {
+		"discord": "yagamirai10#7046",
+		"reddit": "yagamirai10"
+	}
 }

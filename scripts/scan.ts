@@ -1,7 +1,7 @@
-import data from './repo.json';
-import people from './people.json';
-import { IPack, PackKind } from './pack';
-import { IAuthor } from './authors';
+import data from '../repo.json';
+import people from '../people.json';
+import { IPack, PackKind } from './pack.ts';
+import { IAuthor } from './authors.ts';
 
 const charOrder = new Map(
 	[
@@ -51,10 +51,10 @@ for (const pack of (data as IPack[]).sort(sortPacks)) {
 			!person
 				? personKey
 				: person.reddit
-				? `/u/${person.reddit}`
-				: person.currentName
-				? person.currentName
-				: personKey
+					? `/u/${person.reddit}`
+					: person.currentName
+						? person.currentName
+						: personKey
 		);
 	}
 

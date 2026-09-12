@@ -1,9 +1,8 @@
 import readline from 'readline';
 import fs from 'fs';
 import { promisify } from 'util';
-import { isDir, isFile, mkdirp } from './file';
+import { isDir } from './file.ts';
 
-/** @type {readline.Interface} */
 const line = readline.createInterface(process.stdin, process.stdout);
 
 exports.line = line;
@@ -71,7 +70,7 @@ export async function askFolder(
 				)
 			) {
 				try {
-					mkdirp(dir);
+					fs.mkdirSync(dir, { recursive: true });
 					if (!isDir(dir)) {
 						console.error(`Could not create directory '${dir}'.`);
 						continue;
