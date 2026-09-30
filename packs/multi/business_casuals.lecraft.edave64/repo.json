@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/repo_schema.json",
+	"authors": {
+		"Lecraft": {
+			"twitter": "Lecraftx9",
+			"discord": "lecraftx9",
+			"reddit": "LecraftX9"
+		}
+	},
+	"pack": {
+		"authors": [
+			"Lecraft"
+		],
+		"characters": [
+			"Monika",
+			"Sayori",
+			"Natsuki",
+			"Yuri"
+		],
+		"description": "Comissioned by davidlocklin",
+		"id": "business_casuals.lecraft.edave64",
+		"name": "Business Casuals",
+		"kind": [
+			"Styles"
+		],
+		"preview": [
+			"./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/1913985201979502793",
+		"dddg2Path": "./index.json"
+	}
+}
