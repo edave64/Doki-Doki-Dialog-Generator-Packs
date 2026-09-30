@@ -1,0 +1,379 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"packId": "wedding_dokis.lecraft.edave64",
+	"version": "2.0",
+	"authors": [
+		"Lecraft"
+	],
+	"dependencies": [
+		"dddg.buildin.base.monika",
+		"dddg.buildin.sayori",
+		"dddg.buildin.base.natsuki",
+		"dddg.buildin.yuri"
+	],
+	"characters": [
+		{
+			"id": "dddg.buildin.base.monika:ddlc.monika",
+			"styleGroups": [
+				{
+					"id": "wedding",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [
+											[
+												"./Monika/1l.png"
+											],
+											[
+												"./Monika/2l.png"
+											]
+										],
+										"Right": [
+											[
+												"./Monika/2r.png"
+											],
+											[
+												"./Monika/1r.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.monika:straight"
+									],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Monika/a-mask.png"
+											],
+											"composite": "destination-in"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Monika/a-hair.png"
+											]
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
+									]
+								},
+								{
+									"id": "leaning",
+									"positions": {
+										"Variant": [
+											[
+												"./Monika/3.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.monika:sideways"
+									],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Monika/b-mask.png"
+											],
+											"composite": "destination-in"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Monika/b-hair.png"
+											]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.sayori:ddlc.sayori",
+			"styleGroups": [
+				{
+					"id": "wedding",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [
+											[
+												"./Sayori/1l.png"
+											],
+											[
+												"./Sayori/2l.png"
+											]
+										],
+										"Right": [
+											[
+												"./Sayori/1r.png"
+											],
+											[
+												"./Sayori/2r.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.sayori:straight"
+									],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Sayori/a-mask.png"
+											],
+											"composite": "destination-out"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Sayori/a-hair.png"
+											]
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
+									]
+								},
+								{
+									"id": "sideways",
+									"positions": {
+										"Variant": [
+											[
+												"./Sayori/3.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.sayori:sideways"
+									],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Sayori/b-mask.png"
+											],
+											"composite": "destination-out"
+										},
+										{
+											"type": "image",
+											"images": [
+												"./Sayori/b-hair.png"
+											]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "wedding_bow",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [
+											[
+												"./Sayori/1l.png"
+											],
+											[
+												"./Sayori/2l.png"
+											]
+										],
+										"Right": [
+											[
+												"./Sayori/1r.png"
+											],
+											[
+												"./Sayori/2r.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.sayori:straight"
+									]
+								},
+								{
+									"id": "leaning",
+									"positions": {
+										"Variant": [
+											[
+												"./Sayori/3.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.sayori:sideways"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.base.natsuki:ddlc.natsuki",
+			"styleGroups": [
+				{
+					"id": "wedding",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [
+											[
+												"./Natsuki/1l.png"
+											],
+											[
+												"./Natsuki/2l.png"
+											]
+										],
+										"Right": [
+											[
+												"./Natsuki/1r.png"
+											],
+											[
+												"./Natsuki/2r.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.natsuki:straight",
+										"dddg.buildin.base.natsuki:sideways",
+										"dddg.buildin.base.natsuki:turnedAway"
+									]
+								},
+								{
+									"id": "turned",
+									"positions": {
+										"Variant": [
+											[
+												"./Natsuki/3.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.natsuki:straight",
+										"dddg.buildin.base.natsuki:sideways",
+										"dddg.buildin.base.natsuki:turnedAway"
+									],
+									"renderCommands": [
+										{
+											"type": "head",
+											"offset": [
+												18,
+												22
+											]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.yuri:ddlc.yuri",
+			"styleGroups": [
+				{
+					"id": "wedding",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [
+											[
+												"./Yuri/1l.png"
+											],
+											[
+												"./Yuri/2l.png"
+											]
+										],
+										"Right": [
+											[
+												"./Yuri/1r.png"
+											],
+											[
+												"./Yuri/2r.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.yuri:straight"
+									]
+								},
+								{
+									"id": "hairplay",
+									"compatibleHeads": [
+										"dddg.buildin.yuri:sideways"
+									],
+									"positions": {
+										"Variant": [
+											[
+												"./Yuri/3.png"
+											]
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

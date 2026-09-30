@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/repo_schema.json",
+	"authors": {
+		"Lecraft": {
+			"reddit": "LecraftX9",
+			"twitter": "Lecraftx9",
+			"github": "",
+			"website": "",
+			"pixiv": "",
+			"deviantart": "",
+			"patreon": "",
+			"facebook": "",
+			"discord": "lecraftx9"
+		}
+	},
+	"pack": {
+		"authors": [
+			"Lecraft"
+		],
+		"characters": [
+			"Monika",
+			"Sayori",
+			"Natsuki",
+			"Yuri"
+		],
+		"description": "Commisioned by davidlocklin",
+		"id": "wedding_dokis.lecraft.edave64",
+		"name": "Wedding Dokis",
+		"kind": [
+			"Styles"
+		],
+		"preview": [
+			"./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/2052798655602561092",
+		"dddg2Path": "./index.json"
+	}
+}
