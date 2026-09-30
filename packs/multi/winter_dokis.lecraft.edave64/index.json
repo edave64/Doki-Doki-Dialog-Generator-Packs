@@ -1,0 +1,460 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"packId": "winter_dokis.lecraft.edave64",
+	"version": "2.0",
+	"authors": ["Lecraft"],
+	"dependencies": [
+		"dddg.buildin.base.monika",
+		"dddg.buildin.sayori",
+		"dddg.buildin.base.natsuki",
+		"dddg.buildin.yuri"
+	],
+	"characters": [
+		{
+			"id": "dddg.buildin.base.natsuki:ddlc.natsuki",
+			"styleGroups": [
+				{
+					"id": "winter",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Natsuki/1l.png"], ["./Natsuki/2l.png"]],
+										"Right": [["./Natsuki/1r.png"], ["./Natsuki/2r.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.natsuki:straight"],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/a-mask.png"],
+											"composite": "destination-in"
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/a-hat.png"]
+										}
+									]
+								},
+								{
+									"id": "normal-sideways",
+									"positions": {
+										"Left": [["./Natsuki/1l.png"], ["./Natsuki/2l.png"]],
+										"Right": [["./Natsuki/1r.png"], ["./Natsuki/2r.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.natsuki:sideways"],
+									"renderCommands": [
+										{
+											"type": "head"
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/b-mask.png"],
+											"composite": "destination-in"
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/b-hat.png"]
+										},
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										}
+									]
+								},
+								{
+									"id": "crossed",
+									"positions": {
+										"Variant": [["./Natsuki/3.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.natsuki:straight"],
+									"renderCommands": [
+										{
+											"type": "head",
+											"offset": [18, 22]
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/a-mask.png"],
+											"composite": "destination-in",
+											"offset": [18, 22]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/a-hat.png"],
+											"offset": [18, 22]
+										}
+									]
+								},
+								{
+									"id": "crossed-sideways",
+									"positions": {
+										"Variant": [["./Natsuki/3.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.natsuki:sideways"],
+									"renderCommands": [
+										{
+											"type": "head",
+											"offset": [18, 22]
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/b-mask.png"],
+											"composite": "destination-in",
+											"offset": [18, 22]
+										},
+										{
+											"type": "image",
+											"images": ["./Natsuki/b-hat.png"],
+											"offset": [18, 22]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter-hatless",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Natsuki/1l.png"], ["./Natsuki/2l.png"]],
+										"Right": [["./Natsuki/1r.png"], ["./Natsuki/2r.png"]]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.natsuki:straight",
+										"dddg.buildin.base.natsuki:sideways",
+										"dddg.buildin.base.natsuki:turnedAway"
+									],
+									"renderCommands": [
+										{
+											"type": "pose-part",
+											"part": "Left"
+										},
+										{
+											"type": "pose-part",
+											"part": "Right"
+										},
+										{
+											"type": "head"
+										}
+									]
+								},
+								{
+									"id": "crossed",
+									"positions": {
+										"Variant": [["./Natsuki/3.png"]]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.base.natsuki:straight",
+										"dddg.buildin.base.natsuki:sideways",
+										"dddg.buildin.base.natsuki:turnedAway"
+									],
+									"renderCommands": [
+										{
+											"type": "head",
+											"offset": [18, 22]
+										},
+										{
+											"type": "pose-part",
+											"part": "Variant"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.yuri:ddlc.yuri",
+			"styleGroups": [
+				{
+					"id": "winter_v1",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Yuri/V1/1bl.png"], ["./Yuri/V1/2bl.png"]],
+										"Right": [["./Yuri/V1/1br.png"], ["./Yuri/V1/2br.png"]],
+										"Variant": [["./Yuri/a.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:straight"]
+								},
+								{
+									"id": "hairplay",
+									"compatibleHeads": ["dddg.buildin.yuri:sideways"],
+									"positions": {
+										"Variant": [["./Yuri/V1/3b.png", "./Yuri/b.png"]]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_v1_hatless",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Yuri/V1/1bl.png"], ["./Yuri/V1/2bl.png"]],
+										"Right": [["./Yuri/V1/1br.png"], ["./Yuri/V1/2br.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:straight"]
+								},
+								{
+									"id": "hairplay",
+									"compatibleHeads": ["dddg.buildin.yuri:sideways"],
+									"positions": {
+										"Variant": [["./Yuri/V1/3b.png"]]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_v2",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Yuri/V2/1bl.png"], ["./Yuri/V2/2bl.png"]],
+										"Right": [["./Yuri/V2/1br.png"], ["./Yuri/V2/2br.png"]],
+										"Variant": [["./Yuri/a.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:straight"]
+								},
+								{
+									"id": "hairplay",
+									"positions": {
+										"Variant": [["./Yuri/V2/3b.png", "./Yuri/b.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:sideways"]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_v2_hatless",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Yuri/V2/1bl.png"], ["./Yuri/V2/2bl.png"]],
+										"Right": [["./Yuri/V2/1br.png"], ["./Yuri/V2/2br.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:straight"]
+								},
+								{
+									"id": "hairplay",
+									"positions": {
+										"Variant": [["./Yuri/V2/3b.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.yuri:sideways"]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.sayori:ddlc.sayori",
+			"styleGroups": [
+				{
+					"id": "winter_1",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Sayori/1/1l.png"], ["./Sayori/1/2l.png"]],
+										"Right": [["./Sayori/1/1r.png"], ["./Sayori/1/2r.png"]],
+										"Variant": [["./Sayori/a.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:straight"]
+								},
+								{
+									"id": "sideways",
+									"positions": {
+										"Variant": [["./Sayori/1/3.png", "./Sayori/b.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:sideways"]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_1_hatless",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Sayori/1/1l.png"], ["./Sayori/1/2l.png"]],
+										"Right": [["./Sayori/1/1r.png"], ["./Sayori/1/2r.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:straight"]
+								},
+								{
+									"id": "sideways",
+									"positions": {
+										"Variant": [["./Sayori/1/3.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:sideways"]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_2",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Sayori/2/1l.png"], ["./Sayori/2/2l.png"]],
+										"Right": [["./Sayori/2/1r.png"], ["./Sayori/2/2r.png"]],
+										"Variant": [["./Sayori/a.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:straight"]
+								},
+								{
+									"id": "sideways",
+									"compatibleHeads": ["dddg.buildin.sayori:sideways"],
+									"positions": {
+										"Variant": [["./Sayori/2/3.png", "./Sayori/b.png"]]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_2_hatless",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Sayori/2/1l.png"], ["./Sayori/2/2l.png"]],
+										"Right": [["./Sayori/2/1r.png"], ["./Sayori/2/2r.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.sayori:straight"]
+								},
+								{
+									"id": "sideways",
+									"compatibleHeads": ["dddg.buildin.sayori:sideways"],
+									"positions": {
+										"Variant": [["./Sayori/2/3.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dddg.buildin.base.monika:ddlc.monika",
+			"styleGroups": [
+				{
+					"id": "winter_v1",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"positions": {
+										"Left": [["./Monika/V1/1l.png"], ["./Monika/V1/2l.png"]],
+										"Right": [["./Monika/V1/1r.png"], ["./Monika/V1/2r.png"]],
+										"Variant": [["./Monika/a.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.monika:straight"]
+								},
+								{
+									"id": "sideways",
+									"positions": {
+										"Variant": [["./Monika/V1/3base.png"]]
+									},
+									"compatibleHeads": ["dddg.buildin.base.monika:sideways"]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "winter_v2",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "normal",
+									"compatibleHeads": ["dddg.buildin.base.monika:straight"],
+									"positions": {
+										"Left": [["./Monika/V2/1l.png"], ["./Monika/V2/2l.png"]],
+										"Right": [["./Monika/V2/1r.png"], ["./Monika/V2/2r.png"]],
+										"Variant": [["./Monika/a.png"]]
+									}
+								},
+								{
+									"id": "sideways",
+									"compatibleHeads": ["dddg.buildin.base.monika:sideways"],
+									"positions": {
+										"Variant": [["./Monika/V2/3base.png"]]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/repo_schema.json",
+	"authors": {
+		"Lecraft": {
+			"reddit": "LecraftX9",
+			"twitter": "Lecraftx9",
+			"github": "",
+			"website": "",
+			"pixiv": "",
+			"deviantart": "",
+			"patreon": "",
+			"facebook": "",
+			"discord": "lecraftx9"
+		}
+	},
+	"pack": {
+		"authors": [
+			"Lecraft"
+		],
+		"characters": [
+			"Natsuki",
+			"Yuri",
+			"Sayori",
+			"Monika"
+		],
+		"description": "Commisioned by lrkade9029",
+		"id": "winter_dokis.lecraft.edave64",
+		"name": "Winter Dokis",
+		"kind": [
+			"Styles"
+		],
+		"preview": [
+			"./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/2047997369933775210",
+		"dddg2Path": "./index.json"
+	}
+}
