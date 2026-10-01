@@ -786,6 +786,19 @@
 		"source": "https://www.deviantart.com/yonappi/art/DDLC-R63-All-Character-Sprites-FREE-TO-USE-762438183"
 	},
 	{
+		"authors": ["Lecraft"],
+		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/business_casuals.lecraft.edave64/./index.json",
+		"description": "Comissioned by davidlocklin",
+		"id": "business_casuals.lecraft.edave64",
+		"kind": ["Styles"],
+		"name": "Business Casuals",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/business_casuals.lecraft.edave64/./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/1913985201979502793"
+	},
+	{
 		"authors": ["Phathom", "AgentGold"],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/knifes.phathom.edave64/index.json",
@@ -799,6 +812,32 @@
 		],
 		"searchWords": [],
 		"source": "https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350"
+	},
+	{
+		"authors": ["Lecraft"],
+		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/wedding_dokis.lecraft.edave64/./index.json",
+		"description": "Commisioned by davidlocklin",
+		"id": "wedding_dokis.lecraft.edave64",
+		"kind": ["Styles"],
+		"name": "Wedding Dokis",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/wedding_dokis.lecraft.edave64/./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/2052798655602561092"
+	},
+	{
+		"authors": ["Lecraft"],
+		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/winter_dokis.lecraft.edave64/./index.json",
+		"description": "Commisioned by lrkade9029",
+		"id": "winter_dokis.lecraft.edave64",
+		"kind": ["Styles"],
+		"name": "Winter Dokis",
+		"preview": [
+			"https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/winter_dokis.lecraft.edave64/./preview.jpg"
+		],
+		"source": "https://x.com/Lecraftx9/status/2047997369933775210"
 	},
 	{
 		"authors": ["NekoLaiS", "Spirtowochka"],
