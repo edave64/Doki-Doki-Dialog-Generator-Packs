@@ -44,7 +44,7 @@ async function main(): Promise<void> {
 				deepStrictEqual(
 					authorIndex[key],
 					authors[key],
-					`The author '${key}' has different descriptions in different repo files.`
+					`The author '${key}' has different descriptions in different repo files. (In file '${repoEntry}')`
 				);
 			} else {
 				authorIndex[key] = authors[key];
