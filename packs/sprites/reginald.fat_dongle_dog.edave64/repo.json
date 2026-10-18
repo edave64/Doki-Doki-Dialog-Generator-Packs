@@ -4,11 +4,19 @@
 		"id": "sprites.reginald.fat_dongle_dog.edave64",
 		"name": "Reginald",
 		"characters": [],
-		"authors": ["FatDongleDog", "CanisAries"],
-		"kind": ["Sprites"],
+		"authors": [
+			"FatDongleDog",
+			"CanisAries"
+		],
+		"kind": [
+			"Sprites"
+		],
 		"description": "Original by FatDongleDog, newer version by CanisAries",
-		"preview": ["original.png"],
-		"searchWords": []
+		"preview": [
+			"original.png"
+		],
+		"searchWords": [],
+		"characterIds": []
 	},
 	"authors": {
 		"FatDongleDog": {

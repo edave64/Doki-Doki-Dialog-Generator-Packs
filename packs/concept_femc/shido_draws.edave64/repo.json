@@ -3,13 +3,26 @@
 	"pack": {
 		"id": "concept_femc.shido_draws.edave64",
 		"name": "FeMC (Concept)",
-		"characters": ["FeMC"],
-		"authors": ["ShidoDraws", "SlightlySimple"],
-		"kind": ["Characters"],
+		"characters": [
+			"FeMC"
+		],
+		"authors": [
+			"ShidoDraws",
+			"SlightlySimple"
+		],
+		"kind": [
+			"Characters"
+		],
 		"source": "https://www.reddit.com/r/DDLC/comments/oosuxu",
 		"description": "<a href='https://www.reddit.com/r/DDLC/comments/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/r/DDLC/comments/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
-		"preview": ["1.png", "a.png"],
-		"searchWords": []
+		"preview": [
+			"1.png",
+			"a.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"concept_femc.shido_draws.edave64:ddlc.fan.storm_blaze.mc"
+		]
 	},
 	"authors": {
 		"ShidoDraws": {

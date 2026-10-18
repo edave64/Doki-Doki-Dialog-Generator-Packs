@@ -10,7 +10,8 @@
 		"dddg1Path": "index.json",
 		"description": "The sprites in this pack were all drawn by halibabica with some artistic advisement from yagamirai10.\n\nFor characterization, they appear in DDLC: Take Two and Doki Doki Interview Club. Both mods can be found <a href='https://old.reddit.com/r/DDLCTakeTwo/comments/zf9q0w/ddlc_take_two_mod_releases/'>here</a>",
 		"preview": ["a.png", "1l.png", "1r.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["shiro.halibabica.edave64:shiro.halibabica.edave64"]
 	},
 	"authors": {
 		"yagamirai10": {

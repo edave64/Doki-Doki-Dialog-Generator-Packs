@@ -3,15 +3,27 @@
 	"pack": {
 		"id": "natsuki.outfit.hoodie.xdarkwind7.edave64",
 		"name": "Hoodie",
-		"characters": ["Natsuki"],
-		"authors": ["xDarkWind7"],
+		"characters": [
+			"Natsuki"
+		],
+		"authors": [
+			"xDarkWind7"
+		],
 		"ddcc2Path": "https://drive.google.com/open?id=1sENbLyxk2LpAQFhHCp4g-TL50HIVlUgm",
-		"kind": ["Styles"],
+		"kind": [
+			"Styles"
+		],
 		"source": "https://www.reddit.com/comments/8q341d",
 		"dddg1Path": "index.json",
 		"description": "<a href='https://www.reddit.com/comments/8q341d' target='_blank' rel='noopener noreferrer'>Created by</a> xDarkWind7",
-		"preview": ["1l.png", "1r.png"],
-		"searchWords": []
+		"preview": [
+			"1l.png",
+			"1r.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.base.natsuki:ddlc.natsuki"
+		]
 	},
 	"authors": {
 		"xDarkWind7": {

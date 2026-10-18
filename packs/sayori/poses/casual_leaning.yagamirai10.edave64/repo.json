@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "sayori.pose.casual_leaning.yagamirai10.edave64",
 		"name": "Casual leaning",
-		"characters": ["Sayori"],
-		"authors": ["yagamirai10"],
-		"kind": ["Poses"],
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"yagamirai10"
+		],
+		"kind": [
+			"Poses"
+		],
 		"source": "https://www.reddit.com/comments/by3x8g",
 		"dddg1Path": "index.json",
 		"description": "<a href='https://www.reddit.com/comments/by3x8g' target='_blank' rel='noopener noreferrer'>Created by</a> yagamirai10",
-		"preview": ["3.png"],
-		"searchWords": []
+		"preview": [
+			"3.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.sayori:ddlc.sayori"
+		]
 	},
 	"authors": {
 		"yagamirai10": {

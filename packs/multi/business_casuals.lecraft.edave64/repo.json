@@ -27,6 +27,12 @@
 			"./preview.jpg"
 		],
 		"source": "https://x.com/Lecraftx9/status/1913985201979502793",
-		"dddg2Path": "./index.json"
+		"dddg2Path": "./index.json",
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika",
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.yuri:ddlc.yuri"
+		]
 	}
 }

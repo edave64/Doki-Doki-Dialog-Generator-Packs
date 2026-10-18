@@ -10,7 +10,8 @@
 		"source": "https://discord.com/channels/339272843327963136/373669252554686464/727591631162966057",
 		"description": "Created by Cyrke, Chibi by SlightlySimple",
 		"preview": ["a.png", "1l.png", "1r.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["kotonoha.cyrke.edave64:ddlc.oc.kotonoha"]
 	},
 	"authors": {
 		"Cyrke": {

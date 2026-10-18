@@ -3,14 +3,26 @@
 	"pack": {
 		"id": "monika.poses.cross.phathom.edave64",
 		"name": "Crossed armes",
-		"characters": ["Monika"],
-		"authors": ["Phathom"],
+		"characters": [
+			"Monika"
+		],
+		"authors": [
+			"Phathom"
+		],
 		"ddcc2Path": "https://drive.google.com/file/d/1M4_GJgJaTJEHEpRgfjnyNIpCb9vvRU4l/view?usp=sharing",
-		"kind": ["Poses"],
+		"kind": [
+			"Poses"
+		],
 		"dddg1Path": "index.json",
 		"description": "Created by Phathom",
-		"preview": ["a.png", "1.png"],
-		"searchWords": []
+		"preview": [
+			"a.png",
+			"1.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika"
+		]
 	},
 	"authors": {
 		"Phathom": {

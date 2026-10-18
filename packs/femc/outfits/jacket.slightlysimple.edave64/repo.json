@@ -3,15 +3,28 @@
 	"pack": {
 		"id": "femc.oufits.jacket.slightlysimple.edave64",
 		"name": "Jacket",
-		"characters": ["FeMC"],
-		"authors": ["SlightlySimple", "Meddy-sin"],
+		"characters": [
+			"FeMC"
+		],
+		"authors": [
+			"SlightlySimple",
+			"Meddy-sin"
+		],
 		"ddcc2Path": "https://drive.google.com/file/d/1JUnRZIL5OhTzl21TPSeIgR8PBIu9B19w/view?usp=sharing",
-		"kind": ["Styles"],
+		"kind": [
+			"Styles"
+		],
 		"source": "https://www.reddit.com/comments/9tma47",
 		"dddg1Path": "index.json",
 		"description": "Created by SlightlySimple, original sprites by Meddy-sin",
-		"preview": ["sh/1l.png", "sh/1r.png"],
-		"searchWords": []
+		"preview": [
+			"sh/1l.png",
+			"sh/1r.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.femc:ddlc.fan.femc"
+		]
 	},
 	"authors": {
 		"SlightlySimple": {

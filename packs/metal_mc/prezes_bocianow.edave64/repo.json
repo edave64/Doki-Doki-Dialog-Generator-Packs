@@ -3,12 +3,25 @@
 	"pack": {
 		"id": "metal_mc.prezes_bocianow.edave64",
 		"name": "Metal MC",
-		"characters": ["MC"],
-		"authors": ["StormBlazed76", "PrezesBocianow"],
-		"kind": ["Characters"],
+		"characters": [
+			"MC"
+		],
+		"authors": [
+			"StormBlazed76",
+			"PrezesBocianow"
+		],
+		"kind": [
+			"Characters"
+		],
 		"description": "Commissioned and owned by PrezesBocianow, created by StormBlazed76. Chibi by PrezesBocianow",
-		"preview": ["1.png", "a.png"],
-		"searchWords": []
+		"preview": [
+			"1.png",
+			"a.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"metal_mc.prezes_bocianow.edave64:ddlc.fan.storm_blaze.mc"
+		]
 	},
 	"authors": {
 		"StormBlazed76": {

@@ -10,7 +10,8 @@
 		"dddg1Path": "index.json",
 		"description": "<a href=\"https://www.reddit.com/r/DDLCMods/comments/bi0ulm\">Art</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Original design by <a href=\"https://reddit.com/u/MWRoach\">MW Roach</a>",
 		"preview": ["a.png", "1l.png", "1r.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["femc.mwroach.edave64:ddlc.fan.femc2"]
 	},
 	"authors": {
 		"Black Rabbit Artworks": {

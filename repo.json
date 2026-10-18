@@ -1,6 +1,7 @@
 [
 	{
 		"authors": ["Nuxill", "yagamirai10"],
+		"characterIds": [],
 		"characters": [],
 		"ddcc2Path": "https://drive.google.com/file/d/1rOE9rzYTrlQuNEHpl1igsB070wK_5-P6/view?usp=sharing",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/backgrounds/mcs_living_room.nuxill.edave64/index.json",
@@ -15,6 +16,7 @@
 	},
 	{
 		"authors": ["Meddy-sin"],
+		"characterIds": ["dddg.buildin.amy1:ddlc.fan.amy1"],
 		"characters": ["Amy (Classic)"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_amy/index.json",
@@ -31,6 +33,7 @@
 	},
 	{
 		"authors": ["Childish-N", "GyleToTheRescue"],
+		"characterIds": ["dddg.buildin.mc_classic:ddlc.fan.mc1"],
 		"characters": ["MC (Classic)"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/classic_mc/index.json",
@@ -46,6 +49,9 @@
 	},
 	{
 		"authors": ["ShidoDraws", "SlightlySimple"],
+		"characterIds": [
+			"concept_femc.shido_draws.edave64:ddlc.fan.storm_blaze.mc"
+		],
 		"characters": ["FeMC"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_femc/shido_draws.edave64/index.json",
 		"description": "<a href='https://www.reddit.com/r/DDLC/comments/oizaow'>Created by</a> ShidoDraws, <a href='https://www.reddit.com/r/DDLC/comments/oosuxu'>additional poses, expressions and chibi</a> by SlightlySimple",
@@ -61,6 +67,7 @@
 	},
 	{
 		"authors": ["StormBlazed76", "YinuS_WinneR", "Hadrosaur838"],
+		"characterIds": ["mc.storm_blaze.edave64:ddlc.fan.storm_blaze.mc"],
 		"characters": ["MC"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_mc/storm_blaze.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/concept_mc/storm_blaze.edave64/index.v2.json",
@@ -77,6 +84,7 @@
 	},
 	{
 		"authors": ["SovietSpartan", "Meddy-sin"],
+		"characterIds": ["dadsuki.soviet_spartan.edave64:ddlc.fan.dadsuki"],
 		"characters": ["Dadsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/dadsuki.soviet_spartan.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/dadsuki.soviet_spartan.edave64/index.json",
@@ -94,6 +102,7 @@
 	},
 	{
 		"authors": ["Black Rabbit Artworks", "MW Roach"],
+		"characterIds": ["femc.mwroach.edave64:ddlc.fan.femc2"],
 		"characters": ["FeMC (Switcheroo)"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc.mwroach.edave64/index.json",
@@ -111,6 +120,7 @@
 	},
 	{
 		"authors": ["SlightlySimple", "Meddy-sin"],
+		"characterIds": ["dddg.buildin.femc:ddlc.fan.femc"],
 		"characters": ["FeMC"],
 		"ddcc2Path": "https://drive.google.com/file/d/1JUnRZIL5OhTzl21TPSeIgR8PBIu9B19w/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc/outfits/jacket.slightlysimple.edave64/index.json",
@@ -128,6 +138,7 @@
 	},
 	{
 		"authors": ["SlightlySimple", "Meddy-sin"],
+		"characterIds": ["dddg.buildin.femc:ddlc.fan.femc"],
 		"characters": ["FeMC"],
 		"ddcc2Path": "https://drive.google.com/file/d/1TaMXmSVut1_P9k5j6CtO_L58V8RE3i-b/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/femc/outfits/shirt.slightlysimple.edave64/index.json",
@@ -145,6 +156,7 @@
 	},
 	{
 		"authors": ["StormBlazed76", "CPG Yuri", "Phantom Fear", "Aj the Funky"],
+		"characterIds": ["fnf.boyfriend.storm_blaze.edave64:fnf.boyfriend"],
 		"characters": ["Boyfriend"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/fnf/boyfriend.storm_blaze.edave64/index.json",
 		"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, BF \"corrupted\" sprite by Phantom Fear, <a href=\"https://gamebanana.com/mods/43037\">BF in speakers</a> by Aj the Funky, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
@@ -169,6 +181,7 @@
 			"El Taco",
 			"Dr. Daynaze"
 		],
+		"characterIds": ["fnf.girlfriend.storm_blaze.edave64:fnf.girlfriend"],
 		"characters": ["Girlfriend"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/fnf/girlfriend.storm_blaze.edave64/index.json",
 		"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, <a href=\"https://gamebanana.com/mods/43037\">GF idle/sit stickers</a> by Aj the Funky, <a href=\"https://gamebanana.com/mods/307184\">GF stickers</a> by DiegEx & ZoraZac, Crazy GF sticker by El Taco & Dr. Daynaze edited by CPG Yuri, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
@@ -185,6 +198,7 @@
 	},
 	{
 		"authors": ["Prox"],
+		"characterIds": ["himari.prox.edave64:ddlc.fan.himari"],
 		"characters": ["Himari"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/himari.prox.edave64/index.json",
 		"description": "<a href=\"https://www.reddit.com/comments/soqntz/\">Created</a> by <a href=\"https://www.reddit.com/user/Proxyl_\">Prox</a>",
@@ -200,6 +214,7 @@
 	},
 	{
 		"authors": ["Daikaiju-fanboy", "Black Rabbit Artworks", "AjTheYandere"],
+		"characterIds": ["hime.blackrabbitartworks.edave64:ddlc.oc.hime"],
 		"characters": ["Hime"],
 		"ddcc2Path": "https://drive.google.com/file/d/12OM6C4myOWRTEaEQCMsYp5TGmH0bcAZ0/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hime.blackrabbitartworks.edave64/index.json",
@@ -217,6 +232,9 @@
 	},
 	{
 		"authors": ["StormBlazed76"],
+		"characterIds": [
+			"kiyomi.storm_blazed.edave64:ddlc.fan.storm_blazed.kiyomi"
+		],
 		"characters": ["Kiyomi"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kiyomi/storm_blazed.edave64/index.json",
 		"description": "<a href='https://www.reddit.com/comments/oolv7k'>Created by</a> StormBlazed76",
@@ -233,6 +251,7 @@
 	},
 	{
 		"authors": ["Cyrke", "SlightlySimple", "Moshie"],
+		"characterIds": ["kotonoha.cyrke.edave64:ddlc.oc.kotonoha"],
 		"characters": ["Kotonoha"],
 		"ddcc2Path": "https://drive.google.com/file/d/1qoryV71onsCsx3zHz0zynnDP8o6YDBvT/view?usp=sharing",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/kotonoha.cyrke.edave64/index.json",
@@ -250,6 +269,7 @@
 	},
 	{
 		"authors": ["anita6artania"],
+		"characterIds": ["mc.anita6artania.edave64:ddlc.fan.anita6artania.mc"],
 		"characters": ["MC (Slim)"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc.anita6artania.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc.anita6artania.edave64/index.json",
@@ -267,6 +287,7 @@
 	},
 	{
 		"authors": ["Mando-82"],
+		"characterIds": ["dddg.buildin.mc:ddlc.fan.mc2"],
 		"characters": ["MC"],
 		"ddcc2Path": "https://drive.google.com/file/d/1j_0FcSudVczsrscOeC2TcUuvfsWEBos5/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/expressions/extra.mando_82.edave64/index.json",
@@ -283,6 +304,7 @@
 	},
 	{
 		"authors": ["ThoMysteriousY", "gurogurl", "SlightlySimple"],
+		"characterIds": ["dddg.buildin.mc:ddlc.fan.mc2"],
 		"characters": ["MC"],
 		"ddcc2Path": "https://drive.google.com/file/d/1s6fzs6_P0TO_SsoEDdLyeAN7rxlCEQIT/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/grey_hoodie.tomas_of_mystery.edave64/index.json",
@@ -300,6 +322,7 @@
 	},
 	{
 		"authors": ["ThoMysteriousY", "gurogurl", "SlightlySimple"],
+		"characterIds": ["dddg.buildin.mc:ddlc.fan.mc2"],
 		"characters": ["MC"],
 		"ddcc2Path": "https://drive.google.com/file/d/1acN7_oIWntRL2t_zi9OcsSOkvE7VjbVM/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/red_hoodie.tomas_of_mystery.edave64/index.json",
@@ -317,6 +340,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.mc:ddlc.fan.mc2"],
 		"characters": ["MC"],
 		"ddcc2Path": "https://drive.google.com/open?id=1gNMiX0U-dD7UY5oibmdq2IqqMDftYZ3y",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mc/outfit/shirtVest.plural_roses.edave64/index.json",
@@ -334,6 +358,9 @@
 	},
 	{
 		"authors": ["StormBlazed76", "PrezesBocianow"],
+		"characterIds": [
+			"metal_mc.prezes_bocianow.edave64:ddlc.fan.storm_blaze.mc"
+		],
 		"characters": ["MC"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/metal_mc/prezes_bocianow.edave64/index.json",
 		"description": "Commissioned and owned by PrezesBocianow, created by StormBlazed76. Chibi by PrezesBocianow",
@@ -348,6 +375,7 @@
 	},
 	{
 		"authors": ["Cyrke", "Black Rabbit Artworks", "yagamirai10"],
+		"characterIds": [],
 		"characters": [],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/cgs.cyrke.blackrabbitartworks.edave64/index.json",
 		"description": "Kneeling CG by Cyrke. Sitting CG by Black Rabbit Artworks. Based on Mio by Yagamirai10",
@@ -361,6 +389,7 @@
 	},
 	{
 		"authors": ["Black Rabbit Artworks"],
+		"characterIds": ["mio.yagamirai10.edave64:ddlc.oc.mio"],
 		"characters": ["Mio"],
 		"ddcc2Path": "https://drive.google.com/file/d/1AsjuHZFL4NBeOoVjiUT1Y4JlwVw-aCQ4/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/outfits/dress.blackrabbitartworks.edave64/index.json",
@@ -378,6 +407,7 @@
 	},
 	{
 		"authors": ["yagamirai10"],
+		"characterIds": ["mio.yagamirai10.edave64:ddlc.oc.mio"],
 		"characters": ["Mio"],
 		"ddcc2Path": "https://drive.google.com/file/d/1GY3iQo_8YLNjc_aM9dRFtl4wQR0UC1P_/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/mio/yagamirai10.edave64/index.json",
@@ -407,6 +437,7 @@
 			"FuckingMoniker_mmmmm",
 			"Plural Roses"
 		],
+		"characterIds": ["momyori.latteaddicted.edave64:ddlc.fan.momyori"],
 		"characters": ["Sayori's Mom"],
 		"ddcc2Path": "https://drive.google.com/file/d/15EUm-xpsTJND-Xhn4GqvwulLIlHT9Hfg/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/momyori.latteaddicted.edave64/index.json",
@@ -425,6 +456,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/angry.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/angry.lunatic_rabbit.edave64/index.json",
@@ -440,6 +472,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/extra.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/extra.lunatic_rabbit.edave64/index.json",
@@ -455,6 +488,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/horrified.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/horrified.lunatic_rabbit.edave64/index.json",
@@ -470,6 +504,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/side.extra.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/side.extra.lunatic_rabbit.edave64/index.json",
@@ -485,6 +520,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/side.yan.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/side.yan.lunatic_rabbit.edave64/index.json",
@@ -500,6 +536,7 @@
 	},
 	{
 		"authors": ["todbot1", "AgentGold"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/todbot1/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/todbot1/index.json",
@@ -514,6 +551,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/yan.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/expressions/yan.lunatic_rabbit.edave64/index.json",
@@ -529,6 +567,7 @@
 	},
 	{
 		"authors": ["SpiritH0F"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/beige_casual.spirithof.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/beige_casual.spirithof.edave64/index.json",
@@ -544,6 +583,7 @@
 	},
 	{
 		"authors": ["SpiritH0F"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/blue_suit.spirithof.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/blue_suit.spirithof.edave64/index.json",
@@ -559,6 +599,7 @@
 	},
 	{
 		"authors": ["DestinyPvEGal"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1-jt7yG8dD67hlRTMyJdrhwmQIg7Tgyx8",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/casual-tucked.destinypvegal.edave64/index.json",
@@ -576,6 +617,7 @@
 	},
 	{
 		"authors": ["DestinyPvEGal"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1LddghKV1i0eWWjEixHWiBViTNhmQcqfl",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/casual.destinypvegal.edave64/index.json",
@@ -593,6 +635,7 @@
 	},
 	{
 		"authors": ["yagamirai10"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1OelZbACzK235OChUomvLeB0T_NMWd_yw",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/green_dress.yagamirai10.edave64/index.json",
@@ -608,6 +651,7 @@
 	},
 	{
 		"authors": ["morbiusgreen", "SYwaves"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/file/d/17DggJxHnXS3A_gif72UHSmH8mVbdLtRk/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/hoodie.morbiusgreen.edave64/index.json",
@@ -624,6 +668,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1svq2Cp8Op85HHI4LuNuubBJ8nF8DxHuk",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/suit.plural_roses.edave64/index.json",
@@ -641,6 +686,7 @@
 	},
 	{
 		"authors": ["Mouhantain"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1ViNtu72G9_agBsXT7y92BaVQQqFppOIt",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/thighspeed.mouhantain.edave64/index.json",
@@ -657,6 +703,7 @@
 	},
 	{
 		"authors": ["Stefano.chr"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1Oc7_FkJrl2Peo-_0NlwrvE3wPj7QLsim",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/traditional.stefano_chr.edave64/index.json",
@@ -672,6 +719,7 @@
 	},
 	{
 		"authors": ["Cyrke"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1p-tuj3zRw3y4BB-yiMZvh52CNmJJ8bAv",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/white_dress.cyrke.edave64/index.json",
@@ -687,6 +735,7 @@
 	},
 	{
 		"authors": ["gurogurl"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/file/d/106qbG6-UfbZzgPunzHI3vglS9zrlxnZm/view",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/outfit/white_dress2.gurogurl.edave64/index.json",
@@ -703,6 +752,7 @@
 	},
 	{
 		"authors": ["Phathom"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/file/d/1M4_GJgJaTJEHEpRgfjnyNIpCb9vvRU4l/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/cross.phantom.edave64/index.json",
@@ -719,6 +769,7 @@
 	},
 	{
 		"authors": ["ButtermilkPaincakes"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/file/d/1mpKtufw8uMr7iG4ZqKuP3Sy9NK-B7Itg/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/paincakes.edave64/index.json",
@@ -736,6 +787,7 @@
 	},
 	{
 		"authors": ["AjTheYandere", "Ein Had A Motive"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/file/d/1-gHL_WtRGtsIGk7vqo4cCY7-TInViZh9/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/poses/sideways.ajtheyandere.edave64/index.json",
@@ -754,6 +806,7 @@
 	},
 	{
 		"authors": ["TacticalCupcakes", "edave64"],
+		"characterIds": ["dddg.buildin.base.monika:ddlc.monika"],
 		"characters": ["Monika"],
 		"ddcc2Path": "https://drive.google.com/open?id=1xKt9OBMLTsB8DYPPaXYwNN2GcFQrLTm4",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika/style/shorter_hair.tactical_cupcakes.edave64/index.json",
@@ -772,6 +825,9 @@
 	},
 	{
 		"authors": ["diaboliiique"],
+		"characterIds": [
+			"monika_r63.diaboliiique.edave64:fan.diaboliiique.monika_r63.edave64"
+		],
 		"characters": ["Monika R63"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika_r63/diaboliiique.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/monika_r63/diaboliiique.edave64/index.json",
@@ -787,6 +843,12 @@
 	},
 	{
 		"authors": ["Lecraft"],
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika",
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.yuri:ddlc.yuri"
+		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/business_casuals.lecraft.edave64/./index.json",
 		"description": "Comissioned by davidlocklin",
@@ -800,6 +862,12 @@
 	},
 	{
 		"authors": ["Phathom", "AgentGold"],
+		"characterIds": [
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.base.monika:ddlc.monika",
+			"dddg.buildin.yuri:ddlc.yuri"
+		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/knifes.phathom.edave64/index.json",
 		"description": "Originally created by Phathom, extracted from AgentGold's Dynamic Pose Tool",
@@ -815,6 +883,12 @@
 	},
 	{
 		"authors": ["Lecraft"],
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika",
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.yuri:ddlc.yuri"
+		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/wedding_dokis.lecraft.edave64/./index.json",
 		"description": "Commisioned by davidlocklin",
@@ -828,6 +902,12 @@
 	},
 	{
 		"authors": ["Lecraft"],
+		"characterIds": [
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.yuri:ddlc.yuri",
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.monika:ddlc.monika"
+		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/winter_dokis.lecraft.edave64/./index.json",
 		"description": "Commisioned by lrkade9029",
@@ -841,6 +921,7 @@
 	},
 	{
 		"authors": ["NekoLaiS", "Spirtowochka"],
+		"characterIds": ["nastya.nekolais.edave64:ddlc.oc.nastya"],
 		"characters": ["Nastya"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/nastya.nekolais.edave64/index.json",
 		"description": "I don't want to put any limits on you, so I'll let you change whatever you want, but I'll be happy if you stick to my concept of her personality<br /><br />Nastya, 18<br /><br />She used to go to a music club, but left because of an early disagreement with the club president, At this point she can't count extra classes, but is thinking about joining any club.<br />At the music club she honed her guitar skills, which she learned before joining the club.<br /><br /><br />Personality: She is milancholic and prone to stressful situations and depression, but she tries not to show it in public and pretends to be \"calm and all right\", but is not always the case, which can be noted when her hands shake during stressful situations or is under the influence of others. Most often, she can not refuse someone in any request, even if it would be to the detriment of themselves. It is very difficult for Nastya to admit that she cannot do what is placed on her shoulders, so she tries with all her might to at least pretend that she is doing her job. She likes to communicate with people, but it's much easier for her to do it on the Internet than in real life. You can often see messages from her on any social network, for example in Rine (invented) - analog of Line messenger, which is popular in Japan in IRL. She also likes physical intimacy, such as being hugged or stroked by her hair. Sometimes she may give or say something cringe or shitpost. She can occasionally be very vulgar and blunt as well, and may bring up sensitive topics in conversation<br /><br />Hobbies: She likes to play acoustic guitar and wants to try playing electric guitar someday, despite her melancholic nature she likes listening to music such as rock and punk rock, besides music she studies programming she understands that it is difficult for her, but she does not want to quit because even if she does not understand it, she likes to do it, besides music and programming she likes to read some books or watch TV series, anime or movies. <br /><br /><br />Likes: listening to music (she'll sometimes just put on her headphones in class and listen to music while ignoring everything around her), reading, playing the guitar, and cooking.<br />She'll watch anything that catches her interests and enjoys drawing, even if she's not very good at it. Loves sweets.<br />Favorite bands are: \"king of jesters\" (invented) - Based on real band \"King and Jester\" and twenty two pilots (invented)<br />Dislikes: does not like modern music and prefers music that was written in the 90s or in the 2000s. She does not like children because of their constant yelling and inadequate behavior.<br /><br /><br />background: Her background I leave completely to you, but please take into account only one detail; namely that her father is from Russia and that her mother is from Japan, which explains her name",
@@ -857,6 +938,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/angry.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/angry.lunatic_rabbit.edave64/index.json",
@@ -872,6 +954,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/base.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/base.lunatic_rabbit.edave64/index.json",
@@ -887,6 +970,7 @@
 	},
 	{
 		"authors": ["AjTheYandere", "SpringingTraps"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/front_facing.ajtheyandere.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/front_facing.ajtheyandere.edave64/index.json",
@@ -902,6 +986,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/horrified.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/horrified.lunatic_rabbit.edave64/index.json",
@@ -917,6 +1002,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/yan.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/expressions/yan.lunatic_rabbit.edave64/index.json",
@@ -932,6 +1018,7 @@
 	},
 	{
 		"authors": ["Cyrke"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"ddcc2Path": "https://drive.google.com/open?id=16wOZC6EmbaE_TWqu2DlDby_qKfiaKp9w",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/outfit/gym.cyrke.edave64/index.json",
@@ -947,6 +1034,7 @@
 	},
 	{
 		"authors": ["xDarkWind7"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"ddcc2Path": "https://drive.google.com/open?id=1sENbLyxk2LpAQFhHCp4g-TL50HIVlUgm",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/outfit/hoodie.xdarkwind7.edave64/index.json",
@@ -964,6 +1052,7 @@
 	},
 	{
 		"authors": ["yagamirai10"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"ddcc2Path": "https://drive.google.com/open?id=1JCrUEJHAirpJVNlmuAq7HvM_qL6ADeLo",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/outfit/skater.yagamirai10.edave64/index.json",
@@ -979,6 +1068,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"ddcc2Path": "https://drive.google.com/open?id=1v8jrwrtsQqo1tBnUgBmO8fkSJ-BFUaZb",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/outfit/sundress.plural_roses.edave64/index.json",
@@ -996,6 +1086,7 @@
 	},
 	{
 		"authors": ["NormallyAverage"],
+		"characterIds": ["dddg.buildin.base.natsuki:ddlc.natsuki"],
 		"characters": ["Natsuki"],
 		"ddcc2Path": "https://drive.google.com/file/d/1egKnQYyV9ZbKPMfH6dEy6cU0xrPfDiTq/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki/poses/turned.normally_average.edave64/index.json",
@@ -1013,6 +1104,9 @@
 	},
 	{
 		"authors": ["diaboliiique"],
+		"characterIds": [
+			"natsuki_r63.diaboliiique.edave64:fan.diaboliiique.natsuki_r63.edave64"
+		],
 		"characters": ["Natsuki R63"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki_r63/diaboliiique.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/natsuki_r63/diaboliiique.edave64/index.json",
@@ -1028,6 +1122,7 @@
 	},
 	{
 		"authors": ["NormallyAverage"],
+		"characterIds": ["satsuki.normally_average.edave64:ddlc.fusion.satsuki"],
 		"characters": ["Satsuki"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/satsuki/normally_average.edave64/index.json",
@@ -1045,6 +1140,7 @@
 	},
 	{
 		"authors": ["sr229", "Ovyerus", "Cyrke"],
+		"characterIds": ["sayonika.sr229.edave64:ddlc.fan.sayonika"],
 		"characters": ["Sayonika"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayonika/sr229.edave64/index.json",
@@ -1061,6 +1157,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/extra.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/extra.lunatic_rabbit.edave64/index.json",
@@ -1076,6 +1173,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/horrified.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/horrified.lunatic_rabbit.edave64/index.json",
@@ -1091,6 +1189,7 @@
 	},
 	{
 		"authors": ["ButtermilkPaincakes"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/paincakes.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/paincakes.edave64/index.json",
@@ -1106,6 +1205,7 @@
 	},
 	{
 		"authors": ["todbot1", "AgentGold", "yagamirai10", "chronoshag"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/todbot1/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/todbot1/index.json",
@@ -1120,6 +1220,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/yan.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/expressions/yan.lunatic_rabbit.edave64/index.json",
@@ -1135,6 +1236,7 @@
 	},
 	{
 		"authors": ["ezfi"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/open?id=1pt9Z92exAbw-CfwYXKigY9NdoXgXDEWO",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/casual.ezfi.edave64/index.json",
@@ -1152,6 +1254,7 @@
 	},
 	{
 		"authors": ["FatDongleDog", "SlightlySimple"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/file/d/1Vlmw-rd_yDPxn_c9R_j7Fxp744bOMjbP/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/cat_shirt.fat_dongle_dog.edave64/index.json",
@@ -1169,6 +1272,7 @@
 	},
 	{
 		"authors": ["gurogurl"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/open?id=1pgYHipG1ArtI3scqke5ZkhxM7ETZ283x",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/hoodie.gurogurl.edave64/index.json",
@@ -1186,6 +1290,7 @@
 	},
 	{
 		"authors": ["NormallyAverage", "SlightlySimple"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/file/d/17tUblqGMCaCRKX-B6Mj6QzLNdeEkqGHS/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/pajamas.normally_average.edave64/index.json",
@@ -1203,6 +1308,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/open?id=1YyF2NWAVVgoHfKarbsIf3O69mTTh9Xa7",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/red_party_dress.plural_roses.edave64/index.json",
@@ -1220,6 +1326,7 @@
 	},
 	{
 		"authors": ["yagamirai10", "NormallyAverage"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/file/d/1M17Ru2ruIfTGrR0c_6iYFHi642O6N1DH/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/shirt.yagamirai10.edave64/index.json",
@@ -1235,6 +1342,7 @@
 	},
 	{
 		"authors": ["Cyrke"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/open?id=1F2AYfvwwyuMVWUh6sm-VePFP0VbgY0d6",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/outfit/summerdress.cyrke.edave/index.json",
@@ -1250,6 +1358,7 @@
 	},
 	{
 		"authors": ["yagamirai10"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/casual_leaning.yagamirai10.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/casual_leaning.yagamirai10.edave64/index.json",
@@ -1265,6 +1374,7 @@
 	},
 	{
 		"authors": ["edave64"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/file/d/15dkXDopX0FXaCOZd3cR0hIxb0SAl3RgZ/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/eating_cake.edave64/index.json",
@@ -1282,6 +1392,7 @@
 	},
 	{
 		"authors": ["AjTheYandere", "Ein Had A Motive"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"ddcc2Path": "https://drive.google.com/file/d/1bHnpgKAk02q5eBa1CcUYi2eg82t7B4Dd/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/front_facing.ajtheyandere.edave64/index.json",
@@ -1300,6 +1411,7 @@
 	},
 	{
 		"authors": ["MaceyConnur"],
+		"characterIds": ["dddg.buildin.sayori:ddlc.sayori"],
 		"characters": ["Sayori"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori/poses/unrolled_sleaves.macey_connur.edave64/index.json",
@@ -1316,6 +1428,9 @@
 	},
 	{
 		"authors": ["diaboliiique"],
+		"characterIds": [
+			"sayori_r63.diaboliiique.edave64:fan.diaboliiique.sayori_r63.edave64"
+		],
 		"characters": ["Sayori R63"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori_r63/diaboliiique.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sayori_r63/diaboliiique.edave64/index.json",
@@ -1331,6 +1446,7 @@
 	},
 	{
 		"authors": ["halibabica", "yagamirai10"],
+		"characterIds": ["shiro.halibabica.edave64:shiro.halibabica.edave64"],
 		"characters": ["Shiro"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/shiro.halibabica.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/shiro.halibabica.edave64/index.json",
@@ -1348,6 +1464,7 @@
 	},
 	{
 		"authors": ["FatDongleDog", "CanisAries"],
+		"characterIds": [],
 		"characters": [],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/sprites/reginald.fat_dongle_dog.edave64/index.json",
 		"description": "Original by FatDongleDog, newer version by CanisAries",
@@ -1361,6 +1478,7 @@
 	},
 	{
 		"authors": ["TacticalCupcakes", "yagamirai10", "E-Natr", "SlightlySimple"],
+		"characterIds": ["tactical_cupcakes.edave64:ddlc.oc.tactical_cupcakes"],
 		"characters": ["TacticalCupcakes"],
 		"ddcc2Path": "https://drive.google.com/file/d/1nxQVEwE_KOIcccyv4ASCPigs7FOerOJH/view",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tactical_cupcakes.edave64/index.json",
@@ -1380,6 +1498,7 @@
 	},
 	{
 		"authors": ["halibabica", "yagamirai10"],
+		"characterIds": ["tiffany.halibabica.edave64:tiffany.halibabica.edave64"],
 		"characters": ["Tiffany"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tiffany.halibabica.edave64/index.json",
@@ -1397,6 +1516,7 @@
 	},
 	{
 		"authors": ["JohnRDVSMarston"],
+		"characterIds": ["tina.johnrdvsmarston.edave64:ddlc.oc.tina"],
 		"characters": ["Tina"],
 		"ddcc2Path": "https://drive.google.com/file/d/1_MrMCGZS0qu3WjZRej4_37FzjzpH2cPU/view?usp=sharing",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/tina.johnrdvsmarston.edave64/index.json",
@@ -1412,6 +1532,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/angry.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/angry.lunatic_rabbit.edave64/index.json",
@@ -1427,6 +1548,7 @@
 	},
 	{
 		"authors": ["Radiation"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/crying.the_radioactive4.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/crying.the_radioactive4.edave64/index.json",
@@ -1442,6 +1564,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/extra.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/extra.lunatic_rabbit.edave64/index.json",
@@ -1457,6 +1580,7 @@
 	},
 	{
 		"authors": ["Lunatic Rabbit"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/horrified.lunatic_rabbit.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/expressions/horrified.lunatic_rabbit.edave64/index.json",
@@ -1472,6 +1596,7 @@
 	},
 	{
 		"authors": ["gurogurl"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/open?id=1eKqWh2r8vOrY_V5PJVOuavRr7dQICug5",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/casual.gurogurl.edave64/index.json",
@@ -1489,6 +1614,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/open?id=1A1uDP4atCFQg83f1pBZQvxjapC39ji0U",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/gothic.pluralroses.edave64/index.json",
@@ -1506,6 +1632,7 @@
 	},
 	{
 		"authors": ["xDarkWind7"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/open?id=1cuGaPGqhv7MAC_EE6dL3WE2o98pPqncA",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/hoodie.xDarkWind7.edave64/index.json",
@@ -1522,6 +1649,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/open?id=1mkH0i02GXn22vOdqz0UzB4ZSKiuFre48",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/pink_dress.pluralroses.edave64/index.json",
@@ -1537,6 +1665,7 @@
 	},
 	{
 		"authors": ["Plural Roses"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/file/d/1e9oCu3W_fYfvr-zVojt7Eizpd6xsIhPO/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/outfit/sports.pluralroses.edave64/index.json",
@@ -1554,6 +1683,7 @@
 	},
 	{
 		"authors": ["AjTheYandere", "Ein Had A Motive"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/file/d/17XjPO6OdibOsQCS4RVk94UZAtSiziVqu/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/front_facing.ajtheyandere.edave64/index.json",
@@ -1572,6 +1702,7 @@
 	},
 	{
 		"authors": ["ButtermilkPaincakes"],
+		"characterIds": ["dddg.buildin.yuri:ddlc.yuri"],
 		"characters": ["Yuri"],
 		"ddcc2Path": "https://drive.google.com/file/d/18krghlpNwjYTxnEVun2dhsxFnI7M2hXV/view?usp=sharing",
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri/poses/paincakes.edave64/index.json",
@@ -1589,6 +1720,9 @@
 	},
 	{
 		"authors": ["diaboliiique"],
+		"characterIds": [
+			"yuri_r63.diaboliiique.edave64:fan.diaboliiique.yuri_r63.edave64"
+		],
 		"characters": ["Yuri R63"],
 		"dddg1Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri_r63/diaboliiique.edave64/index.json",
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/yuri_r63/diaboliiique.edave64/index.json",

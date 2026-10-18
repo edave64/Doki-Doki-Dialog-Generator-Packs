@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "natsuki.outfit.skater.yagamirai10.edave64",
 		"name": "Skater Outfit",
-		"characters": ["Natsuki"],
-		"authors": ["yagamirai10"],
+		"characters": [
+			"Natsuki"
+		],
+		"authors": [
+			"yagamirai10"
+		],
 		"ddcc2Path": "https://drive.google.com/open?id=1JCrUEJHAirpJVNlmuAq7HvM_qL6ADeLo",
-		"kind": ["Styles"],
+		"kind": [
+			"Styles"
+		],
 		"dddg1Path": "index.json",
 		"description": "Created by yagamirai10",
-		"preview": ["preview.png"],
-		"searchWords": []
+		"preview": [
+			"preview.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.base.natsuki:ddlc.natsuki"
+		]
 	},
 	"authors": {
 		"yagamirai10": {

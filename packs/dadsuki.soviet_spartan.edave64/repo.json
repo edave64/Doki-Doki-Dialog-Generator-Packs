@@ -10,7 +10,8 @@
 		"dddg1Path": "index.json",
 		"description": "Artwork by SovietSpartan (https://twitter.com/TsukiZuramaru), originally created for the Doki Doki Literature Club mod \"Doki Doki Rewind/Replay\", by Chronos (Discord: Chronos#1609), <a href='https://www.reddit.com/comments/9275nf' target='_blank' rel='noopener noreferrer'>Chibi</a> by Meddy-sin",
 		"preview": ["a.png", "1r.png", "1l.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["dadsuki.soviet_spartan.edave64:ddlc.fan.dadsuki"]
 	},
 	"authors": {
 		"SovietSpartan": {

@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "monika.outfit.traditional.stefano_chr.edave64",
 		"name": "Traditional Outfit",
-		"characters": ["Monika"],
-		"authors": ["Stefano.chr"],
+		"characters": [
+			"Monika"
+		],
+		"authors": [
+			"Stefano.chr"
+		],
 		"ddcc2Path": "https://drive.google.com/open?id=1Oc7_FkJrl2Peo-_0NlwrvE3wPj7QLsim",
-		"kind": ["Styles"],
+		"kind": [
+			"Styles"
+		],
 		"dddg1Path": "index.json",
 		"description": "Created by Stefano.chr",
-		"preview": ["preview.png"],
-		"searchWords": []
+		"preview": [
+			"preview.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika"
+		]
 	},
 	"authors": {
 		"Stefano.chr": {

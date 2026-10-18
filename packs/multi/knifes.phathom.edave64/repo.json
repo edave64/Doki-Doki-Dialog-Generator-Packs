@@ -3,13 +3,32 @@
 	"pack": {
 		"id": "knifes.phantom.edave64",
 		"name": "Knifes!",
-		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
-		"authors": ["Phathom", "AgentGold"],
-		"kind": ["Poses"],
+		"characters": [
+			"Monika",
+			"Natsuki",
+			"Sayori",
+			"Yuri"
+		],
+		"authors": [
+			"Phathom",
+			"AgentGold"
+		],
+		"kind": [
+			"Poses"
+		],
 		"source": "https://discord.com/channels/679812558085292032/736604816066740245/935745416421601350",
 		"description": "Originally created by Phathom, extracted from AgentGold's Dynamic Pose Tool",
-		"preview": ["sl.png", "sr.png"],
-		"searchWords": []
+		"preview": [
+			"sl.png",
+			"sr.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.sayori:ddlc.sayori",
+			"dddg.buildin.base.natsuki:ddlc.natsuki",
+			"dddg.buildin.base.monika:ddlc.monika",
+			"dddg.buildin.yuri:ddlc.yuri"
+		]
 	},
 	"authors": {
 		"Phathom": {

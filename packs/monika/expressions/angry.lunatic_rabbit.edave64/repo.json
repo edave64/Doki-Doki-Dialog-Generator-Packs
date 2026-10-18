@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "monika.expressions.angry.lunatic_rabbit.edave64",
 		"name": "Angry expressions",
-		"characters": ["Monika"],
-		"authors": ["Lunatic Rabbit"],
-		"kind": ["Expressions"],
+		"characters": [
+			"Monika"
+		],
+		"authors": [
+			"Lunatic Rabbit"
+		],
+		"kind": [
+			"Expressions"
+		],
 		"source": "https://www.reddit.com/comments/8wenmt",
 		"dddg1Path": "index.json",
 		"description": "<a href='https://www.reddit.com/comments/8wenmt' target='_blank' rel='noopener noreferrer'>Created by</a> Lunatic_Rabbit",
-		"preview": ["a.png"],
-		"searchWords": []
+		"preview": [
+			"a.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.base.monika:ddlc.monika"
+		]
 	},
 	"authors": {
 		"Lunatic Rabbit": {

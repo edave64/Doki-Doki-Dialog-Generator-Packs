@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "sayori.expressions.paincakes.edave64",
 		"name": "Extra expressions",
-		"characters": ["Sayori"],
-		"authors": ["ButtermilkPaincakes"],
-		"kind": ["Expressions"],
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"ButtermilkPaincakes"
+		],
+		"kind": [
+			"Expressions"
+		],
 		"source": "https://www.reddit.com/comments/el9jzv",
 		"dddg1Path": "index.json",
 		"description": "<a href='https://www.reddit.com/comments/el9jzv' target='_blank' rel='noopener noreferrer'>Created by</a> ButtermilkPaincakes",
-		"preview": ["a.png"],
-		"searchWords": []
+		"preview": [
+			"a.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.sayori:ddlc.sayori"
+		]
 	},
 	"authors": {
 		"ButtermilkPaincakes": {

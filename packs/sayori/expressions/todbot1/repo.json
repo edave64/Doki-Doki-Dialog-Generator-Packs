@@ -3,13 +3,27 @@
 	"pack": {
 		"id": "sayori.expressions.todbot1",
 		"name": "Extra expressions",
-		"characters": ["Sayori"],
-		"authors": ["todbot1", "AgentGold", "yagamirai10", "chronoshag"],
-		"kind": ["Expressions"],
+		"characters": [
+			"Sayori"
+		],
+		"authors": [
+			"todbot1",
+			"AgentGold",
+			"yagamirai10",
+			"chronoshag"
+		],
+		"kind": [
+			"Expressions"
+		],
 		"dddg1Path": "index.json",
 		"description": "Created by todbot1, using assets from the <a href='https://www.reddit.com/r/DDLCMods/comments/9yc94p/'>Dynamic Pose Tool</a> by AgentGold and <a href='https://www.reddit.com/r/DDLCMods/comments/emennq/'>Mood Posing Tool</a> by chronoshag and yagamirai10",
-		"preview": ["a1.png"],
-		"searchWords": []
+		"preview": [
+			"a1.png"
+		],
+		"searchWords": [],
+		"characterIds": [
+			"dddg.buildin.sayori:ddlc.sayori"
+		]
 	},
 	"authors": {
 		"todbot1": {

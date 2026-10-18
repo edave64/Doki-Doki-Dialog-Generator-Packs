@@ -10,7 +10,8 @@
 		"source": "https://www.reddit.com/r/DDLCMods/comments/fitnr9/",
 		"description": "<a href='https://www.reddit.com/r/DDLCMods/comments/fitnr9/'>Created</a> by JohnRDVSMarston",
 		"preview": ["preview.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["tina.johnrdvsmarston.edave64:ddlc.oc.tina"]
 	},
 	"authors": {}
 }

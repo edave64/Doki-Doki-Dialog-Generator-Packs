@@ -9,7 +9,8 @@
 		"dddg1Path": "index.json",
 		"description": "Classic Amy Sprite by Meddy-sin",
 		"preview": ["1l.png", "1r.png", "aa.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["dddg.buildin.amy1:ddlc.fan.amy1"]
 	},
 	"authors": {
 		"Meddy-sin": {

@@ -3,14 +3,25 @@
 	"pack": {
 		"id": "monika_r63.diaboliiique.edave64",
 		"name": "Rule 63 Monika",
-		"characters": ["Monika R63"],
-		"authors": ["diaboliiique"],
-		"kind": ["Characters"],
+		"characters": [
+			"Monika R63"
+		],
+		"authors": [
+			"diaboliiique"
+		],
+		"kind": [
+			"Characters"
+		],
 		"dddg1Path": "index.json",
 		"description": "Created by diaboliiique (@fiiiiioooo on Twitter)",
-		"preview": ["preview.png"],
+		"preview": [
+			"preview.png"
+		],
 		"source": "https://www.deviantart.com/yonappi/art/DDLC-R63-All-Character-Sprites-FREE-TO-USE-762438183",
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": [
+			"monika_r63.diaboliiique.edave64:fan.diaboliiique.monika_r63.edave64"
+		]
 	},
 	"authors": {
 		"diaboliiique": {

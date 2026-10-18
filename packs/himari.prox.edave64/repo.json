@@ -9,7 +9,8 @@
 		"source": "https://www.reddit.com/r/DDLCMods/comments/16pm909",
 		"description": "<a href=\"https://www.reddit.com/comments/soqntz/\">Created</a> by <a href=\"https://www.reddit.com/user/Proxyl_\">Prox</a>",
 		"preview": ["pose1/1.png", "pose1/a.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["himari.prox.edave64:ddlc.fan.himari"]
 	},
 	"authors": {
 		"Prox": {

@@ -11,7 +11,8 @@
 		"dddg1Path": "index.json",
 		"description": "Commissioned and owned by Daikaiju-fanboy, <a href=\"https://www.reddit.com/r/DDLCMods/comments/hqw0cj/\">created</a> by <a href=\"https://reddit.com/u/blackrabbitartworks\">Black Rabbit Artworks</a>, Chibi by AjTheYandere",
 		"preview": ["a.png", "1.png"],
-		"searchWords": []
+		"searchWords": [],
+		"characterIds": ["hime.blackrabbitartworks.edave64:ddlc.oc.hime"]
 	},
 	"authors": {
 		"Daikaiju-fanboy": {
