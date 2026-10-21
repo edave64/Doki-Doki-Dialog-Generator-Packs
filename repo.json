@@ -901,7 +901,7 @@
 		"source": "https://x.com/Lecraftx9/status/2052798655602561092"
 	},
 	{
-		"authors": ["Lecraft"],
+		"authors": ["Lecraft", "SapphireMelody864"],
 		"characterIds": [
 			"dddg.buildin.base.natsuki:ddlc.natsuki",
 			"dddg.buildin.yuri:ddlc.yuri",
@@ -910,7 +910,7 @@
 		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/winter_dokis.lecraft.edave64/./index.json",
-		"description": "Commisioned by lrkade9029",
+		"description": "Commisioned by lrkade9029, Fixes to Yuri sprite by SapphireMelody864",
 		"id": "winter_dokis.lecraft.edave64",
 		"kind": ["Styles"],
 		"name": "Winter Dokis",

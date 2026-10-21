@@ -5,11 +5,14 @@
 			"reddit": "LecraftX9",
 			"twitter": "Lecraftx9",
 			"discord": "lecraftx9"
+		},
+		"SapphireMelody864": {
+			"reddit": "SapphireMelody864"
 		}
 	},
 	"pack": {
 		"authors": [
-			"Lecraft"
+			"Lecraft", "SapphireMelody864"
 		],
 		"characters": [
 			"Monika",
@@ -17,7 +20,7 @@
 			"Sayori",
 			"Yuri"
 		],
-		"description": "Commisioned by lrkade9029",
+		"description": "Commisioned by lrkade9029, Fixes to Yuri sprite by SapphireMelody864",
 		"id": "winter_dokis.lecraft.edave64",
 		"name": "Winter Dokis",
 		"kind": [
