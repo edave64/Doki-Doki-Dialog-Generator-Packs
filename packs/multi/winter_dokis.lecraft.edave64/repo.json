@@ -6,13 +6,13 @@
 			"twitter": "Lecraftx9",
 			"discord": "lecraftx9"
 		},
-		"SapphireMelody864": {
-			"reddit": "SapphireMelody864"
+		"Sapphire864": {
+			"reddit": "Sapphire864"
 		}
 	},
 	"pack": {
 		"authors": [
-			"Lecraft", "SapphireMelody864"
+			"Lecraft", "Sapphire864"
 		],
 		"characters": [
 			"Monika",
@@ -20,7 +20,7 @@
 			"Sayori",
 			"Yuri"
 		],
-		"description": "Commisioned by lrkade9029, Fixes to Yuri sprite by SapphireMelody864",
+		"description": "Commisioned by lrkade9029, <a href='https://www.reddit.com/r/DDLC/comments/1xac8xn'>Fixes to Yuri</a> sprite by Sapphire864",
 		"id": "winter_dokis.lecraft.edave64",
 		"name": "Winter Dokis",
 		"kind": [
