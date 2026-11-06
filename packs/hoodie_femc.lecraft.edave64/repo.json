@@ -21,7 +21,9 @@
 		"kind": [
 			"Styles"
 		],
-		"preview": [],
+		"preview": [
+			"./4.png"
+		],
 		"source": "https://x.com/Lecraftx9/status/2001306197773660492",
 		"dddg2Path": "./index.json",
 		"characterIds": [
