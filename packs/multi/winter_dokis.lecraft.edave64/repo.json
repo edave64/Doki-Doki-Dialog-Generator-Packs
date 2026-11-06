@@ -11,6 +11,7 @@
 		}
 	},
 	"pack": {
+		"searchWords": [],
 		"authors": [
 			"Lecraft", "Sapphire864"
 		],
