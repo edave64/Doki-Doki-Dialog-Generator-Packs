@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/v2/schema.json",
+	"packId": "hoodie_femc.lecraft.edave64",
+	"version": "2.0",
+	"authors": [
+		"Lecraft"
+	],
+	"dependencies": [
+		"dddg.buildin.concept_femc"
+	],
+	"characters": [
+		{
+			"id": "dddg.buildin.concept_femc:ddlc.fan.concept_femc",
+			"styleGroups": [
+				{
+					"id": "hoodie",
+					"styles": [
+						{
+							"poses": [
+								{
+									"id": "main",
+									"positions": {
+										"Variant": [
+											[
+												"./1l.png",
+												"./1r.png"
+											],
+											[
+												"./2l.png",
+												"./1r.png"
+											],
+											[
+												"./3l.png",
+												"./1r.png"
+											],
+											[
+												"./4.png"
+											]
+										]
+									},
+									"compatibleHeads": [
+										"dddg.buildin.concept_femc:straight"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

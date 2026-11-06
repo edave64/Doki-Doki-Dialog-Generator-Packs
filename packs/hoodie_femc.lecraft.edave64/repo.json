@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/edave64/doki-doki-dialog-generator-pack-format/master/src/repo_schema.json",
+	"authors": {
+		"Lecraft": {
+			"discord": "lecraftx9",
+			"reddit": "LecraftX9",
+			"twitter": "Lecraftx9"
+		}
+	},
+	"pack": {
+		"authors": [
+			"Lecraft"
+		],
+		"characters": [
+			"FeMC"
+		],
+		"description": "Commisioned by _joe130_",
+		"id": "hoodie_femc.lecraft.edave64",
+		"name": "Hoodie FeMC",
+		"kind": [
+			"Styles"
+		],
+		"preview": [],
+		"source": "https://x.com/Lecraftx9/status/2001306197773660492",
+		"dddg2Path": "./index.json",
+		"characterIds": [
+			"dddg.buildin.concept_femc:ddlc.fan.concept_femc"
+		]
+	}
+}

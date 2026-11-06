@@ -231,6 +231,18 @@
 		"source": "https://www.reddit.com/r/DDLCMods/comments/hqw0cj/"
 	},
 	{
+		"authors": ["Lecraft"],
+		"characterIds": ["dddg.buildin.concept_femc:ddlc.fan.concept_femc"],
+		"characters": ["FeMC"],
+		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/hoodie_femc.lecraft.edave64/./index.json",
+		"description": "Commisioned by _joe130_",
+		"id": "hoodie_femc.lecraft.edave64",
+		"kind": ["Styles"],
+		"name": "Hoodie FeMC",
+		"preview": [],
+		"source": "https://x.com/Lecraftx9/status/2001306197773660492"
+	},
+	{
 		"authors": ["StormBlazed76"],
 		"characterIds": [
 			"kiyomi.storm_blazed.edave64:ddlc.fan.storm_blazed.kiyomi"
@@ -901,7 +913,7 @@
 		"source": "https://x.com/Lecraftx9/status/2052798655602561092"
 	},
 	{
-		"authors": ["Lecraft", "SapphireMelody864"],
+		"authors": ["Lecraft", "Sapphire864"],
 		"characterIds": [
 			"dddg.buildin.base.natsuki:ddlc.natsuki",
 			"dddg.buildin.yuri:ddlc.yuri",
@@ -910,7 +922,7 @@
 		],
 		"characters": ["Monika", "Natsuki", "Sayori", "Yuri"],
 		"dddg2Path": "https://edave64.github.io/Doki-Doki-Dialog-Generator-Packs/packs/multi/winter_dokis.lecraft.edave64/./index.json",
-		"description": "Commisioned by lrkade9029, Fixes to Yuri sprite by SapphireMelody864",
+		"description": "Commisioned by lrkade9029, <a href='https://www.reddit.com/r/DDLC/comments/1xac8xn'>Fixes to Yuri</a> sprite by Sapphire864",
 		"id": "winter_dokis.lecraft.edave64",
 		"kind": ["Styles"],
 		"name": "Winter Dokis",
